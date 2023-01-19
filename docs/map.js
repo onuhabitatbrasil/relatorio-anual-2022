@@ -302,6 +302,7 @@ var initLoad = true;
            if (config.inset && !config.legend) {
                map.on('move', getInsetBounds);
            }
+           
            // setup the instance, pass callback functions
            scroller
                .setup({
@@ -342,6 +343,7 @@ var initLoad = true;
                    if (chapter.onChapterEnter.length > 0) {
                        chapter.onChapterEnter.forEach(setLayerOpacity);
                    }
+
                    // set interactive properties for chapters set as mapInteractive = true
                    if (chapter.mapInteractive) {
                        map.addControl(navigation);
@@ -356,9 +358,11 @@ var initLoad = true;
                        map.doubleClickZoom.disable();
                        map.getCanvas().style.cursor = 'default';
                    }
+
                    if (chapter.callback) {
                        window[chapter.callback]();
                    }
+
                    if (chapter.rotateAnimation) {
                        map.once('moveend', () => {
                            const rotateNumber = map.getBearing();
@@ -459,5 +463,80 @@ var initLoad = true;
        function updateInsetLayer(bounds) {
            insetMap.getSource('boundsSource').setData(bounds);
        }
+
        // setup resize event
        window.addEventListener('resize', scroller.resize);
+
+/* PERO */
+//jQuery('.li-hover').forEach()
+//let liHover = document.getElementById("ul-depth");
+
+document.querySelectorAll('.ul-legend').forEach(item => {
+    item.addEventListener("mouseover", function (e) {
+        [...item.children].forEach(function (li) {
+            setLayerOpacity({
+                layer: li.getAttribute('value'),
+                opacity: 0.3
+            })
+        })
+        setLayerOpacity({
+            layer: e.target.getAttribute('value'),
+            opacity: 1
+        })
+    }, false)
+
+    item.addEventListener("mouseout", function (e) {
+        [...item.children].forEach(function (li) {
+            setLayerOpacity({
+                layer: li.getAttribute('value'),
+                opacity: 0.8
+            })
+        })
+    }, false);
+
+})
+
+let layers = ['al-baixada-lagunar-bairros']
+
+layers.forEach(function (l) {
+    map.on('mousemove', l, function (e) {
+        if (chapter.onChapterEnter.filter(li => li.layer == l).length > 0) {
+            map.getCanvas().style.cursor = 'pointer';
+            document.querySelectorAll('li[value=' + l + ']').forEach(function (i) {
+                i.classList.add('li-hover-hover')
+            })
+            chapter.onChapterEnter.forEach(function (t) {
+                li = t.layer
+                if (li == l) {
+                    setLayerOpacity({
+                        layer: l,
+                        opacity: 1
+                    })
+                } else {
+                    setLayerOpacity({
+                        layer: li,
+                        opacity: 0.3
+                    })
+                }
+            })
+        }
+    });
+    map.on('mouseleave', l, function (e) {
+        if (chapter.onChapterEnter.filter(li => li.layer == l).length > 0) {
+            document.querySelectorAll('li[value=' + l + ']').forEach(function (i) {
+                i.classList.remove('li-hover-hover')
+            })
+            chapter.onChapterEnter.forEach(function (t) {
+                li = t.layer
+                setLayerOpacity({
+                    layer: li,
+                    opacity: t.opacity
+                })
+            })
+            map.getCanvas().style.cursor = '';
+        }
+    });
+})
+
+// map.addControl(new mapboxgl.NavigationControl());
+
