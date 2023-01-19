@@ -151,13 +151,13 @@ var config = {
             <h1> Título </h1>\
             <div class='card'>\
               <div class='front'>\
-                <img src='images/foto_ex.jpg' class='contact' />\
-                <span class='name'>Grey Wolf</span>\
+                <img class='contact' src='images/foto_ex.jpg'/>\
+                <span class='name'>Nome</span>\
                 <hr>\
-                <span class='job'> - front-end web developer - </span>\
+                <span class='job'>Descrição</span>\
               </div>\
               <div class='back'>\
-                <span>Skills:</span>\
+                <span>Título:</span>\
                 <p>HTML, CSS, Javascript. UX/UI designer</p>\
                 <span>Social media </span>\
                 <div class='icons'>\

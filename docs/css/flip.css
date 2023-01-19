@@ -4,11 +4,6 @@
   font-family: "Muli", sans-serif;
 }
 
-body {
-  background: url("http://www.platehelp.nl/media/W1siZiIsIjIwMTUvMTAvMjcvMTBfNTZfMjBfNTU3X0lNR18xOTAxXzEuanBnIl1d/IMG_1901-1.jpg");
-  background-size: cover;
-}
-
 #container {
   width: auto;
   height: auto;
@@ -29,12 +24,12 @@ body {
 }
 
 .card {
-  margin: 10px;
+  margin: 5px;
   display: inline-block;
   position: relative;
   width: 220px;
   height: 260px;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .front,
@@ -74,10 +69,10 @@ body {
 .front .contact {
   height: 120px;
   width: 120px;
-  border: 5px solid #000000;
+  border: 2px solid #fff;
   border-radius: 50%;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .front .name {
@@ -109,3 +104,33 @@ body {
 .back a:hover {
   color: #fd9d24;
 }/*# sourceMappingURL=index.css.map */
+
+@media (max-width: 600px) {
+
+  #container {
+    width: auto;
+    height: auto;
+    margin-top: 120px;
+    perspective: 800px;
+    text-align: center;
+  }
+
+  .card {
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    height: 260px;
+    opacity: 0.95;
+  }
+
+  .front .contact {
+    height: 5rem; 
+    width: 100%; 
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 5px;
+  } 
+
+}
