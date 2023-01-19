@@ -72,7 +72,7 @@ var config = {
 
         {
             id: 'abertura',
-            alignment: 'center',
+            alignment: 'full',
             hidden: false,
             //title: 'Abertura',
             bookmark: 'Abertura',
@@ -136,7 +136,7 @@ var config = {
         },
 
         {
-            id: 'slug-style-id',
+            id: 'flip-cards',
             alignment: 'full',
             hidden: false,
             //title: 'Display Title',
@@ -233,7 +233,58 @@ var config = {
                 //     opacity: 0
                 // }
             ]
-        }
+        },
+
+        {
+          id: 'alagoas',
+          alignment: 'left',
+          hidden: false,
+          //title: 'Display Title',
+          //bookmark: 'Indice 1',
+          image: 'images/foto_ex.jpg',
+          //caption: 'Source image caption',
+          //website: '<a href="https://www.native-land.ca" target="_blank">Native Land website</a>',
+          //author: 'Rudo Kemper, Digital Democracy',
+          //legend: '<span style="font-size: 0.85em;"><em>Indigenous community names on the map courtesy of Native Land Digital</em></span>',
+          description:  
+          '\
+            <h1>Alagoas</h1>\
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec ligula facilisis pellentesque.</p>\
+            <ul class="fa-ul ul-legend">\
+                <li class="li-hover" value="al-baixada-lagunar-bairros"><span class="fa-li" style="color:#ff0000;"><i class="fa fa-square"></i></span>Baixada Lagunar</li>\
+            </ul>\
+            <img class="image-wrapper" src="images/foto_ex.jpg"/>\
+            <p class="caption">Caption</p>\
+          ',
+          location: {
+            center: [-35.75963, -9.64175],
+            zoom: 13.26,
+            pitch: 59.00,
+            bearing: 35.20,
+            speed: 1.5
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          spinGlobe: false,
+          mapInteractive: true,
+          callback: '',
+          onChapterEnter: [
+            {
+                layer: 'al-baixada-lagunar-bairros',
+                opacity: 1
+            }
+          ],
+          onChapterExit: [
+              {
+                  layer: 'al-baixada-lagunar-bairros',
+                  opacity: 0
+              }
+          ]
+      }
+
+        
+
+
 
     ]
 };

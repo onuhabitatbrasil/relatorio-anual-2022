@@ -14,7 +14,6 @@ a:hover {
 }
 
 #map {
-    z-index: -1;
     top: 0;
     height: 100vh;
     width: 100vw;
@@ -116,7 +115,7 @@ a:hover {
 }
 
 .centered {
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
 }
 
@@ -163,6 +162,7 @@ a:hover {
     line-height: 22px;
     font-size: 16px;
 }
+
 .step img {
     width: 100%;
     margin-top: 1rem;
@@ -207,15 +207,18 @@ a:hover {
     vertical-align: top;
 }
 
-.mapboxgl-ctrl {
-    margin-right: 0px !important;
+
+
+.mapboxgl-ctrl-top-right {
+    top: 25px;
+    right: 20px;
 }
 
 .mapboxgl-popup {
     font: 12px/20px 'Montserrat', Helvetica, sans-serif;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 
 	.mapboxgl-ctrl {
 		margin-right: 10px !important;
@@ -342,6 +345,28 @@ ul.social-icons .sr-only{
     width: 1px;
     overflow: hidden;
 }
+
+/* Hover list layer */
+
+.li-hover{
+    cursor: pointer;
+    margin: 5px 0px;
+}
+.li-hover:hover{
+    font-weight: bold;
+}
+.li-hover-hover{
+    font-weight: bold;
+}
+
+#ul-depth{
+    width: fit-content;
+}
+
+
+
+
+
 
 
 
@@ -479,14 +504,12 @@ ul.social-icons .sr-only{
 /* Typography
 ********************************************************************* */
 h1, h2, h3, h4, h5, h6 {
-	margin-bottom: 0.1rem;
-	margin-bottom: 0.1rem;
+	margin-bottom: 2rem;
 	font-weight: 300;
 }
 
 h1 {
 	font-size: 2.0rem;
-	line-height: 1;
 	letter-spacing: -.1rem;
 }
 h2 {
@@ -829,17 +852,7 @@ ul ul, ul ol, ol ol, ol ul {
 li {
 	margin-bottom: 1rem;
 }
-/* Spacing
-********************************************************************* */
-button, .button {
-	margin-bottom: 1rem;
-}
-input, textarea, select, fieldset {
-	margin-bottom: 1.5rem;
-}
-pre, blockquote, dl, figure, table, p, ul, ol, form {
-	margin-bottom: 1rem;
-}
+
 /* Utilities
 ********************************************************************* */
 .u-full-width {
