@@ -72,7 +72,7 @@ var config = {
 
         {
             id: 'abertura',
-            alignment: 'full',
+            alignment: 'center',
             hidden: false,
             //title: 'Abertura',
             bookmark: 'Abertura',
@@ -210,7 +210,7 @@ var config = {
           ",
             location: {                   
                 center: [-43.18182, -22.93120],
-                zoom: 12.70,
+                zoom: 12,
                 pitch: 60.50,
                 bearing: -9.60,
                 speed: 2
@@ -242,7 +242,7 @@ var config = {
           //title: 'Display Title',
           //bookmark: 'Indice 1',
           image: 'images/foto_ex.jpg',
-          //caption: 'Source image caption',
+          //caption: '',
           //website: '<a href="https://www.native-land.ca" target="_blank">Native Land website</a>',
           //author: 'Rudo Kemper, Digital Democracy',
           //legend: '<span style="font-size: 0.85em;"><em>Indigenous community names on the map courtesy of Native Land Digital</em></span>',
@@ -254,7 +254,6 @@ var config = {
                 <li class="li-hover" value="al-baixada-lagunar-bairros"><span class="fa-li" style="color:#ff0000;"><i class="fa fa-square"></i></span>Baixada Lagunar</li>\
             </ul>\
             <img class="image-wrapper" src="images/foto_ex.jpg"/>\
-            <p class="caption">Caption</p>\
           ',
           location: {
             center: [-35.75963, -9.64175],
