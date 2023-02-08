@@ -56,7 +56,7 @@ var config = {
             bookmark: 'Abertura',
             description: '\
             <h1>Palavras de Abertura</h1>\
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at molestie nisi, et consequat ante. Maecenas dignissim neque a ante tempus fermentum. Pellentesque dapibus mi nec pretium lobortis. Quisque at feugiat eros. Cras id ullamcorper diam. Maecenas in dapibus eros. Nullam nisi lectus, congue sed iaculis vel, tempor nec metus. Cras augue sapien, condimentum in felis vel, venenatis semper erat. Praesent fringilla, dui nec sodales mattis, lectus lorem tempor erat, ac aliquam leo augue sollicitudin tortor. Nullam in consectetur enim. Vestibulum ultrices malesuada dolor quis molestie. Fusce consectetur neque at congue mattis.</p>\
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur diam nulla, fermentum eu bibendum in, maximus quis ligula. Ut hendrerit pellentesque lorem. Nunc facilisis felis sit amet sem dapibus ullamcorper. Nullam nec posuere ipsum, eget aliquet neque. Etiam et scelerisque odio, nec viverra nibh. Aliquam eu aliquet neque. Etiam a elementum augue, ac tincidunt nisi. Integer cursus malesuada felis non lacinia. Maecenas dictum magna quis orci tincidunt tristique. Ut sodales nibh a lacus sodales gravida.</p>\
             <img src="images/abertura.png" alt="Palavras de Abertura"/>',
             ////description: '\
             //<br><iframe width="100%" height="375" src="https://www.youtube-nocookie.com/embed/qFvCL0nSzUA" //title="Abertura" frameborder="0" allow="accelerometer; autoplay=true; clipboard-write; //encrypted-media; gyroscope; picture-in-picture"></iframe>',
@@ -86,10 +86,11 @@ var config = {
             id: 'onu-habitat-brasil',
             alignment: 'left',
             hidden: false,
-            title: 'Escritório ONU-Habitat Brasil',
+            //title: 'Escritório ONU-Habitat Brasil',
             bookmark: 'ONU-Habitat no Brasil',
             image: false,
             description: '\
+            <h1>Escritório ONU-Habitat Brasil</h1>\
             <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.\
             <img src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat em Português"/>',
             location: {                   

@@ -1,5 +1,4 @@
 var initLoad = true;
-
 var layerTypes = {
     'fill': ['fill-opacity'],
     'line': ['line-opacity'],
@@ -103,17 +102,15 @@ if (header.innerText.length > 0) {
 }
 
 config.chapters.forEach((record, idx) => {
-    
     var container = document.createElement('div');
     var chapter = document.createElement('div');
 
     if (record.title) {
-        var title = document.createElement('h2');
+        var title = document.createElement('h3');
         title.innerText = record.title;
         chapter.appendChild(title);
     }
 
-    /*
     if (record.image) {
         var image = new Image();
         image.src = record.image;
@@ -126,12 +123,15 @@ config.chapters.forEach((record, idx) => {
         caption.setAttribute("class", "caption");
         caption.innerHTML = `<em>${record.caption}</em>`;
         chapter.appendChild(caption);
-    }*/
+    }
 
     if (record.description) {
-
+        
         var story = document.createElement('div');
+        story.setAttribute("class", "conteudo");
+
         story.innerHTML = record.description;
+        
         chapter.appendChild(story);
 
         // add author to chapters if found in config
@@ -187,12 +187,12 @@ var footer = document.createElement('div');
 
 // add bookmarks for chapters with title, append to header and footer
 if (config.bookmarks) {
-    var bookmarksText = "<strong>Bookmarks</strong>: ";
+    var bookmarksText = "<strong>Índice</strong>: ";
     for (i = 0; i < config.chapters.length; i++) {
-        if (config.chapters[i].title) {
-            bookmarksText += `<a href=#${config.chapters[i].id}>${config.chapters[i].title}</a>`;
+        if (config.chapters[i].bookmark) {
+            bookmarksText += `<a href=#${config.chapters[i].id}>${config.chapters[i].bookmark}</a>`;
             if (i != config.chapters.length - 1) {
-                bookmarksText += " | ";
+                bookmarksText += "";
             }
         }
     }

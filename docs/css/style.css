@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/heavitas?styles=22395');
+@import url('https://fonts.cdnfonts.com/css/heavitas');
 /*font-family: 'Heavitas', sans-serif;*/
                                                 
 @import url("https://use.typekit.net/wfa7gqq.css");
@@ -15,11 +15,11 @@ body {
 }
 
 a, a:visited {
-    color: #ffc5da;
+    color: #00afe2;
 }
 
 a:hover {
-    color: #cc3480;
+    color: #e3773b;
 }
 
 #map {
@@ -44,7 +44,6 @@ a:hover {
 
 #header {
     margin: auto;
-    padding: 2vh 2vw;
     width: 100%;
     position: relative;
     z-index: 5;
@@ -55,7 +54,6 @@ a:hover {
     margin: 0;
     padding: 2vh 2vw;
     text-align: center;
-    text-transform: uppercase;
 }
 
 #header h2 {
@@ -135,29 +133,21 @@ a:hover {
 
 .step div {
     padding: 25px 50px;
-}
-
-.step h1 {
-    font-family: 'Heavitas', sans-serif;
-    text-transform: uppercase;
-}
-
-.step h2 {
-    padding: 0px 15px;
     line-height: 20px;
-    font-size: 25px;
-    font-family: 'Heavitas', sans-serif;
-    text-transform: uppercase;
-}
-
-.step p {
-    line-height: 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.step img {
-    padding-top: 20px;
+.conteudo h1 {
+    padding: 0px 0px;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Heavitas', sans-serif;
+    text-transform: uppercase;
+}
+
+.conteudo img {
+    margin-top: 15px;
     width: 100%;
 }
 
@@ -220,7 +210,9 @@ a:hover {
     }
 
     #header h1 {
+        font-family: 'Roboto', 'Open Sans', 'Verdana', sans-serif;
         font-size: 1.9rem;
+        text-transform: uppercase;
     }
 
     .lefty {
@@ -243,11 +235,12 @@ a:hover {
 
     #rotate-mobile {
         display: inline-block;
-        margin: 10px 50px;
+        margin-top: 25px;
     }
 
     #rotate-mobile img {
-        width: 30vw;
+        margin-bottom: 25px;
+        width: 50vw;
     }
 
     .centered,
