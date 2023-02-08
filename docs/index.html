@@ -3,248 +3,31 @@
 
 <head>
     <meta charset='utf-8' />
-    <title>Relatório Anual 2022 Brasil</title>
+    <title>ONU-Habitat - Relatório Anual 2022 Brasil</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <link rel="icon" type="image/x-icon" 
-        href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
-    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/heavitas?styles=22395" rel="stylesheet">
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
 
     <!-- /* ADDITION */ -->
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/flip.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script>
-    // When the user scrolls the page, execute myFunction 
-    window.onscroll = function() {myFunction()};
-    
-    function myFunction() {
-      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      var scrolled = (winScroll / height) * 100;
-      document.getElementById("myBar").style.width = scrolled + "%";
-    }       
-</script>
-
-<script>
-/*----------------------------------------------------*/
-/* Quote Loop
------------------------------------------------------- */
-
-function fade($ele) {
-    $ele.fadeIn(1000).delay(3000).fadeOut(1000, function() {
-        var $next = $(this).next('.quote');
-        fade($next.length > 0 ? $next : $(this).parent().children().first());
-   });
-}
-fade($('.quoteLoop > .quote').first());
-
-
-/*----------------------------------------------------*/
-/* Navigation
------------------------------------------------------- */
-
-$(window).scroll(function() {
-
-    if ($(window).scrollTop() > 300) {
-        $('.main_nav').addClass('sticky');
-    } else {
-        $('.main_nav').removeClass('sticky');
-    }
-});
-
-// Mobile Navigation
-$('.mobile-toggle').click(function() {
-    if ($('.main_nav').hasClass('open-nav')) {
-        $('.main_nav').removeClass('open-nav');
-    } else {
-        $('.main_nav').addClass('open-nav');
-    }
-});
-
-$('.main_nav li a').click(function() {
-    if ($('.main_nav').hasClass('open-nav')) {
-        $('.navigation').removeClass('open-nav');
-        $('.main_nav').removeClass('open-nav');
-    }
-});
-
-
-/*----------------------------------------------------*/
-/* Smooth Scrolling
------------------------------------------------------- */
-
-jQuery(document).ready(function($) {
-
-   $('.smoothscroll').on('click',function (e) {
-	    e.preventDefault();
-
-	    var target = this.hash,
-	    $target = $(target);
-
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 800, 'swing', function () {
-	        window.location.hash = target;
-	    });
-	});
-  
-});
-
-TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);
-
-</script>
-
 
 </head>
 
-
 <body>
 
-    <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
-    </div>
-
-    <header id="header">
-        <div class="main_nav">
-          <div class="container">
-            <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
-            <nav>
-              <ul>
-                <li><a class="smoothscroll" href="#abertura">Abertura</a></li>
-                <li><a class="smoothscroll" href="#onu-habitat-brasil">ONU-Habitat Brasil</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div class="title">
-            <div class="logo"> 
-                <a href="">
-                    <img src="images/logo_onuhabitat_branco.png" style="width:15em; margin-bottom:10vh; margin-top:10vh"> 
-                </a> 
-            </div> 
-            <div class="smallsep heading"></div>
-            <h1 class="heading">Relatório Anual 2022</h1>
-            <h2 class="heading">Brasil</h2>
-            <div id="social-share">
-                <ul class="social-icons">
-                    <li>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&quote=ONU-Habitat%20-%20Relatório%20Anual%202022" target="_blank" rel="noopener noreferrer" title="Compartilhar no Facebook">
-                            <i class="fa fa-facebook fa-2x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&text=ONU-Habitat%20-%20Relatório%20Anual%202022:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&via=ONUHABITATBR" target="_blank" rel="noopener noreferrer" title="Tweetar">
-                            <i class="fa fa-twitter fa-2x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&title=ONU-Habitat%20-%20Relatório%20Anual%202022&summary=ONU-Habitat%20-%20Relatório%20Anual%202022&source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar no Linkedin">
-                            <i class="fa fa-linkedin fa-2x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:?subject=ONU-Habitat%20-%20Relatório%20Anual%202022&body=Acesse%20o%20relatório:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Enviar por email">
-                            <i class="fa fa-at fa-2x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="whatsapp://send?text=Relatório%20Anual%202022%20ONU-Habitat%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar no Whatsapp">
-                            <i class="fa fa-whatsapp fa-2x"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <a class="smoothscroll" href="#abertura">
-                <div class="mouse">
-                    <div class="wheel"></div>
-                </div>
-            </a> 
-        </div>
-        <a class="smoothscroll" href="#intro-empty">
-            <div class="scroll-down"></div>
-        </a> 
-    </header>
+    
 
     <div id="map"></div>
     <div id="mapInset"></div>
-
-    <div id="story">
-
-        <!--
-        
-        <div id="header">
-
-            <img src="images/capa.png"> 
-
-            <div id="header-card">
-                <div class="logo"> 
-                    <a href="">
-                        <img src="images/logo_onuhabitat_branco.png" style="width: 25%; margin:40px;"> 
-                    </a> 
-                </div> 
-
-                <h1>Relatório Anual 2022<br>Brasil</h1>
-
-                <div id="social-share">
-                  <ul class="social-icons">
-                    <li>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&quote=ONU-Habitat%20-%20Relatório%20Anual%202022" target="_blank" rel="noopener noreferrer" title="Compartilhar no Facebook">
-                            <i class="fa fa-facebook fa-2x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&text=ONU-Habitat%20-%20Relatório%20Anual%202022:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&via=ONUHABITATBR" target="_blank" rel="noopener noreferrer" title="Tweetar">
-                            <i class="fa fa-twitter fa-2x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&title=ONU-Habitat%20-%20Relatório%20Anual%202022&summary=ONU-Habitat%20-%20Relatório%20Anual%202022&source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar no Linkedin">
-                            <i class="fa fa-linkedin fa-2x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:?subject=ONU-Habitat%20-%20Relatório%20Anual%202022&body=Acesse%20o%20relatório:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Enviar por email">
-                            <i class="fa fa-at fa-2x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="whatsapp://send?text=Relatório%20Anual%202022%20ONU-Habitat%27stextotextotextotexto%23dataviz%20%23ddj%20https%3A%2F%2Finteractive.aljazeera.com%2Faje%2F2020%2Fsaving-the-nile%2Findex.html" target="_blank" rel="noopener noreferrer" title="Compartilhar no Whatsapp">
-                            <i class="fa fa-whatsapp fa-2x"></i>
-                        </a>
-                    </li>
-                  </ul>
-                </div>
-                
-                <h5>
-                    <a href="#abertura">Abertura</a>
-                    &nbsp;&nbsp;
-                    <a href="#onu-habitat-brasil">ONU-Habitat Brasil</a>
-                </h5>
-    
-                <p>
-                    <div id="rotate-mobile">
-                        <em>Para melhor visualização do relatório, utilize o dispositivo móvel na horizontal.</em>
-                        <br><br>
-                        <img src="assets/device_white.svg" style="width: 15%;">
-                    </div>
-                </p>
-
-            </div>
-
-        </div>   -->
-
-    </div>
-
+    <div id="story"></div>
     <script src="./js/config.js"></script>
     <script src="./js/sources.js"></script>
     <script src="./js/map.js"></script>
-    <script src="./js/scrolling.js"></script>
-    
 
 </body>
 
