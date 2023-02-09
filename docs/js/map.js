@@ -127,8 +127,8 @@ config.chapters.forEach((record, idx) => {
 
     if (record.description) {
         
-        var story = document.createElement('div');
-        story.setAttribute("class", "conteudo");
+        var story = document.createElement('section');
+        //story.setAttribute("class", "conteudo");
 
         story.innerHTML = record.description;
         
@@ -192,7 +192,7 @@ if (config.bookmarks) {
         if (config.chapters[i].bookmark) {
             bookmarksText += `<a href=#${config.chapters[i].id}>${config.chapters[i].bookmark}</a>`;
             if (i != config.chapters.length - 1) {
-                bookmarksText += "";
+                bookmarksText += " ";
             }
         }
     }
