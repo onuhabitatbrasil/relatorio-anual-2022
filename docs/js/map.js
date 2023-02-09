@@ -105,7 +105,7 @@ config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
     var chapter = document.createElement('div');
 
-    if (record.title) {
+    /*if (record.title) {
         var title = document.createElement('h3');
         title.innerText = record.title;
         chapter.appendChild(title);
@@ -123,19 +123,21 @@ config.chapters.forEach((record, idx) => {
         caption.setAttribute("class", "caption");
         caption.innerHTML = `<em>${record.caption}</em>`;
         chapter.appendChild(caption);
-    }
+    }*/
 
     if (record.description) {
         
-        var story = document.createElement('section');
-        //story.setAttribute("class", "conteudo");
+        //var story = document.createElement('div');
+        //story.setAttribute("class", "light");
 
-        story.innerHTML = record.description;
+        chapter.innerHTML = record.description;
         
-        chapter.appendChild(story);
+        //chapter.appendChild(story);
+
+        //chapter.innerHTML = record.description;
 
         // add author to chapters if found in config
-        if (record.author) {
+        /*if (record.author) {
             author = document.createElement('p');
             author.innerHTML = '<strong>By ' + record.author + '</strong>';
             chapter.appendChild(author);
@@ -154,17 +156,17 @@ config.chapters.forEach((record, idx) => {
             returnTop.setAttribute("class", "returntop");
             returnTop.innerHTML = '<a href="#header">Back to top</a>';
             chapter.appendChild(returnTop);
-        }
+        }*/
     }
 
     // add legend to chapters if found in config
-    if (record.legend) {
+    /*if (record.legend) {
         var legend = document.createElement('div');
         legend.setAttribute("class", "legend");
         legend.setAttribute("id", (record.id + "Legend"));
         legend.innerHTML = '<div>' + record.legend + '</div>';
         document.body.append(legend);
-    }
+    }*/
 
     container.setAttribute('id', record.id);
     container.classList.add('step');
@@ -173,7 +175,9 @@ config.chapters.forEach((record, idx) => {
     }
 
     chapter.classList.add(config.theme);
+    
     container.appendChild(chapter);
+    
     container.classList.add(alignments[record.alignment] || 'centered');
     if (record.hidden) {
         container.classList.add('hidden');

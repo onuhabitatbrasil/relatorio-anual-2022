@@ -177,8 +177,7 @@ a:hover {
 
 .step div {
     border-radius: 10px;
-    box-shadow: 0 3px 14px 0 rgb(0 0 0 / 20%), 0 5px 5.5px 0 rgb(0 0 0 / 18%);
-    padding: 25px 50px;
+    padding: 15px 25px;
     line-height: 20px;
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -191,7 +190,7 @@ a:hover {
 .mapboxgl-popup {
     font: 12px/20px 'Montserrat', Helvetica, sans-serif;
 }
-
+  
 @media (max-width: 750px) {
 
     #features {
@@ -257,4 +256,22 @@ a:hover {
 .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
 .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
     touch-action: unset;
+}
+
+/* The progress container */
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    position: fixed;
+    z-index: 9999;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 5px;
+    background: #e3773b;
+    width: 0%;
+    top: 0;
+    position: fixed;
 }

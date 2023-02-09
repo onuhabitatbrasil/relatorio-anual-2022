@@ -15,16 +15,74 @@
     <!-- /* ADDITION */ -->
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script> 
+
+        $(function () {
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+              var file = 'partials/' + $(this).data('include') + '.html'
+              $(this).load(file)
+            })
+          })
+
+    </script>
+
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }       
+    </script>
+
+    <script>
+
+        /*----------------------------------------------------*/
+        /* Smooth Scrolling
+        ------------------------------------------------------ */
+    
+        jQuery(document).ready(function($) {
+    
+        $('.smoothscroll').on('click',function (e) {
+                e.preventDefault();
+    
+                var target = this.hash,
+                $target = $(target);
+    
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 800, 'swing', function () {
+                    window.location.hash = target;
+                });
+            });
+        
+        });
+    
+        TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);
+    
+        </script>
 
 </head>
 
-<body>
+<body>    
 
-    
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
 
     <div id="map"></div>
     <div id="mapInset"></div>
+    
     <div id="story"></div>
+
     <script src="./js/config.js"></script>
     <script src="./js/sources.js"></script>
     <script src="./js/map.js"></script>
