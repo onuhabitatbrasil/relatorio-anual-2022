@@ -17,11 +17,11 @@ var config = {
     //logo: '',
     //subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     //byline: 'By a Digital Storyteller',
-    mobileview: '\
-    <div id="rotate-mobile">\
-    <p>Para melhor visualização, utilize seu dispositivo móvel na posição horizontal.</p>\
-    <img src="images/device.png">', // to add custom messaging in the header for mobile devices
-    footer: 'Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    //mobileview: '\
+    //<div id="rotate-mobile">\
+    //<p>Para melhor visualização, utilize seu dispositivo móvel na posição horizontal.</p>\
+    //<img src="images/device.png">', // to add custom messaging in the header for mobile devices
+    footer: 'Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox ////Storytelling</a> template.',
 
     chapters: [
 
@@ -55,7 +55,7 @@ var config = {
 
             //title: 'Abertura',
             bookmark: 'Abertura',
-            description: '<div class="light" data-include="abertura"></div>',
+            description: '<div data-include="abertura"></div>',
             ////description: '\
             //<br><iframe width="100%" height="375" src="https://www.youtube-nocookie.com/embed/qFvCL0nSzUA" //title="Abertura" frameborder="0" allow="accelerometer; autoplay=true; clipboard-write; //encrypted-media; gyroscope; picture-in-picture"></iframe>',
             location: {
@@ -112,7 +112,40 @@ var config = {
                      opacity: 0
                  }
             ]
+        },
+
+        {
+            id: 'flip',
+            alignment: 'full',
+            hidden: false,
+            //title: 'Abertura',
+            //bookmark: 'Abertura',
+            description: '<div data-include="flip"></div>',
+            ////description: '\
+            //<br><iframe width="100%" height="375" src="https://www.youtube-nocookie.com/embed/qFvCL0nSzUA" //title="Abertura" frameborder="0" allow="accelerometer; autoplay=true; clipboard-write; //encrypted-media; gyroscope; picture-in-picture"></iframe>',
+            location: {
+                center: [-22.32528, -2.14945],
+                zoom: 1.5,
+                pitch: 0,
+                bearing: 0,
+                speed: 2
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            spinGlobe: false,
+            mapInteractive: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         }
+
+
 
     ]
 

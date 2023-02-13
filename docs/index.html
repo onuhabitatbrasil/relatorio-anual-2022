@@ -5,7 +5,7 @@
     <meta charset='utf-8' />
     <title>ONU-Habitat - Relatório Anual 2022 Brasil</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
+    <!--<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">-->
     <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/heavitas?styles=22395" rel="stylesheet">
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
@@ -44,10 +44,9 @@
     </script>
 
     <script>
-
-        /*----------------------------------------------------*/
-        /* Smooth Scrolling
-        ------------------------------------------------------ */
+    /*----------------------------------------------------*/
+    /* Smooth Scrolling
+    ------------------------------------------------------ */
     
         jQuery(document).ready(function($) {
     
@@ -66,9 +65,9 @@
         
         });
     
-        TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);
-    
-        </script>
+        TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4); 
+
+    </script>
 
 </head>
 
@@ -78,6 +77,56 @@
         <div class="progress-bar" id="myBar"></div>
     </div>
 
+    <div id="header">
+        <div class="title">
+            <h1>Relatório<br>Anual</h1>
+            <div class="smallsep heading"></div>
+            <h2>BRASIL 2022</h2>
+            <div class="logo"> 
+                <a href="">
+                    <img src="images/logo_onuhabitat.png" style="width:15em; margin-bottom:10vh; margin-top:10vh"> 
+                </a> 
+            </div> 
+            <div id="social-share">
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&quote=ONU-Habitat%20-%20Relatório%20Anual%202022" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Facebook">
+                            <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&text=ONU-Habitat%20-%20Relatório%20Anual%202022:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&via=ONUHABITATBR" target="_blank" rel="noopener noreferrer" title="Tweetar Relatório">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&title=ONU-Habitat%20-%20Relatório%20Anual%202022&summary=ONU-Habitat%20-%20Relatório%20Anual%202022&source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Linkedin">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:?subject=ONU-Habitat%20-%20Relatório%20Anual%202022&body=Acesse%20o%20relatório:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Enviar Relatório por email">
+                            <i class="fa fa-at fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="whatsapp://send?text=Relatório%20Anual%202022%20ONU-Habitat%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Whatsapp">
+                            <i class="fa fa-whatsapp fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="smoothscroll" href="#abertura">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a> 
+        </div>
+        <a class="smoothscroll" href="#intro-empty">
+            <div class="scroll-down"></div>
+        </a> 
+    </div>       
+          
     <div id="map"></div>
     <div id="mapInset"></div>
     
@@ -86,6 +135,7 @@
     <script src="./js/config.js"></script>
     <script src="./js/sources.js"></script>
     <script src="./js/map.js"></script>
+    
 
 </body>
 

@@ -95,11 +95,11 @@ if (config.byline) {
     header.appendChild(bylineText);
 }
 
-if (header.innerText.length > 0) {
-    header.classList.add(config.theme);
-    header.setAttribute('id', 'header');
-    story.appendChild(header);
-}
+//if (header.innerText.length > 0) {
+//    header.classList.add(config.theme);
+//   header.setAttribute('id', 'header');
+//    story.appendChild(header);
+//}
 
 config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
