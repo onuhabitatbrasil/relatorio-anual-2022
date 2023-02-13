@@ -65,7 +65,7 @@
         
         });
     
-        TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4); 
+        TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.3); 
 
     </script>
 
@@ -80,13 +80,8 @@
     <div id="header">
         <div class="title">
             <h1>Relatório<br>Anual</h1>
-            <div class="smallsep heading"></div>
+            <div class="smallsep"></div>
             <h2>BRASIL 2022</h2>
-            <div class="logo"> 
-                <a href="">
-                    <img src="images/logo_onuhabitat.png" style="width:15em; margin-bottom:10vh; margin-top:10vh"> 
-                </a> 
-            </div> 
             <div id="social-share">
                 <ul class="social-icons">
                     <li>
@@ -116,11 +111,11 @@
                     </li>
                 </ul>
             </div>
-            <a class="smoothscroll" href="#abertura">
-                <div class="mouse">
-                    <div class="wheel"></div>
-                </div>
-            </a> 
+            <div class="logo"> 
+                <a href="">
+                    <img src="images/logo_onuhabitat.png">
+                </a> 
+            </div> 
         </div>
         <a class="smoothscroll" href="#intro-empty">
             <div class="scroll-down"></div>
@@ -131,6 +126,39 @@
     <div id="mapInset"></div>
     
     <div id="story"></div>
+
+    <div id="footer">
+        <div class="indice">
+            <a href="#">Início</a> 
+            <a href="#abertura">Abertura</a> 
+            <a href="#onu-habitat-brasil">ONU-Habitat no Brasil</a> 
+            <a href="#linha-temmpo">Linha do Tempo</a>     
+        </div>
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.instagram.comonuhabitatbrasil/" target="_blank" title="Instagram">
+                    <i class="fa fa-instagram fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" title="Twitter">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com// target="_blank" title="YouTube">
+                    <i class="fa fa-youtube-play fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <p>Copyright © ONU-Habitat 2023</p>
+        <p>Desenvolvido com <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a>.</p>
+    </div>
 
     <script src="./js/config.js"></script>
     <script src="./js/sources.js"></script>

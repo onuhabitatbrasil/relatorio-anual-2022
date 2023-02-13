@@ -190,7 +190,7 @@ story.appendChild(features);
 var footer = document.createElement('div');
 
 // add bookmarks for chapters with title, append to header and footer
-if (config.bookmarks) {
+/*if (config.bookmarks) {
     var bookmarksText = "<strong>Índice</strong>: ";
     for (i = 0; i < config.chapters.length; i++) {
         if (config.chapters[i].bookmark) {
@@ -206,7 +206,7 @@ if (config.bookmarks) {
     var footerBookmarks = document.createElement('p');
     footerBookmarks.innerHTML = bookmarksText;
     footer.appendChild(footerBookmarks);
-}
+}*/
 
 // add prefix content for mobile view
 if (config.mobileview) {

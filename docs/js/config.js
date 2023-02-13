@@ -21,7 +21,7 @@ var config = {
     //<div id="rotate-mobile">\
     //<p>Para melhor visualização, utilize seu dispositivo móvel na posição horizontal.</p>\
     //<img src="images/device.png">', // to add custom messaging in the header for mobile devices
-    footer: 'Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox ////Storytelling</a> template.',
+    //footer: 'Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox ////Storytelling</a> template.',
 
     chapters: [
 
@@ -52,7 +52,6 @@ var config = {
             id: 'abertura',
             alignment: 'full',
             hidden: false,
-
             //title: 'Abertura',
             bookmark: 'Abertura',
             description: '<div data-include="abertura"></div>',
@@ -115,7 +114,7 @@ var config = {
         },
 
         {
-            id: 'flip',
+            id: 'linha-tempo',
             alignment: 'full',
             hidden: false,
             //title: 'Abertura',
