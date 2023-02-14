@@ -169,6 +169,7 @@ config.chapters.forEach((record, idx) => {
     }*/
 
     container.setAttribute('id', record.id);
+
     container.classList.add('step');
     if (idx === 0) {
         container.classList.add('active');

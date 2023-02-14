@@ -119,21 +119,13 @@ var config = {
             hidden: false,
             //title: 'Abertura',
             //bookmark: 'Abertura',
-            description: '<div data-include="flip"></div>',
-            ////description: '\
-            //<br><iframe width="100%" height="375" src="https://www.youtube-nocookie.com/embed/qFvCL0nSzUA" //title="Abertura" frameborder="0" allow="accelerometer; autoplay=true; clipboard-write; //encrypted-media; gyroscope; picture-in-picture"></iframe>',
+            description: '',
             location: {
                 center: [-22.32528, -2.14945],
                 zoom: 1.5,
                 pitch: 0,
                 bearing: 0,
                 speed: 2
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
