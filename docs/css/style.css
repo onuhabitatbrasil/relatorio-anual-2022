@@ -43,6 +43,26 @@ body {
 	height: 100vh;
 }
 
+#subheader {
+    background-color: #cc3480;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+	height: 100vh;
+}
+
+#subheader p {
+    color: #fff;
+    line-height: 28px;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align:justify;
+    padding: 5em 2.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
 #header h1 {
     font-size: 3.5rem;
     font-family: 'Heavitas', sans-serif;
@@ -187,8 +207,28 @@ ul.social-icons li{
 }
 
 .scroll-down:hover{
-	border-bottom: 4px solid #e3773b;
-	border-right: 4px solid #e3773b;
+	border-bottom: 5px solid #cc3480;
+	border-right: 5px solid #cc3480;
+}
+
+.scroll-down:visited{
+	border-bottom: 2px solid #cc3480;
+	border-right: 2px solid #cc3480;
+}
+
+#subheader .scroll-down {
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+#subheader .scroll-down:hover{
+	border-bottom: 5px solid #fff;
+	border-right: 5px solid #fff;
+}
+
+#subheader .scroll-down:visited{
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
 }
  
 #footer {
@@ -338,6 +378,11 @@ ul.social-icons li{
 }
   
 @media (max-width: 700px) {
+
+    #subheader p {
+        line-height: 1em;
+        font-size: 0.95em;
+    }    
 
     .mapboxgl-ctrl-top-right {
         margin-top: 5px !important;

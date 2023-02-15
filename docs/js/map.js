@@ -134,8 +134,6 @@ config.chapters.forEach((record, idx) => {
         
         //chapter.appendChild(story);
 
-        //chapter.innerHTML = record.description;
-
         // add author to chapters if found in config
         /*if (record.author) {
             author = document.createElement('p');
