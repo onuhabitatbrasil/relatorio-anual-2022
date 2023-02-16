@@ -131,6 +131,9 @@ var config = {
               <div><img src="https://picsum.photos/300/200?random=4"></div>\
               <div><img src="https://picsum.photos/300/200?random=5"></div>\
               <div><img src="https://picsum.photos/300/200?random=6"></div>\
+              <div><img src="https://picsum.photos/300/200?random=6"></div>\
+              <div><img src="https://picsum.photos/300/200?random=6"></div>\
+              <div><img src="https://picsum.photos/300/200?random=6"></div>\
             </div>\
         </div>',
       location: {
@@ -147,6 +150,8 @@ var config = {
       callback: "",
       onChapterEnter: [],
       onChapterExit: [],
-    },
-  ],
+    }
+
+  ]
+  
 };

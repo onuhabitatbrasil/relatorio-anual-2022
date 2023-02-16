@@ -505,7 +505,6 @@ ul.social-icons li{
 
 /* FLIP */
 .wrapper{
-    width:100%;
     padding-top: 10px;
     text-align:center;
 }
@@ -524,3 +523,4 @@ ul.social-icons li{
   font-size:20px;
   color:white;
 }
+
