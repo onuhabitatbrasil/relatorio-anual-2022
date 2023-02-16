@@ -102,6 +102,7 @@ if (config.byline) {
 //}
 
 config.chapters.forEach((record, idx) => {
+
     var container = document.createElement('div');
     var chapter = document.createElement('div');
 
@@ -126,12 +127,11 @@ config.chapters.forEach((record, idx) => {
     }*/
 
     if (record.description) {
-        
-        //var story = document.createElement('div');
-        //story.setAttribute("class", "light");
 
-        chapter.innerHTML = record.description;
+        chapter.innerHTML = record.description;     
         
+        //var description = document.createElement('div');
+        //story.setAttribute("class", "light");   
         //chapter.appendChild(story);
 
         // add author to chapters if found in config
