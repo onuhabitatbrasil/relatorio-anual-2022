@@ -277,28 +277,6 @@ ul.social-icons li{
     margin-left: 4vw;
 }
 
-.lefty h1 {
-    padding: 0px 0px;
-    line-height: 20px;
-    font-size: 22px;
-    font-family: 'Heavitas', sans-serif;
-    text-transform: uppercase;
-}
-
-.lefty p {
-    line-height: 16px;
-    font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.lefty img {
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
-
 .righty {
     width: 33vw;
     margin-left: 62vw;
@@ -310,16 +288,30 @@ ul.social-icons li{
 }
 
 .fully h1, .centered h1 {
-    padding: 0px 0px;
+    padding: 0.5em 0em;
     line-height: 20px;
+    font-size: 36px;
+    font-family: 'Heavitas', sans-serif;
+    text-transform: uppercase;
+}
+
+.lefty h1, .righty h1 {
+    padding: 0.5em 0em;
+    line-height: 24px;
     font-size: 28px;
     font-family: 'Heavitas', sans-serif;
     text-transform: uppercase;
 }
 
 .fully p, .centered p {
-    line-height: 16px;
-    font-size: 16px;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.lefty p, .righty p {
+    line-height: 20px;
+    font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -329,6 +321,15 @@ ul.social-icons li{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+.lefty img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0em;
+    width: 75%;
 }
 
 .step {
@@ -343,7 +344,7 @@ ul.social-icons li{
 
 .step div {
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 20px 40px;
     line-height: 20px;
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -399,10 +400,15 @@ ul.social-icons li{
     }
 
     .step div {
-        padding: 5px 15px;
+        padding: 5px 30px;
     }
 
     .fully h1, .centered h1 {
+        line-height: 1em;
+        font-size: 1.5em;
+    }
+
+    .lefty h1, .righty h1 {
         line-height: 1em;
         font-size: 1.5em;
     }
@@ -506,7 +512,6 @@ ul.social-icons li{
 /* FLIP */
 .wrapper{
     padding-top: 10px;
-    text-align:center;
 }
 
 .carousel{
@@ -514,13 +519,20 @@ ul.social-icons li{
   margin:0px auto;
 }
 
+.slick-dots li {
+    margin: 0 1px;
+}
+
 .slick-slide img{
-  width:100%;
+  width:75%;
   border: 1px solid #fff;
 }
 
 .wrapper .slick-dots li button:before {
-  font-size:20px;
+  font-size: 12px;
   color:white;
 }
+
+
+
 

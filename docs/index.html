@@ -11,22 +11,17 @@
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
-
    
 
     <!-- /* ADDITION */ -->
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
     <script>
         $(document).ready(function(){
@@ -38,16 +33,15 @@
           });     
     </script>
 
-    <script> 
-
-        $(function () {
-            var includes = $('[data-include]')
-            $.each(includes, function () {
-              var file = 'partials/' + $(this).data('include') + '.html'
-              $(this).load(file)
-            })
-          })
-
+    <script>
+        window.onload = function(){
+            function a(a,b){
+                var c=/^(?:file):/,
+                d=new XMLHttpRequest,e=0;
+                d.onreadystatechange=function(){
+                    4==d.readyState&&(e=d.status),c.test(location.href)&&d.responseText&&(e=200),4==d.readyState&&200==e&&(a.outerHTML=d.responseText)};
+                    try{d.open("GET",b,!0),d.send()}catch(f){}}var b,c=document.getElementsByTagName("*");
+                    for(b in c)c[b].hasAttribute&&c[b].hasAttribute("data-include")&&a(c[b],c[b].getAttribute("data-include"))};
     </script>
 
     <script>

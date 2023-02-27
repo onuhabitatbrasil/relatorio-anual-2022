@@ -127,11 +127,12 @@ config.chapters.forEach((record, idx) => {
     }*/
 
     if (record.description) {
-
-        chapter.innerHTML = record.description;     
+    
+        chapter.innerHTML =  record.description;
         
-        //var description = document.createElement('div');
-        //story.setAttribute("class", "light");   
+        //var story = document.createElement('div');
+        //story.setAttribute("class", "descrition");
+        //chapter.innerHTML = (record.description);
         //chapter.appendChild(story);
 
         // add author to chapters if found in config
