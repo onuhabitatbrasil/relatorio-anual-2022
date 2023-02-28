@@ -68,9 +68,9 @@ var story = document.getElementById('story');
 var features = document.createElement('div');
 features.setAttribute('id', 'features');
 
-var header = document.createElement('div');
+//var header = document.createElement('div');
 
-if (config.title) {
+/*if (config.title) {
     var titleText = document.createElement('h1');
     titleText.innerText = config.title;
     header.appendChild(titleText);
@@ -93,88 +93,32 @@ if (config.byline) {
     var bylineText = document.createElement('p');
     bylineText.innerText = config.byline;
     header.appendChild(bylineText);
-}
-
-//if (header.innerText.length > 0) {
-//    header.classList.add(config.theme);
-//   header.setAttribute('id', 'header');
-//    story.appendChild(header);
-//}
+}*/
 
 config.chapters.forEach((record, idx) => {
 
     var container = document.createElement('div');
     var chapter = document.createElement('div');
 
-    /*if (record.title) {
-        var title = document.createElement('h3');
-        title.innerText = record.title;
-        chapter.appendChild(title);
-    }
-
-    if (record.image) {
-        var image = new Image();
-        image.src = record.image;
-        chapter.appendChild(image);
-    }
-
-    // add image caption to chapters if found in config
-    if (record.caption) {
-        caption = document.createElement('p');
-        caption.setAttribute("class", "caption");
-        caption.innerHTML = `<em>${record.caption}</em>`;
-        chapter.appendChild(caption);
-    }*/
-
     if (record.description) {
-    
-        chapter.innerHTML =  record.description;
-        
-        //var story = document.createElement('div');
-        //story.setAttribute("class", "descrition");
-        //chapter.innerHTML = (record.description);
+
+        //var story = document.createElement('p');
+        //story.innerHTML = record.description;
         //chapter.appendChild(story);
 
-        // add author to chapters if found in config
-        /*if (record.author) {
-            author = document.createElement('p');
-            author.innerHTML = '<strong>By ' + record.author + '</strong>';
-            chapter.appendChild(author);
-        }
+        chapter.innerHTML = record.description;
 
-        // add website to chapters if found in config
-        if (record.website) {
-            var website = document.createElement('p');
-            website.innerHTML = `» ${record.website}`;
-            chapter.appendChild(website);
-        }
-
-        // add return to top link to each chapter
-        if (config.chapterReturn) {
-            var returnTop = document.createElement('p');
-            returnTop.setAttribute("class", "returntop");
-            returnTop.innerHTML = '<a href="#header">Back to top</a>';
-            chapter.appendChild(returnTop);
-        }*/
     }
 
-    // add legend to chapters if found in config
-    /*if (record.legend) {
-        var legend = document.createElement('div');
-        legend.setAttribute("class", "legend");
-        legend.setAttribute("id", (record.id + "Legend"));
-        legend.innerHTML = '<div>' + record.legend + '</div>';
-        document.body.append(legend);
-    }*/
+    chapter.classList.add(config.theme);
 
     container.setAttribute('id', record.id);
 
     container.classList.add('step');
+
     if (idx === 0) {
         container.classList.add('active');
     }
-
-    chapter.classList.add(config.theme);
     
     container.appendChild(chapter);
     
@@ -182,7 +126,9 @@ config.chapters.forEach((record, idx) => {
     if (record.hidden) {
         container.classList.add('hidden');
     }
+
     features.appendChild(container);
+
 });
 
 story.appendChild(features);

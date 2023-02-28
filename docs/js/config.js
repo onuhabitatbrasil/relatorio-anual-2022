@@ -54,7 +54,10 @@ var config = {
       hidden: false,
       //title: 'Abertura',
       bookmark: 'Abertura',
-      description: '<div data-include="./partials/abertura.html"></div>',
+      description: '<h1>Palavras de Abertura</h1>\
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur diam nulla, fermentum eu bibendum in, maximus quis ligula. Ut hendrerit pellentesque lorem. Nunc facilisis felis sit amet sem dapibus ullamcorper. Nullam nec posuere ipsum, eget aliquet neque. Etiam et scelerisque odio, nec viverra nibh. Aliquam eu aliquet neque. Etiam a elementum augue, ac tincidunt nisi. Integer cursus malesuada felis non lacinia. Maecenas dictum magna quis orci tincidunt tristique. Ut sodales nibh a lacus sodales gravida.</p>\
+      <img src="images/abertura.png" alt="Palavras de Abertura"/>\
+      ',
       location: {
           center: [-22.32528, -2.14945],
           zoom: 1.5,
@@ -84,7 +87,10 @@ var config = {
         //title: 'Escritório ONU-Habitat Brasil',
         bookmark: 'ONU-Habitat no Brasil',
         image: false,
-        description: '<div data-include="./partials/onu.html"></div>',
+        description: '<h1>Escritório ONU-Habitat Brasil</h1>\
+        <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.</p>\
+        <img src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat em Português"/>\
+        ',
         location: {                   
             center: [-43.18182, -22.93120],
             zoom: 12.70,
@@ -117,7 +123,7 @@ var config = {
       hidden: false,
       //title: 'Abertura',
       //bookmark: 'Abertura',
-      description: '<div data-include="./partials/flip.html"></div>',
+      description: '',
       location: {
         center: [-22.32528, -2.14945],
         zoom: 1.5,
