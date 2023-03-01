@@ -123,6 +123,60 @@ var config = {
       hidden: false,
       //title: 'Abertura',
       //bookmark: 'Abertura',
+      description: '<h1>Linha do Tempo</h1>\
+      </><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
+      <ol class="carousel-indicators">\
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>\
+      </ol>\
+      <div class="carousel-inner">\
+          <div class="carousel-item active">\
+              <img class="d-block w-100" src="https://placeimg.com/1080/500/animals" alt="First slide">\
+              <div class="carousel-caption d-none d-md-block">\
+                  <h5>My Caption Title (1st Image)</h5>\
+                  <p>The whole caption will only show up if the screen is at least medium size.</p>\
+              </div>\
+          </div>\
+          <div class="carousel-item">\
+              <img class="d-block w-100" src="https://placeimg.com/1080/500/arch" alt="Second slide">\
+          </div>\
+          <div class="carousel-item">\
+              <img class="d-block w-100" src="https://placeimg.com/1080/500/nature" alt="Third slide">\
+          </div>\
+      </div>\
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
+          <span class="sr-only">Previous</span>\
+      </a>\
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">\
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>\
+          <span class="sr-only">Next</span>\
+      </a>\
+  </div>',
+      location: {
+        center: [-22.32528, -2.14945],
+        zoom: 1.5,
+        pitch: 0,
+        bearing: 0,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    /*
+    {
+      id: "linha-tempo2",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
       description: '\
       <div class="wrapper">\
             <h1>Linha do Tempo<h1>\
@@ -132,7 +186,6 @@ var config = {
                   <img alt="piscum.photos random image" src="https://picsum.photos/300?image=980" />\
                 </div><!-- .flip_front -->\
                 <div class="flip flip_back">\
-                  <h3>Lorem ipsum</h3>\
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui viverra, ornare lorem ut, condimentum nibh. Quisque ut bibendum nulla.</p>\
                 </div><!-- .flip_back -->\
               </div><!-- #flip1 -->\
@@ -141,7 +194,6 @@ var config = {
                   <img alt="piscum.photos random image" src="https://picsum.photos/300?image=1078" />\
                 </div><!-- .flip_front -->\
                 <div class="flip flip_back">\
-                  <h3>Lorem ipsum</h3>\
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui viverra, ornare lorem ut, condimentum nibh. Quisque ut bibendum nulla.</p>\
                 </div><!-- .flip_back -->\
               </div><!-- #flip2 -->\
@@ -150,7 +202,6 @@ var config = {
                   <img alt="piscum.photos random image" src="https://picsum.photos/300?image=565" />\
                 </div><!-- .flip_front -->\
                 <div class="flip flip_back">\
-                  <h3>Lorem ipsum</h3>\
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui viverra, ornare lorem ut, condimentum nibh. Quisque ut bibendum nulla.</p>\
                 </div><!-- .flip_back -->\
               </div><!-- #flip3 -->\
@@ -159,7 +210,6 @@ var config = {
                   <img alt="piscum.photos random image" src="https://picsum.photos/300?image=565" />\
                 </div><!-- .flip_front -->\
                 <div class="flip flip_back">\
-                  <h3>Lorem ipsum</h3>\
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui viverra, ornare lorem ut, condimentum nibh. Quisque ut bibendum nulla.</p>\
                 </div><!-- .flip_back -->\
               </div><!-- #flip4 -->\
@@ -180,8 +230,9 @@ var config = {
       callback: "",
       onChapterEnter: [],
       onChapterExit: []
-    }
+    }*/
 
   ]
   
 };
+
