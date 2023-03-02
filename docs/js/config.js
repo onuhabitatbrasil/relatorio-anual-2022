@@ -145,23 +145,39 @@ var config = {
       </ol>\
       <div class="carousel-inner">\
           <div class="carousel-item active">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="First slide">\
-              <div class="carousel-caption d-none d-md-block">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Janeiro slide">\
+              <div class="carousel-caption">\
                   <h3>Janeiro</h3>\
-                  <a href="#" class="btn btn-primary">Ler mais</a>\
+                  <a href="#" class="btn btn-primary">Saiba mais</a>\
               </div>\
           </div>\
           <div class="carousel-item">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="Second slide">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Fevereiro slide">\
+              <div class="carousel-caption">\
+                <h3>Fevereiro</h3>\
+                <a href="#" class="btn btn-primary">Saiba mais</a>\
+              </div>\
           </div>\
           <div class="carousel-item">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="Third slide">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Março slide">\
+              <div class="carousel-caption">\
+                <h3>Março</h3>\
+                <a href="#" class="btn btn-primary">Saiba mais</a>\
+              </div>\
           </div>\
           <div class="carousel-item">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="Third slide">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Abril slide">\
+              <div class="carousel-caption">\
+                <h3>Abril</h3>\
+                <a href="#" class="btn btn-primary">Saiba mais</a>\
+              </div>\
           </div>\
           <div class="carousel-item">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="Third slide">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Maio slide">\
+              <div class="carousel-caption">\
+                <h3>Maio</h3>\
+                <a href="#" class="btn btn-primary">Saiba mais</a>\
+              </div>\
           </div>\
       </div>\
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\

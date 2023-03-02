@@ -297,18 +297,24 @@ ul.social-icons li{
     text-transform: uppercase;
 }
 
-.lefty h1, .righty h1 {
-    padding: 0.5em 0em;
-    line-height: 24px;
-    font-size: 28px;
-    font-family: 'Heavitas', sans-serif;
-    text-transform: uppercase;
+.fully h2, .fully h3 {
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .fully p, .centered p {
     line-height: 20px;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.lefty h1, .righty h1 {
+    padding: 0.5em 0em;
+    line-height: 24px;
+    font-size: 28px;
+    font-family: 'Heavitas', sans-serif;
+    text-transform: uppercase;
 }
 
 .lefty p, .righty p {
@@ -353,7 +359,7 @@ ul.social-icons li{
 }
 
 .mapboxgl-ctrl-top-right {
-    margin-top: 20px !important;
+    margin-top: 75px !important;
     margin-right: 20px !important;
 }
 
