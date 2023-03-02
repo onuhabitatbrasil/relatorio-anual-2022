@@ -187,69 +187,7 @@ var config = {
       callback: "",
       onChapterEnter: [],
       onChapterExit: []
-    },
-
-    /*
-    {
-      id: "linha-tempo2",
-      alignment: "full",
-      hidden: false,
-      //title: 'Abertura',
-      //bookmark: 'Abertura',
-      description: '\
-      <div class="wrapper">\
-            <h1>Linha do Tempo<h1>\
-            <div class="carousel">\
-              <div id="flip1" class="flipcard">\
-                <div class="flip flip_front">\
-                  <img alt="piscum.photos random image" src="https://picsum.photos/300?image=980" />\
-                </div><!-- .flip_front -->\
-                <div class="flip flip_back">\
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui viverra, ornare lorem ut, condimentum nibh. Quisque ut bibendum nulla.</p>\
-                </div><!-- .flip_back -->\
-              </div><!-- #flip1 -->\
-              <div id="flip2" class="flipcard">\
-                <div class="flip flip_front">\
-                  <img alt="piscum.photos random image" src="https://picsum.photos/300?image=1078" />\
-                </div><!-- .flip_front -->\
-                <div class="flip flip_back">\
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui viverra, ornare lorem ut, condimentum nibh. Quisque ut bibendum nulla.</p>\
-                </div><!-- .flip_back -->\
-              </div><!-- #flip2 -->\
-              <div id="flip3" class="flipcard">\
-                <div class="flip flip_front">\
-                  <img alt="piscum.photos random image" src="https://picsum.photos/300?image=565" />\
-                </div><!-- .flip_front -->\
-                <div class="flip flip_back">\
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui viverra, ornare lorem ut, condimentum nibh. Quisque ut bibendum nulla.</p>\
-                </div><!-- .flip_back -->\
-              </div><!-- #flip3 -->\
-              <div id="flip4" class="flipcard">\
-                <div class="flip flip_front">\
-                  <img alt="piscum.photos random image" src="https://picsum.photos/300?image=565" />\
-                </div><!-- .flip_front -->\
-                <div class="flip flip_back">\
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dui viverra, ornare lorem ut, condimentum nibh. Quisque ut bibendum nulla.</p>\
-                </div><!-- .flip_back -->\
-              </div><!-- #flip4 -->\
-            </div>\
-      </div>\
-      ',
-      location: {
-        center: [-22.32528, -2.14945],
-        zoom: 1.5,
-        pitch: 0,
-        bearing: 0,
-        speed: 2,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
-    }*/
+    }
 
   ]
   

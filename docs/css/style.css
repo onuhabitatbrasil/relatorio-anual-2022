@@ -288,7 +288,9 @@ ul.social-icons li{
 }
 
 .fully h1, .centered h1 {
-    padding: 0.5em 0em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 0.25em;
     line-height: 20px;
     font-size: 36px;
     font-family: 'Heavitas', sans-serif;
@@ -392,7 +394,7 @@ ul.social-icons li{
     }
 
     .step div {
-        padding: 5px 30px;
+        padding: 5px 5px;
     }
 
     .fully h1, .centered h1 {
@@ -500,84 +502,3 @@ ul.social-icons li{
    opacity: 0;
    }
    }
-
-/* FLIP 
-.flip img {
-    width: 100%;
-    height: auto;
-}
-
-.wrapper{
-    padding-top: 10px;
-    text-align:center;
-}
-
-.wrapper .slick-dots li button:before {
-  font-size:15px;
-  color:white;
-}
-
-.flipcard {
-    margin: 10px auto;
-    position: relative;
-  }
-
-  @media screen and (min-width: 640px) {
-    .flipcard {
-      margin: 0 1px;
-    }
-  }
-  
-  .flip_front {
-    opacity: 1;
-    height: 100%;
-    width: 100%;
-  }
-
-  .flip_back {
-    background-color: #cc3480;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    opacity: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    left: 0;
-    max-width: 100%;
-  }
-  
-  @media screen and (min-width: 640) {
-    .flip_back {
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
-    }
-  }
-  .flip, .flipcard,
-  .flipcard .flip_front,
-  .flipcard .flip_back {
-    max-height: 200px;
-    max-width: 200px;
-    transition: opacity 1s ease-in-out;
-  }
-  .flipcard:hover .flip_front {
-    opacity: 0.2;
-  }
-  .flipcard:hover .flip_back {
-    opacity: 1;
-  }
-  
-  @media screen and (min-width: 920px) {
-    .flip, .flipcard,
-    .flipcard .flip_front,
-    .flipcard .flip_back {
-      max-height: 100px;
-      max-width: 100px;
-    }
-  }
-
-  */
