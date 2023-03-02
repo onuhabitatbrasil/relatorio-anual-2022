@@ -315,14 +315,6 @@ ul.social-icons li{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.fully img {
-    margin-top: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
 .lefty img {
     display: block;
     margin-top: 20px;
@@ -344,7 +336,7 @@ ul.social-icons li{
 
 .step div {
     border-radius: 10px;
-    padding: 20px 40px;
+    padding: 5px 5px;
     line-height: 20px;
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;

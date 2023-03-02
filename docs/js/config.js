@@ -54,10 +54,21 @@ var config = {
       hidden: false,
       //title: 'Abertura',
       bookmark: 'Abertura',
-      description: '<h1>Palavras de Abertura</h1>\
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur diam nulla, fermentum eu bibendum in, maximus quis ligula. Ut hendrerit pellentesque lorem. Nunc facilisis felis sit amet sem dapibus ullamcorper. Nullam nec posuere ipsum, eget aliquet neque. Etiam et scelerisque odio, nec viverra nibh. Aliquam eu aliquet neque. Etiam a elementum augue, ac tincidunt nisi. Integer cursus malesuada felis non lacinia. Maecenas dictum magna quis orci tincidunt tristique. Ut sodales nibh a lacus sodales gravida.</p>\
-      <img src="images/abertura.png" alt="Palavras de Abertura"/>\
-      ',
+      description: '\
+      <div class="container text-left">\
+      <h1>Palavras de Abertura</h1>\
+        <div class="row">\
+          <div class="col-md-4">\
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+          </div>\
+          <div class="col-md-4">\
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+          </div>\
+          <div class="col-md-4">\
+            <img src="images/abertura.png" alt="Palavras de Abertura" class="img-fluid"/>\
+          </div>\
+        </div>\
+      </div>',
       location: {
           center: [-22.32528, -2.14945],
           zoom: 1.5,
@@ -129,20 +140,28 @@ var config = {
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>\
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>\
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>\
       </ol>\
       <div class="carousel-inner">\
           <div class="carousel-item active">\
-              <img class="d-block w-100" src="https://placeimg.com/1080/500/animals" alt="First slide">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="First slide">\
               <div class="carousel-caption d-none d-md-block">\
-                  <h5>My Caption Title (1st Image)</h5>\
-                  <p>The whole caption will only show up if the screen is at least medium size.</p>\
+                  <h3>Janeiro</h3>\
+                  <a href="#" class="btn btn-primary">Ler mais</a>\
               </div>\
           </div>\
           <div class="carousel-item">\
-              <img class="d-block w-100" src="https://placeimg.com/1080/500/arch" alt="Second slide">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Second slide">\
           </div>\
           <div class="carousel-item">\
-              <img class="d-block w-100" src="https://placeimg.com/1080/500/nature" alt="Third slide">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Third slide">\
+          </div>\
+          <div class="carousel-item">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Third slide">\
+          </div>\
+          <div class="carousel-item">\
+              <img class="d-block w-100" src="./images/jan.jpg" alt="Third slide">\
           </div>\
       </div>\
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
