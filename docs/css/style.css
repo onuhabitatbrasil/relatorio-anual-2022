@@ -125,7 +125,7 @@ a:hover {
 @media (max-width: 700px) and (orientation:portrait) {
     #header h1 {
         font-size: 2.75em;
-        padding-top: 10vh;
+        padding-top: 15vh;
     }
     #header h2 {
         font-size: 1.85em;
@@ -291,8 +291,7 @@ ul.social-icons li{
     padding-top: 1em;
     padding-bottom: 0.5em;
     padding-left: 0.25em;
-    line-height: 20px;
-    font-size: 36px;
+    font-size: 26px;
     font-family: 'Heavitas', sans-serif;
     text-transform: uppercase;
 }
@@ -304,14 +303,12 @@ ul.social-icons li{
 }
 
 .fully p, .centered p {
-    line-height: 20px;
-    font-size: 18px;
+    line-height: 16px;
+    font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .lefty h1, .righty h1 {
-    padding: 0.5em 0em;
-    line-height: 24px;
     font-size: 28px;
     font-family: 'Heavitas', sans-serif;
     text-transform: uppercase;
@@ -325,10 +322,9 @@ ul.social-icons li{
 
 .lefty img {
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em 0em;
     width: 75%;
 }
 
@@ -343,8 +339,6 @@ ul.social-icons li{
 }
 
 .step div {
-    border-radius: 10px;
-    padding: 5px 5px;
     line-height: 20px;
     font-size: 14px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -399,17 +393,11 @@ ul.social-icons li{
         padding-bottom: 65vh;
     }
 
-    .step div {
-        padding: 5px 5px;
-    }
-
     .fully h1, .centered h1 {
-        line-height: 1em;
         font-size: 1.5em;
     }
 
     .lefty h1, .righty h1 {
-        line-height: 1em;
         font-size: 1.5em;
     }
 
@@ -508,3 +496,55 @@ ul.social-icons li{
    opacity: 0;
    }
    }
+
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .card-static-title {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+    opacity: 1;
+    padding: 0px;
+  }
+  
+  .card-static-title h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .card-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+
+  .card-img-top {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transform-origin: 0 5;
+    transition: transform 0.7s, visibility 0.7s ease-in;
+  }
+  
+  .card-overlay:hover {
+    background: rgba(255, 176, 248, 0.747);
+    opacity: 1;
+    transition: all 0.4s ease;
+  }
+  
+  .card-overlay:hover > .card-body {
+    top: 30%;
+  }
+  
+ 
+  .card:hover > .card-static-title {
+    bottom: -10%;
+    opacity: 0;
+  }

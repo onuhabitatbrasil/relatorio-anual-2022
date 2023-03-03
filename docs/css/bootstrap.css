@@ -348,7 +348,6 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -464,7 +463,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: 100%;
+  bottom: 0;
+  position: relative;
 }
 
 .img-thumbnail {
@@ -538,8 +538,15 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding: 20px 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-history
+ {
+  width: 100%;
+  padding: 0px 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -6601,8 +6608,8 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background: 50% / 100% 100% no-repeat;
 }
 
@@ -6634,8 +6641,8 @@ a.close.disabled {
   box-sizing: content-box;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 25px;
+  height: 5px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
