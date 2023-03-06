@@ -290,21 +290,38 @@ ul.social-icons li{
 .fully h1, .centered h1 {
     padding-top: 1em;
     padding-bottom: 0.5em;
-    padding-left: 0.25em;
+    padding-left: 0.3em;
     font-size: 26px;
     font-family: 'Heavitas', sans-serif;
     text-transform: uppercase;
 }
 
 .fully h2, .fully h3 {
+    font-size: 2em;
     font-family: "cooper-black-std", serif;
     font-weight: 400;
     font-style: normal;
 }
 
+.fully .card-title {
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fully .card-text {
+    padding-bottom: 10px;
+    line-height: 24px;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .fully p, .centered p {
-    line-height: 16px;
-    font-size: 14px;
+    line-height: 12px;
+    font-size: 12px;
+    text-align: justify;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -395,6 +412,22 @@ ul.social-icons li{
 
     .fully h1, .centered h1 {
         font-size: 1.5em;
+        padding-left: 0.5em;
+    }
+
+    .fully .card-title {
+        padding-bottom: 2px;
+        font-size: 1.25em;
+    }
+
+    .fully .card-text {
+        padding-bottom: 2px;
+        line-height: 12px;
+        font-size: 12px;
+    }
+
+    .card-body {
+        padding: 3% 20%;
     }
 
     .lefty h1, .righty h1 {
@@ -498,13 +531,13 @@ ul.social-icons li{
    }
 
   .card:hover {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     transition: all 0.3s ease;
   }
   
   .card-static-title {
     position: absolute;
-    bottom: 0%;
+    bottom: 20%;
+    left: 15%;
     width: 100%;
     color: whitesmoke;
     transition: all 0.3s ease;
@@ -534,7 +567,7 @@ ul.social-icons li{
   }
   
   .card-overlay:hover {
-    background: rgba(255, 176, 248, 0.747);
+    background: rgba(255, 176, 248, 0.3);
     opacity: 1;
     transition: all 0.4s ease;
   }
@@ -542,9 +575,29 @@ ul.social-icons li{
   .card-overlay:hover > .card-body {
     top: 30%;
   }
-  
  
   .card:hover > .card-static-title {
     bottom: -10%;
     opacity: 0;
   }
+
+  .card__button {
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1rem;
+    color: #fff;
+    background-color: #e83e8c;
+    border-color: #e83e8c;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .card__button:hover {
+    color: #fff;
+    background-color: #e3773b;
+    text-decoration: none;
+  }
+

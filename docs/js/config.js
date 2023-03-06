@@ -54,18 +54,25 @@ var config = {
       hidden: false,
       //title: 'Abertura',
       bookmark: 'Abertura',
+
       description: '\
-      <div class="container text-left">\
-      <h1>Palavras de Abertura</h1>\
+      <div class="container">\
         <div class="row">\
-          <div class="col-md-4">\
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+          <div class="col-md-6">\
+            <h1>Palavras de Abertura</h1>\
+            <div class="row">\
+                <div class="col-md-6">\
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. <strong>Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</strong> Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
+              </div>\
+              <div class="col-md-6">\
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. <strong>In nulla tellus, sagittis sed magna in, cursus pretium diam.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</p>\
+              </div>\
           </div>\
-          <div class="col-md-4">\
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
-          </div>\
-          <div class="col-md-4">\
-            <img src="images/abertura.png" alt="Palavras de Abertura" class="img-fluid"/>\
+        </div>\
+          <div class="col-md-6">\
+              <img src="images/abertura.png" alt="" class="img-fully"/>\
           </div>\
         </div>\
       </div>',
@@ -136,69 +143,57 @@ var config = {
       hidden: false,
       //title: 'Abertura',
       //bookmark: 'Abertura',
-      description: '<h1>Linha do Tempo</h1>\
-      </><div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
-      <ol class="carousel-indicators">\
+      description: '\
+      <div class="container">\
+        <h1>Linha do Tempo</h1>\
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
+        <ol class="carousel-indicators">\
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>\
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>\
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>\
-      </ol>\
-      <div class="carousel-inner">\
-          <div class="carousel-item active">\
-              <div class="card">\
-                <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
-                <div class="card-static-title">\
-                  <h3>Janeiro</h3>\
-                </div>\
-                <div class="card-overlay">\
-                <div class="card-body">\
-                  <h3 class="card-title">Hipster Ipsum</h3>\
-                  <p class="card-text">Enim 3 wolf moon incididunt cardigan, air plant flexitarian est migas truffaut actually paleo.</p>\
-                  <a href="#" class="btn button-link">Link</a>\
+        </ol>\
+        <div class="carousel-inner">\
+            <div class="carousel-item active">\
+                <div class="card">\
+                  <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
+                  <div class="card-static-title">\
+                    <h3>Janeiro</h3>\
+                    <p>Texto de descrição aqui</p>\
+                  </div>\
+                  <div class="card-overlay">\
+                  <div class="card-body">\
+                    <h3 class="card-title">Janeiro</h3>\
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
+                    <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary">Saiba mais</a>\
+                  </div>\
                 </div>\
               </div>\
-              </div>\
-          </div>\
-          <div class="carousel-item">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="Fevereiro slide">\
-              <div class="carousel-caption">\
+            </div>\
+            <div class="carousel-item">\
+            <div class="card">\
+              <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
+              <div class="card-static-title">\
                 <h3>Fevereiro</h3>\
-                <a href="#" class="btn btn-primary">Saiba mais</a>\
+                <p>Texto de descrição aqui</p>\
               </div>\
-          </div>\
-          <div class="carousel-item">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="Março slide">\
-              <div class="carousel-caption">\
-                <h3>Março</h3>\
-                <a href="#" class="btn btn-primary">Saiba mais</a>\
+              <div class="card-overlay">\
+              <div class="card-body">\
+                <h3 class="card-title">Fevereiro</h3>\
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
+                <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary">Saiba mais</a>\
               </div>\
+            </div>\
           </div>\
-          <div class="carousel-item">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="Abril slide">\
-              <div class="carousel-caption">\
-                <h3>Abril</h3>\
-                <a href="#" class="btn btn-primary">Saiba mais</a>\
-              </div>\
-          </div>\
-          <div class="carousel-item">\
-              <img class="d-block w-100" src="./images/jan.jpg" alt="Maio slide">\
-              <div class="carousel-caption">\
-                <h3>Maio</h3>\
-                <a href="#" class="btn btn-primary">Saiba mais</a>\
-              </div>\
-          </div>\
-      </div>\
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
-          <span class="sr-only">Previous</span>\
-      </a>\
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">\
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>\
-          <span class="sr-only">Next</span>\
-      </a>\
-  </div>',
+        </div>\
+        </div>\
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
+            <span class="sr-only">Previous</span>\
+        </a>\
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">\
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>\
+            <span class="sr-only">Next</span>\
+        </a>\
+      </div>',
       location: {
         center: [-22.32528, -2.14945],
         zoom: 1.5,
@@ -232,16 +227,19 @@ var config = {
                 <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
                 <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
                 <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano. </p>\
+                <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
               </div>\
               <div class="col-md-6">\
                 <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, com o encontro desses dois universos e com o respeito às soluções inusitadas, muitos caminhos foram abertos e alguns já renderam frutos.</p>\
                 <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
                 <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
+                <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco Pernambuco.\
+                </p>\
               </div>\
           </div>\
         </div>\
           <div class="col-md-5">\
-              <img src="images/pernambuco.png" alt="" class="img-fluid"/>\
+              <img src="images/pernambuco.png" alt="" class="img-fully"/>\
           </div>\
         </div>\
       </div>',
@@ -265,7 +263,7 @@ var config = {
       callback: '',
       onChapterEnter: [],
       onChapterExit: []
-    },
+    }
 
   ]
   
