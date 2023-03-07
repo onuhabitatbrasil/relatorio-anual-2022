@@ -422,8 +422,8 @@ ul.social-icons li{
 
     .fully .card-text {
         padding-bottom: 2px;
-        line-height: 12px;
-        font-size: 12px;
+        line-height: 10px;
+        font-size: 11px;
     }
 
     .card-body {
@@ -600,4 +600,3 @@ ul.social-icons li{
     background-color: #e3773b;
     text-decoration: none;
   }
-
