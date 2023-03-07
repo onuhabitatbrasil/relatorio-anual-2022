@@ -54,24 +54,27 @@ var config = {
       hidden: false,
       //title: 'Abertura',
       bookmark: 'Abertura',
-
       description: '\
-      <div class="container">\
-        <div class="row">\
-          <div class="col-md-6">\
-            <h1>Palavras de Abertura</h1>\
+      <div class="container-history text-left">\
+        <div class="row no-gutters">\
+          <div class="col-lg-7">\
             <div class="row">\
-                <div class="col-md-6">\
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. <strong>Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</strong> Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
+              <div class="col-md-12">\
+                <h1>Palavras de Abertura</h1>\
+              </div>\
+            </div>\
+            <div class="row">\
+              <div class="col-md-6">\
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. <strong>Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</strong> Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
               </div>\
               <div class="col-md-6">\
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. <strong>In nulla tellus, sagittis sed magna in, cursus pretium diam.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</p>\
               </div>\
-          </div>\
+            </div>\
         </div>\
-          <div class="col-md-6">\
+          <div class="col-lg-5">\
               <img src="images/abertura.png" alt="" class="img-fully"/>\
           </div>\
         </div>\
@@ -161,7 +164,7 @@ var config = {
                   </div>\
                   <div class="card-overlay">\
                   <div class="card-body">\
-                    <h3 class="card-title">Janeiro</h3>\
+                    <h5 class="card-title">Janeiro</h5>\
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
                     <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary">Saiba mais</a>\
                   </div>\
@@ -177,7 +180,7 @@ var config = {
               </div>\
               <div class="card-overlay">\
               <div class="card-body">\
-                <h3 class="card-title">Fevereiro</h3>\
+                <h5 class="card-title">Fevereiro</h5>\
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
                 <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary">Saiba mais</a>\
               </div>\
@@ -264,7 +267,11 @@ var config = {
       <div class="container-history text-left">\
         <div class="row no-gutters">\
           <div class="col-lg-7">\
-            <h1>Infinitas conexões entre o espaço público e o sideral</h1>\
+            <div class="row">\
+              <div class="col-md-12">\
+                <h1>Infinitas conexões entre o espaço público e o sideral</h1>\
+              </div>\
+            </div>\
             <div class="row">\
               <div class="col-md-6">\
                   <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\

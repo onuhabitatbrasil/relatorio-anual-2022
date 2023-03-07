@@ -287,48 +287,11 @@ ul.social-icons li{
     margin: auto;
 }
 
-.fully h1, .centered h1 {
-    padding-top: 1em;
-    padding-bottom: 0.5em;
-    padding-left: 0.3em;
-    font-size: 26px;
-    font-family: 'Heavitas', sans-serif;
-    text-transform: uppercase;
-}
-
-.fully h2, .fully h3 {
-    font-size: 2em;
-    font-family: "cooper-black-std", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.fully .card-title {
-    padding-bottom: 10px;
-    font-size: 2.5em;
-    font-family: "cooper-black-std", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.fully .card-text {
-    padding-bottom: 10px;
-    line-height: 24px;
-    font-size: 24px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
 .fully p, .centered p {
     line-height: 12px;
     font-size: 12px;
     text-align: justify;
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-.lefty h1, .righty h1 {
-    font-size: 28px;
-    font-family: 'Heavitas', sans-serif;
-    text-transform: uppercase;
 }
 
 .lefty p, .righty p {
@@ -353,12 +316,6 @@ ul.social-icons li{
 
 .step.active {
     opacity: 0.99;
-}
-
-.step div {
-    line-height: 20px;
-    font-size: 14px;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #rotate-mobile {
@@ -388,6 +345,10 @@ ul.social-icons li{
 #footer a:hover {
     color: #cc3480;
 }
+
+.indice {
+    padding: 1.5em 0;
+}
   
 @media (max-width: 700px) {
 
@@ -410,28 +371,29 @@ ul.social-icons li{
         padding-bottom: 65vh;
     }
 
-    .fully h1, .centered h1 {
-        font-size: 1.5em;
-        padding-left: 0.5em;
-    }
-
-    .fully .card-title {
-        padding-bottom: 2px;
-        font-size: 1.25em;
-    }
-
     .fully .card-text {
-        padding-bottom: 2px;
-        line-height: 10px;
-        font-size: 11px;
+        line-height: 7px;
+        font-size: 10px;
     }
 
     .card-body {
         padding: 3% 20%;
     }
 
-    .lefty h1, .righty h1 {
-        font-size: 1.5em;
+    .btn-primary {
+        font-size: 0.5em;
+        padding: 0.25rem;
+    }
+
+    h1, .h1 {
+        font-size: 1.25rem;
+        font-family: 'Heavitas', sans-serif;
+    }
+
+    .carousel-indicators li {
+       width: 10px;
+       height: 10px;
+       margin: 0.5px;
     }
 
     .fully img {
@@ -567,7 +529,7 @@ ul.social-icons li{
   }
   
   .card-overlay:hover {
-    background: rgba(255, 176, 248, 0.3);
+    background: rgb(204, 52, 128, 0.75);
     opacity: 1;
     transition: all 0.4s ease;
   }
@@ -581,22 +543,3 @@ ul.social-icons li{
     opacity: 0;
   }
 
-  .card__button {
-    font-family: "cooper-black-std", serif;
-    font-weight: 400;
-    font-style: normal;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 1rem;
-    color: #fff;
-    background-color: #e83e8c;
-    border-color: #e83e8c;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-
-  .card__button:hover {
-    color: #fff;
-    background-color: #e3773b;
-    text-decoration: none;
-  }

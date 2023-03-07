@@ -74,13 +74,13 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 abbr[title],
@@ -353,27 +353,40 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  font-family: 'Heavitas', sans-serif;
 }
 
 h2, .h2 {
-  font-size: 2rem;
-}
-
-h3, .h3 {
   font-size: 1.75rem;
 }
 
-h4, .h4 {
+h3, .h3 {
   font-size: 1.5rem;
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4, .h4 {
+  font-size: 1.25rem;
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 0.75rem;
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .lead {
@@ -469,7 +482,7 @@ mark,
 }
 
 .img-fully {
-  max-width: 100%;
+  max-width: -webkit-fill-available;
 }
 
 .img-thumbnail {
@@ -543,7 +556,7 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding: 20px 20px;
+  padding: 10px 10px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -558,7 +571,7 @@ pre code {
 
 @media (min-width: 576px) {
   .container, .container-sm {
-    max-width: 540px;
+    max-width: 550px;
   }
 }
 
@@ -587,6 +600,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -0px;
   margin-left: -0px;
+  margin-top: 0.5rem;
 }
 
 .no-gutters {
@@ -608,8 +622,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .col {
@@ -2567,10 +2581,11 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
+  font-size: 0.75em;
   font-family: "cooper-black-std", serif;
   font-weight: 400;
   font-style: normal;
-  border-radius: 5px;
+  border-radius: 1em;
   padding: 0.5rem;
   color: #fff;
   background-color: transparent;
@@ -2578,34 +2593,35 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #e83e8c;
-  border-color: #fff;
+  color: #000;
+  background-color: #e3773b;
+  border-color: #000;
+  text-decoration: none;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  color: #fff;
-  background-color: #fd7e14;
-  border-color: #fd7e14;
-  box-shadow: 0 0 0 0.2rem rgba(255, 145, 0, 0.5);
+  color: #000;
+  background-color: #e3773b;
+  border-color: #e3773b;
+  box-shadow: 0 0 0 0.2rem rgba(227, 119, 59, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #fd7e14;
-  border-color: #fd7e14;
+  background-color: #e3773b;
+  border-color: #e3773b;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #fd7e14;
-  border-color: #fd7e14;
+  background-color: #e3773b;
+  border-color: #e3773b;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 145, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(227, 119, 59, 0.5);
 }
 
 .btn-secondary {
@@ -4833,12 +4849,11 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 10% 15%;
+  padding: 5% 15%;
 }
 
 .card-title {
   margin-bottom: 0.25rem;
-  font-size: 8px;
 }
 
 .card-subtitle {
