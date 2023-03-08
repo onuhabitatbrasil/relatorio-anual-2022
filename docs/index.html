@@ -23,21 +23,35 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!--
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
     <script>
-        $(document).ready(function(){
-            $('.carousel').slick({
-            slidesToShow: 3,
-            dots:true,
-            centerMode: false,
-            });
-          });     
-    </script>-->
+ 
+        const handleMousePos = (e) => {
+            const CURSOR = document.querySelector('#mouse-cursor');
+            const HOVER = document.querySelectorAll('.cursor-hover');
+            const { pageX: posX, pageY: posY } = e;
+          
+            const runMouseOver = () => {
+              CURSOR.style.transform = 'scale(3)';
+              CURSOR.style.background = 'transparent';
+              CURSOR.style.border = '3px solid #e3773b';
+            };
+            HOVER.forEach(hover => hover.addEventListener('mouseenter', runMouseOver));
+          
+            const runMouseLeave = () => {
+              CURSOR.style.transform = '';
+              CURSOR.style.background = '';
+              CURSOR.style.border = '';
+            };
+            HOVER.forEach(hover => hover.addEventListener('mouseleave', runMouseLeave));
+            
+            return (
+              CURSOR.style.left = `${posX - 10}px`,
+              CURSOR.style.top = `${posY - 10}px`  
+            );
+          };
+          document.addEventListener('mousemove', handleMousePos);
+
+    </script>
 
     <script>
         // When the user scrolls the page, execute myFunction 
@@ -100,7 +114,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle cursor-hover" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                   Sumário
                 </a>
                 <div class="dropdown-menu">
@@ -123,27 +137,27 @@
                 <ul class="social-icons">
                     <li>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&quote=ONU-Habitat%20-%20Relatório%20Anual%202022" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Facebook">
-                            <i class="fa fa-facebook fa-2x"></i>
+                            <i class="fa fa-facebook fa-2x cursor-hover"></i>
                         </a>
                     </li>
                     <li>
                         <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&text=ONU-Habitat%20-%20Relatório%20Anual%202022:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&via=ONUHABITATBR" target="_blank" rel="noopener noreferrer" title="Tweetar Relatório">
-                            <i class="fa fa-twitter fa-2x"></i>
+                            <i class="fa fa-twitter fa-2x cursor-hover"></i>
                         </a>
                     </li>
                     <li>
                         <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&title=ONU-Habitat%20-%20Relatório%20Anual%202022&summary=ONU-Habitat%20-%20Relatório%20Anual%202022&source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Linkedin">
-                            <i class="fa fa-linkedin fa-2x"></i>
+                            <i class="fa fa-linkedin fa-2x cursor-hover"></i>
                         </a>
                     </li>
                     <li>
                         <a href="mailto:?subject=ONU-Habitat%20-%20Relatório%20Anual%202022&body=Acesse%20o%20relatório:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Enviar Relatório por email">
-                            <i class="fa fa-at fa-2x"></i>
+                            <i class="fa fa-at fa-2x cursor-hover"></i>
                         </a>
                     </li>
                     <li>
                         <a href="whatsapp://send?text=Relatório%20Anual%202022%20ONU-Habitat%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Whatsapp">
-                            <i class="fa fa-whatsapp fa-2x"></i>
+                            <i class="fa fa-whatsapp fa-2x cursor-hover"></i>
                         </a>
                     </li>
                 </ul>
@@ -155,19 +169,21 @@
             </div> 
         </div>
         <a class="smoothscroll" href="#subheader">
-            <div class="scroll-down"></div>
+            <div class="scroll-down cursor-hover"></div>
         </a> 
     </div>    
 
     <div id="subheader">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur diam nulla, fermentum eu bibendum in, maximus quis ligula. Ut hendrerit pellentesque lorem. Nunc facilisis felis sit amet sem dapibus ullamcorper. Nullam nec posuere ipsum, eget aliquet neque. Etiam et scelerisque odio, nec viverra nibh. Aliquam eu aliquet neque. Etiam a elementum augue, ac tincidunt nisi. Integer cursus malesuada felis non lacinia. Maecenas dictum magna quis orci tincidunt tristique. Ut sodales nibh a lacus sodales gravida.</p>
         <a class="smoothscroll" href="#intro-empty">
-            <div class="scroll-down"></div>
+            <div class="scroll-down cursor-hover"></div>
         </a> 
     </div>
                   
     <div id="map"></div>
     <div id="mapInset"></div>
+
+    <div id="mouse-cursor"></div>
     
     <div id="story"></div>
 

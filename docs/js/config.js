@@ -25,6 +25,7 @@ var config = {
   //footer: 'Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox ////Storytelling</a> template.',
 
   chapters: [
+
     {
       id: "intro-empty",
       alignment: "left",
@@ -150,7 +151,7 @@ var config = {
       <div class="container">\
         <h1>Linha do Tempo</h1>\
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
-        <ol class="carousel-indicators">\
+        <ol class="carousel-indicators cursor-hover">\
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
         </ol>\
@@ -166,7 +167,7 @@ var config = {
                   <div class="card-body">\
                     <h5 class="card-title">Janeiro</h5>\
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
-                    <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary">Saiba mais</a>\
+                    <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary cursor-hover">Saiba mais</a>\
                   </div>\
                 </div>\
               </div>\
@@ -182,17 +183,17 @@ var config = {
               <div class="card-body">\
                 <h5 class="card-title">Fevereiro</h5>\
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
-                <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary">Saiba mais</a>\
+                <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary cursor-hover">Saiba mais</a>\
               </div>\
             </div>\
           </div>\
         </div>\
         </div>\
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
+        <a class="carousel-control-prev cursor-hover" href="#carouselExampleIndicators" role="button" data-slide="prev">\
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
             <span class="sr-only">Previous</span>\
         </a>\
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">\
+        <a class="carousel-control-next cursor-hover" href="#carouselExampleIndicators" role="button" data-slide="next">\
             <span class="carousel-control-next-icon" aria-hidden="true"></span>\
             <span class="sr-only">Next</span>\
         </a>\
@@ -212,50 +213,6 @@ var config = {
       onChapterEnter: [],
       onChapterExit: []
     },
-
-    /*{
-      id: 'historia-pernambuco',
-      alignment: 'full',
-      hidden: false,
-      //title: 'Abertura',
-      bookmark: 'Pernambuco',
-      description: '\
-      <div class="p-0">\
-      <div class="row no-gutters">\
-          <div class="col-lg-7 order-lg-1">\
-              <h1>Infinitas conexões entre o espaço público e o sideral</h1>\
-              <div class="col-lg-6 order-lg-1">\
-                <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
-                <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
-                <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
-                <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano. </p>\
-                <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
-              </div>\
-          </div>\
-          <div class="col-lg-5 order-lg-2 text-white showcase-img"><span>\
-          <img src="images/pernambuco.png" alt="" class="img-fully"/>\</span></div>\
-      </div>',
-      location: {
-          center: [-22.32528, -2.14945],
-          zoom: 1.5,
-          pitch: 0,
-          bearing: 0,
-          speed: 2
-          // flyTo additional controls-
-          // These options control the flight curve, making it move
-          // slowly and zoom out almost completely before starting
-          // to pan.
-          //speed: 2, // make the flying slow
-          //curve: 1, // change the speed at which it zooms out
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
-    }*/
 
     {
       id: 'historia-pernambuco',
