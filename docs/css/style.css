@@ -24,7 +24,7 @@ body {
     /*mix-blend-mode: difference;*/
     pointer-events: none;
     z-index: 9999;
-    transition: top 0.025s ease, left 0.025s ease, transform 0.25s ease;
+    transition: top 0.025s ease, left 0.025s ease, transform 0.5s ease;
 }
 
 #map {
@@ -57,7 +57,7 @@ body {
 }
 
 #subheader {
-    background-color: #cc3480;
+    background-color: #00afe2;
     margin: auto;
     width: 100%;
     position: relative;
