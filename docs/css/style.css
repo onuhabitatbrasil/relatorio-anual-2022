@@ -1,6 +1,9 @@
-@import url('https://fonts.cdnfonts.com/css/heavitas');
+/*@import url('https://fonts.cdnfonts.com/css/heavitas?styles=22395');*/
 /*font-family: 'Heavitas', sans-serif;*/
-                                                
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bungee&display=swap');
+/*font-family: 'Bungee', cursive;*/
+                                            
 @import url("https://use.typekit.net/wfa7gqq.css");
 /*font-family: "cooper-black-std", serif;
 font-weight: 400;
@@ -14,6 +17,19 @@ body {
     padding: 0;
 }
 
+.p-bottom {
+    padding-bottom: 2em;
+}
+
+.p-right-left {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.p-top {
+    padding-top: 1em;
+}
+
 #mouse-cursor {
     position: absolute;
     width: 20px;
@@ -25,6 +41,13 @@ body {
     pointer-events: none;
     z-index: 9999;
     transition: top 0.025s ease, left 0.025s ease, transform 0.5s ease;
+}
+
+@media (max-width: 800px)  {
+    
+    #mouse-cursor { 
+        display: none; 
+    }
 }
 
 #map {
@@ -67,18 +90,18 @@ body {
 
 #subheader p {
     color: #fff;
-    line-height: 28px;
-    font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
-    text-align:justify;
-    padding: 5em 2.5em;
+    padding: 5em 3em;
     margin-block-start: 0em;
     margin-block-end: 0em;
+    line-height: 28px;
+    font-size: 20px;
 }
 
 #header h1 {
+    text-transform: uppercase;
     font-size: 3.5rem;
-    font-family: 'Heavitas', sans-serif;
+    font-family: 'Bungee', cursive;
     color: #e3773b;
     margin: 0;
     padding-top: 2.5em;
@@ -257,6 +280,10 @@ ul.social-icons li{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+#footer p {
+    text-align: center;
+} 
+
 #footer .indice a {
     padding-right: 0.3em;
 }
@@ -298,19 +325,6 @@ ul.social-icons li{
 .fully {
     width: 100%;
     margin: auto;
-}
-
-.fully p, .centered p {
-    line-height: 12px;
-    font-size: 12px;
-    text-align: justify;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.lefty p, .righty p {
-    line-height: 20px;
-    font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .lefty img {
@@ -400,7 +414,6 @@ ul.social-icons li{
 
     h1, .h1 {
         font-size: 1.25rem;
-        font-family: 'Heavitas', sans-serif;
     }
 
     .carousel-indicators li {
@@ -467,41 +480,41 @@ ul.social-icons li{
 /*animated scroll arrow animation*/
 @-webkit-keyframes fade_move_down {
     0% {
-   -webkit-transform:translate(0, -10px) rotate(45deg);
-   opacity: 0;
+        -webkit-transform:translate(0, -10px) rotate(45deg);
+        opacity: 0;
    }
     50% {
-   opacity: 1;
+        opacity: 1;
    }
     100% {
-   -webkit-transform:translate(0, 10px) rotate(45deg);
-   opacity: 0;
+        -webkit-transform:translate(0, 10px) rotate(45deg);
+        opacity: 0;
    }
    }
    @-moz-keyframes fade_move_down {
     0% {
-   -moz-transform:translate(0, -10px) rotate(45deg);
-   opacity: 0;
+        -moz-transform:translate(0, -10px) rotate(45deg);
+        opacity: 0;
    }
     50% {
-   opacity: 1;
+        opacity: 1;
    }
     100% {
-   -moz-transform:translate(0, 10px) rotate(45deg);
-   opacity: 0;
+        -moz-transform:translate(0, 10px) rotate(45deg);
+        opacity: 0;
    }
    }
    @keyframes fade_move_down {
     0% {
-   transform:translate(0, -10px) rotate(45deg);
-   opacity: 0;
+        transform:translate(0, -10px) rotate(45deg);
+        opacity: 0;
    }
     50% {
-   opacity: 1;
+        opacity: 1;
    }
     100% {
-   transform:translate(0, 10px) rotate(45deg);
-   opacity: 0;
+        transform:translate(0, 10px) rotate(45deg);
+        opacity: 0;
    }
    }
 

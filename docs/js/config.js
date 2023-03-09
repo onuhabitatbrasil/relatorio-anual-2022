@@ -56,7 +56,7 @@ var config = {
       //title: 'Abertura',
       bookmark: 'Abertura',
       description: '\
-      <div class="container-history text-left">\
+      <div class="container-history text-left p-bottom">\
         <div class="row no-gutters">\
           <div class="col-lg-7">\
             <div class="row">\
@@ -76,7 +76,7 @@ var config = {
             </div>\
         </div>\
           <div class="col-lg-5">\
-              <img src="images/abertura.png" alt="" class="img-fully"/>\
+              <img src="images/abertura.png" alt="" class="img-fluid" />\
           </div>\
         </div>\
       </div>',
@@ -109,10 +109,10 @@ var config = {
         //title: 'Escritório ONU-Habitat Brasil',
         bookmark: 'ONU-Habitat no Brasil',
         image: false,
-        description: '<div class="container">\
+        description: '<div class="container p-bottom p-right-left">\
         <h1>Escritório ONU-Habitat Brasil</h1>\
         <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.</p>\
-        <img src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat em Português"/>\
+        <img class="p-top" src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat em Português"/>\
         </div>\
         ',
         location: {                   
@@ -148,8 +148,8 @@ var config = {
       //title: 'Abertura',
       //bookmark: 'Abertura',
       description: '\
-      <div class="container">\
-        <h1>Linha do Tempo</h1>\
+      <div class="container p-bottom">\
+        <h1 class="p-bottom">Linha do Tempo</h1>\
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
         <ol class="carousel-indicators cursor-hover">\
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
@@ -229,7 +229,7 @@ var config = {
                 <h1>Infinitas conexões entre o espaço público e o sideral</h1>\
               </div>\
             </div>\
-            <div class="row">\
+            <div class="row p-bottom">\
               <div class="col-md-6">\
                   <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
                   <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
@@ -247,7 +247,7 @@ var config = {
             </div>\
         </div>\
           <div class="col-lg-5">\
-              <img src="images/pernambuco.png" alt="" class="img-fully"/>\
+              <img src="images/pernambuco.png" alt="" class="img-fluid"/>\
           </div>\
         </div>\
       </div>',
