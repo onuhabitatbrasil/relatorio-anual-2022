@@ -110,7 +110,7 @@ config.chapters.forEach((record, idx) => {
 
     }
 
-    chapter.classList.add(config.theme);
+    //chapter.classList.add(config.theme);
 
     container.setAttribute('id', record.id);
 

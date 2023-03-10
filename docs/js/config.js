@@ -56,30 +56,33 @@ var config = {
       //title: 'Abertura',
       bookmark: 'Abertura',
       description: '\
-      <div class="container-history text-left p-bottom">\
-        <div class="row no-gutters">\
-          <div class="col-lg-7">\
-            <div class="row">\
-              <div class="col-md-12">\
-                <h1>Palavras de Abertura</h1>\
+      <div class="light">\
+        <div class="container-history text-left p-bottom">\
+          <div class="row no-gutters">\
+            <div class="col-lg-7">\
+              <div class="row">\
+                <div class="col-md-12">\
+                  <h1>Palavras de Abertura</h1>\
+                </div>\
               </div>\
+              <div class="row">\
+                <div class="col-md-6">\
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. <strong>Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</strong> Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
+                </div>\
+                <div class="col-md-6">\
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. <strong>In nulla tellus, sagittis sed magna in, cursus pretium diam.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</p>\
+                </div>\
+              </div>\
+          </div>\
+            <div class="col-lg-5">\
+                <img src="images/abertura.png" alt="" class="img-fluid" />\
             </div>\
-            <div class="row">\
-              <div class="col-md-6">\
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. <strong>Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</strong> Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
-              </div>\
-              <div class="col-md-6">\
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. <strong>In nulla tellus, sagittis sed magna in, cursus pretium diam.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</p>\
-              </div>\
-            </div>\
-        </div>\
-          <div class="col-lg-5">\
-              <img src="images/abertura.png" alt="" class="img-fluid" />\
           </div>\
         </div>\
-      </div>',
+      </div>\
+      ',
       location: {
           center: [-22.32528, -2.14945],
           zoom: 1.5,
@@ -109,10 +112,13 @@ var config = {
         //title: 'Escritório ONU-Habitat Brasil',
         bookmark: 'ONU-Habitat no Brasil',
         image: false,
-        description: '<div class="container p-bottom p-right-left">\
-        <h1>Escritório ONU-Habitat Brasil</h1>\
-        <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.</p>\
-        <img class="p-top" src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat em Português"/>\
+        description: '\
+        <div class="light rounded-lg shadow-lg">\
+          <div class="container p-bottom p-right-left">\
+            <h1>Escritório ONU-Habitat Brasil</h1>\
+            <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.</p>\
+            <img class="p-top" src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat em Português"/>\
+          </div>\
         </div>\
         ',
         location: {                   
@@ -148,56 +154,59 @@ var config = {
       //title: 'Abertura',
       //bookmark: 'Abertura',
       description: '\
-      <div class="container p-bottom">\
-        <h1 class="p-bottom">Linha do Tempo</h1>\
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
-        <ol class="carousel-indicators cursor-hover">\
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
-        </ol>\
-        <div class="carousel-inner">\
-            <div class="carousel-item active">\
-                <div class="card">\
-                  <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
-                  <div class="card-static-title">\
-                    <h3>Janeiro</h3>\
-                    <p>Texto de descrição aqui</p>\
-                  </div>\
-                  <div class="card-overlay">\
-                  <div class="card-body">\
-                    <h5 class="card-title">Janeiro</h5>\
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
-                    <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary cursor-hover">Saiba mais</a>\
+      <div class="light">\
+        <div class="container p-bottom">\
+          <h1 class="p-bottom">Linha do Tempo</h1>\
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
+          <ol class="carousel-indicators cursor-hover">\
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
+          </ol>\
+          <div class="carousel-inner">\
+              <div class="carousel-item active">\
+                  <div class="card">\
+                    <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
+                    <div class="card-static-title">\
+                      <h3>Janeiro</h3>\
+                      <p>Texto de descrição aqui</p>\
+                    </div>\
+                    <div class="card-overlay">\
+                    <div class="card-body">\
+                      <h5 class="card-title">Janeiro</h5>\
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
+                      <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary cursor-hover">Saiba mais</a>\
+                    </div>\
                   </div>\
                 </div>\
               </div>\
-            </div>\
-            <div class="carousel-item">\
-            <div class="card">\
-              <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
-              <div class="card-static-title">\
-                <h3>Fevereiro</h3>\
-                <p>Texto de descrição aqui</p>\
-              </div>\
-              <div class="card-overlay">\
-              <div class="card-body">\
-                <h5 class="card-title">Fevereiro</h5>\
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
-                <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary cursor-hover">Saiba mais</a>\
+              <div class="carousel-item">\
+              <div class="card">\
+                <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
+                <div class="card-static-title">\
+                  <h3>Fevereiro</h3>\
+                  <p>Texto de descrição aqui</p>\
+                </div>\
+                <div class="card-overlay">\
+                <div class="card-body">\
+                  <h5 class="card-title">Fevereiro</h5>\
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
+                  <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary cursor-hover">Saiba mais</a>\
+                </div>\
               </div>\
             </div>\
           </div>\
+          </div>\
+          <a class="carousel-control-prev cursor-hover" href="#carouselExampleIndicators" role="button" data-slide="prev">\
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
+              <span class="sr-only">Previous</span>\
+          </a>\
+          <a class="carousel-control-next cursor-hover" href="#carouselExampleIndicators" role="button" data-slide="next">\
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>\
+              <span class="sr-only">Next</span>\
+          </a>\
         </div>\
-        </div>\
-        <a class="carousel-control-prev cursor-hover" href="#carouselExampleIndicators" role="button" data-slide="prev">\
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
-            <span class="sr-only">Previous</span>\
-        </a>\
-        <a class="carousel-control-next cursor-hover" href="#carouselExampleIndicators" role="button" data-slide="next">\
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>\
-            <span class="sr-only">Next</span>\
-        </a>\
-      </div>',
+      </div>\
+      ',
       location: {
         center: [-22.32528, -2.14945],
         zoom: 1.5,
@@ -221,36 +230,39 @@ var config = {
       //title: 'Abertura',
       bookmark: 'Pernambuco',
       description: '\
-      <div class="container-history text-left">\
-        <div class="row no-gutters">\
-          <div class="col-lg-7">\
-            <div class="row">\
-              <div class="col-md-12">\
-                <h1>Infinitas conexões entre o espaço público e o sideral</h1>\
+      <div class="light">\
+        <div class="container-history text-left">\
+          <div class="row no-gutters">\
+            <div class="col-lg-7">\
+              <div class="row">\
+                <div class="col-md-12">\
+                  <h1>Infinitas conexões entre o espaço público e o sideral</h1>\
+                </div>\
               </div>\
+              <div class="row p-bottom">\
+                <div class="col-md-6">\
+                    <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
+                    <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
+                    <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
+                    <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano. </p>\
+                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
+                </div>\
+                <div class="col-md-6">\
+                    <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, com o encontro desses dois universos e com o respeito às soluções inusitadas, muitos caminhos foram abertos e alguns já renderam frutos.</p>\
+                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
+                    <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
+                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco Pernambuco.\
+                    </p>\
+                </div>\
+              </div>\
+          </div>\
+            <div class="col-lg-5">\
+                <img src="images/pernambuco.png" alt="" class="img-fluid"/>\
             </div>\
-            <div class="row p-bottom">\
-              <div class="col-md-6">\
-                  <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
-                  <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
-                  <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
-                  <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano. </p>\
-                  <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
-              </div>\
-              <div class="col-md-6">\
-                  <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, com o encontro desses dois universos e com o respeito às soluções inusitadas, muitos caminhos foram abertos e alguns já renderam frutos.</p>\
-                  <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
-                  <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
-                  <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco Pernambuco.\
-                  </p>\
-              </div>\
-            </div>\
-        </div>\
-          <div class="col-lg-5">\
-              <img src="images/pernambuco.png" alt="" class="img-fluid"/>\
           </div>\
         </div>\
-      </div>',
+      </div>\
+      ',
       location: {
           center: [-22.32528, -2.14945],
           zoom: 1.5,
