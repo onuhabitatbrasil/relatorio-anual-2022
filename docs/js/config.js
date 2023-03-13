@@ -223,6 +223,9 @@ var config = {
       onChapterExit: []
     },
 
+
+
+
     {
       id: 'historia-pernambuco',
       alignment: 'full',

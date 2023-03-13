@@ -1,8 +1,8 @@
 /*@import url('https://fonts.cdnfonts.com/css/heavitas?styles=22395');*/
 /*font-family: 'Heavitas', sans-serif;*/
 
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bungee&display=swap');
-/*font-family: 'Bungee', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+/*font-family: 'Lilita One', cursive;*/
                                             
 @import url("https://use.typekit.net/wfa7gqq.css");
 /*font-family: "cooper-black-std", serif;
@@ -30,7 +30,7 @@ body {
     padding-top: 1em;
 }
 
-#mouse-cursor {
+#mouse-cursor {    
     position: absolute;
     width: 20px;
     height: 20px;
@@ -71,13 +71,56 @@ body {
 }
 
 #header {
+    position: relative;
     background-color: #fdf0f2;
     margin: auto;
     width: 100%;
-    position: relative;
-    z-index: 5;
+    z-index: 1;
 	height: 100vh;
+    overflow: hidden;
 }
+
+#header video {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    max-width: 70%;
+    /*min-width: 100%;
+    min-height: 100%;*/
+    width: auto;
+    height: auto;
+    z-index: -1;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#header .container {
+    position: relative;
+    z-index: 1000;
+}
+  
+#header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+}
+  
 
 #subheader {
     background-color: #00afe2;
@@ -101,18 +144,18 @@ body {
 #header h1 {
     text-transform: uppercase;
     font-size: 3.5rem;
-    font-family: 'Bungee', cursive;
+    font-family: 'Lilita One', cursive;
     color: #e3773b;
     margin: 0;
-    padding-top: 2.5em;
-    padding-left: 10vw;
+    padding-top: 2.25em;
+    padding-left: 5vw;
     text-align: left;
 }
 
 #header h2 {
     font-size: 2rem;
     margin: 0;
-    padding-left: 10vw;
+    padding-left: 5vw;
     text-align: left;
     font-family: 'Source Sans Pro', sans-serif;
     color: #cc3480;
@@ -122,7 +165,7 @@ body {
 	background: #cc3480;
 	height: 1px;
 	width: 15em;
-    margin-left: 10vw;
+    margin-left: 5vw;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
@@ -144,7 +187,7 @@ a:hover {
 }
 
 #header .logo {
-    padding-left: 10vw;
+    padding-left: 5vw;
 }
 
 #header .logo img{
@@ -154,17 +197,17 @@ a:hover {
 
 #social-share {
     padding-top: 1em;
-    padding-left: 10vw;
+    padding-left: 5vw;
     font-size: 1em;
 }
 
 @media (max-width: 700px) and (orientation:portrait) {
     #header h1 {
-        font-size: 2.75em;
-        padding-top: 15vh;
+        font-size: 2.5em;
+        padding-top: 10vh;
     }
     #header h2 {
-        font-size: 1.85em;
+        font-size: 1.75em;
     }
     #social-share {
         font-size: 0.85em;
@@ -174,8 +217,13 @@ a:hover {
         width: 12em;
     }
     #header .logo img {
-        padding-top: 5em;
+        padding-top: 2em;
         width: 12em; 
+    }
+    #header video {
+        top: 70%;
+        left: 65%;
+        max-width: 120%;
     }
 }
 
@@ -313,7 +361,7 @@ ul.social-icons li{
 }
 
 .lefty {
-    width: 35vw;
+    width: 40vw;
     margin-left: 4vw;
 }
 
