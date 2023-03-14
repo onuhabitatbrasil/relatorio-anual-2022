@@ -18,7 +18,7 @@ body {
 }
 
 .p-bottom {
-    padding-bottom: 2em;
+    padding-bottom: 1.25em;
 }
 
 .p-right-left {
@@ -361,7 +361,7 @@ ul.social-icons li{
 }
 
 .lefty {
-    width: 40vw;
+    width: 33vw;
     margin-left: 4vw;
 }
 
@@ -404,6 +404,7 @@ ul.social-icons li{
 .mapboxgl-ctrl-top-right {
     margin-top: 75px !important;
     margin-right: 20px !important;
+    z-index: 999;
 }
 
 #footer {

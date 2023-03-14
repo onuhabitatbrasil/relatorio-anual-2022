@@ -110,14 +110,14 @@ var config = {
         alignment: 'left',
         hidden: false,
         //title: 'Escritório ONU-Habitat Brasil',
-        bookmark: 'ONU-Habitat no Brasil',
+        bookmark: 'ONU-Habitat Brasil',
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
-          <div class="container p-bottom p-right-left">\
-            <h1>Escritório ONU-Habitat Brasil</h1>\
+          <div class="container p-right-left p-bottom">\
+            <h1 class=>ONU-Habitat Brasil</h1>\
             <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.</p>\
-            <img class="p-top" src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat em Português"/>\
+            <img class="p-top p-bottom" src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat em Português"/>\
           </div>\
         </div>\
         ',
@@ -222,6 +222,49 @@ var config = {
       onChapterEnter: [],
       onChapterExit: []
     },
+
+    {
+      id: 'territorio-jf',
+        alignment: 'left',
+        hidden: false,
+        //title: 'Escritório ONU-Habitat Brasil',
+        bookmark: 'Territorios',
+        image: false,
+        description: '\
+        <div class="light rounded-lg shadow-lg">\
+          <div class="container p-right-left p-bottom">\
+            <h1>Juiz de Fora</h1>\
+            <p>Maior cidade da Zona da Mata de Minas Gerais, Juiz de Fora é reconhecida pelo seu povo acolhedor, pelo espírito vanguardista e pelas diversas experiências que proporciona. Com uma população de aproximadamente 577 mil habitantes e uma localização estratégica, ela se apresenta como capital regional, exercendo influência nos municípios do entorno.</p>\
+            <p>Manchester Mineira e Princesa de Minas são alguns títulos que demonstram sua identidade pioneira e singular. O município foi um importante polo industrial, abrigando diversas fábricas ao longo de sua expansão, como Marmelos Zero, a primeira grande usina hidrelétrica da América do Sul.</p>\
+            <p>Andar pelas ruas é reconhecer em cada canto um pouco da sua história de 172 anos, da sua arquitetura tradicional, dos seus contornos culturais. Mas é também perceber as inúmeras desigualdades territoriais. Conhecer o seu espaço, suas contradições e seus moradores possibilita que Juiz de Fora seja transformada para garantir o direito à cidade a sua população. Para isso, o projeto Territórios da Cidadania atua em 141 microterritórios historicamente excluídos do planejamento urbano. Neste contexto, os dados se transformam em políticas públicas capazes de melhorar a vida de todos os juizforanos.</p>\
+          </div>\
+        </div>\
+        ',
+      location: {
+          center: [-43.34615, -21.75693],
+          zoom: 11,
+          pitch: 45.00,
+          bearing: 0.00,
+          speed: 0.75
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: true,
+      callback: '',
+      onChapterEnter: [
+          {
+              layer: 'microterritorios',
+              opacity: 1
+          }
+      ],
+      onChapterExit: [
+          {
+              layer: 'microterritorios',
+              opacity: 0
+          }
+      ]
+  },
 
     {
       id: 'historia-sp',
