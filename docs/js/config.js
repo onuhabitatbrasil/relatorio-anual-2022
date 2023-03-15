@@ -430,7 +430,7 @@ var config = {
       onChapterEnter: [
           {
               layer: 'sp-parques',
-              opacity: 1
+              opacity: 0.5
           }
       ],
       onChapterExit: [
@@ -476,6 +476,65 @@ var config = {
           </div>\
             <div class="col-lg-4 align-self-end">\
                 <img src="images/pernambuco.png" alt="" class="img-fluid"/>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+          center: [-22.32528, -2.14945],
+          zoom: 1.5,
+          pitch: 0,
+          bearing: 0,
+          speed: 2
+          // flyTo additional controls-
+          // These options control the flight curve, making it move
+          // slowly and zoom out almost completely before starting
+          // to pan.
+          //speed: 2, // make the flying slow
+          //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: '',
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    {
+      id: 'historia-conexes',
+      alignment: 'full',
+      hidden: false,
+      //title: 'Abertura',
+      bookmark: 'Conexões',
+      description: '\
+      <div class="light">\
+        <div class="container-history text-left">\
+          <div class="row no-gutters p-left">\
+            <div class="col-lg-8">\
+              <div class="row">\
+                <div class="col-md-12">\
+                  <h1 class="laranja">Juntos pelo bem comum</h1>\
+                </div>\
+              </div>\
+              <div class="row p-bottom">\
+                <div class="col-md-6">\
+                  <p>Oito lugares, um só espaço. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas três cidades, três estados e dois países: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina.</p>\
+                  <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: harmonia. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um “portunhol” característico, assim como em diversos outros aspectos culturais. E essa composição gera uma identidade única.</p>\
+                  <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. A gente não vê a fronteira como um ponto de separação, mas sim de união”.</p>\
+                  <p>A frase é de Monica Raquel Franchini, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do La Frontera – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
+                </div>\
+                <div class="col-md-6">\
+                  <p>A missão do grupo está baseada em promover os pontos fortes da região através da cooperação e da socialização, estabelecendo parcerias e divulgando sua cultura. Apesar de estar à frente da área de educação, a paixão de Monica pela região transborda para os outros domínios.</p>\
+                  <p>Um marco para o grupo foi a chegada do Conexões Urbanas, iniciativa do ONU-Habitat cujo objetivo é apoiar os municípios na definição de ações para melhorar sua rede de espaços públicos. O projeto promoveu uma avaliação de 32 espaços públicos da região, analisando sua distribuição, acessibilidade, instalações físicas, conforto, segurança, verde, governança, tipos de usos e usuários. Além do conglomerado na fronteira Brasil e Argentina, fazem parte do projeto os municípios de Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e mais duas cidades no Líbano.</p>\
+                  <p>Para Monica, essa parceria vai potencializar as ações do grupo La Frontera, já que os dados fornecidos poderão servir de base para muitas outras ações. Ela sente que as duas instituições têm uma sinergia única em seus objetivos. “Temos que acreditar na nossa gente. Não somos uma só cidade, não somos um só povo: somos uma região fronteiriça com as mesmas necessidades e o mesmo interesse: o bem comum. E o projeto Conexões Urbanas está nos ajudando a se potencializar e crescer como um todo”.</p>\
+                </div>\
+              </div>\
+          </div>\
+            <div class="col-lg-4 align-self-end">\
+                <img src="images/historia-conexoes.png" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
