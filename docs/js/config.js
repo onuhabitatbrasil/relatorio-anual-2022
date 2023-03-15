@@ -131,7 +131,7 @@ var config = {
         mapAnimation: 'flyTo',
         rotateAnimation: false,
         spinGlobe: false,
-        mapInteractive: true,
+        mapInteractive: false,
         callback: '',
         onChapterEnter: [
              {
@@ -224,7 +224,7 @@ var config = {
     },
 
     {
-      id: 'territorio-jf',
+        id: 'territorio-jf',
         alignment: 'left',
         hidden: false,
         //title: 'Escritório ONU-Habitat Brasil',
@@ -270,7 +270,6 @@ var config = {
       id: 'historia-jf',
       alignment: 'full',
       hidden: false,
-      //title: 'Abertura',
       bookmark: 'Juiz de Fora',
       description: '\
       <div class="light">\
@@ -309,7 +308,7 @@ var config = {
         zoom: 11,
         pitch: 45.00,
         bearing: 0.00,
-        speed: 0.75
+        speed: 2
           // flyTo additional controls-
           // These options control the flight curve, making it move
           // slowly and zoom out almost completely before starting
@@ -337,11 +336,10 @@ var config = {
     },
 
     {
-      id: 'territorio-sp',
+        id: 'territorio-sp',
         alignment: 'left',
         hidden: false,
-        //title: 'Escritório ONU-Habitat Brasil',
-        bookmark: 'Territorios São Paulo',
+        bookmark: 'Territorio São Paulo',
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
@@ -384,7 +382,6 @@ var config = {
       id: 'historia-sp',
       alignment: 'full',
       hidden: false,
-      //title: 'Abertura',
       bookmark: 'História São Paulo',
       description: '\
       <div class="light">\
@@ -433,7 +430,7 @@ var config = {
       onChapterEnter: [
           {
               layer: 'sp-parques',
-              opacity: 0.5
+              opacity: 1
           }
       ],
       onChapterExit: [
