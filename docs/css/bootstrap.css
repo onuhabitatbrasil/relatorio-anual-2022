@@ -133,7 +133,6 @@ blockquote {
 
 b,
 strong {
-  color: #002752;
   font-weight: bold;
 }
 
@@ -357,10 +356,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-family: 'Lilita One', cursive;
   text-transform: uppercase;
-
 }
 
 h2, .h2 {
@@ -4397,7 +4395,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .navbar .container,
