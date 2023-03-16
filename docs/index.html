@@ -18,6 +18,69 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
+    <script>
+        $('#myCarousel').carousel({
+            interval: false
+          });
+          $('#carousel-thumbs').carousel({
+            interval: false
+          });
+          
+          // handles the carousel thumbnails
+          // https://stackoverflow.com/questions/25752187/bootstrap-carousel-with-thumbnails-multiple-carousel
+          $('[id^=carousel-selector-]').click(function() {
+            var id_selector = $(this).attr('id');
+            var id = parseInt( id_selector.substr(id_selector.lastIndexOf('-') + 1) );
+            $('#myCarousel').carousel(id);
+          });
+          // Only display 3 items in nav on mobile.
+          if ($(window).width() < 575) {
+            $('#carousel-thumbs .row div:nth-child(4)').each(function() {
+              var rowBoundary = $(this);
+              $('<div class="row mx-0">').insertAfter(rowBoundary.parent()).append(rowBoundary.nextAll().addBack());
+            });
+            $('#carousel-thumbs .carousel-item .row:nth-child(even)').each(function() {
+              var boundary = $(this);
+              $('<div class="carousel-item">').insertAfter(boundary.parent()).append(boundary.nextAll().addBack());
+            });
+          }
+          // Hide slide arrows if too few items.
+          if ($('#carousel-thumbs .carousel-item').length < 2) {
+            $('#carousel-thumbs [class^=carousel-control-]').remove();
+            $('.machine-carousel-container #carousel-thumbs').css('padding','0 5px');
+          }
+          // when the carousel slides, auto update
+          $('#myCarousel').on('slide.bs.carousel', function(e) {
+            var id = parseInt( $(e.relatedTarget).attr('data-slide-number') );
+            $('[id^=carousel-selector-]').removeClass('selected');
+            $('[id=carousel-selector-'+id+']').addClass('selected');
+          });
+          // when user swipes, go next or previous
+          $('#myCarousel').swipe({
+            fallbackToMouseEvents: true,
+            swipeLeft: function(e) {
+              $('#myCarousel').carousel('next');
+            },
+            swipeRight: function(e) {
+              $('#myCarousel').carousel('prev');
+            },
+            allowPageScroll: 'vertical',
+            preventDefaultEvents: false,
+            threshold: 75
+          });
+          /*
+          $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+          });
+          */
+          
+          $('#myCarousel .carousel-item img').on('click', function(e) {
+            var src = $(e.target).attr('data-remote');
+            if (src) $(this).ekkoLightbox();
+          });
+    </script>
+
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -119,10 +182,16 @@
                 </a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#abertura">Abertura</a>
-                  <a class="dropdown-item" href="#onu-habitat-brasil">ONU-Habitat no Brasil</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#linha-tempo">Linha do Tempo</a>
-                  <a class="dropdown-item" href="#territorio-jf">Territórios</a>
+                  <a class="dropdown-item" href="#onu-habitat-brasil">O ONU-Habitat</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#retrospectiva">Retrospectiva 2022</a>
+                  <a class="dropdown-item" href="#retrospectiva">2022 em números</a>
+                  <a class="dropdown-item" href="#retrospectiva">Metodologias do Ano</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#territorio-jf">Histórias e Territórios</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#territorio-jf">Agradecimentos</a>
                 </div>
             </li>
           </ul>
@@ -139,7 +208,7 @@
         </video>
       
         <!-- The header content -->
-        <div class="container">
+        <div class="container no-gutters">
             <h1>Relatório<br>Anual</h1>
             <div class="smallsep"></div>
             <h2>BRASIL 2022</h2>
@@ -231,10 +300,12 @@
     </div>    -->
 
     <div id="subheader">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur diam nulla, fermentum eu bibendum in, maximus quis ligula. Ut hendrerit pellentesque lorem. Nunc facilisis felis sit amet sem dapibus ullamcorper. Nullam nec posuere ipsum, eget aliquet neque. Etiam et scelerisque odio, nec viverra nibh. Aliquam eu aliquet neque. Etiam a elementum augue, ac tincidunt nisi. Integer cursus malesuada felis non lacinia. Maecenas dictum magna quis orci tincidunt tristique. Ut sodales nibh a lacus sodales gravida.</p>
-        <a class="smoothscroll" href="#intro-empty">
-            <div class="scroll-down cursor-hover"></div>
-        </a> 
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur diam nulla, fermentum eu bibendum in, maximus quis ligula. Ut hendrerit pellentesque lorem. Nunc facilisis felis sit amet sem dapibus ullamcorper. Nullam nec posuere ipsum, eget aliquet neque. Etiam et scelerisque odio, nec viverra nibh. Aliquam eu aliquet neque. Etiam a elementum augue, ac tincidunt nisi. Integer cursus malesuada felis non lacinia. Maecenas dictum magna quis orci tincidunt tristique. Ut sodales nibh a lacus sodales gravida.</p>
+            <a class="smoothscroll" href="#intro-empty">
+                <div class="scroll-down cursor-hover"></div>
+            </a> 
+        </div>
     </div>
                   
     <div id="map"></div>
