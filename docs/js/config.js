@@ -125,8 +125,8 @@ var config = {
         zoom: 5.49,
         pitch: 55.50,
         bearing: -8.80,
-        speed: 1.5,
-        curve: 5
+        speed: 0.25,
+        curve: 3
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -147,47 +147,48 @@ var config = {
       ]
   },
 
-    {
-        id: 'onu-habitat-brasil',
-        alignment: 'left',
-        hidden: false,
-        //title: 'Escritório ONU-Habitat Brasil',
-        bookmark: 'ONU-Habitat Brasil',
-        image: false,
-        description: '\
-        <div class="light-branco rounded-lg shadow-lg">\
-          <div class="container p-right-left p-bottom">\
-            <h1 class="azul-habitat">ONU-Habitat Brasil</h1>\
-            <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.</p>\
-            <img class="p-top p-bottom" src="images/logo_onuhabitat.png" alt="Logo ONU-Habitat em Português"/>\
-          </div>\
+  {
+      id: 'onu-habitat-brasil',
+      alignment: 'left',
+      hidden: false,
+      //title: 'Escritório ONU-Habitat Brasil',
+      bookmark: 'ONU-Habitat Brasil',
+      image: false,
+      description: '\
+      <div class="light-branco rounded-lg shadow-lg">\
+        <div class="container p-right-left p-bottom">\
+          <h1 class="azul-habitat">ONU-Habitat Brasil</h1>\
+          <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.</p>\
+          <img class="p-top" src="images/logo_onuhabitat.png" alt="Logo ONU-Habitat em Português"/>\
         </div>\
-        ',
-        location: {     
-            center: [-43.18504, -22.93452],
-            zoom: 12.19,
-            pitch: 45.00,
-            bearing: -40.00,              
-            speed: 2
-        },
-        mapAnimation: 'flyTo',
-        rotateAnimation: false,
-        spinGlobe: false,
-        mapInteractive: false,
-        callback: '',
-        onChapterEnter: [
-             {
-                 layer: 'pin-rio',
-                 opacity: 1
-             }
-        ],
-        onChapterExit: [
-             {
-                 layer: 'pin-rio',
-                 opacity: 0
-             }
-        ]
-    },
+      </div>\
+      ',
+      location: {     
+          center: [-43.18504, -22.93452],
+          zoom: 12.19,
+          pitch: 45.00,
+          bearing: -40.00,              
+          speed: 0.5,
+          curve: 3
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: '',
+      onChapterEnter: [
+           {
+               layer: 'pin-rio',
+               opacity: 1
+           }
+      ],
+      onChapterExit: [
+           {
+               layer: 'pin-rio',
+               opacity: 0
+           }
+      ]
+  },
 
     {
       id: "retrospectiva-2022",
@@ -249,13 +250,13 @@ var config = {
                   <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">\
                     <img src="./images/jan-min.jpg" class="img-fluid" alt="...">\
                     <div class="nav-card-title">\
-                      <h4>Janeiro</h4>\
+                      <h4>01</h4>\
                     </div>\
                   </div>\
                   <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">\
                   <img src="./images/jan-min.jpg" class="img-fluid" alt="...">\
                     <div class="nav-card-title">\
-                      <h4>Fevereiro</h4>\
+                      <h4>02</h4>\
                     </div>\
                   </div>\
                   <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">\
@@ -306,11 +307,11 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-22.32528, -2.14945],
+        center: [-51.06166, -15.66707],
         zoom: 1.5,
-        pitch: 0,
-        bearing: 0,
-        speed: 2,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 0.5,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -335,11 +336,11 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-22.32528, -2.14945],
+        center: [-51.06166, -15.66707],
         zoom: 1.5,
-        pitch: 0,
-        bearing: 0,
-        speed: 2,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 0.5,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -350,81 +351,73 @@ var config = {
       onChapterExit: []
     },
 
-    /*{
-      id: "linha-tempo",
-      alignment: "full",
+    {
+      id: 'historia-sudene',
+      alignment: 'full',
       hidden: false,
-      //title: 'Abertura',
-      //bookmark: 'Abertura',
+      bookmark: 'SUDENE',
       description: '\
       <div class="light">\
-        <div class="container p-bottom">\
-          <h1 class="p-bottom">Linha do Tempo</h1>\
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">\
-          <ol class="carousel-indicators cursor-hover">\
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
-          </ol>\
-          <div class="carousel-inner">\
-              <div class="carousel-item active">\
-                  <div class="card">\
-                    <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
-                    <div class="card-static-title">\
-                      <h3>Janeiro</h3>\
-                      <p>Texto de descrição aqui</p>\
-                    </div>\
-                    <div class="card-overlay">\
-                    <div class="card-body">\
-                      <h5 class="card-title">Janeiro</h5>\
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
-                      <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary cursor-hover">Saiba mais</a>\
-                    </div>\
-                  </div>\
+        <div class="container-history text-left">\
+          <div class="row no-gutters p-left">\
+            <div class="col-lg-8">\
+              <div class="row">\
+                <div class="col-md-12">\
+                  <h1 class="laranja">Espaços verdes do semiárido</h1>\
                 </div>\
               </div>\
-              <div class="carousel-item">\
-              <div class="card">\
-                <img class="card-img-top img-fluid" src="./images/jan.jpg" alt="Card image cap">\
-                <div class="card-static-title">\
-                  <h3>Fevereiro</h3>\
-                  <p>Texto de descrição aqui</p>\
+              <div class="row p-bottom">\
+                <div class="col-md-6">\
+                  <p>Localizada no centro do estado de Pernambuco, Serra Talhada pode ser conhecida como a capital do xaxado ou a terra natal de Lampião. Também pode ser ponto de referência na região por ser um polo de educação, saúde e comércio. Mas, recentemente, ela recebeu um destaque inédito: uma menção honrosa no Desafio de Inovação da Rede de Cidades-Polo do Nordeste, com uma proposta que reestrutura espaços verdes em regiões periféricas do município – e que tem planos para sair do papel.</p>\
+                  <p>O desafio consistiu na fase final de um projeto da Superintendência de Desenvolvimento do Nordeste (Sudene) em parceria com o ONU-Habitat e o Programa das Nações Unidas para o Desenvolvimento (PNUD). A iniciativa tinha como objetivo aprimorar a construção de políticas de desenvolvimento urbano sustentável na área de atuação da Sudene: 52 cidades-polo do Nordeste que exercem influência em suas regiões.</p>\
+                  <p>Depois de participar da fase de capacitações temáticas oferecidas pela iniciativa para fortalecer os servidores da rede, a prefeitura de Serra Talhada se inscreveu no Desafio de Inovação, que tinha como objetivo engajar esses servidores a aplicar, em seu próprio contexto, o conhecimento adquirido.</p>\
+                  <p>Para isso, cada proposta precisava conter um diagnóstico de problema, uma solução e um plano de ação – tudo voltado ao desenvolvimento urbano sustentável local. Para escolher a melhor ideia, a Prefeitura de Serra Talhada fez uma chamada interna, pedindo às secretarias o envio de sugestões. As melhores ideias foram construídas coletivamente ao longo de reuniões e debates.</p>\
                 </div>\
-                <div class="card-overlay">\
-                <div class="card-body">\
-                  <h5 class="card-title">Fevereiro</h5>\
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
-                  <a href="http://visaoalagoas2030.al.gov.br/" target="_blank" class="btn-primary cursor-hover">Saiba mais</a>\
+                <div class="col-md-6">\
+                <p>De cinco sugestões iniciais, a escolhida foi “Espaços Verdes”, capitaneada pela Secretaria de Meio Ambiente. Transformando espaços públicos ociosos em áreas verdes e sociáveis, a proposta combate as ilhas do calor e aumenta o bem-estar dos moradores, além de potencializar o Plano de Arborização Urbana do município.<\p>\
+                <p>“Pensamos uma proposta do zero, tendo em vista que tinha de ser algo inovador. Queríamos envolver a população, oferecer lazer e qualidade de vida, e trabalhar com áreas verdes nas zonas periféricas do município”, explica o secretário do Meio Ambiente de Serra Talhada, Sinézio Rodrigues.<\p>\              <p>O projeto ficou em quinto lugar no Desafio de Inovação, garantindo a menção honrosa concedida a cidades com menos de 200 mil habitantes. Em Serra Talhada, a proposta foi tão bem recebida que vai virar realidade. A previsão é que ela comece a ser implementada em novembro de 2023, reestruturando canteiros que não possuem arborização e que estão localizados em bairros periféricos.</p>\
+                <p>Rodrigues complementa que os efeitos dessa iniciativa vão ser sentidos por muito tempo. “O principal legado que levamos com esta experiência foi o aprendizado em trabalhar em conjunto com os demais órgãos municipais e construir estratégias que vão ser extremamente benéficas para o desenvolvimento sustentável de nosso município”.</p>\
                 </div>\
               </div>\
+          </div>\
+            <div class="col-lg-4 align-self-end">\
+                <img src="images/historia-sudene.png" alt="" class="img-fluid"/>\
             </div>\
           </div>\
-          </div>\
-          <a class="carousel-control-prev cursor-hover" href="#carouselExampleIndicators" role="button" data-slide="prev">\
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
-              <span class="sr-only">Previous</span>\
-          </a>\
-          <a class="carousel-control-next cursor-hover" href="#carouselExampleIndicators" role="button" data-slide="next">\
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>\
-              <span class="sr-only">Next</span>\
-          </a>\
         </div>\
       </div>\
       ',
       location: {
-        center: [-22.32528, -2.14945],
-        zoom: 1.5,
-        pitch: 0,
-        bearing: 0,
-        speed: 2,
+        center: [-43.34615, -21.75693],
+        zoom: 11,
+        pitch: 45.00,
+        bearing: 0.00,
+        speed: 2
+          // flyTo additional controls-
+          // These options control the flight curve, making it move
+          // slowly and zoom out almost completely before starting
+          // to pan.
+          //speed: 2, // make the flying slow
+          //curve: 1, // change the speed at which it zooms out
       },
-      mapAnimation: "flyTo",
+      mapAnimation: 'flyTo',
       rotateAnimation: false,
       spinGlobe: false,
       mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
-    },*/
+      callback: '',
+      onChapterEnter: [
+        {
+            layer: 'microterritorios',
+            opacity: 0.5
+        }
+      ],
+      onChapterExit: [
+        {
+            layer: 'microterritorios',
+            opacity: 0
+        }
+      ]
+    },
 
     {
       id: 'territorio-teresina',
@@ -470,72 +463,109 @@ var config = {
   },
 
   {
-    id: 'historia-sudene',
-    alignment: 'full',
+    id: 'territorio-alagoas',
+    alignment: 'left',
     hidden: false,
-    bookmark: 'SUDENE',
+    //title: 'Escritório ONU-Habitat Brasil',
+    bookmark: 'Territorios',
+    image: false,
     description: '\
-    <div class="light">\
-      <div class="container-history text-left">\
-        <div class="row no-gutters p-left">\
-          <div class="col-lg-8">\
-            <div class="row">\
-              <div class="col-md-12">\
-                <h1 class="laranja">Espaços verdes do semiárido</h1>\
-              </div>\
-            </div>\
-            <div class="row p-bottom">\
-              <div class="col-md-6">\
-                <p>Localizada no centro do estado de Pernambuco, Serra Talhada pode ser conhecida como a capital do xaxado ou a terra natal de Lampião. Também pode ser ponto de referência na região por ser um polo de educação, saúde e comércio. Mas, recentemente, ela recebeu um destaque inédito: uma menção honrosa no Desafio de Inovação da Rede de Cidades-Polo do Nordeste, com uma proposta que reestrutura espaços verdes em regiões periféricas do município – e que tem planos para sair do papel.</p>\
-                <p>O desafio consistiu na fase final de um projeto da Superintendência de Desenvolvimento do Nordeste (Sudene) em parceria com o ONU-Habitat e o Programa das Nações Unidas para o Desenvolvimento (PNUD). A iniciativa tinha como objetivo aprimorar a construção de políticas de desenvolvimento urbano sustentável na área de atuação da Sudene: 52 cidades-polo do Nordeste que exercem influência em suas regiões.</p>\
-                <p>Depois de participar da fase de capacitações temáticas oferecidas pela iniciativa para fortalecer os servidores da rede, a prefeitura de Serra Talhada se inscreveu no Desafio de Inovação, que tinha como objetivo engajar esses servidores a aplicar, em seu próprio contexto, o conhecimento adquirido.</p>\
-                <p>Para isso, cada proposta precisava conter um diagnóstico de problema, uma solução e um plano de ação – tudo voltado ao desenvolvimento urbano sustentável local. Para escolher a melhor ideia, a Prefeitura de Serra Talhada fez uma chamada interna, pedindo às secretarias o envio de sugestões. As melhores ideias foram construídas coletivamente ao longo de reuniões e debates.</p>\
-              </div>\
-              <div class="col-md-6">\
-              <p>De cinco sugestões iniciais, a escolhida foi “Espaços Verdes”, capitaneada pela Secretaria de Meio Ambiente. Transformando espaços públicos ociosos em áreas verdes e sociáveis, a proposta combate as ilhas do calor e aumenta o bem-estar dos moradores, além de potencializar o Plano de Arborização Urbana do município.<\p>\
-              <p>“Pensamos uma proposta do zero, tendo em vista que tinha de ser algo inovador. Queríamos envolver a população, oferecer lazer e qualidade de vida, e trabalhar com áreas verdes nas zonas periféricas do município”, explica o secretário do Meio Ambiente de Serra Talhada, Sinézio Rodrigues.<\p>\              <p>O projeto ficou em quinto lugar no Desafio de Inovação, garantindo a menção honrosa concedida a cidades com menos de 200 mil habitantes. Em Serra Talhada, a proposta foi tão bem recebida que vai virar realidade. A previsão é que ela comece a ser implementada em novembro de 2023, reestruturando canteiros que não possuem arborização e que estão localizados em bairros periféricos.</p>\
-              <p>Rodrigues complementa que os efeitos dessa iniciativa vão ser sentidos por muito tempo. “O principal legado que levamos com esta experiência foi o aprendizado em trabalhar em conjunto com os demais órgãos municipais e construir estratégias que vão ser extremamente benéficas para o desenvolvimento sustentável de nosso município”.</p>\
-              </div>\
-            </div>\
-        </div>\
-          <div class="col-lg-4 align-self-end">\
-              <img src="images/historia-sudene.png" alt="" class="img-fluid"/>\
-          </div>\
-        </div>\
+    <div class="light rounded-lg shadow-lg">\
+      <div class="container p-right-left p-bottom">\
+        <h1 class="laranja">Alagoas</h1>\
+        <p>Apesar de serem elementos marcantes em Maceió e estarem presentes em mais da metade de seus bairros, as grotas – assentamentos precários que ficam em vales sinuosos e vulneráveis – podem se destacar ou passar totalmente despercebidas na paisagem local.</p>\
+        <p>Por muito tempo, as grotas foram invisibilizadas. Até um passado bastante recente, pouco ou quase nada se sabia sobre elas. Por serem morada de boa parte da população de baixa renda da capital alagoana, elas ocupavam também um outro espaço, desta vez imaterial e de estigma no imaginário coletivo.</p>\
+        <p>Entendendo que as cerca de cem grotas de Maceió eram muito mais do que os aspectos negativos que geralmente lhes eram atribuídos, o Governo de Alagoas passou a dar novos contornos à paisagem já conhecida do estado, agregando esses territórios aos centros das discussões. Por meio de uma plataforma de ações focadas em melhorias de mobilidade urbana e habitacionais, veio a infraestrutura necessária para que outras narrativas sobre as grotas fossem construídas e, também, a percepção de que era urgente conhecê-las melhor para atender às suas demandas.</p>\
+        <p>Seja por meio da coleta e do tratamento de dados qualificados ou pela capacitação de jovens dessas comunidades, o ONU-Habitat se junta a essa história justamente pela necessidade de produzir conhecimentos e dar novos sentidos linguísticos e práticos a esses territórios, reconstruindo a paisagem das grotas ao lado e a partir de quem de fato as vivencia.</p>\
       </div>\
     </div>\
     ',
-    location: {
-      center: [-43.34615, -21.75693],
-      zoom: 11,
-      pitch: 45.00,
-      bearing: 0.00,
-      speed: 2
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
+      location: {
+          center: [-35.76117, -9.61398],
+          zoom: 11.35,
+          pitch: 45.00,
+          bearing: 0.00,
+          speed: 2
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: true,
+      callback: '',
+      onChapterEnter: [
+          {
+              layer: 'baixada-lagunar',
+              opacity: 1
+          }
+      ],
+      onChapterExit: [
+          {
+              layer: 'baixada-lagunar',
+              opacity: 0
+          }
+      ]
     },
-    mapAnimation: 'flyTo',
-    rotateAnimation: false,
-    spinGlobe: false,
-    mapInteractive: false,
-    callback: '',
-    onChapterEnter: [
-      {
-          layer: 'microterritorios',
-          opacity: 0.5
-      }
-    ],
-    onChapterExit: [
-      {
-          layer: 'microterritorios',
-          opacity: 0
-      }
-    ]
-  },
+
+    {
+      id: 'historia-alagoas',
+      alignment: 'full',
+      hidden: false,
+      bookmark: 'Alagoas',
+      description: '\
+      <div class="light">\
+        <div class="container-history text-left">\
+          <div class="row no-gutters p-left">\
+            <div class="col-lg-8">\
+              <div class="row">\
+                <div class="col-md-12">\
+                  <h1 class="laranja">Menino da vila, menino da ONU</h1>\
+                </div>\
+              </div>\
+              <div class="row p-bottom">\
+                <div class="col-md-6">\
+                  <p>A subida que leva até a Vila Emater II, nos arredores do antigo lixão de Maceió, não é das mais simples. No meio do caminho, entretanto, já é possível se deparar com uma das vistas mais bonitas da <strong class="rosa">cidade: a imensidão do mar de Jacarecica está logo ali.</strong> Ao mesmo tempo que orgulha a comunidade, a paisagem também é motivo de preocupação, já que colabora para a especulação imobiliária na terra que há décadas faz com que famílias de catadores se vejam lutando por moradia adequada e melhores condições de vida.</p>\
+                  <p>Quem pode falar melhor sobre a Vila, no entanto, é Antônio Givaldo: jovem de 17 anos, adotado por sua avó materna, que hoje é conhecido como o <strong class="rosa">“o menino da ONU”</strong>. É assim que ele diz ser recebido na vizinhança após aparecer em um vídeo nas redes sociais do ONU-Habitat em que conta sobre o seu lugar no mundo. <strong>“Eles dizem: Parabéns, Antônio! Lute sempre pela nossa comunidade”. Isso é bom. Você sente que o seu esforço tá valendo a pena”</strong>.</p>\
+                  <p>Antônio é um dos participantes do <strong class="rosa">Programa Digaê – Juventudes</strong>, Comunicação e Cidade. Realizado pelo ONU-Habitat em parceria com o Governo de Alagoas, o projeto dá continuidade ao trabalho desenvolvido pelas duas instituições nos assentamentos precários que, em Maceió, são conhecidos como grotas. <strong>“O Digaê mudou a minha vida. Foi uma experiência com jovens de diferentes grotas que gostam de se envolver nos movimentos, uma diversidade grande. Eu via neles e replicava em mim. Eles eram um espelho de como eu queria estar hoje”</strong>, compartilha.</p>\
+                  </div>\
+                <div class="col-md-6">\
+                  <p>A iniciativa vai formar 80 jovens em temas relacionados ao direito à cidade e à comunicação, estimulando que outras narrativas sobre suas comunidades sejam criadas. <strong>“Eu vim conhecer o direito à cidade no Digaê. Moro numa comunidade bem carente e nunca tinha chegado ninguém pra me dizer: você tem direito à cidade”</strong>.</p>\
+                  <p>O território em que Antônio cresceu já simboliza, por si só, uma <strong class="rosa">conquista para a sua comunidade</strong>, que concilia a luta pela garantia de seus direitos ao desafio de fazer com que a coleta seletiva seja implementada no município. Isso tudo talvez explique o brilho que o jovem carrega nos olhos ao falar de onde vem, o carinho nas palavras ao frisar: <strong>“minha comunidade representa tudo pra mim”</strong>.</p>\
+                  <p>Talvez justifique, também, as vontades que têm para o futuro dela, como a transformação do antigo lixão em um parque municipal. <strong>“A Vila era muito mal falada e ela não é isso. Tem cultura, diversidade, uma juventude talentosa, mães batalhadoras. Espero que os jovens daqui se interessem ainda mais em políticas públicas, no direito à cidade. Que eles tenham forças e vão na frente porque eu vou continuar lutando pela nossa comunidade até o fim da minha vida”</strong>.</p>\
+                </div>\
+              </div>\
+          </div>\
+            <div class="col-lg-4 align-self-end">\
+                <img src="images/historia-alagoas.png" alt="" class="img-fluid"/>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-35.76117, -9.61398],
+        zoom: 11.35,
+        pitch: 45.00,
+        bearing: 0.00,
+        speed: 2
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: '',
+      onChapterEnter: [
+        {
+            layer: 'baixada-lagunar',
+            opacity: 0.5
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'baixada-lagunar',
+              opacity: 0
+          }
+      ]
+    },
 
     {
         id: 'territorio-jf',
