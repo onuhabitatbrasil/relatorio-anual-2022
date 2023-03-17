@@ -342,7 +342,7 @@ map.on("load", function () {
                 map.once('moveend', () => {
                     const center = map.getCenter();
                     const newCenter = [center.lng + 360, center.lat];
-                    map.easeTo({ center: newCenter, duration: 20000, easing: n => n });
+                    map.easeTo({ center: newCenter, duration: 150000, easing: n => n });
                 });
             }
         })

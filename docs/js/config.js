@@ -34,11 +34,11 @@ var config = {
       //bookmark: 'Abertura',
       description: "",
       location: {
-        center: [-22.32528, -2.14945],
+        center: [-51.06166, -15.66707],
         zoom: 1.5,
-        pitch: 0,
-        bearing: 0,
-        speed: 2,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 0.5,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -57,7 +57,7 @@ var config = {
       bookmark: 'Abertura',
       description: '\
       <div class="light-branco">\
-        <div class="container-history p-bottom">\
+        <div class="container-history p-bottom p-top">\
           <div class="row no-gutters p-left">\
             <div class="col-lg-7">\
               <div class="row">\
@@ -84,11 +84,11 @@ var config = {
       </div>\
       ',
       location: {
-          center: [-22.32528, -2.14945],
+          center: [-51.06166, -15.66707],
           zoom: 1.5,
           pitch: 0,
           bearing: 0,
-          speed: 2
+          speed: 0.5
           // flyTo additional controls-
           // These options control the flight curve, making it move
           // slowly and zoom out almost completely before starting
@@ -104,6 +104,48 @@ var config = {
       onChapterEnter: [],
       onChapterExit: []
     },
+
+    {
+      id: 'onu-habitat',
+      alignment: 'left',
+      hidden: false,
+      //title: 'Escritório ONU-Habitat Brasil',
+      bookmark: 'ONU-Habitat',
+      image: false,
+      description: '\
+      <div class="light-branco rounded-lg shadow-lg">\
+        <div class="container p-right-left p-bottom">\
+          <h1 class="azul-habitat">Onde estamos e<br>quem somos</h1>\
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. <strong>In nulla tellus, sagittis sed magna in, cursus pretium diam.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+        </div>\
+      </div>\
+      ',
+      location: {     
+        center: [36.78120, -1.21891],
+        zoom: 5.49,
+        pitch: 55.50,
+        bearing: -8.80,
+        speed: 1.5,
+        curve: 5
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: '',
+      onChapterEnter: [
+           {
+               layer: 'pin-nairobi',
+               opacity: 1
+           }
+      ],
+      onChapterExit: [
+           {
+               layer: 'pin-nairobi',
+               opacity: 0
+           }
+      ]
+  },
 
     {
         id: 'onu-habitat-brasil',
@@ -383,6 +425,117 @@ var config = {
       onChapterEnter: [],
       onChapterExit: []
     },*/
+
+    {
+      id: 'territorio-teresina',
+      alignment: 'left',
+      hidden: false,
+      //title: 'Escritório ONU-Habitat Brasil',
+      bookmark: 'Territorios',
+      image: false,
+      description: '\
+      <div class="light rounded-lg shadow-lg">\
+        <div class="container p-right-left p-bottom">\
+          <h1 class="laranja">Teresina</h1>\
+          <p>Adaptação, flexibilidade, gestão de risco e integração são algumas das palavras que descrevem a atuação de Teresina frente às mudanças climáticas. Localizada no semiárido nordestino, a cidade aquece até duas vezes mais rápido que a média global de temperatura. Isso torna a capital piauiense mais vulnerável aos impactos ambientais, resultando em enchentes, secas e ondas de calor que a desafiam constantemente.</p>\
+          <p>Para solucionar estes e demais problemas, a cidade está implementando soluções de baixo custo baseadas na natureza para lidar com o ciclo da água e o desequilíbrio do ecossistema - reforçando a reputação de “cidade verde” que enfrenta os desafios climáticos.</p>\
+          <p>Através de oficinas participativas, o Programa Global de Cidades Resilientes do ONU-Habitat e a Prefeitura de Teresina definiram atores urbanos estratégicos e prioridades da cidade para lidar com choques, riscos e impactos causados pela mudança do clima. As atividades realizadas pelo programa possibilitaram uma avaliação das ações do município, além de definir ações eficazes e estratégicas alinhadas aos problemas enfrentados no presente e que virão no futuro, tornando a cidade mais resiliente e sustentável.</p>\
+        </div>\
+      </div>\
+      ',
+      location: {
+          center: [-42.80643, -5.08873],
+          zoom: 11.99,
+          pitch: 45.00,
+          bearing: 0.00,
+          speed: 2
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: true,
+      callback: '',
+      onChapterEnter: [
+        {
+            layer: 'teresina',
+            opacity: 1
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'teresina',
+              opacity: 0
+          }
+      ]
+  },
+
+  {
+    id: 'historia-sudene',
+    alignment: 'full',
+    hidden: false,
+    bookmark: 'SUDENE',
+    description: '\
+    <div class="light">\
+      <div class="container-history text-left">\
+        <div class="row no-gutters p-left">\
+          <div class="col-lg-8">\
+            <div class="row">\
+              <div class="col-md-12">\
+                <h1 class="laranja">Espaços verdes do semiárido</h1>\
+              </div>\
+            </div>\
+            <div class="row p-bottom">\
+              <div class="col-md-6">\
+                <p>Localizada no centro do estado de Pernambuco, Serra Talhada pode ser conhecida como a capital do xaxado ou a terra natal de Lampião. Também pode ser ponto de referência na região por ser um polo de educação, saúde e comércio. Mas, recentemente, ela recebeu um destaque inédito: uma menção honrosa no Desafio de Inovação da Rede de Cidades-Polo do Nordeste, com uma proposta que reestrutura espaços verdes em regiões periféricas do município – e que tem planos para sair do papel.</p>\
+                <p>O desafio consistiu na fase final de um projeto da Superintendência de Desenvolvimento do Nordeste (Sudene) em parceria com o ONU-Habitat e o Programa das Nações Unidas para o Desenvolvimento (PNUD). A iniciativa tinha como objetivo aprimorar a construção de políticas de desenvolvimento urbano sustentável na área de atuação da Sudene: 52 cidades-polo do Nordeste que exercem influência em suas regiões.</p>\
+                <p>Depois de participar da fase de capacitações temáticas oferecidas pela iniciativa para fortalecer os servidores da rede, a prefeitura de Serra Talhada se inscreveu no Desafio de Inovação, que tinha como objetivo engajar esses servidores a aplicar, em seu próprio contexto, o conhecimento adquirido.</p>\
+                <p>Para isso, cada proposta precisava conter um diagnóstico de problema, uma solução e um plano de ação – tudo voltado ao desenvolvimento urbano sustentável local. Para escolher a melhor ideia, a Prefeitura de Serra Talhada fez uma chamada interna, pedindo às secretarias o envio de sugestões. As melhores ideias foram construídas coletivamente ao longo de reuniões e debates.</p>\
+              </div>\
+              <div class="col-md-6">\
+              <p>De cinco sugestões iniciais, a escolhida foi “Espaços Verdes”, capitaneada pela Secretaria de Meio Ambiente. Transformando espaços públicos ociosos em áreas verdes e sociáveis, a proposta combate as ilhas do calor e aumenta o bem-estar dos moradores, além de potencializar o Plano de Arborização Urbana do município.<\p>\
+              <p>“Pensamos uma proposta do zero, tendo em vista que tinha de ser algo inovador. Queríamos envolver a população, oferecer lazer e qualidade de vida, e trabalhar com áreas verdes nas zonas periféricas do município”, explica o secretário do Meio Ambiente de Serra Talhada, Sinézio Rodrigues.<\p>\              <p>O projeto ficou em quinto lugar no Desafio de Inovação, garantindo a menção honrosa concedida a cidades com menos de 200 mil habitantes. Em Serra Talhada, a proposta foi tão bem recebida que vai virar realidade. A previsão é que ela comece a ser implementada em novembro de 2023, reestruturando canteiros que não possuem arborização e que estão localizados em bairros periféricos.</p>\
+              <p>Rodrigues complementa que os efeitos dessa iniciativa vão ser sentidos por muito tempo. “O principal legado que levamos com esta experiência foi o aprendizado em trabalhar em conjunto com os demais órgãos municipais e construir estratégias que vão ser extremamente benéficas para o desenvolvimento sustentável de nosso município”.</p>\
+              </div>\
+            </div>\
+        </div>\
+          <div class="col-lg-4 align-self-end">\
+              <img src="images/historia-sudene.png" alt="" class="img-fluid"/>\
+          </div>\
+        </div>\
+      </div>\
+    </div>\
+    ',
+    location: {
+      center: [-43.34615, -21.75693],
+      zoom: 11,
+      pitch: 45.00,
+      bearing: 0.00,
+      speed: 2
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+    },
+    mapAnimation: 'flyTo',
+    rotateAnimation: false,
+    spinGlobe: false,
+    mapInteractive: false,
+    callback: '',
+    onChapterEnter: [
+      {
+          layer: 'microterritorios',
+          opacity: 0.5
+      }
+    ],
+    onChapterExit: [
+      {
+          layer: 'microterritorios',
+          opacity: 0
+      }
+    ]
+  },
 
     {
         id: 'territorio-jf',
