@@ -15,10 +15,11 @@ font-style: normal;*/
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .p-bottom {
-    padding-bottom: 1.25em;
+    padding-bottom: 2em;
 }
 
 .p-left {
@@ -34,7 +35,7 @@ body {
     padding-top: 1em;
 }
 
-#mouse-cursor {    
+#mouse-cursor {   
     position: absolute;
     width: 20px;
     height: 20px;
@@ -87,7 +88,7 @@ body {
 #header video {
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 75%;
     max-width: 65%;
     /*min-width: 100%;
     min-height: 100%;*/
@@ -597,8 +598,8 @@ ul.social-icons li{
   
   .card-title {
     position: absolute;
-    bottom: 30%;
-    left: 10%;
+    bottom: 25%;
+    left: 5%;
     width: 100%;
     color: #fff;
   }
