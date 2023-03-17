@@ -81,8 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-  line-height: 1.1;
+  font-size: 0.85rem;
+  line-height: 1.15;
   text-align: justify;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -579,19 +579,19 @@ pre code {
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
-    max-width: 720px;
+    max-width: 700px;
   }
 }
 
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
-    max-width: 750px;
+    max-width: 725px;
   }
 }
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 800px;
+    max-width: 775px;
   }
 }
 
