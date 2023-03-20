@@ -572,7 +572,7 @@ var config = {
         alignment: 'left',
         hidden: false,
         //title: 'Escritório ONU-Habitat Brasil',
-        bookmark: 'Territorios',
+        //bookmark: 'Territorios',
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
@@ -680,6 +680,40 @@ var config = {
     },
 
     {
+      id: 'territorio-rj',
+      alignment: 'left',
+      hidden: false,
+      //title: 'Escritório ONU-Habitat Brasil',
+      //bookmark: 'Territorios',
+      image: false,
+      description: '\
+      <div class="light rounded-lg shadow-lg">\
+        <div class="container p-right-left p-bottom">\
+          <h1 class="laranja">Rio de Janeiro</h1>\
+            <p>“A rua tem alma!”, declarou João do Rio em 1908. No Rio de Janeiro, a alma das ruas tem protagonismo de quem produz a história da cidade. Por elas, estas histórias são transportadas como células nas veias de uma cidade viva.</p>\
+            <p>São mais de seis milhões de pessoas ocupando as ruas de formas distintas – e, portanto, vivendo cidades distintas. Por isso, a rua também ensina sobre desigualdades. Há 1.074 favelas no Rio de Janeiro, onde vive 22% da população carioca. É o maior percentual de pessoas vivendo em favelas do Brasil. Nesse contexto, os desafios do crescimento urbano acelerado são mais latentes e visíveis.</p>\
+            <p>Ao mesmo tempo em que denunciam desigualdades, as ruas das favelas guardam uma fonte inesgotável de cultura, potencial econômico e desenvolvimento de capacidades. É por elas que, de porta em porta, o ONU-Habitat e a Prefeitura da Cidade do Rio de Janeiro mapeiam a materialidade das condições de vida de quem as ocupam, na busca de reduzir o risco social de famílias mais vulneráveis. Os dados coletados são uma ferramenta essencial para a implementação de políticas públicas baseadas em evidência, promovendo um atendimento integrado e um monitoramento da situação. É assim que, com o olhar atento do poder público, as ruas da favela vão pouco a pouco transformando as histórias que contam.</p>\
+        </div>\
+      </div>\
+      ',
+          location: {     
+            center: [-43.18504, -22.93452],
+            zoom: 12.19,
+            pitch: 45.00,
+            bearing: -40.00,              
+            speed: 0.5,
+            curve: 3
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: true,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+    },
+
+    {
         id: 'territorio-sp',
         alignment: 'left',
         hidden: false,
@@ -723,190 +757,304 @@ var config = {
     },
 
     {
-      id: 'historia-sp',
-      alignment: 'full',
-      hidden: false,
-      bookmark: 'História São Paulo',
-      description: '\
-      <div class="light">\
-        <div class="container-history">\
-          <div class="row no-gutters p-left">\
-            <div class="col-lg-8">\
-              <div class="row">\
-                <div class="col-md-12">\
-                  <h1 class="laranja">Horizonte mais verde na metrópole global</h1>\
+        id: 'historia-sp',
+        alignment: 'full',
+        hidden: false,
+        bookmark: 'História São Paulo',
+        description: '\
+        <div class="light">\
+          <div class="container-history">\
+            <div class="row no-gutters p-left">\
+              <div class="col-lg-8">\
+                <div class="row">\
+                  <div class="col-md-12">\
+                    <h1 class="laranja">Horizonte mais verde na metrópole global</h1>\
+                  </div>\
                 </div>\
+                <div class="row p-bottom">\
+                  <div class="col-md-6">\
+                      <p><strong>Espaços públicos verdes</strong> ganharam ainda mais protagonismo após a pandemia da COVID-19. Na percepção da coordenadora de Gestão de Parques e Biodiversidade da Secretaria Municipal do Verde e do Meio Ambiente (SVMA) de São Paulo, Tamires Oliveira, <strong>“as pessoas passaram a ocupar os parques com muito mais intensidade nos últimos três anos, criaram novos usos e finalidades, estão muito mais presentes ali”</strong>. E a cidade está atenta a essa tendência. Nos últimos anos, a SVMA vem trabalhando para aprimorar estratégias de planejamento, implementação e gestão dos espaços verdes.</p>\
+                      <p>Parte desse movimento foi o diálogo iniciado com o ONU-Habitat para trocar experiências, metodologias e ferramentas. O primeiro marco da parceria foi a participação ativa da Prefeitura de São Paulo no Circuito Urbano – a maior iniciativa nacional para celebrar o Outubro Urbano.</p>\
+                      <p>A formalização da cooperação se deu com a assinatura de um Memorando de Entendimento (MoU) do ONU-Habitat com a SMVA, a Secretaria Municipal de Relações Internacionais (SMRI) e a Secretaria de Governo em novembro de 2021, permitindo a ampliação das frentes de intercâmbio e atividades conjuntas. Para avançar nos esforços de promover maior acesso, participação popular e resiliência dos espaços verdes de São Paulo, em 2022 foi assinado um projeto conjunto entre a SVMA e o ONU-Habitat que terá a duração de três anos.</p>\
+                      <p>Em 2021 e 2022, a cidade marcou presença como organizadora principal e coorganizadora de 13 eventos do Circuito Urbano, e também contou com o apoio institucional do ONU-Habitat para a representação da equipe da SVMA da 11ª edição Fórum Urbano Mundial, na Polônia, e da COP27, no Egito, ambos em 2022. </p>\
+                  </div>\
+                  <div class="col-md-6">\
+                      <p>No final de 2022, a parceria avançou mais uma etapa, com a assinatura do acordo para o desenvolvimento do projeto <strong>Viva o Verde SP</strong>, que visa a promoção de espaços públicos verdes mais justos, resilientes e sustentáveis, acessíveis a todas e todos. Iniciado em janeiro de 2023, o projeto conta com uma equipe alocada em São Paulo para aplicar as metodologias de avaliação do ONU-Habitat, entre outras.</p>\
+                      <p><strong>“Um aspecto crucial dessa parceria é termos um diagnóstico real dos parques. Isso é desafiador devido ao número muito grande de equipamentos e à diversidade entre eles. Contar com esse trabalho com o ONU-Habitat, com uma equipe qualificada, vai trazer muitos ganhos. Teremos material, um norte a seguir e consistência em qualquer política pública que se queira desenhar para esses equipamentos públicos”</strong>, explica Tamires.</p>\
+                      <p>O projeto seguirá até 2025, mas as primeiras etapas serão desenvolvidas já em 2023, com a aplicação das metodologias de avaliação de espaços públicos em toda a cidade, oficinas participativas para elaborar propostas de melhoria desses espaços, treinamentos com o governo e sociedade civil para aplicação dessas metodologias e elaboração de planos de gestão para oito parques pré-selecionados.</p>\
+                      </p>\
+                  </div>\
+                </div>\
+            </div>\
+              <div class="col-lg-4 align-self-end">\
+                  <img src="images/sao_paulo.png" alt="" class="img-fluid"/>\
               </div>\
-              <div class="row p-bottom">\
-                <div class="col-md-6">\
-                    <p><strong>Espaços públicos verdes</strong> ganharam ainda mais protagonismo após a pandemia da COVID-19. Na percepção da coordenadora de Gestão de Parques e Biodiversidade da Secretaria Municipal do Verde e do Meio Ambiente (SVMA) de São Paulo, Tamires Oliveira, <strong>“as pessoas passaram a ocupar os parques com muito mais intensidade nos últimos três anos, criaram novos usos e finalidades, estão muito mais presentes ali”</strong>. E a cidade está atenta a essa tendência. Nos últimos anos, a SVMA vem trabalhando para aprimorar estratégias de planejamento, implementação e gestão dos espaços verdes.</p>\
-                    <p>Parte desse movimento foi o diálogo iniciado com o ONU-Habitat para trocar experiências, metodologias e ferramentas. O primeiro marco da parceria foi a participação ativa da Prefeitura de São Paulo no Circuito Urbano – a maior iniciativa nacional para celebrar o Outubro Urbano.</p>\
-                    <p>A formalização da cooperação se deu com a assinatura de um Memorando de Entendimento (MoU) do ONU-Habitat com a SMVA, a Secretaria Municipal de Relações Internacionais (SMRI) e a Secretaria de Governo em novembro de 2021, permitindo a ampliação das frentes de intercâmbio e atividades conjuntas. Para avançar nos esforços de promover maior acesso, participação popular e resiliência dos espaços verdes de São Paulo, em 2022 foi assinado um projeto conjunto entre a SVMA e o ONU-Habitat que terá a duração de três anos.</p>\
-                    <p>Em 2021 e 2022, a cidade marcou presença como organizadora principal e coorganizadora de 13 eventos do Circuito Urbano, e também contou com o apoio institucional do ONU-Habitat para a representação da equipe da SVMA da 11ª edição Fórum Urbano Mundial, na Polônia, e da COP27, no Egito, ambos em 2022. </p>\
-                </div>\
-                <div class="col-md-6">\
-                    <p>No final de 2022, a parceria avançou mais uma etapa, com a assinatura do acordo para o desenvolvimento do projeto <strong>Viva o Verde SP</strong>, que visa a promoção de espaços públicos verdes mais justos, resilientes e sustentáveis, acessíveis a todas e todos. Iniciado em janeiro de 2023, o projeto conta com uma equipe alocada em São Paulo para aplicar as metodologias de avaliação do ONU-Habitat, entre outras.</p>\
-                    <p><strong>“Um aspecto crucial dessa parceria é termos um diagnóstico real dos parques. Isso é desafiador devido ao número muito grande de equipamentos e à diversidade entre eles. Contar com esse trabalho com o ONU-Habitat, com uma equipe qualificada, vai trazer muitos ganhos. Teremos material, um norte a seguir e consistência em qualquer política pública que se queira desenhar para esses equipamentos públicos”</strong>, explica Tamires.</p>\
-                    <p>O projeto seguirá até 2025, mas as primeiras etapas serão desenvolvidas já em 2023, com a aplicação das metodologias de avaliação de espaços públicos em toda a cidade, oficinas participativas para elaborar propostas de melhoria desses espaços, treinamentos com o governo e sociedade civil para aplicação dessas metodologias e elaboração de planos de gestão para oito parques pré-selecionados.</p>\
-                    </p>\
-                </div>\
-              </div>\
-          </div>\
-            <div class="col-lg-4 align-self-end">\
-                <img src="images/sao_paulo.png" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
-      </div>\
-      ',
-      location: {
-        center: [-46.68480, -23.64944],
-        zoom: 10.16,
-        pitch: 45.00,
-        bearing: 0.00,
-        speed: 2
+        ',
+        location: {
+          center: [-46.68480, -23.64944],
+          zoom: 10.16,
+          pitch: 45.00,
+          bearing: 0.00,
+          speed: 2
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: false,
+        callback: '',
+        onChapterEnter: [
+            {
+                layer: 'sp-parques',
+                opacity: 0.5
+            }
+        ],
+        onChapterExit: [
+            {
+                layer: 'sp-parques',
+                opacity: 0
+            }
+        ]
       },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: '',
-      onChapterEnter: [
-          {
-              layer: 'sp-parques',
-              opacity: 0.5
-          }
-      ],
-      onChapterExit: [
-          {
-              layer: 'sp-parques',
-              opacity: 0
-          }
-      ]
+
+      {
+        id: 'historia-pernambuco',
+        alignment: 'full',
+        hidden: false,
+        //title: 'Abertura',
+        bookmark: 'Pernambuco',
+        description: '\
+        <div class="light">\
+          <div class="container-history text-left">\
+            <div class="row no-gutters p-left">\
+              <div class="col-lg-8">\
+                <div class="row">\
+                  <div class="col-md-12">\
+                    <h1 class="laranja">Infinitas conexões entre o espaço público e o sideral</h1>\
+                  </div>\
+                </div>\
+                <div class="row p-bottom">\
+                  <div class="col-md-6">\
+                      <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
+                      <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
+                      <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
+                      <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano.</p>\
+                      <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
+                  </div>\
+                  <div class="col-md-6">\
+                      <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, com o encontro desses dois universos e com o respeito às soluções inusitadas, <strong>muitos caminhos foram abertos e alguns já renderam frutos</strong>.</p>\
+                      <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário <strong>“Pés no Chão, Janela do Céu”</strong>, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
+                      <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
+                      <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco Pernambuco.\
+                      </p>\
+                  </div>\
+                </div>\
+            </div>\
+              <div class="col-lg-4 align-self-end">\
+                  <img src="images/pernambuco.png" alt="" class="img-fluid"/>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+        ',
+        location: {
+            center: [-22.32528, -2.14945],
+            zoom: 1.5,
+            pitch: 0,
+            bearing: 0,
+            speed: 2
+            // flyTo additional controls-
+            // These options control the flight curve, making it move
+            // slowly and zoom out almost completely before starting
+            // to pan.
+            //speed: 2, // make the flying slow
+            //curve: 1, // change the speed at which it zooms out
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },
+
+      {
+          id: 'territorio-conexoes-1',
+          alignment: 'left',
+          hidden: false,
+          //title: 'Escritório ONU-Habitat Brasil',
+          //bookmark: 'Territorios',
+          image: false,
+          description: '\
+          <div class="light rounded-lg shadow-lg">\
+            <div class="container p-right-left p-bottom">\
+              <h1 class="laranja">Conexões Urbanas</h1>\
+                <p>Mais do que bordas de um território, cidades nas fronteiras podem ser pontos de encontro cultural. Lugares nos quais são fortalecidas as conexões urbanas. Esse é o exemplo percebido em duas regiões na fronteira entre Brasil, Argentina e Paraguai.</p>\
+                <p>A primeira fica entre Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e tem 500 mil habitantes - o maior núcleo urbano da fronteira brasileira. A região é conhecida pelas Cataratas do Iguaçu, pela Usina Hidrelétrica de Itaipu e pela expressividade das atividades comerciais. Além de portas de entrada para seus respectivos países, os municípios também são o destino de imigrantes, que somam cerca de 80 nacionalidades.</p>\
+            </div>\
+          </div>\
+          ',
+          location: {
+                center: [-54.24178, -26.16576],
+                zoom: 8.42,
+                pitch: 54.02,
+                bearing: -30.90,
+                speed: 2
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            spinGlobe: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+      },
+
+      {
+        id: 'territorio-conexoes-2',
+        alignment: 'left',
+        hidden: false,
+        //title: 'Escritório ONU-Habitat Brasil',
+        //bookmark: 'Territorios',
+        image: false,
+        description: '\
+        <div class="light rounded-lg shadow-lg">\
+          <div class="container p-right-left p-bottom">\
+            <h1 class="laranja">Conexões Urbanas</h1>\
+              <p>A segunda região é formada pelos municípios de Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina). Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
+              <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma mancha urbana única. Por apresentarem desafios e potenciais conjuntos, a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
+          </div>\
+        </div>\
+        ',
+        location: {
+              center: [-54.24178, -26.16576],
+              zoom: 8.42,
+              pitch: 54.02,
+              bearing: -30.90,
+              speed: 2
+              // flyTo additional controls-
+              // These options control the flight curve, making it move
+              // slowly and zoom out almost completely before starting
+              // to pan.
+              //speed: 2, // make the flying slow
+              //curve: 1, // change the speed at which it zooms out
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          spinGlobe: false,
+          mapInteractive: true,
+          callback: '',
+          onChapterEnter: [],
+          onChapterExit: []
     },
 
     {
-      id: 'historia-pernambuco',
-      alignment: 'full',
-      hidden: false,
-      //title: 'Abertura',
-      bookmark: 'Pernambuco',
-      description: '\
-      <div class="light">\
-        <div class="container-history text-left">\
-          <div class="row no-gutters p-left">\
-            <div class="col-lg-8">\
-              <div class="row">\
-                <div class="col-md-12">\
-                  <h1 class="laranja">Infinitas conexões entre o espaço público e o sideral</h1>\
+        id: 'historia-conexoes',
+        alignment: 'full',
+        hidden: false,
+        //title: 'Abertura',
+        bookmark: 'Conexões',
+        description: '\
+        <div class="light">\
+          <div class="container-history text-left">\
+            <div class="row no-gutters p-left">\
+              <div class="col-lg-8">\
+                <div class="row">\
+                  <div class="col-md-12">\
+                    <h1 class="laranja">Juntos pelo bem comum</h1>\
+                  </div>\
                 </div>\
+                <div class="row p-bottom">\
+                  <div class="col-md-6">\
+                    <p>Oito lugares, um só espaço. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas três cidades, três estados e dois países: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina.</p>\
+                    <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: harmonia. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um “portunhol” característico, assim como em diversos outros aspectos culturais. E essa composição gera uma identidade única.</p>\
+                    <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. A gente não vê a fronteira como um ponto de separação, mas sim de união”.</p>\
+                    <p>A frase é de Monica Raquel Franchini, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do La Frontera – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
+                  </div>\
+                  <div class="col-md-6">\
+                    <p>A missão do grupo está baseada em promover os pontos fortes da região através da cooperação e da socialização, estabelecendo parcerias e divulgando sua cultura. Apesar de estar à frente da área de educação, a paixão de Monica pela região transborda para os outros domínios.</p>\
+                    <p>Um marco para o grupo foi a chegada do Conexões Urbanas, iniciativa do ONU-Habitat cujo objetivo é apoiar os municípios na definição de ações para melhorar sua rede de espaços públicos. O projeto promoveu uma avaliação de 32 espaços públicos da região, analisando sua distribuição, acessibilidade, instalações físicas, conforto, segurança, verde, governança, tipos de usos e usuários. Além do conglomerado na fronteira Brasil e Argentina, fazem parte do projeto os municípios de Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e mais duas cidades no Líbano.</p>\
+                    <p>Para Monica, essa parceria vai potencializar as ações do grupo La Frontera, já que os dados fornecidos poderão servir de base para muitas outras ações. Ela sente que as duas instituições têm uma sinergia única em seus objetivos. “Temos que acreditar na nossa gente. Não somos uma só cidade, não somos um só povo: somos uma região fronteiriça com as mesmas necessidades e o mesmo interesse: o bem comum. E o projeto Conexões Urbanas está nos ajudando a se potencializar e crescer como um todo”.</p>\
+                  </div>\
+                </div>\
+            </div>\
+              <div class="col-lg-4 align-self-end">\
+                  <img src="images/historia-conexoes.png" alt="" class="img-fluid"/>\
               </div>\
-              <div class="row p-bottom">\
-                <div class="col-md-6">\
-                    <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
-                    <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
-                    <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
-                    <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano.</p>\
-                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
-                </div>\
-                <div class="col-md-6">\
-                    <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, com o encontro desses dois universos e com o respeito às soluções inusitadas, <strong>muitos caminhos foram abertos e alguns já renderam frutos</strong>.</p>\
-                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário <strong>“Pés no Chão, Janela do Céu”</strong>, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
-                    <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
-                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco Pernambuco.\
-                    </p>\
-                </div>\
-              </div>\
-          </div>\
-            <div class="col-lg-4 align-self-end">\
-                <img src="images/pernambuco.png" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
-      </div>\
-      ',
-      location: {
-          center: [-22.32528, -2.14945],
-          zoom: 1.5,
-          pitch: 0,
-          bearing: 0,
-          speed: 2
-          // flyTo additional controls-
-          // These options control the flight curve, making it move
-          // slowly and zoom out almost completely before starting
-          // to pan.
-          //speed: 2, // make the flying slow
-          //curve: 1, // change the speed at which it zooms out
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
+        ',
+        location: {
+            center: [-22.32528, -2.14945],
+            zoom: 1.5,
+            pitch: 0,
+            bearing: 0,
+            speed: 2
+            // flyTo additional controls-
+            // These options control the flight curve, making it move
+            // slowly and zoom out almost completely before starting
+            // to pan.
+            //speed: 2, // make the flying slow
+            //curve: 1, // change the speed at which it zooms out
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
     },
 
     {
-      id: 'historia-conexoes',
-      alignment: 'full',
-      hidden: false,
-      //title: 'Abertura',
-      bookmark: 'Conexões',
-      description: '\
-      <div class="light">\
-        <div class="container-history text-left">\
-          <div class="row no-gutters p-left">\
-            <div class="col-lg-8">\
-              <div class="row">\
-                <div class="col-md-12">\
-                  <h1 class="laranja">Juntos pelo bem comum</h1>\
-                </div>\
-              </div>\
-              <div class="row p-bottom">\
-                <div class="col-md-6">\
-                  <p>Oito lugares, um só espaço. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas três cidades, três estados e dois países: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina.</p>\
-                  <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: harmonia. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um “portunhol” característico, assim como em diversos outros aspectos culturais. E essa composição gera uma identidade única.</p>\
-                  <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. A gente não vê a fronteira como um ponto de separação, mas sim de união”.</p>\
-                  <p>A frase é de Monica Raquel Franchini, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do La Frontera – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
-                </div>\
-                <div class="col-md-6">\
-                  <p>A missão do grupo está baseada em promover os pontos fortes da região através da cooperação e da socialização, estabelecendo parcerias e divulgando sua cultura. Apesar de estar à frente da área de educação, a paixão de Monica pela região transborda para os outros domínios.</p>\
-                  <p>Um marco para o grupo foi a chegada do Conexões Urbanas, iniciativa do ONU-Habitat cujo objetivo é apoiar os municípios na definição de ações para melhorar sua rede de espaços públicos. O projeto promoveu uma avaliação de 32 espaços públicos da região, analisando sua distribuição, acessibilidade, instalações físicas, conforto, segurança, verde, governança, tipos de usos e usuários. Além do conglomerado na fronteira Brasil e Argentina, fazem parte do projeto os municípios de Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e mais duas cidades no Líbano.</p>\
-                  <p>Para Monica, essa parceria vai potencializar as ações do grupo La Frontera, já que os dados fornecidos poderão servir de base para muitas outras ações. Ela sente que as duas instituições têm uma sinergia única em seus objetivos. “Temos que acreditar na nossa gente. Não somos uma só cidade, não somos um só povo: somos uma região fronteiriça com as mesmas necessidades e o mesmo interesse: o bem comum. E o projeto Conexões Urbanas está nos ajudando a se potencializar e crescer como um todo”.</p>\
-                </div>\
-              </div>\
-          </div>\
-            <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-conexoes.png" alt="" class="img-fluid"/>\
-            </div>\
+        id: 'territorio-curitiba',
+        alignment: 'left',
+        hidden: false,
+        //title: 'Escritório ONU-Habitat Brasil',
+        //bookmark: 'Territorios',
+        image: false,
+        description: '\
+        <div class="light rounded-lg shadow-lg">\
+          <div class="container p-right-left p-bottom">\
+            <h1 class="laranja">Curitiba</h1>\
+              <p>Para além das araucárias e calçadas de petit-pavê, Curitiba é referência internacional em planejamento urbano e soluções de mobilidade. A partir dos anos 1960, a criação de estações-tubo, canaletas exclusivas para ônibus expressos (sistema conhecido por BRT) e parques públicos atrelados a obras arquitetônicas icônicas popularizaram mundo afora a imagem de uma cidade que estava à frente do seu tempo.</p>\
+              <p>Não é exagero dizer, portanto, que a capital paranaense tem em seu cerne a inovação. No século 21, no entanto, essa ideia começa a ganhar novos contornos: a de cidade inteligente. As marcas do urbanismo passam a estar interligadas à ideia de que, mais do que conectada, a cidade deve promover qualidade de vida para seus quase dois milhões de habitantes.</p>\
+              <p>Esse percurso passa necessariamente pelo desenvolvimento urbano sustentável. Não à toa, uma das metas da cidade é atingir a neutralidade de carbono até 2050. Para auxiliar no alcance desse objetivo, a cidade foi a única do Brasil a participar de um desafio de inovação promovido pelo ONU-Habitat – o Climate Smart Cities Challenge –, com o objetivo de avançar em soluções para criar comunidades carbono zero.</p>\
           </div>\
         </div>\
-      </div>\
-      ',
-      location: {
-          center: [-22.32528, -2.14945],
-          zoom: 1.5,
-          pitch: 0,
-          bearing: 0,
-          speed: 2
-          // flyTo additional controls-
-          // These options control the flight curve, making it move
-          // slowly and zoom out almost completely before starting
-          // to pan.
-          //speed: 2, // make the flying slow
-          //curve: 1, // change the speed at which it zooms out
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
+        ',
+        location: {
+            center: [-22.32528, -2.14945],
+            zoom: 1.5,
+            pitch: 0,
+            bearing: 0,
+            speed: 2
+            // flyTo additional controls-
+            // These options control the flight curve, making it move
+            // slowly and zoom out almost completely before starting
+            // to pan.
+            //speed: 2, // make the flying slow
+            //curve: 1, // change the speed at which it zooms out
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: true,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
     }
 
   ]
   
 };
-

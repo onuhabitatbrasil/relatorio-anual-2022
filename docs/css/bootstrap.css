@@ -483,10 +483,6 @@ mark,
   max-width: 100%;
 }
 
-.img-fully {
-  max-width: -webkit-fill-available;
-}
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -591,7 +587,12 @@ pre code {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 775px;
+    max-width: 825px;
+  }
+
+  .img-fluid {
+    max-height: 65vh;
+    float: right !important;
   }
 }
 
