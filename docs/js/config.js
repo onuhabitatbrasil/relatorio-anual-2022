@@ -1053,6 +1053,46 @@ var config = {
         callback: '',
         onChapterEnter: [],
         onChapterExit: []
+    },
+
+    {
+        id: 'territorio-sul-global',
+        alignment: 'left',
+        hidden: false,
+        //title: 'Escritório ONU-Habitat Brasil',
+        //bookmark: 'Territorios',
+        image: false,
+        description: '\
+        <div class="light rounded-lg shadow-lg">\
+          <div class="container p-right-left p-bottom">\
+            <h1 class="laranja">Sul Global</h1>\
+              <p>O termo Sul Global surgiu nos anos 1980 para substituir expressões tidas como obsoletos, como “países subdesenvolvidos” ou “em desenvolvimento”. Embora a maior parte dos países de baixa e média renda esteja localizada no hemisfério sul, a distinção não reflete totalmente sua real divisão geográfica. Um país é definido como Norte ou Sul não devido à sua localização geográfica, mas a certos indicadores econômicos e de qualidade de vida de sua população.</p>\
+              <p>De forma geral, o Sul Global abrange países e regiões muito diferentes entre si. No entanto, uma das formas de uso do termo está relacionada à ideia de que esses países podem colaborar para avançarem juntos em questões sociais, econômicas, ambientais e políticas.</p>\
+              <p>No contexto urbano, diferentes territórios do Sul Global podem, por exemplo, trocar conhecimentos para resolver problemas relacionados à falta de moradia ou o acesso à água. Essa forma de colaboração é chamada de Cooperação Sul-Sul (CSS), por meio da qual dois ou mais países promovem intercâmbios de conhecimento, transferências de tecnologias, respostas a emergências e desenvolvimento de meios de subsistência.</p>\
+              <p>Sua vantagem é que diferentes regiões do Sul com frequência apresentam problemas ou capacidades similares. Isso significa que, quando um país ou cidade do Sul desenvolve uma solução para um desafio, essa boa prática pode ser adaptada para outro contexto com mais facilidade, chegando a bons resultados de forma mais eficiente.</p>\
+          </div>\
+        </div>\
+        ',
+        location: {
+            center: [-22.32528, -2.14945],
+            zoom: 1.5,
+            pitch: 0,
+            bearing: 0,
+            speed: 2
+            // flyTo additional controls-
+            // These options control the flight curve, making it move
+            // slowly and zoom out almost completely before starting
+            // to pan.
+            //speed: 2, // make the flying slow
+            //curve: 1, // change the speed at which it zooms out
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: true,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
     }
 
   ]
