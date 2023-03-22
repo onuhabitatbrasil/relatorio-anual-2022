@@ -771,7 +771,7 @@ var config = {
         ',
         location: {
           center: [-46.87607, -23.69847],
-          zoom: 9.16,
+          zoom: 9.76,
           pitch: 45.00,
           bearing: 0.00,
           speed: 2
