@@ -714,7 +714,7 @@ var config = {
     },
 
     {
-        id: 'territorio-sp',
+        id: 'territorio-sp-1',
         alignment: 'left',
         hidden: false,
         bookmark: 'Territorio São Paulo',
@@ -725,14 +725,12 @@ var config = {
             <h1 class="laranja">São Paulo</h1>\
             <p>Uma metrópole global profundamente dinâmica, digitalizada e complexa. São Paulo é lar de 12,4 milhões de pessoas, distribuídas em uma área de mais de 1,5 mil quilômetros quadrados. Somada aos outros 38 municípios que compõem sua Região Metropolitana, ela concentra metade da população do Estado e mais de 30% do PIB do país.</p>\
             <p>Ao longo do século 19, durante o Ciclo do Café, o rápido crescimento populacional e produtivo da cidade consolidou sua mancha urbana, comprometendo os biomas locais – especialmente o de Mata Atlântica, predominante na região. Além do espaço geográfico, também se perderam inúmeras espécies de fauna e flora que faziam parte desse ecossistema.</p>\
-            <p>Essa trajetória, no entanto, está em transformação. Hoje, apesar da fama de selva de pedra ser parte incontornável do imaginário da cidade, quase metade do território de São Paulo corresponde à cobertura verde, e quase um terço é território rural. Em 30 anos, o número de parques cresceu de 32 para 111, o que ilustra a preocupação do município em incentivar o desenvolvimento e a ocupação dos espaços verdes pelas pessoas.</p>\
-            <p>Neste processo, São Paulo tem mantido em vista a necessidade de avaliar a qualidade de parques e áreas de conservação, promovendo espaços verdes de maneira mais igualitária para seus milhões de moradores. Além disso, outras ações também estão em foco: capacitar instituições e sociedade civil para criar, gerir e monitorar a qualidade dos equipamentos urbanos; identificar áreas em potencial para desenvolver novos espaços públicos verdes e garantir a participação da população de forma equilibrada com relação a raça, classe, gênero e território.</p>\
           </div>\
         </div>\
         ',
         location: {
-          center: [-46.68480, -23.64944],
-          zoom: 10.16,
+          center: [-46.87607, -23.69847],
+          zoom: 9.16,
           pitch: 45.00,
           bearing: 0.00,
           speed: 2
@@ -743,10 +741,51 @@ var config = {
         mapInteractive: true,
         callback: '',
         onChapterEnter: [
+          {
+              layer: 'sp-urbano-rural',
+              opacity: 1
+          }
+        ],
+        onChapterExit: [
             {
-                layer: 'sp-parques',
-                opacity: 1
+                layer: 'sp-urbano-rural',
+                opacity: 0
             }
+        ]
+    },
+
+    {
+        id: 'territorio-sp-2',
+        alignment: 'left',
+        hidden: false,
+        bookmark: 'Territorio São Paulo',
+        image: false,
+        description: '\
+        <div class="light rounded-lg shadow-lg">\
+          <div class="container p-right-left p-bottom">\
+            <h1 class="laranja">São Paulo</h1>\
+            <p>Essa trajetória, no entanto, está em transformação. Hoje, apesar da fama de selva de pedra ser parte incontornável do imaginário da cidade, quase metade do território de São Paulo corresponde à cobertura verde, e quase um terço é território rural. Em 30 anos, o número de parques cresceu de 32 para 111, o que ilustra a preocupação do município em incentivar o desenvolvimento e a ocupação dos espaços verdes pelas pessoas.</p>\
+            <p>Neste processo, São Paulo tem mantido em vista a necessidade de avaliar a qualidade de parques e áreas de conservação, promovendo espaços verdes de maneira mais igualitária para seus milhões de moradores. Além disso, outras ações também estão em foco: capacitar instituições e sociedade civil para criar, gerir e monitorar a qualidade dos equipamentos urbanos; identificar áreas em potencial para desenvolver novos espaços públicos verdes e garantir a participação da população de forma equilibrada com relação a raça, classe, gênero e território.</p>\
+          </div>\
+        </div>\
+        ',
+        location: {
+          center: [-46.87607, -23.69847],
+          zoom: 9.16,
+          pitch: 45.00,
+          bearing: 0.00,
+          speed: 2
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: true,
+        callback: '',
+        onChapterEnter: [
+          {
+              layer: 'sp-parques',
+              opacity: 1
+          }
         ],
         onChapterExit: [
             {
