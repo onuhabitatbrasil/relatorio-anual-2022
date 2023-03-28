@@ -586,7 +586,7 @@ var config = {
       ',
     location: {
         center: [-39.39162, -8.60275],
-        zoom: 7.13,
+        zoom: 6.13,
         pitch: 45.00,
         bearing: 0.00,
         speed: 2
@@ -596,8 +596,18 @@ var config = {
     spinGlobe: false,
     mapInteractive: true,
     callback: '',
-    onChapterEnter: [],
-    onChapterExit: []
+    onChapterEnter: [
+      {
+          layer: 'munic-pe',
+          opacity: 1
+      }
+    ],
+    onChapterExit: [
+        {
+            layer: 'munic-pe',
+            opacity: 0
+        }
+    ]
   },
 
 
@@ -642,11 +652,11 @@ var config = {
       </div>\
       ',
       location: {
-          center: [-22.32528, -2.14945],
-          zoom: 1.5,
-          pitch: 0,
-          bearing: 0,
-          speed: 2
+        center: [-39.39162, -8.60275],
+        zoom: 6.13,
+        pitch: 45.00,
+        bearing: 0.00,
+        speed: 2
           // flyTo additional controls-
           // These options control the flight curve, making it move
           // slowly and zoom out almost completely before starting
@@ -659,8 +669,18 @@ var config = {
       spinGlobe: false,
       mapInteractive: false,
       callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+            layer: 'munic-pe',
+            opacity: 0.5
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'munic-pe',
+              opacity: 0
+          }
+      ]
     },
 
     {
@@ -805,8 +825,18 @@ var config = {
         spinGlobe: false,
         mapInteractive: true,
         callback: '',
-        onChapterEnter: [],
-        onChapterExit: []
+        onChapterEnter: [
+          {
+              layer: 'pin-rio',
+              opacity: 1
+          }
+     ],
+     onChapterExit: [
+          {
+              layer: 'pin-rio',
+              opacity: 0
+          }
+     ]
     },
 
     {
@@ -879,13 +909,13 @@ var config = {
         callback: '',
         onChapterEnter: [
           {
-              layer: 'sp-parques',
+              layer: 'sp-parques-cent',
               opacity: 1
           }
         ],
         onChapterExit: [
             {
-                layer: 'sp-parques',
+                layer: 'sp-parques-cent',
                 opacity: 0
             }
         ]
@@ -929,8 +959,8 @@ var config = {
         </div>\
         ',
         location: {
-          center: [-46.68480, -23.64944],
-          zoom: 10.16,
+          center: [-46.87607, -23.69847],
+          zoom: 9.76,
           pitch: 45.00,
           bearing: 0.00,
           speed: 2
@@ -941,14 +971,14 @@ var config = {
         mapInteractive: false,
         callback: '',
         onChapterEnter: [
-            {
-                layer: 'sp-parques',
-                opacity: 0.5
-            }
+          {
+              layer: 'sp-parques-cent',
+              opacity: 0.5
+          }
         ],
         onChapterExit: [
             {
-                layer: 'sp-parques',
+                layer: 'sp-parques-cent',
                 opacity: 0
             }
         ]
