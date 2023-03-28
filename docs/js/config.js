@@ -352,6 +352,49 @@ var config = {
     },
 
     {
+      id: 'territorio-sudene',
+      alignment: 'left',
+      hidden: false,
+      //title: 'Escritório ONU-Habitat Brasil',
+      bookmark: 'Territorios',
+      image: false,
+      description: '\
+      <div class="light rounded-lg shadow-lg">\
+        <div class="container p-right-left p-bottom">\
+          <h1 class="laranja">G52</h1>\
+          <p>Uma vocação em comum une 52 municípios espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a Rede de Cidades-Polo do Nordeste — o G52.</p>\
+          <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a abrangência da rede para o norte de Minas Gerais e Espírito Santo. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
+          <p>Para fortalecer as capacidades de planejamento regional e estimular a articulação em rede, as cidades foram alvo de uma iniciativa que estimulou o desenvolvimento de soluções inovadoras, sustentáveis e escalonáveis para os desafios que enfrentam.</p>\
+        </div>\
+      </div>\
+      ',
+      location: {
+          center: [-47.41445, -12.83204],
+          zoom: 4.91,
+          pitch: 46.00,
+          bearing: 0.00,
+          speed: 0.25
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: '',
+      onChapterEnter: [
+        {
+            layer: 'munic-g52',
+            opacity: 1
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'munic-g52',
+              opacity: 0
+          }
+      ]
+    },    
+
+    {
       id: 'historia-sudene',
       alignment: 'full',
       hidden: false,
@@ -388,17 +431,11 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-43.34615, -21.75693],
-        zoom: 11,
-        pitch: 45.00,
+        center: [-47.41445, -12.83204],
+        zoom: 4.91,
+        pitch: 46.00,
         bearing: 0.00,
         speed: 2
-          // flyTo additional controls-
-          // These options control the flight curve, making it move
-          // slowly and zoom out almost completely before starting
-          // to pan.
-          //speed: 2, // make the flying slow
-          //curve: 1, // change the speed at which it zooms out
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -407,15 +444,15 @@ var config = {
       callback: '',
       onChapterEnter: [
         {
-            layer: 'microterritorios',
+            layer: 'munic-g52',
             opacity: 0.5
         }
       ],
       onChapterExit: [
-        {
-            layer: 'microterritorios',
-            opacity: 0
-        }
+          {
+              layer: 'munic-g52',
+              opacity: 0
+          }
       ]
     },
 
