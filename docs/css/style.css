@@ -77,7 +77,7 @@ body {
 
 #header {
     position: relative;
-    background-color: #fdf0f2;
+    background-color: #fff;
     margin: auto;
     width: 100%;
     z-index: 1;
@@ -89,7 +89,7 @@ body {
     position: absolute;
     top: 50%;
     left: 75%;
-    max-width: 65%;
+    max-width: 50%;
     /*min-width: 100%;
     min-height: 100%;*/
     width: auto;
