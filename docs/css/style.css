@@ -104,6 +104,8 @@ body {
 #header .container {
     position: relative;
     z-index: 1000;
+    padding-top: 4em;
+    padding-left: 4em;
 }
   
 #header .overlay {
