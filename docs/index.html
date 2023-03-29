@@ -12,7 +12,6 @@
     <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
    
-
     <!-- /* ADDITION */ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
@@ -27,7 +26,6 @@
           });
           
           // handles the carousel thumbnails
-          // https://stackoverflow.com/questions/25752187/bootstrap-carousel-with-thumbnails-multiple-carousel
           $('[id^=carousel-selector-]').click(function() {
             var id_selector = $(this).attr('id');
             var id = parseInt( id_selector.substr(id_selector.lastIndexOf('-') + 1) );
@@ -68,12 +66,6 @@
             preventDefaultEvents: false,
             threshold: 75
           });
-          /*
-          $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-          });
-          */
           
           $('#myCarousel .carousel-item img').on('click', function(e) {
             var src = $(e.target).attr('data-remote');
@@ -117,7 +109,7 @@
     </script>
 
     <script>
-        // When the user scrolls the page, execute myFunction 
+
         window.onscroll = function() {myFunction()};
         
         function myFunction() {
@@ -130,9 +122,6 @@
     </script>
 
     <script>
-    /*----------------------------------------------------*/
-    /* Smooth Scrolling
-    ------------------------------------------------------ */
     
         jQuery(document).ready(function($) {
     
@@ -166,7 +155,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-light">
 
         <a class="navbar-brand" href="#">
-            <!--ONU-Habitat-->
+
             <img src="images/logo_onuhabitat_branco.png" width="150px" alt="">
         </a> 
 
@@ -199,15 +188,13 @@
     </nav>
 
     <div id="header">
-        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+
         <div class="overlay"></div>
       
-        <!-- The HTML5 video element that will create the background video on the header -->
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src="./assets/capa.mp4" type="video/mp4">
         </video>
       
-        <!-- The header content -->
         <div class="container no-gutters">
             <h1>Relatório<br>Anual</h1>
             <div class="smallsep"></div>
@@ -251,53 +238,7 @@
             <div class="scroll-down cursor-hover"></div>
         </a> 
     </div>
-      
-
-    <!--<div id="header">
-            <video id="background-video" autoplay="" loop="" muted="" playsinline="">
-                <source src="./assets/capa.mp4" />
-            </video>
-            <h1>Relatório<br>Anual</h1>
-            <div class="smallsep"></div>
-            <h2>BRASIL 2022</h2>
-            <div id="social-share">
-                <ul class="social-icons">
-                    <li>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&quote=ONU-Habitat%20-%20Relatório%20Anual%202022" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Facebook">
-                            <i class="fa fa-facebook fa-2x cursor-hover"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&text=ONU-Habitat%20-%20Relatório%20Anual%202022:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&via=ONUHABITATBR" target="_blank" rel="noopener noreferrer" title="Tweetar Relatório">
-                            <i class="fa fa-twitter fa-2x cursor-hover"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F&title=ONU-Habitat%20-%20Relatório%20Anual%202022&summary=ONU-Habitat%20-%20Relatório%20Anual%202022&source=https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Linkedin">
-                            <i class="fa fa-linkedin fa-2x cursor-hover"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:?subject=ONU-Habitat%20-%20Relatório%20Anual%202022&body=Acesse%20o%20relatório:%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Enviar Relatório por email">
-                            <i class="fa fa-at fa-2x cursor-hover"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="whatsapp://send?text=Relatório%20Anual%202022%20ONU-Habitat%20https%3A%2F%2Frelatorio-anual-2022.netlify.app%2F" target="_blank" rel="noopener noreferrer" title="Compartilhar Relatório no Whatsapp">
-                            <i class="fa fa-whatsapp fa-2x cursor-hover"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="logo"> 
-                <a href="">
-                    <img src="images/logo_onuhabitat.png">
-                </a> 
-            </div> 
-        <a class="smoothscroll" href="#subheader">
-            <div class="scroll-down cursor-hover"></div>
-        </a> 
-    </div>    -->
+    
 
     <div id="subheader">
         <div class="container">
