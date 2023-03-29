@@ -104,8 +104,8 @@ body {
 #header .container {
     position: relative;
     z-index: 1000;
-    padding-top: 4em;
-    padding-left: 4em;
+    padding-top: 2em;
+    padding-left: 2em;
 }
   
 #header .overlay {
@@ -354,7 +354,7 @@ ul.social-icons li{
 
 .light {
     color: #00568a;
-    background-color: #fdf0f2;
+    background-color: #fff;
 }
 
 .light-branco {
@@ -385,7 +385,7 @@ ul.social-icons li{
 }
 
 .lefty {
-    width: 35vw;
+    width: 30vw;
     margin-left: 4vw;
 }
 
