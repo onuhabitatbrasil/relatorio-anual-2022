@@ -384,13 +384,21 @@ var config = {
         {
             layer: 'munic-g52',
             opacity: 1
+        },
+        {
+            layer: 'sudene',
+            opacity: 1
         }
       ],
       onChapterExit: [
-          {
-              layer: 'munic-g52',
-              opacity: 0
-          }
+        {
+          layer: 'munic-g52',
+          opacity: 0
+        },
+        {
+          layer: 'sudene',
+          opacity: 0
+        }
       ]
     },    
 
@@ -446,13 +454,21 @@ var config = {
         {
             layer: 'munic-g52',
             opacity: 0.5
+        },
+        {
+            layer: 'sudene',
+            opacity: 0.5
         }
       ],
       onChapterExit: [
-          {
-              layer: 'munic-g52',
-              opacity: 0
-          }
+        {
+          layer: 'munic-g52',
+          opacity: 0
+        },
+        {
+          layer: 'sudene',
+          opacity: 0
+        }
       ]
     },
 
