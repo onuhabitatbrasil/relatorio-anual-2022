@@ -58,7 +58,7 @@ var config = {
       description: '\
       <div class="light-branco">\
         <div class="container-history p-bottom p-top">\
-          <div class="row no-gutters p-left">\
+          <div class="row no-gutters p-right-left">\
             <div class="col-lg-7">\
               <div class="row">\
                 <div class="col-md-12">\
@@ -164,10 +164,10 @@ var config = {
       </div>\
       ',
       location: {     
-          center: [-43.18504, -22.93452],
-          zoom: 12.19,
-          pitch: 45.00,
-          bearing: -40.00,              
+          center: [-43.22909, -22.92985],
+          zoom: 11.62,
+          pitch: 0.00,
+          bearing: 0.00,
           speed: 0.5,
           curve: 3
       },
