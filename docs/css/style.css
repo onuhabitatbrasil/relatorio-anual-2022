@@ -48,10 +48,37 @@ body {
     transition: top 0.025s ease, left 0.025s ease, transform 0.5s ease;
 }
 
+.navbar-collapse {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    padding: 15px 25px;
+    width: 30%;
+    height: 100%;
+}
+
+.navbar-collapse.collapsing {
+    left: -50%;
+    transition: height 0s ease;
+}
+
+.navbar-collapse.show {
+    right: 0;
+    transition: left 300ms ease-in-out;
+}
+
+.navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+}
+
 @media (max-width: 800px)  {
     
     #mouse-cursor { 
         display: none; 
+    }
+
+    .navbar-collapse {
+        width: 45%;
     }
 }
 
@@ -719,27 +746,3 @@ ul.social-icons li{
     }
   }
 
-.navbar-collapse {
-    position: fixed;
-    top: 50px;
-    right: 0;
-    padding-left: 25px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 30%;
-    height: 100%;
-}
-
-.navbar-collapse.collapsing {
-    left: -50%;
-    transition: height 0s ease;
-}
-
-.navbar-collapse.show {
-    right: 0;
-    transition: left 300ms ease-in-out;
-}
-
-.navbar-toggler.collapsed ~ .navbar-collapse {
-    transition: left 500ms ease-in-out;
-}
