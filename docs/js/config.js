@@ -547,13 +547,13 @@ var config = {
       callback: '',
       onChapterEnter: [
           {
-              layer: 'baixada-lagunar',
+              layer: 'grotas',
               opacity: 1
           }
       ],
       onChapterExit: [
           {
-              layer: 'baixada-lagunar',
+              layer: 'grotas',
               opacity: 0
           }
       ]
@@ -608,13 +608,13 @@ var config = {
       callback: '',
       onChapterEnter: [
         {
-            layer: 'baixada-lagunar',
+            layer: 'grotas',
             opacity: 0.5
         }
       ],
       onChapterExit: [
           {
-              layer: 'baixada-lagunar',
+              layer: 'grotas',
               opacity: 0
           }
       ]
