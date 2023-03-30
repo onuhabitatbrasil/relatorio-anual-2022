@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-family: 'Bolgart', sans-serif;
   text-transform: uppercase;
 }
@@ -4398,6 +4398,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 2rem;
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.25);
 }
 
 .navbar .container,

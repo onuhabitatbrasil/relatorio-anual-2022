@@ -1306,16 +1306,16 @@ var config = {
             <h1 class="laranja">Curitiba</h1>\
               <p>Para além das araucárias e calçadas de petit-pavê, Curitiba é referência internacional em planejamento urbano e soluções de mobilidade. A partir dos anos 1960, a criação de estações-tubo, canaletas exclusivas para ônibus expressos (sistema conhecido por BRT) e parques públicos atrelados a obras arquitetônicas icônicas popularizaram mundo afora a imagem de uma cidade que estava à frente do seu tempo.</p>\
               <p>Não é exagero dizer, portanto, que a capital paranaense tem em seu cerne a inovação. No século 21, no entanto, essa ideia começa a ganhar novos contornos: a de cidade inteligente. As marcas do urbanismo passam a estar interligadas à ideia de que, mais do que conectada, a cidade deve promover qualidade de vida para seus quase dois milhões de habitantes.</p>\
-              <p>Esse percurso passa necessariamente pelo desenvolvimento urbano sustentável. Não à toa, uma das metas da cidade é atingir a neutralidade de carbono até 2050. Para auxiliar no alcance desse objetivo, a cidade foi a única do Brasil a participar de um desafio de inovação promovido pelo ONU-Habitat – o Climate Smart Cities Challenge –, com o objetivo de avançar em soluções para criar comunidades carbono zero.</p>\
+              <p>Esse percurso passa necessariamente pelo desenvolvimento urbano sustentável. Não à toa, uma das metas da cidade é atingir a neutralidade de carbono até 2050. Para auxiliar no alcance desse objetivo, a cidade foi a única do Brasil a participar de um desafio de inovação promovido pelo ONU-Habitat – o <strong class="rosa">Climate Smart Cities Challenge</strong> –, com o objetivo de avançar em soluções para criar comunidades carbono zero.</p>\
           </div>\
         </div>\
         ',
         location: {
-            center: [-22.32528, -2.14945],
-            zoom: 1.5,
-            pitch: 0,
-            bearing: 0,
-            speed: 2
+            center: [-49.33857, -25.50005],
+            zoom: 9.93,
+            pitch: 45.00,
+            bearing: 0.00,
+            speed: 0.5
             // flyTo additional controls-
             // These options control the flight curve, making it move
             // slowly and zoom out almost completely before starting
@@ -1370,17 +1370,17 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-39.39162, -8.60275],
-        zoom: 6.13,
+        center: [-49.33857, -25.50005],
+        zoom: 9.93,
         pitch: 45.00,
         bearing: 0.00,
-        speed: 2
-          // flyTo additional controls-
-          // These options control the flight curve, making it move
-          // slowly and zoom out almost completely before starting
-          // to pan.
-          //speed: 2, // make the flying slow
-          //curve: 1, // change the speed at which it zooms out
+        speed: 0.5
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -1410,22 +1410,16 @@ var config = {
         </div>\
         ',
         location: {
-            center: [-22.32528, -2.14945],
-            zoom: 1.5,
-            pitch: 0,
-            bearing: 0,
-            speed: 2
-            // flyTo additional controls-
-            // These options control the flight curve, making it move
-            // slowly and zoom out almost completely before starting
-            // to pan.
-            //speed: 2, // make the flying slow
-            //curve: 1, // change the speed at which it zooms out
+          center: [-51.06166, -15.66707],
+          zoom: 1.5,
+          pitch: 0.00,
+          bearing: 0.00,
+          speed: 0.5,
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
         spinGlobe: false,
-        mapInteractive: true,
+        mapInteractive: false,
         callback: '',
         onChapterEnter: [],
         onChapterExit: []
@@ -1471,29 +1465,19 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-35.76117, -9.61398],
-        zoom: 11.35,
-        pitch: 45.00,
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
         bearing: 0.00,
-        speed: 2
+        speed: 0.5,
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       spinGlobe: false,
       mapInteractive: false,
       callback: '',
-      onChapterEnter: [
-        {
-            layer: 'grotas',
-            opacity: 0.5
-        }
-      ],
-      onChapterExit: [
-          {
-              layer: 'grotas',
-              opacity: 0
-          }
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
 
   ]
