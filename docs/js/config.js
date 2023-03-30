@@ -737,6 +737,56 @@ var config = {
     },
 
     {
+      id: 'territorio-bh',
+      alignment: 'left',
+      hidden: false,
+      //title: 'Escritório ONU-Habitat Brasil',
+      //bookmark: 'Territorios',
+      image: false,
+      description: '\
+      <div class="light rounded-lg shadow-lg">\
+        <div class="container p-right-left p-bottom">\
+          <h1 class="laranja">Belo Horizonte</h1>\
+          <p>A região central de Belo Horizonte apresenta um desenho urbano com ruas amplas, arborizadas e repletas de rios e córregos, com vistas para a Serra do Curral. O cenário de modernização, construído desde o final do século 19, se contrapõe a outro, formado pela expansão urbana, com diversos assentamentos informais. Em um contexto mais recente, iniciado nos anos 2010, quando ocupando as ruas e experimentando a cidade de outras maneiras, as pessoas de Belo Horizonte passam a reivindicar seu pertencimento à cidade e levantam diversas pautas urbanas. E é nesse contexto em que surgem as ocupações da Izidora – considerado um dos maiores conflitos fundiários latino-americanos pela Habitat III, é também um dos maiores movimentos por direito à moradia do país.</p>\
+          <p>Izidora carrega em sua essência uma comunidade engajada na busca de melhorias para seu território, que demanda em uníssono: queremos morar, e queremos morar com direitos. Para promover o diálogo e transformar demandas em planos de ação e urbanização, surge o PRO-IZIDORA (Programa de Proteção Ambiental e Melhorias Urbanas da região da Izidora), iniciativa da Prefeitura de Belo Horizonte, por meio da SMPU e da Urbel, em parceria com o ONU-Habitat e o UNOPS. A partir dele, reivindicações da população ganham novos contornos com a real intenção da chegada de políticas públicas e direitos básicos às quatro ocupações da região, cujos nomes refletem mulheres que marcaram a história da cidade e substantivos que representam sua luta: Helena Greco, Rosa Leão, Vitória e Esperança. </p>\
+        </div>\
+      </div>\
+      ',
+    location: {
+        center: [-43.92136, -19.80455],
+        zoom: 14.40,
+        pitch: 56.69,
+        bearing: 28.64,
+        speed: 2
+    },
+    mapAnimation: 'flyTo',
+    rotateAnimation: false,
+    spinGlobe: false,
+    mapInteractive: true,
+    callback: '',
+    onChapterEnter: [
+      {
+          layer: 'satellite',
+          opacity: 1
+      },
+      {
+        layer: 'road-label-simple',
+        opacity: 0
+      }
+    ],
+    onChapterExit: [
+        {
+            layer: 'satellite',
+            opacity: 0
+        },
+        {
+          layer: 'road-label-simple',
+          opacity: 1
+        }
+    ]
+  },
+
+  {
         id: 'territorio-jf',
         alignment: 'left',
         hidden: false,
