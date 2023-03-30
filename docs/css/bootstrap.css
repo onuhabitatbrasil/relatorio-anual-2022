@@ -4458,7 +4458,6 @@ input[type="button"].btn-block {
   -ms-flex-positive: 1;
   flex-grow: 1;
   -ms-flex-align: center;
-  justify-content: flex-end;
 }
 
 .navbar-toggler {

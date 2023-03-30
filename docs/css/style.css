@@ -718,3 +718,28 @@ ul.social-icons li{
       background: #ccccce;
     }
   }
+
+.navbar-collapse {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 30%;
+    height: 100%;
+}
+
+.navbar-collapse.collapsing {
+    left: -50%;
+    transition: height 0s ease;
+}
+
+.navbar-collapse.show {
+    right: 0;
+    transition: left 300ms ease-in-out;
+}
+
+.navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+}

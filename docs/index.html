@@ -17,6 +17,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script serc="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 
     <script>
         $('#myCarousel').carousel({
@@ -153,39 +154,30 @@
         <div class="progress-bar" id="myBar"></div>
     </div>
 
-    <nav class="navbar navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-light fixed-top bg-white">
 
         <a class="navbar-brand" href="#">
-
-            <img src="images/logo_onuhabitat_branco.png" width="150px" alt="">
+            <img src="images/logo_onuhabitat.png" width="150px" alt="">
         </a> 
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav navbar-nav">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle cursor-hover" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                  Sumário
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#abertura">Abertura</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#onu-habitat-brasil">O ONU-Habitat</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#retrospectiva">Retrospectiva 2022</a>
-                  <a class="dropdown-item" href="#retrospectiva">2022 em números</a>
-                  <a class="dropdown-item" href="#retrospectiva">Metodologias do Ano</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#historia-sudene">Histórias e Territórios</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#territorio-jf">Agradecimentos</a>
-                </div>
-            </li>
-          </ul>
+
+        <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#abertura">Abertura</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#onu-habitat-brasil">O ONU-Habitat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#historia-sudene">Histórias e Territórios</a>
+                </li>
+            </ul>
         </div>
+
     </nav>
 
     <div id="header">
