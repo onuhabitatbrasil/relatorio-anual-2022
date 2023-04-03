@@ -203,109 +203,63 @@ var config = {
           <h1 class="align-self-center rosa">Retrospectiva 2022</h1>\
           <div class="container">\
           <div class="carousel-container position-relative row">\
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">\
+          <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">\
             <div class="carousel-inner">\
               <div class="carousel-item active" data-slide-number="0">\
-                <img src="./images/tempo/al_digae.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Janeiro</h3>\
+                <div>\
+                  <img class="d-block w-100" src="./images/tempo/al_digae.jpg" alt="Alagoas Digaê">\
+                </div>\
+                <div class="carousel-caption">\
+                  <h3>Janeiro</h3>\
+                  <p>Subtítulo</p>\
                 </div>\
               </div>\
               <div class="carousel-item" data-slide-number="1">\
                 <img src="./images/tempo/al_grotas.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Fevereiro</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="2">\
                 <img src="./images/tempo/circuito.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Março</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="3">\
                 <img src="./images/tempo/conexoes_alain.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Abril</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="4">\
                 <img src="./images/tempo/conexoes_analise.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Maio</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="5">\
                 <img src="./images/tempo/conexoes_entrevista.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Junho</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="6">\
                 <img src="./images/tempo/conexoes_triplice.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Julho</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="7">\
                 <img src="./images/tempo/csst.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Agosto</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="8">\
                 <img src="./images/tempo/encontro_inrede.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Setembro</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="9">\
                 <img src="./images/tempo/g52_capacitacoes.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Outubro</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="10">\
                 <img src="./images/tempo/g52_raquel.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Novembro</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="11">\
                 <img src="./images/tempo/g52_reuniao.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Dezembro</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="12">\
                 <img src="./images/tempo/mou_rj.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Janeiro</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="13">\
                 <img src="./images/tempo/praia_sp.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Fevereiro</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="14">\
                 <img src="./images/tempo/rio_cidade_anti.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Março</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="15">\
-                <img src="./images/tempo/virada.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Abril</h3>\
-                </div>\
               </div>\
               <div class="carousel-item" data-slide-number="16">\
                 <img src="./images/tempo/visita_fortaleza.jpg" class="d-block w-100" alt="...">\
-                <div class="card-title">\
-                      <h3>Maio</h3>\
-                </div>\
               </div>\
             </div>\
           </div>\
@@ -314,41 +268,23 @@ var config = {
             <div class="carousel-inner">\
               <div class="carousel-item active">\
                 <div class="row mx-0">\
-                  <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">\
+                  <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="0">\
                     <img src="./images/tempo/al_digae_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>01</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">\
                     <img src="./images/tempo/al_grotas_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>02</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">\
                     <img src="./images/tempo/circuito_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>03</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">\
                     <img src="./images/tempo/conexoes_alain_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>04</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">\
                     <img src="./images/tempo/conexoes_analise_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>05</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">\
                     <img src="./images/tempo/conexoes_entrevista_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>06</h4>\
-                    </div>\
                   </div>\
                 </div>\
               </div>\
@@ -356,39 +292,21 @@ var config = {
                 <div class="row mx-0">\
                   <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">\
                     <img src="./images/tempo/conexoes_triplice_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>07</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">\
                     <img src="./images/tempo/csst_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>08</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">\
                     <img src="./images/tempo/encontro_inrede_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>09</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">\
                     <img src="./images/tempo/g52_capacitacoes_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>10</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-10" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="10">\
                     <img src="./images/tempo/g52_raquel_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>11</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-11" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="11">\
                     <img src="./images/tempo/g52_reuniao_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>12</h4>\
-                    </div>\
                   </div>\
                 </div>\
               </div>\
@@ -396,33 +314,18 @@ var config = {
                 <div class="row mx-0">\
                   <div id="carousel-selector-12" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="12">\
                     <img src="./images/tempo/mou_rj_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>13</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-13" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="13">\
                     <img src="./images/tempo/praia_sp_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>14</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-14" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="14">\
                     <img src="./images/tempo/rio_cidade_anti_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>15</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-15" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="15">\
                     <img src="./images/tempo/virada_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>16</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-16" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="16">\
                     <img src="./images/tempo/visita_fortaleza_min.jpg" class="img-fluid" alt="...">\
-                    <div class="nav-card-title">\
-                      <h4>17</h4>\
-                    </div>\
                   </div>\
                   <div id="carousel-selector-17" class="thumb col-4 col-sm-2 px-1 py-2"></div>\
                 </div>\

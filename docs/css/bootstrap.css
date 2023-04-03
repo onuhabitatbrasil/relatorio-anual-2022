@@ -6704,9 +6704,9 @@ a.close.disabled {
   }
 }
 
-/*.carousel-indicators .active {
+.carousel-indicators .active {
   opacity: 1;
-}*/
+}
 
 .carousel-indicators .active {
   opacity: 1;
@@ -6716,7 +6716,7 @@ a.close.disabled {
 .carousel-caption {
   position: absolute;
   right: 10%;
-  bottom: 15%;
+  bottom: 25%;
   left: 10%;
   z-index: 10;
   padding-top: 20px;
