@@ -670,9 +670,6 @@ ul.social-icons li{
 
   }
   
-  .carousel {
-    position: relative;
-  }
 
   .carousel-item img {
     object-fit: cover;
