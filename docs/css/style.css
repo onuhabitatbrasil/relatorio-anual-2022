@@ -51,6 +51,10 @@ body {
     transition: top 0.025s ease, left 0.025s ease, transform 0.5s ease;
 }
 
+.navbar-brand img {
+    width: 150px;
+}
+
 .navbar-collapse {
     position: fixed;
     top: 50px;
@@ -124,7 +128,7 @@ body {
 .smallsep {
 	background: #cc3480;
 	height: 1px;
-	width: 10em;
+	width: 12em;
 }
 
 a, a:visited {
@@ -156,22 +160,22 @@ a:hover {
     font-family: 'Bolgart', sans-serif;
     color: #00afe2;
     text-align: left;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
 }
 
 #header h2 {
     text-align: left;
     font-family: 'Source Sans Pro', sans-serif;
     color: #cc3480;
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 @media (min-width: 576px) { 
     #header h1 {
-        font-size: 4rem;
+        font-size: 2.75rem;
     }
     #header h2 {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
     .smallsep {
         width: 14em;
@@ -188,6 +192,9 @@ a:hover {
     .smallsep {
         width: 16em;
     }
+    .navbar-brand img {
+        width: 175px;
+    }
 }
 
 @media (min-width: 992px) { 
@@ -197,6 +204,9 @@ a:hover {
     #header h2 {
         font-size: 3rem;
     }
+    .navbar-brand img {
+        width: 250px;
+    }    
  }
 
 @media (min-width: 1200px) { 
