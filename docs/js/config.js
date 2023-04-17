@@ -75,7 +75,7 @@ var config = {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</p>\
                 </div>\
               </div>\
-          </div>\
+            </div>\
             <div class="col-lg-5 align-self-center">\
                 <img src="images/abertura.png" alt="" class="img-fluid" />\
             </div>\
