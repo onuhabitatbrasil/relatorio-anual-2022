@@ -257,6 +257,7 @@ var config = {
                 <img src="./images/tempo/rio_cidade_anti.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="15">\
+                <img src="./images/tempo/virada.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="16">\
                 <img src="./images/tempo/visita_fortaleza.jpg" class="d-block w-100" alt="...">\
