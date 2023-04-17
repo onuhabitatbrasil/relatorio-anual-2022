@@ -170,6 +170,15 @@ a:hover {
     font-size: 2rem;
 }
 
+.navbar {
+    transition: all .5s ease-out;
+}
+  
+.navbar-ontop{
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
 @media (min-width: 576px) { 
     #header h1 {
         font-size: 2.75rem;
@@ -193,7 +202,7 @@ a:hover {
         width: 16em;
     }
     .navbar-brand img {
-        width: 175px;
+        width: 150px;
     }
 }
 
@@ -205,7 +214,7 @@ a:hover {
         font-size: 3rem;
     }
     .navbar-brand img {
-        width: 250px;
+        width: 225px;
     }    
  }
 

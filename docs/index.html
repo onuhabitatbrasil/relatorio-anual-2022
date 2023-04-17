@@ -87,7 +87,6 @@
             var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
         }    
-
     </script>
 
     <script>
@@ -124,6 +123,19 @@
 
     <script>
 
+        (function () {
+            function update() {
+              var className = "navbar-ontop";
+              var nav = document.querySelector(".navbar");
+          
+              if (window.scrollY > 550) nav.classList.remove(className);
+              else nav.classList.add(className);
+            }
+            window.addEventListener("scroll", function () {
+              update();
+            });
+        })();
+
     </script>
 
 </head>
@@ -136,7 +148,7 @@
 
     <nav class="navbar navbar-light fixed-top bg-white">
 
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand cursor-hover" href="#">
             <img src="images/logo_onuhabitat.png" alt="Logo ONU-Habitat">
         </a> 
 
