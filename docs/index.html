@@ -138,6 +138,21 @@
 
     </script>
 
+    <script>
+        $(document).ready(function(){
+            // Add minus icon for collapse element which is open by default
+            $(".collapse.show").each(function(){
+                $(this).prev(".card-header").addClass("highlight");
+            });
+            
+            // Highlight open collapsed element 
+            $(".card-header .btn").click(function(){
+                $(".card-header").not($(this).parents()).removeClass("highlight");
+                $(this).parents(".card-header").toggleClass("highlight");
+            });
+        });
+    </script>
+
 </head>
 
 <body>    
@@ -166,6 +181,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link cursor-hover" href="#retrospectiva">Retrospectiva 2022</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link cursor-hover" href="#numeros">2022 em Números</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link cursor-hover" href="#territorio-sudene">Histórias e Territórios</a>

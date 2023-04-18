@@ -38,6 +38,10 @@ body {
     padding-top: 1em;
 }
 
+.txt-cent {
+    text-align: center;
+}
+
 #mouse-cursor {   
     position: absolute;
     width: 20px;
@@ -202,7 +206,7 @@ a:hover {
         width: 16em;
     }
     .navbar-brand img {
-        width: 150px;
+        width: 125px;
     }
 }
 
@@ -214,7 +218,7 @@ a:hover {
         font-size: 3rem;
     }
     .navbar-brand img {
-        width: 225px;
+        width: 200px;
     }    
  }
 
@@ -469,7 +473,8 @@ ul.social-icons li{
     }
 
     .card-body {
-        padding: 3% 20%;
+        padding: 1% 5%;
+        text-align: justify;
     }
 
     .btn-primary {
@@ -701,53 +706,66 @@ ul.social-icons li{
     transition: .25s ease-in-out;
   }
 
-  .animated-icon3 span {
-    background: #cc3480;
-  }
+.animated-icon3 span {
+  background: #cc3480;
+}
+.animated-icon3 span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
 
-  .animated-icon3 span:nth-child(1) {
-    top: 0px;
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-  }
-  
-  .animated-icon3 span:nth-child(2) {
-    top: 10px;
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-  }
-  
-  .animated-icon3 span:nth-child(3) {
-    top: 20px;
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-  }
-  
-  .animated-icon3.open span:nth-child(1) {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: 0px;
-    left: 8px;
-  }
-  
-  .animated-icon3.open span:nth-child(2) {
-    width: 0%;
-    opacity: 0;
-  }
-  
-  .animated-icon3.open span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: 21px;
-    left: 8px;
-  }
+.animated-icon3 span:nth-child(2) {
+  top: 10px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(3) {
+  top: 20px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.animated-icon3.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0px;
+  left: 8px;
+}
+
+.animated-icon3.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.animated-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 21px;
+  left: 8px;
+}
+
+/* ACCORDEON NUMEROS */
+
+.accordion .highlight .btn {
+    color: #cc3480;
+}
+
+.accordion .highlight i {
+    transform: rotate(180deg);
+}
+
+.card-header .btn {
+    font-weight: bold;
+}

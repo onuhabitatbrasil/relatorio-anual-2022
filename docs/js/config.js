@@ -200,7 +200,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container p-bottom">\
-          <h1 class="align-self-center rosa">Retrospectiva 2022</h1>\
+          <h1 class="align-self-center rosa txt-cent">Retrospectiva 2022</h1>\
           <div class="container">\
           <div class="carousel-container position-relative row">\
           <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">\
@@ -369,7 +369,53 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container p-bottom">\
-          <h1 class="rosa">2022 em Números</h1>\
+          <h1 class="rosa txt-cent">2022 em Números</h1>\
+            <div class="row">\
+              <div class="col-lg-12">\
+                <div class="accordion" id="accordionNumeros">\
+                  <div class="card">\
+                    <div class="card-header" id="headingOne">\
+                      <h2 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> What is Bootstrap Framework?</a>\
+                      </h2>\
+                    </div>\
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionNumeros">\
+                      <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="headingTwo">\
+                      <h2 class="mb-0">\
+                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> How to Create Responsive Website with Bootstrap?</a>\
+                      </h2>\
+                    </div>\
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionNumeros">\
+                      <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="headingThree">\
+                      <h2 class="mb-0">\
+                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> Does Bootstrap Framework Provide Cross-browser Support?</a>\
+                      </h2>\
+                    </div>\
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionNumeros">\
+                      <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="headingFour">\
+                      <h2 class="mb-0">\
+                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> Can I Use Bootstrap for Mobile App Development?</a>\
+                      </h2>\
+                    </div>\
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionNumeros">\
+                      <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
         </div>\
       </div>\
       ',
@@ -378,7 +424,7 @@ var config = {
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 0.5,
+        speed: 2,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
