@@ -287,17 +287,23 @@ ul.social-icons li{
     width: 100%;
     position: relative;
     z-index: 1000;
-	height: 100vh;
+	height: 100%;
 }
 
 #subheader p {
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 5em 3em;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    line-height: 28px;
-    font-size: 20px;
+    padding: 1em 0;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+#subheader a {
+    color: #fff;
+}
+
+#subheader a:hover {
+    color: #cc3480;
 }
 
 #subheader .scroll-down {
@@ -316,13 +322,13 @@ ul.social-icons li{
 }
  
 #footer {
+    background-color: #fff;
     width: 100%;
     min-height: 5vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 4vh;
     text-align: center;
     line-height: 20px;
-    font-size: 13px;
     position: relative;
     z-index: 5;
     font-family: 'Source Sans Pro', sans-serif;
@@ -330,10 +336,29 @@ ul.social-icons li{
 
 #footer p {
     text-align: center;
+    font-size: 0.85rem;
 } 
 
 #footer .indice a {
-    padding-right: 0.3em;
+    font-size: 0.9rem;
+    padding-right: 0.4em;
+}
+
+#footer .logo img {
+    width: 200px;
+    padding: 1.5rem 0;
+}
+
+#footer a {
+    color: #00afe2;
+}
+
+#footer a:hover {
+    color: #cc3480;
+}
+
+.indice {
+    padding: 1.25em 0;
 }
 
 #features {
@@ -365,6 +390,14 @@ ul.social-icons li{
 
 .rosa {
     color: #cc3480
+}
+
+.branco {
+    color: #fff
+}
+
+.preto {
+    color: #000
 }
 
 .dark {
@@ -422,24 +455,6 @@ ul.social-icons li{
     margin-top: 75px !important;
     margin-right: 20px !important;
     z-index: 999;
-}
-
-#footer {
-    background-color: #fdf0f2;
-    color: #444;
-    z-index: 5;
-}
-
-#footer a {
-    color: #00afe2;
-}
-
-#footer a:hover {
-    color: #cc3480;
-}
-
-.indice {
-    padding: 1.25em 0;
 }
   
 @media (max-width: 700px) {

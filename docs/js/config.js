@@ -376,7 +376,7 @@ var config = {
                   <div class="card">\
                     <div class="card-header" id="headingOne">\
                       <h2 class="clearfix mb-0">\
-                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> What is Bootstrap Framework?</a>\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> 10.000 pessoas beneficiadas</a>\
                       </h2>\
                     </div>\
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionNumeros">\
@@ -386,7 +386,7 @@ var config = {
                   <div class="card">\
                     <div class="card-header" id="headingTwo">\
                       <h2 class="mb-0">\
-                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> How to Create Responsive Website with Bootstrap?</a>\
+                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> 1.000 pessoas capacitadas</a>\
                       </h2>\
                     </div>\
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionNumeros">\
@@ -396,7 +396,7 @@ var config = {
                   <div class="card">\
                     <div class="card-header" id="headingThree">\
                       <h2 class="mb-0">\
-                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> Does Bootstrap Framework Provide Cross-browser Support?</a>\
+                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> 50 parcerias estabelecidas</a>\
                       </h2>\
                     </div>\
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionNumeros">\
@@ -406,7 +406,7 @@ var config = {
                   <div class="card">\
                     <div class="card-header" id="headingFour">\
                       <h2 class="mb-0">\
-                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> Can I Use Bootstrap for Mobile App Development?</a>\
+                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> 50 publicações</a>\
                       </h2>\
                     </div>\
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionNumeros">\
@@ -1562,7 +1562,7 @@ var config = {
       callback: '',
       onChapterEnter: [],
       onChapterExit: []
-    },
+    }
 
   ]
   
