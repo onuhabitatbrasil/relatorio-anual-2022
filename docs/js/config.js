@@ -436,6 +436,35 @@ var config = {
     },
 
     {
+      id: "publicacoes",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
+      description: '\
+      <div class="light">\
+        <div class="container p-bottom">\
+          <h1 class="rosa txt-cent">Publicações</h1>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    {
       id: 'territorio-sudene',
       alignment: 'left',
       hidden: false,

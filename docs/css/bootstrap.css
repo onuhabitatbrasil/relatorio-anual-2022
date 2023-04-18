@@ -2591,20 +2591,20 @@ fieldset:disabled a.btn {
   font-style: normal;
   border-radius: 1em;
   padding: 0.5rem;
-  color: #fff;
+  color: #cc3480;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #cc3480;
 }
 
 .btn-primary:hover {
-  color: #000;
+  color: #fff;
   background-color: #e3773b;
-  border-color: #000;
+  border-color: #e3773b;
   text-decoration: none;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  color: #000;
+  color: #fff;
   background-color: #e3773b;
   border-color: #e3773b;
   box-shadow: 0 0 0 0.2rem rgba(227, 119, 59, 0.5);
