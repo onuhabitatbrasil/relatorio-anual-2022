@@ -742,3 +742,34 @@ ul.social-icons li{
     font-weight: bold;
 }
 
+.accordion h1, .h1 {
+    font-family: 'Bolgart', sans-serif;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+#carouselExampleControls .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+ 
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #cc3480;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+}

@@ -375,9 +375,9 @@ var config = {
                 <div class="accordion" id="accordionNumeros">\
                   <div class="card">\
                     <div class="card-header" id="headingOne">\
-                      <h2 class="clearfix mb-0">\
+                      <h1 class="clearfix mb-0">\
                         <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> 10.000 pessoas beneficiadas</a>\
-                      </h2>\
+                      </h1>\
                     </div>\
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionNumeros">\
                       <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>\
@@ -385,9 +385,9 @@ var config = {
                   </div>\
                   <div class="card">\
                     <div class="card-header" id="headingTwo">\
-                      <h2 class="mb-0">\
+                      <h1 class="mb-0">\
                         <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> 1.000 pessoas capacitadas</a>\
-                      </h2>\
+                      </h1>\
                     </div>\
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionNumeros">\
                       <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>\
@@ -395,9 +395,9 @@ var config = {
                   </div>\
                   <div class="card">\
                     <div class="card-header" id="headingThree">\
-                      <h2 class="mb-0">\
+                      <h1 class="mb-0">\
                         <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> 50 parcerias estabelecidas</a>\
-                      </h2>\
+                      </h1>\
                     </div>\
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionNumeros">\
                       <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>\
@@ -405,9 +405,9 @@ var config = {
                   </div>\
                   <div class="card">\
                     <div class="card-header" id="headingFour">\
-                      <h2 class="mb-0">\
+                      <h1 class="mb-0">\
                         <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> 50 publicações</a>\
-                      </h2>\
+                      </h1>\
                     </div>\
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionNumeros">\
                       <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>\
@@ -445,6 +445,102 @@ var config = {
       <div class="light">\
         <div class="container p-bottom">\
           <h1 class="rosa txt-cent">Publicações</h1>\
+          <div id="carouselExampleControls" class="carousel slide p-top" data-ride="carousel">\
+            <div class="carousel-inner">\
+              <div class="carousel-item active">\
+                <div class="cards-wrapper">\
+                <div class="card">\
+                  <img src="..." class="card-img-to\p" alt="...">\
+                  <div class="card-body">\
+                    <h5 class="card-title">Card title</h5>\
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                    <a href="#" class="btn btn-primary">Go somewhere</a>\
+                  </div>\
+                </div>\
+                <div class="card d-none d-md-block">\
+                  <img src="..." class="card-img-top" alt="...">\
+                  <div class="card-body">\
+                    <h5 class="card-title">Card title</h5>\
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                    <a href="#" class="btn btn-primary">Go somewhere</a>\
+                  </div>\
+                </div>\
+                <div class="card d-none d-md-block">\
+                  <img src="..." class="card-img-top" alt="...">\
+                  <div class="card-body">\
+                    <h5 class="card-title">Card title</h5>\
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                    <a href="#" class="btn btn-primary">Go somewhere</a>\
+                  </div>\
+                </div>\
+              </div>\
+              </div>\
+              <div class="carousel-item">\
+                <div class="cards-wrapper">\
+                  <div class="card">\
+                    <img src="..." class="card-img-top" alt="...">\
+                    <div class="card-body">\
+                      <h5 class="card-title">Card title</h5>\
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="..." class="card-img-top" alt="...">\
+                    <div class="card-body">\
+                      <h5 class="card-title">Card title</h5>\
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="..." class="card-img-top" alt="...">\
+                    <div class="card-body">\
+                      <h5 class="card-title">Card title</h5>\
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+              <div class="carousel-item">\
+                <div class="cards-wrapper">\
+                  <div class="card">\
+                    <img src="..." class="card-img-top" alt="...">\
+                    <div class="card-body">\
+                      <h5 class="card-title">Card title</h5>\
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="..." class="card-img-top" alt="...">\
+                    <div class="card-body">\
+                      <h5 class="card-title">Card title</h5>\
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="..." class="card-img-top" alt="...">\
+                    <div class="card-body">\
+                      <h5 class="card-title">Card title</h5>\
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
+                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">\
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
+              <span class="sr-only">Previous</span>\
+            </a>\
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">\
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>\
+              <span class="sr-only">Next</span>\
+            </a>\
+          </div>\
         </div>\
       </div>\
       ',
