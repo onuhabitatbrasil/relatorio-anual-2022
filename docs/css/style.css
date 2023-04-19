@@ -591,7 +591,7 @@ ul.social-icons li{
 }
 
 #carousel-thumbs {
-    background: rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.4);
     bottom: 0;
     left: 0;
     padding: 0 50px;
@@ -637,11 +637,11 @@ ul.social-icons li{
   }
 }
 
-@media all and (max-width: 576px) {
+/*@media all and (max-width: 576px) {
   .carousel-container #carousel-thumbs {
     background: rgba(204, 52, 128, 0.25);
   }
-}
+}*/
   
 
 .animated-icon3 {
@@ -751,23 +751,13 @@ ul.social-icons li{
     justify-content: center;
   }
 
-#carouselExampleControls .card {
+#carouselPub .card {
     margin: 0 0.5em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
     border-radius: 0;
 }
  
-.carousel-control-prev,
-.carousel-control-next {
-    background-color: #cc3480;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 @media (min-width: 768px) {
     .card img {
       height: 11em;

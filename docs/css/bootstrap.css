@@ -6603,12 +6603,12 @@ a.close.disabled {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: #cc3480;
   text-align: center;
   background: none;
   border: 0;
-  opacity: 0.6;
-  transition: opacity 0.15s ease;
+  opacity: 0.7;
+  transition: opacity 0.1s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6621,10 +6621,10 @@ a.close.disabled {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  color: #e3773b;
   text-decoration: none;
   outline: 0;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .carousel-control-prev {

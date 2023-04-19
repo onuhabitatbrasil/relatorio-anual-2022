@@ -333,12 +333,10 @@ var config = {
               </div>\
             </div>\
             <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">\
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
-              <span class="sr-only">Anterior</span>\
+              <i class="fa fa-arrow-left fa-2x cursor-hover"></i>\
             </a>\
             <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">\
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>\
-              <span class="sr-only">Próxima</span>\
+              <i class="fa fa-arrow-right fa-2x cursor-hover"></i>\
             </a>\
           </div>\
         </div>\
@@ -445,7 +443,15 @@ var config = {
       <div class="light">\
         <div class="container p-bottom">\
           <h1 class="rosa txt-cent">Publicações</h1>\
-          <div id="carouselExampleControls" class="carousel slide p-top" data-ride="carousel">\
+          <div class="col-12 text-right">\
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselPub" role="button" data-slide="prev">\
+                    <i class="fa fa-arrow-left"></i>\
+                </a>\
+                <a class="btn btn-primary mb-3 " href="#carouselPub" role="button" data-slide="next">\
+                    <i class="fa fa-arrow-right"></i>\
+                </a>\
+          </div>\
+          <div id="carouselPub" class="carousel slide p-top" data-ride="carousel">\
             <div class="carousel-inner">\
               <div class="carousel-item active">\
                 <div class="cards-wrapper">\
@@ -532,14 +538,6 @@ var config = {
                 </div>\
               </div>\
             </div>\
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">\
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
-              <span class="sr-only">Previous</span>\
-            </a>\
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">\
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>\
-              <span class="sr-only">Next</span>\
-            </a>\
           </div>\
         </div>\
       </div>\
