@@ -441,13 +441,13 @@ var config = {
       //bookmark: 'Abertura',
       description: '\
       <div class="light">\
-        <div class="container p-bottom">\
+        <div class="container-carousel">\
           <h1 class="rosa txt-cent">Publicações</h1>\
-          <div class="col-12 text-right">\
-                <a class="btn btn-primary mb-3 mr-1" href="#carouselPub" role="button" data-slide="prev">\
+          <div class="col-12 text-center">\
+                <a class="btn btn-primary mr-1" href="#carouselPub" role="button" data-slide="prev">\
                     <i class="fa fa-arrow-left"></i>\
                 </a>\
-                <a class="btn btn-primary mb-3 " href="#carouselPub" role="button" data-slide="next">\
+                <a class="btn btn-primary" href="#carouselPub" role="button" data-slide="next">\
                     <i class="fa fa-arrow-right"></i>\
                 </a>\
           </div>\
@@ -455,56 +455,28 @@ var config = {
             <div class="carousel-inner">\
               <div class="carousel-item active">\
                 <div class="cards-wrapper">\
-                <div class="card">\
-                  <img src="..." class="card-img-to\p" alt="...">\
-                  <div class="card-body">\
-                    <h5 class="card-title">Card title</h5>\
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                    <a href="#" class="btn btn-primary">Go somewhere</a>\
-                  </div>\
-                </div>\
-                <div class="card d-none d-md-block">\
-                  <img src="..." class="card-img-top" alt="...">\
-                  <div class="card-body">\
-                    <h5 class="card-title">Card title</h5>\
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                    <a href="#" class="btn btn-primary">Go somewhere</a>\
-                  </div>\
-                </div>\
-                <div class="card d-none d-md-block">\
-                  <img src="..." class="card-img-top" alt="...">\
-                  <div class="card-body">\
-                    <h5 class="card-title">Card title</h5>\
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                    <a href="#" class="btn btn-primary">Go somewhere</a>\
-                  </div>\
-                </div>\
-              </div>\
-              </div>\
-              <div class="carousel-item">\
-                <div class="cards-wrapper">\
                   <div class="card">\
-                    <img src="..." class="card-img-top" alt="...">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                      <h5 class="card-title">Card title</h5>\
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="..." class="card-img-top" alt="...">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                      <h5 class="card-title">Card title</h5>\
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="..." class="card-img-top" alt="...">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                      <h5 class="card-title">Card title</h5>\
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
                 </div>\
@@ -512,27 +484,55 @@ var config = {
               <div class="carousel-item">\
                 <div class="cards-wrapper">\
                   <div class="card">\
-                    <img src="..." class="card-img-top" alt="...">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                      <h5 class="card-title">Card title</h5>\
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="..." class="card-img-top" alt="...">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                      <h5 class="card-title">Card title</h5>\
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="..." class="card-img-top" alt="...">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                      <h5 class="card-title">Card title</h5>\
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>\
-                      <a href="#" class="btn btn-primary">Go somewhere</a>\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+              <div class="carousel-item">\
+                <div class="cards-wrapper">\
+                  <div class="card">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
                 </div>\

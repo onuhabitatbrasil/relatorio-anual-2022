@@ -374,22 +374,22 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.25rem;
-  font-family: "cooper-black-std", serif;
-  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
   font-style: normal;
 }
 
 h5, .h5 {
   font-size: 1rem;
-  font-family: "cooper-black-std", serif;
-  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
   font-style: normal;
 }
 
 h6, .h6 {
   font-size: 0.75rem;
-  font-family: "cooper-black-std", serif;
-  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -2586,14 +2586,15 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   font-size: 0.75em;
-  font-family: "cooper-black-std", serif;
-  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
   font-style: normal;
-  border-radius: 1em;
-  padding: 0.5rem;
+  text-transform: uppercase !important;
+  border-radius: 1.5em;
   color: #cc3480;
   background-color: transparent;
   border: 2px solid #cc3480;
+  transition: 0.5s;
 }
 
 .btn-primary:hover {
