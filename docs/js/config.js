@@ -863,6 +863,141 @@ var config = {
       onChapterExit: []
     },
 
+    {
+      id: "other",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
+      description: '\
+      <div class="light">\
+        <div class="container-carousel">\
+          <h1 class="azul txt-cent">Metodologias</h1>\
+          <div class="col-12 text-center">\
+                <a class="btn btn-primary mr-1" href="#carouselRot2" role="button" data-slide="prev">\
+                    <i class="fa fa-arrow-left"></i>\
+                </a>\
+                <a class="btn btn-primary" href="#carouselRot2" role="button" data-slide="next">\
+                    <i class="fa fa-arrow-right"></i>\
+                </a>\
+          </div>\
+          <div id="carouselRot2" class="carousel slide p-top" data-ride="carousel">\
+            <div class="carousel-inner">\
+              <div class="carousel-item active">\
+                <div class="cards-wrapper pt-5">\
+                    <div class="wrapper">\
+                      <div class="card front-face">\
+                          <img src="./images/tempo/conexoes_analise_min.jpg">\
+                          <div class="text-box">\
+                            <h3>Título</h3>\
+                          </div>\
+                      </div>\
+                      <div class="card back-face">\
+                          <img src="./images/tempo/conexoes_analise_min.jpg">\
+                          <div class="info">\
+                              <div class="title">\
+                                  CodingLab</div>\
+                              <p>\
+                                  User interface designer and <br>front-end developer</p>\
+                          </div>\
+                      </div>\
+                    </div>\
+                    <div class="wrapper d-none d-md-block">\
+                      <div class="card front-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                      </div>\
+                      <div class="card back-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                          <div class="info">\
+                              <div class="title">\
+                                  CodingLab</div>\
+                              <p>\
+                                  User interface designer and <br>front-end developer</p>\
+                          </div>\
+                      </div>\
+                    </div>\
+                    <div class="wrapper d-none d-md-block">\
+                      <div class="card front-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                      </div>\
+                      <div class="card back-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                          <div class="info">\
+                              <div class="title">\
+                                  CodingLab</div>\
+                              <p>\
+                                  User interface designer and <br>front-end developer</p>\
+                          </div>\
+                      </div>\
+                    </div>\
+                </div>\
+              </div>\
+              <div class="carousel-item">\
+                <div class="cards-wrapper pt-5">\
+                    <div class="wrapper">\
+                      <div class="card front-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                      </div>\
+                      <div class="card back-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                          <div class="info">\
+                              <div class="title">\
+                                  CodingLab</div>\
+                              <p>\
+                                  User interface designer and <br>front-end developer</p>\
+                          </div>\
+                      </div>\
+                    </div>\
+                    <div class="wrapper d-none d-md-block">\
+                      <div class="card front-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                      </div>\
+                      <div class="card back-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                          <div class="info">\
+                              <div class="title">\
+                                  CodingLab</div>\
+                              <p>\
+                                  User interface designer and <br>front-end developer</p>\
+                          </div>\
+                      </div>\
+                    </div>\
+                    <div class="wrapper d-none d-md-block">\
+                      <div class="card front-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                      </div>\
+                      <div class="card back-face">\
+                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
+                          <div class="info">\
+                              <div class="title">\
+                                  CodingLab</div>\
+                              <p>\
+                                  User interface designer and <br>front-end developer</p>\
+                          </div>\
+                      </div>\
+                    </div>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
 
     {
       id: 'territorio-sudene',
