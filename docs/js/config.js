@@ -559,6 +559,312 @@ var config = {
     },
 
     {
+      id: "metodologias",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
+      description: '\
+      <div class="light">\
+        <div class="container-carousel">\
+          <h1 class="azul txt-cent">Metodologias</h1>\
+          <div class="col-12 text-center">\
+                <a class="btn btn-primary mr-1" href="#carouselMetod" role="button" data-slide="prev">\
+                    <i class="fa fa-arrow-left"></i>\
+                </a>\
+                <a class="btn btn-primary" href="#carouselMetod" role="button" data-slide="next">\
+                    <i class="fa fa-arrow-right"></i>\
+                </a>\
+          </div>\
+          <div id="carouselMetod" class="carousel slide p-top" data-ride="carousel">\
+            <div class="carousel-inner">\
+              <div class="carousel-item active">\
+                <div class="cards-wrapper">\
+                  <div class="card">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+              <div class="carousel-item">\
+                <div class="cards-wrapper">\
+                  <div class="card">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+              <div class="carousel-item">\
+                <div class="cards-wrapper">\
+                  <div class="card">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Título</h5>\
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    {
+      id: "other",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
+      description: '\
+      <div class="light">\
+          <div class="container-carousel">\
+            <h1 class="azul txt-cent">Teste</h1>\
+                <div class="page-content">\
+                  <div class="card">\
+                      <div class="content">\
+                          <h2 class="title">Mountain View</h2>\
+                          <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>\
+                          <button class="btn">View Trips</button>\
+                      </div>\
+                  </div>\
+                  <div class="card">\
+                      <div class="content">\
+                          <h2 class="title">To The Beach</h2>\
+                          <p class="copy">Plan your next beach trip with these fabulous destinations</p>\
+                          <button class="btn">View Trips</button>\
+                      </div>\
+                  </div>\
+                  <div class="card">\
+                      <div class="content">\
+                          <h2 class="title">Desert Destinations</h2>\
+                          <p class="copy">Its the desert youve always dreamed of</p>\
+                          <button class="btn">Book Now</button>\
+                      </div>\
+                  </div>\
+                  <div class="card">\
+                      <div class="content">\
+                          <h2 class="title">Explore The Galaxy</h2>\
+                          <p class="copy">Seriously, straight up, just blast off into outer space today</p>\
+                          <button class="btn">Book Now</button>\
+                      </div>\
+                  </div>\
+            </div>\
+          </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    {
+      id: "other",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
+      description: '\
+      <div class="light">\
+        <div class="container-carousel">\
+          <h1 class="azul txt-cent">Metodologias</h1>\
+          <div class="col-12 text-center">\
+                <a class="btn btn-primary mr-1" href="#carouselRot" role="button" data-slide="prev">\
+                    <i class="fa fa-arrow-left"></i>\
+                </a>\
+                <a class="btn btn-primary" href="#carouselRot" role="button" data-slide="next">\
+                    <i class="fa fa-arrow-right"></i>\
+                </a>\
+          </div>\
+          <div id="carouselRot" class="carousel slide p-top" data-ride="carousel">\
+            <div class="carousel-inner">\
+              <div class="carousel-item active">\
+                <div class="cards-wrapper">\
+                  <div class="card">\
+                    <div class="card-img"></div>\
+                      <div class="card-body">\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <div class="content">\
+                          <h2 class="title">card 01</h2>\
+                          <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <div class="card-img"></div>\
+                      <div class="card-body">\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <div class="content">\
+                          <h2 class="title">card 01</h2>\
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <div class="card-img"></div>\
+                      <div class="card-body">\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <div class="content">\
+                          <h2 class="title">card 01</h2>\
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>\
+                      </div>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+              <div class="carousel-item">\
+                <div class="cards-wrapper">\
+                  <div class="card">\
+                    <div class="card-img"></div>\
+                      <div class="card-body">\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <div class="content">\
+                          <h2 class="title">card 01</h2>\
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <div class="card-img"></div>\
+                      <div class="card-body">\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <div class="content">\
+                          <h2 class="title">card 01</h2>\
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card d-none d-md-block">\
+                    <div class="card-img"></div>\
+                      <div class="card-body">\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <span class="bg"></span>\
+                          <div class="content">\
+                          <h2 class="title">card 01</h2>\
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>\
+                      </div>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+
+    {
       id: 'territorio-sudene',
       alignment: 'left',
       hidden: false,
