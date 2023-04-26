@@ -1434,6 +1434,75 @@ var config = {
     ]
   },
 
+   {
+      id: 'historia-bh',
+      alignment: 'full',
+      hidden: false,
+      bookmark: 'Belo Horizonte',
+      description: '\
+      <div class="light">\
+        <div class="container-history text-left">\
+          <div class="row no-gutters p-left">\
+            <div class="col-lg-8">\
+              <div class="row">\
+                <div class="col-md-12">\
+                  <h1 class="laranja">Articulando o direito à moradia</h1>\
+                </div>\
+              </div>\
+              <div class="row p-bottom">\
+                <div class="col-md-6">\
+                    <p>Charlene Cristiane Egídio foi uma das primeiras pessoas a chegar no terreno que se tornaria a Rosa Leão, uma das quatro ocupações da Izidora. Ela e seu filho Pedro, na época com três anos, moraram em uma barraca de lona nos primórdios da ocupação, em 2013. Não levou muito tempo até que, em meio a uma comunidade que crescia e tinha a necessidade urgente de se organizar, a liderança nata de Charlene tomasse forma, dando a ela uma posição de coordenação.</p>\
+                    <p>Com a ocupação ganhando corpo, casas começaram a ser construídas, ruas precisavam ser abertas. E cada centímetro de decisão passava por uma força característica da Izidora: a participação popular. Ela está presente em cada fase da história de ocupação, em cada articulação com instituições que, ao longo do tempo, passaram a auxiliar a comunidade.</p>\
+                    <p>Assumir o papel de liderança trouxe mudanças. Uma delas foi receber formações que aguçaram seu olhar político, ético e humano, que expandiu o horizonte da função a ser cumprida. "A gente passa a se formar ser humano. Porque aqui você começa a sentir a dor do outro, e aí começa a entender que é um chamado ser liderança. É insano, mas é um chamado necessário".</p>\
+                    <p>Para ela, sua principal função é a articulação. E esse papel é fundamental na elaboração do plano de urbanização popular que passou a nascer. Junto à comunidade, a Prefeitura de Belo Horizonte, o ONU-Habitat e o UNOPS trabalham no Plano de Urbanização Sustentável da Izidora, o primeiro para um assentamento informal em Belo Horizonte que traz a resiliência urbana como tema central.</p>\
+                </div>\
+                <div class="col-md-6">\
+                    <p>Charlene se envolveu com o Plano desde o princípio, abrindo caminhos de diálogo entre as partes. Para ela, é importante mediar a conversa entre os técnicos e a população, garantindo que esta entenda o papel e a linguagem dos parceiros. "A linguagem técnica tem que ser transformada em linguagem popular quando a gente tá falando de diversidade. Se o povo não tá entendendo, o meu papel é buscar entendimento e saber como funciona o projeto". Sua expectativa é de que o plano, fruto dessa parceria, seja o ideal para o território, contemplando os desejos e demandas de quem vive ali.</p>\
+                    <p>Nesse processo, ela vê que muito já mudou. Ela se descobriu uma mulher empoderada, que não abaixa a cabeça a ninguém. Já Izidora tem o potencial de ser exemplo internacional, transformando o que era conflito fundiário em um projeto urbanístico feito em conjunto pelo olhar dos moradores e pelo poder público. "Imagine se todo mundo, todos os bairros que são feitos em Belo Horizonte, tivessem a oportunidade dessa escuta, de você dizer o que que quer aqui, e você discutir isso com o povo que vai viver lá, né? Hoje, depois de 10 anos, a gente vê esperança, perspectiva de melhora, de respeito, de cidadania, de dizer que a gente faz parte de Belo Horizonte e tem direito de morar em Belo Horizonte".</p>\
+                </div>\
+              </div>\
+          </div>\
+            <div class="col-lg-4 align-self-end">\
+                <img src="images/historia-bh.png" alt="" class="img-fluid"/>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+          center: [-43.92136, -19.80455],
+          zoom: 14.40,
+          pitch: 56.69,
+          bearing: 28.64,
+          speed: 2
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: '',
+      onChapterEnter: [
+        {
+            layer: 'satellite',
+            opacity: 1
+        },
+        {
+          layer: 'road-label-simple',
+          opacity: 0
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'satellite',
+              opacity: 0
+          },
+          {
+            layer: 'road-label-simple',
+            opacity: 1
+          }
+      ]
+  },
+
   {
         id: 'territorio-jf',
         alignment: 'left',
