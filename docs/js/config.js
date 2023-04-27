@@ -215,52 +215,91 @@ var config = {
                 </div>\
               </div>\
               <div class="carousel-item" data-slide-number="1">\
-                <img src="./images/tempo/al_grotas.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="2">\
-                <img src="./images/tempo/circuito.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/02_Visita_Fortaleza.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="3">\
-                <img src="./images/tempo/conexoes_alain.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/03_G52_Lançamento.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="4">\
-                <img src="./images/tempo/conexoes_analise.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="5">\
-                <img src="./images/tempo/conexoes_entrevista.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/05_RJ_Territórios Sociais.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="6">\
-                <img src="./images/tempo/conexoes_triplice.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/06_MoU_Rio de Janeiro.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="7">\
-                <img src="./images/tempo/csst.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/07_Alagoas_Seminário.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="8">\
-                <img src="./images/tempo/encontro_inrede.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/08_Territórios da Cidadania.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="9">\
-                <img src="./images/tempo/g52_capacitacoes.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/09_BH_Izidora_Assembleia RL e HG.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="10">\
-                <img src="./images/tempo/g52_raquel.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/10_Regularização fundiária_AL_Foto Marcio Ferreira.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="11">\
-                <img src="./images/tempo/g52_reuniao.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/11_Teresina_Missão Maio.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="12">\
-                <img src="./images/tempo/mou_rj.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/12_I Encontro InRede_Fortaleza.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="13">\
-                <img src="./images/tempo/praia_sp.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/13_Conexões Urbanas_Análise técnica em Dionísio Cerqueira.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="14">\
-                <img src="./images/tempo/rio_cidade_anti.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/14_Alagoas_Visão das Grotasi.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="15">\
-                <img src="./images/tempo/virada.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/15_CSST.jpg" class="d-block w-100" alt="...">\
               </div>\
               <div class="carousel-item" data-slide-number="16">\
-                <img src="./images/tempo/visita_fortaleza.jpg" class="d-block w-100" alt="...">\
+                <img src="./images/tempo/16_G52_Reunião Online.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="17">\
+                <img src="./images/tempo/17_Praia em São Paulo.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="18">\
+                <img src="./images/tempo/18_JF_Piloto de MRP em área rural.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="19">\
+                <img src="./images/tempo/19_Alagoas_Dia Internacional da Juventude.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="20">\
+                <img src="./images/tempo/20_JF_Workshop Agenda 2030.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="21">\
+                <img src="./images/tempo/21_SP_Parque da Luz.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="22">\
+                <img src="./images/tempo/22_Rio Cidade Antirracista.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="23">\
+                <img src="./images/tempo/23_Circuito Urbano.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="24">\
+                <img src="./images/tempo/24_Programa Digaê_Minne Santos.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="25">\
+                <img src="./images/tempo/25_Ascom SUDENE.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="26">\
+                <img src="./images/tempo/26_Conexões Urbanas_Missão Alain.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="27">\
+                <img src="./images/tempo/27_Virada Sustentável 2022.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="28">\
+                <img src="./images/tempo/28_Seminário Cooperaçao Pernambuco.jpg" class="d-block w-100" alt="...">\
+              </div>\
+              <div class="carousel-item" data-slide-number="29">\
+                <img src="./images/tempo/29_Argentina_Ciudad deNeuquen.jpg" class="d-block w-100" alt="...">\
               </div>\
             </div>\
           </div>\
@@ -456,7 +495,7 @@ var config = {
               <div class="carousel-item active">\
                 <div class="cards-wrapper">\
                   <div class="card">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/tempo/08_Territórios da Cidadania.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -766,13 +805,13 @@ var config = {
                 <div class="cards-wrapper pt-5">\
                     <div class="wrapper">\
                       <div class="card front-face">\
-                          <img src="./images/tempo/conexoes_analise_min.jpg">\
+                          <img src="./images/tempo/08_Territórios da Cidadania.jpg">\
                           <div class="text-box">\
                             <h3>Título</h3>\
                           </div>\
                       </div>\
                       <div class="card back-face">\
-                          <img src="./images/tempo/conexoes_analise_min.jpg">\
+                          <img src="./images/tempo/08_Territórios da Cidadania.jpg">\
                           <div class="info">\
                               <div class="title">\
                                   CodingLab</div>\
