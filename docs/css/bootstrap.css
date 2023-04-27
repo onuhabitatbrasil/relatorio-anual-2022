@@ -6540,6 +6540,12 @@ a.close.disabled {
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
 
+.carousel img {
+    width: 100vw;
+    height: 75vh;
+    object-fit: cover;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;

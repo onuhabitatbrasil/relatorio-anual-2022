@@ -190,7 +190,7 @@ var config = {
       ]
   },
 
-  {
+  /*{
       id: "retrospectiva",
       alignment: "full",
       hidden: false,
@@ -377,6 +377,110 @@ var config = {
             <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">\
               <i class="fa fa-arrow-right fa-2x cursor-hover"></i>\
             </a>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 0.5,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },*/
+
+    {
+      id: "retrospectiva2",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
+      //img: 1600x900 / 600x400 
+      description: '\
+      <div class="light">\
+        <div class="container p-bottom">\
+          <h1 class="align-self-center rosa txt-cent">Retrospectiva 2022</h1>\
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">\
+                <ol class="carousel-indicators">\
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>\
+                </ol>\
+                <div class="carousel-inner">\
+                  <div class="carousel-item active">\
+                    <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="First slide">\
+                    <div class="carousel-caption d-none d-md-block">\
+                      <h5>...</h5>\
+                      <p>...</p>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <img class="d-block w-100" src="./images/tempo/02_Visita_Fortaleza.jpg" alt="Second slide">\
+                    <div class="carousel-caption d-none d-md-block">\
+                      <h5>...</h5>\
+                      <p>...</p>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <img class="d-block w-100" src="./images/tempo/03_G52_Lançamento.jpg" alt="Third slide">\
+                    <div class="carousel-caption d-none d-md-block">\
+                      <h5>...</h5>\
+                      <p>...</p>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <img class="d-block w-100" src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" alt="Third slide">\
+                    <div class="carousel-caption d-none d-md-block">\
+                      <h5>...</h5>\
+                      <p>...</p>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <img class="d-block w-100" src="./images/tempo/05_RJ_Territórios Sociais.jpg" alt="Third slide">\
+                    <div class="carousel-caption d-none d-md-block">\
+                      <h5>...</h5>\
+                      <p>...</p>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <img class="d-block w-100" src="./images/tempo/06_MoU_Rio de Janeiro.jpg" alt="Third slide">\
+                    <div class="carousel-caption d-none d-md-block">\
+                      <h5>...</h5>\
+                      <p>...</p>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <img class="d-block w-100" src="./images/tempo/07_Alagoas_Seminário.jpg" alt="Third slide">\
+                    <div class="carousel-caption d-none d-md-block">\
+                      <h5>...</h5>\
+                      <p>...</p>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <img class="d-block w-100" src="./images/tempo/08_Territórios da Cidadania.jpg" alt="Third slide">\
+                    <div class="carousel-caption d-none d-md-block">\
+                      <h5>...</h5>\
+                      <p>...</p>\
+                    </div>\
+                  </div>\
+                </div>\
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
+                  <span class="sr-only">Previous</span>\
+                </a>\
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">\
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>\
+                  <span class="sr-only">Next</span>\
+                </a>\
+            </div>\
           </div>\
         </div>\
       </div>\
