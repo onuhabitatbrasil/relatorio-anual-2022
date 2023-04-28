@@ -573,10 +573,14 @@ ul.social-icons li{
         opacity: 0;
    }
 }
- 
 
 .carousel-item img {
    object-fit: cover;
+   height: 60vh;
+}
+
+.h-10 {
+    height: 10% !important;
 }
 
 #carousel-thumbs {
@@ -631,7 +635,6 @@ ul.social-icons li{
     background: rgba(204, 52, 128, 0.25);
   }
 }*/
-  
 
 .animated-icon3 {
     width: 30px;
@@ -844,16 +847,18 @@ ul.social-icons li{
     position: relative;
     z-index: 2;
     width: 100%;
-    height: 225px;
+    height: 365px;
     transform: translateY(52%);
     transition: 0.5s;
 }
 
 #carouselMetod .card .card-body {
+    position: relative;
     z-index: 1;
     box-sizing: border-box;
     padding: 1.25em;
-    height: 215px;
+    height: 350px;
+    width: 100%;
     background: #00568a;
     box-shadow: 
         0 2.8px 2.2px rgba(0, 0, 0, 0.06), 

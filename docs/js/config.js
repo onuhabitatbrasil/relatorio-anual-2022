@@ -408,80 +408,305 @@ var config = {
       <div class="light">\
         <div class="container p-bottom">\
           <h1 class="align-self-center rosa txt-cent">Retrospectiva 2022</h1>\
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">\
-                <ol class="carousel-indicators">\
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>\
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>\
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>\
-                </ol>\
+            <div class="col-12 text-center pb-3">\
+                <a class="btn btn-primary mr-1" href="#myCarousel" role="button" data-slide="prev">\
+                    <i class="fa fa-arrow-left"></i>\
+                </a>\
+                <a class="btn btn-primary" href="#myCarousel" role="button" data-slide="next">\
+                    <i class="fa fa-arrow-right"></i>\
+                </a>\
+            </div>\
+              <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">\
+                  <ol class="carousel-indicators">\
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>\
+                    <li data-target="#myCarousel" data-slide-to="1"></li>\
+                    <li data-target="#myCarousel" data-slide-to="2"></li>\
+                    <li data-target="#myCarousel" data-slide-to="3"></li>\
+                    <li data-target="#myCarousel" data-slide-to="4"></li>\
+                    <li data-target="#myCarousel" data-slide-to="5"></li>\
+                    <li data-target="#myCarousel" data-slide-to="6"></li>\
+                    <li data-target="#myCarousel" data-slide-to="7"></li>\
+                    <li data-target="#myCarousel" data-slide-to="8"></li>\
+                    <li data-target="#myCarousel" data-slide-to="9"></li>\
+                    <li data-target="#myCarousel" data-slide-to="10"></li>\
+                    <li data-target="#myCarousel" data-slide-to="11"></li>\
+                    <li data-target="#myCarousel" data-slide-to="12"></li>\
+                    <li data-target="#myCarousel" data-slide-to="13"></li>\
+                    <li data-target="#myCarousel" data-slide-to="14"></li>\
+                    <li data-target="#myCarousel" data-slide-to="15"></li>\
+                    <li data-target="#myCarousel" data-slide-to="16"></li>\
+                    <li data-target="#myCarousel" data-slide-to="17"></li>\
+                    <li data-target="#myCarousel" data-slide-to="18"></li>\
+                    <li data-target="#myCarousel" data-slide-to="19"></li>\
+                    <li data-target="#myCarousel" data-slide-to="20"></li>\
+                    <li data-target="#myCarousel" data-slide-to="21"></li>\
+                    <li data-target="#myCarousel" data-slide-to="22"></li>\
+                    <li data-target="#myCarousel" data-slide-to="23"></li>\
+                    <li data-target="#myCarousel" data-slide-to="24"></li>\
+                    <li data-target="#myCarousel" data-slide-to="25"></li>\
+                    <li data-target="#myCarousel" data-slide-to="26"></li>\
+                    <li data-target="#myCarousel" data-slide-to="27"></li>\
+                    <li data-target="#myCarousel" data-slide-to="28"></li>\
+                  </ol>\
+                  <div class="carousel-inner">\
+                    <div class="carousel-item active">\
+                      <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="First slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira</h4>\
+                        <p>Em uma colaboração inédita entre os escritórios do ONU-Habitat no Brasil e no Líbano, o projeto chega a seis municípios de três países na aplicação de metodologias do Programa Global de Espaços Públicos. Realizada com atividades presenciais e virtuais, a programação do lançamento gerou um grande engajamento local. Participaram dos eventos mais de 80 pessoas, envolvendo autoridades, servidores públicos e representantes de universidades e de organizações da sociedade civil. Durante dois anos, o projeto Conexões Urbanas vai realizar capacitações com atores locais, aplicar metodologias participativas e revisar políticas públicas em cidades do Brasil, Argentina, Paraguai e Líbano.</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/02_Visita_Fortaleza.jpg" alt="Second slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/03_G52_Lançamento.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/05_RJ_Territórios Sociais.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/06_MoU_Rio de Janeiro.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/07_Alagoas_Seminário.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/08_Territórios da Cidadania.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/09_BH_Izidora_Assembleia RL e HG.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/10_Regularização fundiária_AL_Foto Marcio Ferreira.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/11_Teresina_Missão Maio.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/12_I Encontro InRede_Fortaleza.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/13_Conexões Urbanas_Análise técnica em Dionísio Cerqueira.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/14_Alagoas_Visão das Grotas.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/15_CSST.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/16_G52_Reunião Online.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/17_Praia em São Paulo.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/18_JF_Piloto de MRP em área rural.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/19_Alagoas_Dia Internacional da Juventude.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/20_JF_Workshop Agenda 2030.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/21_SP_Parque da Luz.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/22_Rio Cidade Antirracista.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/23_Circuito Urbano.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/24_Programa Digaê_Minne Santos.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/25_Ascom SUDENE.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/26_Conexões Urbanas_Missão Alain.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/27_Virada_Sustentavel.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/28_Seminário Cooperaçao Pernambuco.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                      <img class="d-block w-100" src="./images/tempo/29_Argentina_Ciudad deNeuquen.jpg" alt="Third slide">\
+                      <div class="carousel-caption d-none d-md-block">\
+                        <h4>...</h4>\
+                        <p>...</p>\
+                      </div>\
+                    </div>\
+                  </div>\
+              </div>\
+              <!-- Carousel Navigation -->\
+              <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">\
                 <div class="carousel-inner">\
-                  <div class="carousel-item active">\
-                    <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="First slide">\
-                    <div class="carousel-caption d-none d-md-block">\
-                      <h5>...</h5>\
-                      <p>...</p>\
+                  <div class="carousel-item active h-10">\
+                    <div class="row mx-0">\
+                      <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">\
+                        <img src="https://source.unsplash.com/Pn6iimgM-wo/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">\
+                        <img src="https://source.unsplash.com/tXqVe7oO-go/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">\
+                        <img src="https://source.unsplash.com/qlYQb7B9vog/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">\
+                        <img src="https://source.unsplash.com/QfEfkWk1Uhk/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">\
+                        <img src="https://source.unsplash.com/CSIcgaLiFO0/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">\
+                        <img src="https://source.unsplash.com/a_xa7RUKzdc/600x400/" class="img-fluid" alt="...">\
+                      </div>\
                     </div>\
                   </div>\
-                  <div class="carousel-item">\
-                    <img class="d-block w-100" src="./images/tempo/02_Visita_Fortaleza.jpg" alt="Second slide">\
-                    <div class="carousel-caption d-none d-md-block">\
-                      <h5>...</h5>\
-                      <p>...</p>\
-                    </div>\
-                  </div>\
-                  <div class="carousel-item">\
-                    <img class="d-block w-100" src="./images/tempo/03_G52_Lançamento.jpg" alt="Third slide">\
-                    <div class="carousel-caption d-none d-md-block">\
-                      <h5>...</h5>\
-                      <p>...</p>\
-                    </div>\
-                  </div>\
-                  <div class="carousel-item">\
-                    <img class="d-block w-100" src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" alt="Third slide">\
-                    <div class="carousel-caption d-none d-md-block">\
-                      <h5>...</h5>\
-                      <p>...</p>\
-                    </div>\
-                  </div>\
-                  <div class="carousel-item">\
-                    <img class="d-block w-100" src="./images/tempo/05_RJ_Territórios Sociais.jpg" alt="Third slide">\
-                    <div class="carousel-caption d-none d-md-block">\
-                      <h5>...</h5>\
-                      <p>...</p>\
-                    </div>\
-                  </div>\
-                  <div class="carousel-item">\
-                    <img class="d-block w-100" src="./images/tempo/06_MoU_Rio de Janeiro.jpg" alt="Third slide">\
-                    <div class="carousel-caption d-none d-md-block">\
-                      <h5>...</h5>\
-                      <p>...</p>\
-                    </div>\
-                  </div>\
-                  <div class="carousel-item">\
-                    <img class="d-block w-100" src="./images/tempo/07_Alagoas_Seminário.jpg" alt="Third slide">\
-                    <div class="carousel-caption d-none d-md-block">\
-                      <h5>...</h5>\
-                      <p>...</p>\
-                    </div>\
-                  </div>\
-                  <div class="carousel-item">\
-                    <img class="d-block w-100" src="./images/tempo/08_Territórios da Cidadania.jpg" alt="Third slide">\
-                    <div class="carousel-caption d-none d-md-block">\
-                      <h5>...</h5>\
-                      <p>...</p>\
+                  <div class="carousel-item h-10">\
+                    <div class="row mx-0">\
+                      <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">\
+                        <img src="https://source.unsplash.com/uanoYn1AmPs/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">\
+                        <img src="https://source.unsplash.com/_snqARKTgoc/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">\
+                        <img src="https://source.unsplash.com/M9F8VR0jEPM/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">\
+                        <img src="https://source.unsplash.com/Q1p7bh3SHj8/600x400/" class="img-fluid" alt="...">\
+                      </div>\
+                      <div class="col-2 px-1 py-2"></div>\
+                      <div class="col-2 px-1 py-2"></div>\
                     </div>\
                   </div>\
                 </div>\
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">\
+                <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">\
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
                   <span class="sr-only">Previous</span>\
                 </a>\
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">\
+                <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">\
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>\
                   <span class="sr-only">Next</span>\
                 </a>\
             </div>\
-          </div>\
         </div>\
       </div>\
       ',
@@ -599,7 +824,7 @@ var config = {
               <div class="carousel-item active">\
                 <div class="cards-wrapper">\
                   <div class="card">\
-                    <img src="./images/tempo/08_Territórios da Cidadania.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/01_Avaliação de necessidades de capacitação_Minne Santos.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -607,7 +832,7 @@ var config = {
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/02_Desafio de Inovação_Ascom Sudene.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -615,7 +840,7 @@ var config = {
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/03_Laboratório de Planejamento_AL.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -627,7 +852,7 @@ var config = {
               <div class="carousel-item">\
                 <div class="cards-wrapper">\
                   <div class="card">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/04_Observatório de Políticas Públicas_AL.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -635,7 +860,7 @@ var config = {
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/05_MRP_JF.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -643,7 +868,7 @@ var config = {
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/06_Perfil Socioeconômico_JF.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -655,7 +880,7 @@ var config = {
               <div class="carousel-item">\
                 <div class="cards-wrapper">\
                   <div class="card">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/07_Índice de Prosperidade das Cidades_Minne Santos.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -663,7 +888,7 @@ var config = {
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/08_Cidade Mulher_Renatto Mendonça.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
@@ -671,10 +896,10 @@ var config = {
                     </div>\
                   </div>\
                   <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                    <img src="./images/metodologias/09_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
                         <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <p class="card-text">Programa para reduzir o risco social e as vulnerabilidades das famílias atendidas, dividido em três etapas: busca ativa, plano de ação integrado e monitoramento. Através da aplicação do Índice de Pobreza Multidimensional (IPM), adaptado do PNUD, são identificadas as privações em educação, saúde e padrão de vida. As famílias com maior grau de vulnerabilidade passam a ser monitoradas de forma integrada por diversos órgãos da Prefeitura, na perspectiva de inclusão nos serviços e benefícios e na ampliação de oportunidades.</p>\
                         <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
@@ -719,91 +944,111 @@ var config = {
                     <i class="fa fa-arrow-right"></i>\
                 </a>\
           </div>\
-          <div id="carouselMetod" class="carousel slide p-top" data-ride="carousel">\
-            <div class="carousel-inner">\
-              <div class="carousel-item active">\
-                <div class="cards-wrapper">\
-                  <div class="card">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+          <div id="carouselMetod" class="carousel slide p-top row" data-ride="carousel">\
+            <div class="carousel-inner col-12">\
+              <div class="carousel-item col-12 active">\
+                <div class="cards-wrapper col-12">\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <h5 class="card-title">Avaliação de Espaços Públicos na Escala da Cidade</h5>\
+                        <p class="card-text">A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
                         <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/02_Avaliação de necessidades de capacitação_Minne Santos.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <h5 class="card-title">Avaliação de Necessidades de Capacitação</h5>\
+                        <p class="card-text">A Avaliação de Necessidades de Capacitação é um processo que identifica as necessidades de treinamento e formação de um determinado grupo de profissionais em áreas específicas, como desenvolvimento, cooperação, gerenciamento, financiamento, planejamento e inovação. Essa avaliação pode ser realizada por meio de questionários ou reuniões com grupos focais, e busca aprimorar o conhecimento e habilidades desses profissionais.</p>\
                         <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/03_Cidade Mulher_Renatto Mendonça.jpg" alt="Cidade Mulher" class="card-img-top">\
                     <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                </div>\
-              </div>\
-              <div class="carousel-item">\
-                <div class="cards-wrapper">\
-                  <div class="card">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <h5 class="card-title">Cidade Mulher</h5>\
+                        <p class="card-text">Busca compreender a relação das mulheres com a cidade e diagnosticar as sensações de (in)segurança nos espaços públicos por meio das suas percepções, experiências de cidade e levantamento de necessidades. Esta é uma iniciativa do ONU-Habitat Brasil baseada na metodologia global de Auditoria de Segurança das Mulheres.</p>\
                         <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
                 </div>\
               </div>\
-              <div class="carousel-item">\
-                <div class="cards-wrapper">\
-                  <div class="card">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+              <div class="carousel-item col-12">\
+                <div class="cards-wrapper col-12">\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/04_Desafio de Inovação_Ascom Sudene.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <h5 class="card-title">Desafio de Inovação</h5>\
+                        <p class="card-text">Iniciativa que estimula a construção coletiva de soluções de inovação para a gestão pública voltadas a enfrentar problemas urbanos que dificultam o desenvolvimento da região. A metodologia envolve a criação de práticas inovadoras, replicáveis e escalonáveis por meio de estratégias criativas e colaborativas e de processos de experimentação capazes de aprimorar a qualidade dos serviços públicos dos municípios. As melhores propostas são apresentadas e premiadas em um evento de reconhecimento.</p>\
                         <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/05_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <h5 class="card-title">Desenho de Espaços Públicos</h5>\
+                        <p class="card-text">Incentiva jovens a melhorar espaços públicos em seus territórios. Com técnicas simples de urbanismo e cartografia, a metodologia desenvolve maquetes físicas dos espaços desejados. As oficinas envolvem dinâmicas e pesquisa de campo, permitindo que os jovens confrontem suas ideias com as de seus vizinhos e comerciantes locais. Os dados coletados são sistematizados em uma proposta final entregue às autoridades e à população local, permitindo que o poder público atue para melhorar os espaços públicos.</p>\
                         <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="Título" class="card-img-top">\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/06_Índice de Prosperidade das Cidades_Minne Santos.jpg" alt="Título" class="card-img-top">\
                     <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
+                        <h5 class="card-title">Índice de Prosperidade das Cidades</h5>\
+                        <p class="card-text">Ferramenta que utiliza indicadores para representar seis dimensões da prosperidade nas cidades: produtividade, desenvolvimento de infraestrutura, qualidade de vida, equidade e inclusão social, sustentabilidade ambiental, e governança e legislação urbanas. É utilizado para conceber, monitorar e avaliar ações, programas e políticas públicas implementadas nessas cidades.</p>\
                         <a href="#" class="btn btn-primary">Saiba mais</a>\
                     </div>\
                   </div>\
                 </div>\
+              </div>\
+              <div class="carousel-item col-12">\
+                <div class="cards-wrapper col-12">\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/07_Laboratório de Planejamento_AL.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável</h5>\
+                        <p class="card-text">Inspiradas na metodologia Urban Labs do ONU-Habitat, o Laboratório considera o alinhamento dos programas de um governo aos Objetivos de Desenvolvimento Sustentável e à Nova Agenda Urbana e elabora coletivamente, com gestores municipais e representantes da sociedade civil, propostas para aperfeiçoar as políticas públicas em questão e promover o desenvolvimento urbano sustentável.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/08_MRP_JF.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Mapa Rápido Participativo</h5>\
+                        <p class="card-text">Consiste no levantamento de informações sobre a cobertura e qualidade dos serviços públicos relacionados diretamente ao território. Esse método permite diagnosticar as condições de infraestrutura urbana e qualidade dos serviços em assentamentos precários de forma ágil e participativa.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                    <img src="./images/metodologias/09_Observatório de Políticas Públicas_AL.jpg" alt="Título" class="card-img-top">\
+                    <div class="card-body">\
+                        <h5 class="card-title">Observatório de Políticas Públicas</h5>\
+                        <p class="card-text">Criação de uma plataforma aberta com dados e indicadores alinhados às agendas globais de desenvolvimento sustentável para apoiar políticas públicas setoriais e melhorar o atendimento à população.</p>\
+                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+              <div class="carousel-item col-12">\
+                  <div class="cards-wrapper col-12">\
+                    <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                      <img src="./images/metodologias/10_Perfil Socioeconômico_JF.jpg" alt="Título" class="card-img-top">\
+                      <div class="card-body">\
+                          <h5 class="card-title">Perfil Socioeconômico</h5>\
+                          <p class="card-text">Pesquisa domiciliar amostral que tem como objetivo analisar todo o território avaliado através do diagnóstico da situação sociodemográfica e econômica das famílias, além de avaliar a mobilidade residencial, o acesso a equipamentos e serviços na comunidade e a percepção da população sobre o território em que vivem.</p>\
+                          <a href="#" class="btn btn-primary">Saiba mais</a>\
+                      </div>\
+                    </div>\
+                    <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
+                      <img src="./images/metodologias/11_Territórios Sociais_RJ.jpg" alt="Título" class="card-img-top">\
+                      <div class="card-body">\
+                          <h5 class="card-title">Territórios Sociais</h5>\
+                          <p class="card-text">Programa para reduzir o risco social e as vulnerabilidades das famílias atendidas, dividido em três etapas: busca ativa, plano de ação integrado e monitoramento. Através da aplicação do Índice de Pobreza Multidimensional (IPM), adaptado do PNUD, são identificadas as privações em educação, saúde e padrão de vida. As famílias com maior grau de vulnerabilidade passam a ser monitoradas de forma integrada por diversos órgãos da Prefeitura, na perspectiva de inclusão nos serviços e benefícios e na ampliação de oportunidades.</p>\
+                          <a href="#" class="btn btn-primary">Saiba mais</a>\
+                      </div>\
+                    </div>\
+                  </div>\
               </div>\
             </div>\
           </div>\
