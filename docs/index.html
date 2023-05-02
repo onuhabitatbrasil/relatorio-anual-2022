@@ -18,30 +18,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 
-    <script>
-        
-        $('#myCarousel').carousel({
-          interval: 6000
-        });
-
-        $('#carousel-thumbs').carousel({
-          interval: false
-        });
-        
-        // Only display 3 items in nav on mobile.
-        if ($(window).width() < 575) {
-          $('#carousel-thumbs .row div:nth-child(4)').each(function() {
-            var rowBoundary = $(this);
-            $('<div class="row mx-0">').insertAfter(rowBoundary.parent()).append(rowBoundary.nextAll().addBack());
-          });
-          $('#carousel-thumbs .carousel-item .row:nth-child(even)').each(function() {
-            var boundary = $(this);
-            $('<div class="carousel-item">').insertAfter(boundary.parent()).append(boundary.nextAll().addBack());
-          });
-        }       
-
-    </script>
-
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">

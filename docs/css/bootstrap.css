@@ -6515,7 +6515,6 @@ a.close.disabled {
 }
 
 .carousel-inner {
-  border-radius: 25px;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -6641,8 +6640,6 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 35px;
-  height: 35px;
   background: 50% / 100% 100% no-repeat;
 }
 

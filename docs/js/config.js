@@ -190,214 +190,7 @@ var config = {
       ]
   },
 
-  /*{
-      id: "retrospectiva",
-      alignment: "full",
-      hidden: false,
-      //title: 'Abertura',
-      //bookmark: 'Abertura',
-      //img: 1600x900 / 600x400 
-      description: '\
-      <div class="light">\
-        <div class="container p-bottom">\
-          <h1 class="align-self-center rosa txt-cent">Retrospectiva 2022</h1>\
-          <div class="container">\
-          <div class="carousel-container position-relative row">\
-          <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">\
-            <div class="carousel-inner">\
-              <div class="carousel-item active" data-slide-number="0">\
-                <div>\
-                  <img class="d-block w-100" src="./images/tempo/al_digae.jpg" alt="Alagoas Digaê">\
-                </div>\
-                <div class="carousel-caption">\
-                  <h3>Janeiro</h3>\
-                  <p>Subtítulo</p>\
-                </div>\
-              </div>\
-              <div class="carousel-item" data-slide-number="1">\
-                <img src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="2">\
-                <img src="./images/tempo/02_Visita_Fortaleza.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="3">\
-                <img src="./images/tempo/03_G52_Lançamento.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="4">\
-                <img src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="5">\
-                <img src="./images/tempo/05_RJ_Territórios Sociais.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="6">\
-                <img src="./images/tempo/06_MoU_Rio de Janeiro.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="7">\
-                <img src="./images/tempo/07_Alagoas_Seminário.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="8">\
-                <img src="./images/tempo/08_Territórios da Cidadania.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="9">\
-                <img src="./images/tempo/09_BH_Izidora_Assembleia RL e HG.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="10">\
-                <img src="./images/tempo/10_Regularização fundiária_AL_Foto Marcio Ferreira.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="11">\
-                <img src="./images/tempo/11_Teresina_Missão Maio.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="12">\
-                <img src="./images/tempo/12_I Encontro InRede_Fortaleza.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="13">\
-                <img src="./images/tempo/13_Conexões Urbanas_Análise técnica em Dionísio Cerqueira.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="14">\
-                <img src="./images/tempo/14_Alagoas_Visão das Grotasi.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="15">\
-                <img src="./images/tempo/15_CSST.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="16">\
-                <img src="./images/tempo/16_G52_Reunião Online.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="17">\
-                <img src="./images/tempo/17_Praia em São Paulo.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="18">\
-                <img src="./images/tempo/18_JF_Piloto de MRP em área rural.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="19">\
-                <img src="./images/tempo/19_Alagoas_Dia Internacional da Juventude.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="20">\
-                <img src="./images/tempo/20_JF_Workshop Agenda 2030.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="21">\
-                <img src="./images/tempo/21_SP_Parque da Luz.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="22">\
-                <img src="./images/tempo/22_Rio Cidade Antirracista.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="23">\
-                <img src="./images/tempo/23_Circuito Urbano.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="24">\
-                <img src="./images/tempo/24_Programa Digaê_Minne Santos.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="25">\
-                <img src="./images/tempo/25_Ascom SUDENE.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="26">\
-                <img src="./images/tempo/26_Conexões Urbanas_Missão Alain.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="27">\
-                <img src="./images/tempo/27_Virada Sustentável 2022.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="28">\
-                <img src="./images/tempo/28_Seminário Cooperaçao Pernambuco.jpg" class="d-block w-100" alt="...">\
-              </div>\
-              <div class="carousel-item" data-slide-number="29">\
-                <img src="./images/tempo/29_Argentina_Ciudad deNeuquen.jpg" class="d-block w-100" alt="...">\
-              </div>\
-            </div>\
-          </div>\
-          <!-- Carousel Navigation -->\
-          <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">\
-            <div class="carousel-inner">\
-              <div class="carousel-item active">\
-                <div class="row mx-0">\
-                  <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="0">\
-                    <img src="./images/tempo/al_digae_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">\
-                    <img src="./images/tempo/al_grotas_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">\
-                    <img src="./images/tempo/circuito_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">\
-                    <img src="./images/tempo/conexoes_alain_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">\
-                    <img src="./images/tempo/conexoes_analise_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">\
-                    <img src="./images/tempo/conexoes_entrevista_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                </div>\
-              </div>\
-              <div class="carousel-item">\
-                <div class="row mx-0">\
-                  <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">\
-                    <img src="./images/tempo/conexoes_triplice_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">\
-                    <img src="./images/tempo/csst_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">\
-                    <img src="./images/tempo/encontro_inrede_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">\
-                    <img src="./images/tempo/g52_capacitacoes_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-10" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="10">\
-                    <img src="./images/tempo/g52_raquel_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-11" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="11">\
-                    <img src="./images/tempo/g52_reuniao_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                </div>\
-              </div>\
-              <div class="carousel-item">\
-                <div class="row mx-0">\
-                  <div id="carousel-selector-12" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="12">\
-                    <img src="./images/tempo/mou_rj_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-13" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="13">\
-                    <img src="./images/tempo/praia_sp_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-14" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="14">\
-                    <img src="./images/tempo/rio_cidade_anti_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-15" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="15">\
-                    <img src="./images/tempo/virada_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-16" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="16">\
-                    <img src="./images/tempo/visita_fortaleza_min.jpg" class="img-fluid" alt="...">\
-                  </div>\
-                  <div id="carousel-selector-17" class="thumb col-4 col-sm-2 px-1 py-2"></div>\
-                </div>\
-              </div>\
-            </div>\
-            <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">\
-              <i class="fa fa-arrow-left fa-2x cursor-hover"></i>\
-            </a>\
-            <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">\
-              <i class="fa fa-arrow-right fa-2x cursor-hover"></i>\
-            </a>\
-          </div>\
-        </div>\
-      </div>\
-      ',
-      location: {
-        center: [-51.06166, -15.66707],
-        zoom: 1.5,
-        pitch: 0.00,
-        bearing: 0.00,
-        speed: 0.5,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
-    },*/
-
-    {
+  {
       id: "retrospectiva2",
       alignment: "full",
       hidden: false,
@@ -407,50 +200,19 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container p-bottom">\
-          <h1 class="align-self-center rosa txt-cent">Retrospectiva 2022</h1>\
-            <div class="col-12 text-center pb-3">\
-                <a class="btn btn-primary mr-1" href="#myCarousel" role="button" data-slide="prev">\
-                    <i class="fa fa-arrow-left"></i>\
-                </a>\
-                <a class="btn btn-primary" href="#myCarousel" role="button" data-slide="next">\
-                    <i class="fa fa-arrow-right"></i>\
-                </a>\
-            </div>\
+            <h1 class="align-self-center rosa txt-cent">Retrospectiva 2022</h1>\
+              <div class="col-12 text-center pb-3">\
+                  <a class="btn btn-primary mr-1" href="#myCarousel" role="button" data-slide="prev">\
+                      <i class="fa fa-arrow-left cursor-hover"></i>\
+                  </a>\
+                  <a class="btn btn-primary" href="#myCarousel" role="button" data-slide="next">\
+                      <i class="fa fa-arrow-right cursor-hover"></i>\
+                  </a>\
+              </div>\
               <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">\
-                  <ol class="carousel-indicators">\
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>\
-                    <li data-target="#myCarousel" data-slide-to="1"></li>\
-                    <li data-target="#myCarousel" data-slide-to="2"></li>\
-                    <li data-target="#myCarousel" data-slide-to="3"></li>\
-                    <li data-target="#myCarousel" data-slide-to="4"></li>\
-                    <li data-target="#myCarousel" data-slide-to="5"></li>\
-                    <li data-target="#myCarousel" data-slide-to="6"></li>\
-                    <li data-target="#myCarousel" data-slide-to="7"></li>\
-                    <li data-target="#myCarousel" data-slide-to="8"></li>\
-                    <li data-target="#myCarousel" data-slide-to="9"></li>\
-                    <li data-target="#myCarousel" data-slide-to="10"></li>\
-                    <li data-target="#myCarousel" data-slide-to="11"></li>\
-                    <li data-target="#myCarousel" data-slide-to="12"></li>\
-                    <li data-target="#myCarousel" data-slide-to="13"></li>\
-                    <li data-target="#myCarousel" data-slide-to="14"></li>\
-                    <li data-target="#myCarousel" data-slide-to="15"></li>\
-                    <li data-target="#myCarousel" data-slide-to="16"></li>\
-                    <li data-target="#myCarousel" data-slide-to="17"></li>\
-                    <li data-target="#myCarousel" data-slide-to="18"></li>\
-                    <li data-target="#myCarousel" data-slide-to="19"></li>\
-                    <li data-target="#myCarousel" data-slide-to="20"></li>\
-                    <li data-target="#myCarousel" data-slide-to="21"></li>\
-                    <li data-target="#myCarousel" data-slide-to="22"></li>\
-                    <li data-target="#myCarousel" data-slide-to="23"></li>\
-                    <li data-target="#myCarousel" data-slide-to="24"></li>\
-                    <li data-target="#myCarousel" data-slide-to="25"></li>\
-                    <li data-target="#myCarousel" data-slide-to="26"></li>\
-                    <li data-target="#myCarousel" data-slide-to="27"></li>\
-                    <li data-target="#myCarousel" data-slide-to="28"></li>\
-                  </ol>\
                   <div class="carousel-inner">\
                     <div class="carousel-item active">\
-                      <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="First slide">\
+                      <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira">\
                       <div class="carousel-caption d-none d-md-block">\
                         <h4>ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira</h4>\
                         <p>Em uma colaboração inédita entre os escritórios do ONU-Habitat no Brasil e no Líbano, o projeto chega a seis municípios de três países na aplicação de metodologias do Programa Global de Espaços Públicos. Realizada com atividades presenciais e virtuais, a programação do lançamento gerou um grande engajamento local. Participaram dos eventos mais de 80 pessoas, envolvendo autoridades, servidores públicos e representantes de universidades e de organizações da sociedade civil. Durante dois anos, o projeto Conexões Urbanas vai realizar capacitações com atores locais, aplicar metodologias participativas e revisar políticas públicas em cidades do Brasil, Argentina, Paraguai e Líbano.</p>\
@@ -458,9 +220,11 @@ var config = {
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/02_Visita_Fortaleza.jpg" alt="Second slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Card title</h4>\
+                        <p class="card-text">\
+                          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
@@ -654,56 +418,128 @@ var config = {
                     </div>\
                   </div>\
               </div>\
+              \
               <!-- Carousel Navigation -->\
+              \
               <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">\
                 <div class="carousel-inner">\
-                  <div class="carousel-item active h-10">\
+                  <div class="carousel-item active">\
                     <div class="row mx-0">\
                       <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">\
-                        <img src="https://source.unsplash.com/Pn6iimgM-wo/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">\
-                        <img src="https://source.unsplash.com/tXqVe7oO-go/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/02_Visita_Fortaleza.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">\
-                        <img src="https://source.unsplash.com/qlYQb7B9vog/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/03_G52_Lançamento.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">\
-                        <img src="https://source.unsplash.com/QfEfkWk1Uhk/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">\
-                        <img src="https://source.unsplash.com/CSIcgaLiFO0/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/05_RJ_Territórios Sociais.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">\
-                        <img src="https://source.unsplash.com/a_xa7RUKzdc/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/06_MoU_Rio de Janeiro.jpg" class="img-fluid" alt="...">\
                       </div>\
                     </div>\
                   </div>\
-                  <div class="carousel-item h-10">\
+                  <div class="carousel-item">\
                     <div class="row mx-0">\
                       <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">\
-                        <img src="https://source.unsplash.com/uanoYn1AmPs/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/07_Alagoas_Seminário.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">\
-                        <img src="https://source.unsplash.com/_snqARKTgoc/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/08_Territórios da Cidadania.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">\
-                        <img src="https://source.unsplash.com/M9F8VR0jEPM/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/09_BH_Izidora_Assembleia RL e HG.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">\
-                        <img src="https://source.unsplash.com/Q1p7bh3SHj8/600x400/" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/10_Regularização fundiária_AL_Foto Marcio Ferreira.jpg" class="img-fluid" alt="...">\
                       </div>\
-                      <div class="col-2 px-1 py-2"></div>\
+                      <div id="carousel-selector-10" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="10">\
+                        <img src="./images/tempo/11_Teresina_Missão Maio.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-11" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="11">\
+                        <img src="./images/tempo/12_I Encontro InRede_Fortaleza.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="row mx-0">\
+                      <div id="carousel-selector-12" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="12">\
+                        <img src="./images/tempo/13_Conexões Urbanas_Análise técnica em Dionísio Cerqueira.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-13" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="13">\
+                        <img src="./images/tempo/14_Alagoas_Visão das Grotas.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-14" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="14">\
+                        <img src="./images/tempo/15_CSST.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-15" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="15">\
+                        <img src="./images/tempo/16_G52_Reunião Online.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-16" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="16">\
+                        <img src="./images/tempo/17_Praia em São Paulo.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-17" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="17">\
+                        <img src="./images/tempo/18_JF_Piloto de MRP em área rural.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="row mx-0">\
+                      <div id="carousel-selector-18" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="18">\
+                        <img src="./images/tempo/19_Alagoas_Dia Internacional da Juventude.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-19" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="19">\
+                        <img src="./images/tempo/20_JF_Workshop Agenda 2030.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-20" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="20">\
+                        <img src="./images/tempo/21_SP_Parque da Luz.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-21" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="21">\
+                        <img src="./images/tempo/22_Rio Cidade Antirracista.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-22" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="22">\
+                        <img src="./images/tempo/23_Circuito Urbano.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-23" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="23">\
+                        <img src="./images/tempo/24_Programa Digaê_Minne Santos.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="row mx-0">\
+                      <div id="carousel-selector-24" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="24">\
+                        <img src="./images/tempo/25_Ascom SUDENE.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-25" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="25">\
+                        <img src="./images/tempo/26_Conexões Urbanas_Missão Alain.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-26" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="26">\
+                        <img src="./images/tempo/27_Virada_Sustentavel.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-27" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="27">\
+                        <img src="./images/tempo/28_Seminário Cooperaçao Pernambuco.jpg" class="img-fluid" alt="...">\
+                      </div>\
+                      <div id="carousel-selector-28" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="28">\
+                        <img src="./images/tempo/29_Argentina_Ciudad deNeuquen.jpg" class="img-fluid" alt="...">\
+                      </div>\
                       <div class="col-2 px-1 py-2"></div>\
                     </div>\
                   </div>\
                 </div>\
                 <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">\
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
+                  <i class="fa fa-arrow-left fa-2x cursor-hover"></i>\
                   <span class="sr-only">Previous</span>\
                 </a>\
                 <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">\
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>\
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
+                  <i class="fa fa-arrow-right fa-2x cursor-hover"></i>\
                   <span class="sr-only">Next</span>\
                 </a>\
             </div>\
@@ -802,131 +638,6 @@ var config = {
     },
 
     {
-      id: "publicacoes",
-      alignment: "full",
-      hidden: false,
-      //title: 'Abertura',
-      //bookmark: 'Abertura',
-      description: '\
-      <div class="light">\
-        <div class="container-carousel">\
-          <h1 class="rosa txt-cent">Publicações</h1>\
-          <div class="col-12 text-center">\
-                <a class="btn btn-primary mr-1" href="#carouselPub" role="button" data-slide="prev">\
-                    <i class="fa fa-arrow-left"></i>\
-                </a>\
-                <a class="btn btn-primary" href="#carouselPub" role="button" data-slide="next">\
-                    <i class="fa fa-arrow-right"></i>\
-                </a>\
-          </div>\
-          <div id="carouselPub" class="carousel slide p-top" data-ride="carousel">\
-            <div class="carousel-inner">\
-              <div class="carousel-item active">\
-                <div class="cards-wrapper">\
-                  <div class="card">\
-                    <img src="./images/metodologias/01_Avaliação de necessidades de capacitação_Minne Santos.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="./images/metodologias/02_Desafio de Inovação_Ascom Sudene.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="./images/metodologias/03_Laboratório de Planejamento_AL.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                </div>\
-              </div>\
-              <div class="carousel-item">\
-                <div class="cards-wrapper">\
-                  <div class="card">\
-                    <img src="./images/metodologias/04_Observatório de Políticas Públicas_AL.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="./images/metodologias/05_MRP_JF.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="./images/metodologias/06_Perfil Socioeconômico_JF.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                </div>\
-              </div>\
-              <div class="carousel-item">\
-                <div class="cards-wrapper">\
-                  <div class="card">\
-                    <img src="./images/metodologias/07_Índice de Prosperidade das Cidades_Minne Santos.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="./images/metodologias/08_Cidade Mulher_Renatto Mendonça.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-none d-md-block">\
-                    <img src="./images/metodologias/09_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Título</h5>\
-                        <p class="card-text">Programa para reduzir o risco social e as vulnerabilidades das famílias atendidas, dividido em três etapas: busca ativa, plano de ação integrado e monitoramento. Através da aplicação do Índice de Pobreza Multidimensional (IPM), adaptado do PNUD, são identificadas as privações em educação, saúde e padrão de vida. As famílias com maior grau de vulnerabilidade passam a ser monitoradas de forma integrada por diversos órgãos da Prefeitura, na perspectiva de inclusão nos serviços e benefícios e na ampliação de oportunidades.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                </div>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      ',
-      location: {
-        center: [-51.06166, -15.66707],
-        zoom: 1.5,
-        pitch: 0.00,
-        bearing: 0.00,
-        speed: 2,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
-    },
-
-    {
       id: "metodologias",
       alignment: "full",
       hidden: false,
@@ -934,182 +645,121 @@ var config = {
       //bookmark: 'Abertura',
       description: '\
       <div class="light">\
-        <div class="container-carousel">\
+        <div class="container pb-2">\
           <h1 class="azul txt-cent">Metodologias</h1>\
-          <div class="col-12 text-center">\
-                <a class="btn btn-primary mr-1" href="#carouselMetod" role="button" data-slide="prev">\
-                    <i class="fa fa-arrow-left"></i>\
-                </a>\
-                <a class="btn btn-primary" href="#carouselMetod" role="button" data-slide="next">\
-                    <i class="fa fa-arrow-right"></i>\
-                </a>\
-          </div>\
-          <div id="carouselMetod" class="carousel slide p-top row" data-ride="carousel">\
-            <div class="carousel-inner col-12">\
-              <div class="carousel-item col-12 active">\
-                <div class="cards-wrapper col-12">\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Avaliação de Espaços Públicos na Escala da Cidade</h5>\
-                        <p class="card-text">A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                <div class="container">\
+                <div class="row">\
+                    <div class="col-6">\
+                        <h3 class="mb-3">Carousel cards title </h3>\
                     </div>\
-                  </div>\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/02_Avaliação de necessidades de capacitação_Minne Santos.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Avaliação de Necessidades de Capacitação</h5>\
-                        <p class="card-text">A Avaliação de Necessidades de Capacitação é um processo que identifica as necessidades de treinamento e formação de um determinado grupo de profissionais em áreas específicas, como desenvolvimento, cooperação, gerenciamento, financiamento, planejamento e inovação. Essa avaliação pode ser realizada por meio de questionários ou reuniões com grupos focais, e busca aprimorar o conhecimento e habilidades desses profissionais.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    <div class="col-6 text-right">\
+                        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">\
+                            <i class="fa fa-arrow-left"></i>\
+                        </a>\
+                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">\
+                            <i class="fa fa-arrow-right"></i>\
+                        </a>\
                     </div>\
-                  </div>\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/03_Cidade Mulher_Renatto Mendonça.jpg" alt="Cidade Mulher" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Cidade Mulher</h5>\
-                        <p class="card-text">Busca compreender a relação das mulheres com a cidade e diagnosticar as sensações de (in)segurança nos espaços públicos por meio das suas percepções, experiências de cidade e levantamento de necessidades. Esta é uma iniciativa do ONU-Habitat Brasil baseada na metodologia global de Auditoria de Segurança das Mulheres.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
+                    <div class="col-12">\
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">\
+                            <div class="carousel-inner">\
+                                <div class="carousel-item active">\
+                                    <div class="row">\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class="carousel-item">\
+                                    <div class="row">\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                                <div class="carousel-item">\
+                                    <div class="row">\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                        <div class="col-md-4 mb-3">\
+                                            <div class="card">\
+                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">\
+                                                <div class="card-body">\
+                                                    <h4 class="card-title">Special title treatment</h4>\
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                                </div>\
+                                            </div>\
+                                        </div>\
+                                    </div>\
+                                </div>\
+                            </div>\
+                        </div>\
                     </div>\
-                  </div>\
                 </div>\
-              </div>\
-              <div class="carousel-item col-12">\
-                <div class="cards-wrapper col-12">\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/04_Desafio de Inovação_Ascom Sudene.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Desafio de Inovação</h5>\
-                        <p class="card-text">Iniciativa que estimula a construção coletiva de soluções de inovação para a gestão pública voltadas a enfrentar problemas urbanos que dificultam o desenvolvimento da região. A metodologia envolve a criação de práticas inovadoras, replicáveis e escalonáveis por meio de estratégias criativas e colaborativas e de processos de experimentação capazes de aprimorar a qualidade dos serviços públicos dos municípios. As melhores propostas são apresentadas e premiadas em um evento de reconhecimento.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/05_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Desenho de Espaços Públicos</h5>\
-                        <p class="card-text">Incentiva jovens a melhorar espaços públicos em seus territórios. Com técnicas simples de urbanismo e cartografia, a metodologia desenvolve maquetes físicas dos espaços desejados. As oficinas envolvem dinâmicas e pesquisa de campo, permitindo que os jovens confrontem suas ideias com as de seus vizinhos e comerciantes locais. Os dados coletados são sistematizados em uma proposta final entregue às autoridades e à população local, permitindo que o poder público atue para melhorar os espaços públicos.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/06_Índice de Prosperidade das Cidades_Minne Santos.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Índice de Prosperidade das Cidades</h5>\
-                        <p class="card-text">Ferramenta que utiliza indicadores para representar seis dimensões da prosperidade nas cidades: produtividade, desenvolvimento de infraestrutura, qualidade de vida, equidade e inclusão social, sustentabilidade ambiental, e governança e legislação urbanas. É utilizado para conceber, monitorar e avaliar ações, programas e políticas públicas implementadas nessas cidades.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                </div>\
-              </div>\
-              <div class="carousel-item col-12">\
-                <div class="cards-wrapper col-12">\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/07_Laboratório de Planejamento_AL.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável</h5>\
-                        <p class="card-text">Inspiradas na metodologia Urban Labs do ONU-Habitat, o Laboratório considera o alinhamento dos programas de um governo aos Objetivos de Desenvolvimento Sustentável e à Nova Agenda Urbana e elabora coletivamente, com gestores municipais e representantes da sociedade civil, propostas para aperfeiçoar as políticas públicas em questão e promover o desenvolvimento urbano sustentável.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/08_MRP_JF.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Mapa Rápido Participativo</h5>\
-                        <p class="card-text">Consiste no levantamento de informações sobre a cobertura e qualidade dos serviços públicos relacionados diretamente ao território. Esse método permite diagnosticar as condições de infraestrutura urbana e qualidade dos serviços em assentamentos precários de forma ágil e participativa.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                  <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                    <img src="./images/metodologias/09_Observatório de Políticas Públicas_AL.jpg" alt="Título" class="card-img-top">\
-                    <div class="card-body">\
-                        <h5 class="card-title">Observatório de Políticas Públicas</h5>\
-                        <p class="card-text">Criação de uma plataforma aberta com dados e indicadores alinhados às agendas globais de desenvolvimento sustentável para apoiar políticas públicas setoriais e melhorar o atendimento à população.</p>\
-                        <a href="#" class="btn btn-primary">Saiba mais</a>\
-                    </div>\
-                  </div>\
-                </div>\
-              </div>\
-              <div class="carousel-item col-12">\
-                  <div class="cards-wrapper col-12">\
-                    <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                      <img src="./images/metodologias/10_Perfil Socioeconômico_JF.jpg" alt="Título" class="card-img-top">\
-                      <div class="card-body">\
-                          <h5 class="card-title">Perfil Socioeconômico</h5>\
-                          <p class="card-text">Pesquisa domiciliar amostral que tem como objetivo analisar todo o território avaliado através do diagnóstico da situação sociodemográfica e econômica das famílias, além de avaliar a mobilidade residencial, o acesso a equipamentos e serviços na comunidade e a percepção da população sobre o território em que vivem.</p>\
-                          <a href="#" class="btn btn-primary">Saiba mais</a>\
-                      </div>\
-                    </div>\
-                    <div class="card d-block col-12 col-sm-12 col-md-6 col-lg-4">\
-                      <img src="./images/metodologias/11_Territórios Sociais_RJ.jpg" alt="Título" class="card-img-top">\
-                      <div class="card-body">\
-                          <h5 class="card-title">Territórios Sociais</h5>\
-                          <p class="card-text">Programa para reduzir o risco social e as vulnerabilidades das famílias atendidas, dividido em três etapas: busca ativa, plano de ação integrado e monitoramento. Através da aplicação do Índice de Pobreza Multidimensional (IPM), adaptado do PNUD, são identificadas as privações em educação, saúde e padrão de vida. As famílias com maior grau de vulnerabilidade passam a ser monitoradas de forma integrada por diversos órgãos da Prefeitura, na perspectiva de inclusão nos serviços e benefícios e na ampliação de oportunidades.</p>\
-                          <a href="#" class="btn btn-primary">Saiba mais</a>\
-                      </div>\
-                    </div>\
-                  </div>\
-              </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      ',
-      location: {
-        center: [-51.06166, -15.66707],
-        zoom: 1.5,
-        pitch: 0.00,
-        bearing: 0.00,
-        speed: 2,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
-    },
-
-    {
-      id: "other",
-      alignment: "full",
-      hidden: false,
-      //title: 'Abertura',
-      //bookmark: 'Abertura',
-      description: '\
-      <div class="light">\
-          <div class="container-carousel">\
-            <h1 class="azul txt-cent">Teste</h1>\
-                <div class="page-content">\
-                  <div class="card">\
-                      <div class="content">\
-                          <h2 class="title">Mountain View</h2>\
-                          <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>\
-                          <button class="btn">View Trips</button>\
-                      </div>\
-                  </div>\
-                  <div class="card">\
-                      <div class="content">\
-                          <h2 class="title">To The Beach</h2>\
-                          <p class="copy">Plan your next beach trip with these fabulous destinations</p>\
-                          <button class="btn">View Trips</button>\
-                      </div>\
-                  </div>\
-                  <div class="card">\
-                      <div class="content">\
-                          <h2 class="title">Desert Destinations</h2>\
-                          <p class="copy">Its the desert youve always dreamed of</p>\
-                          <button class="btn">Book Now</button>\
-                      </div>\
-                  </div>\
-                  <div class="card">\
-                      <div class="content">\
-                          <h2 class="title">Explore The Galaxy</h2>\
-                          <p class="copy">Seriously, straight up, just blast off into outer space today</p>\
-                          <button class="btn">Book Now</button>\
-                      </div>\
-                  </div>\
             </div>\
           </div>\
       </div>\
@@ -1139,114 +789,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container-carousel">\
-          <h1 class="azul txt-cent">Metodologias</h1>\
-          <div class="col-12 text-center">\
-                <a class="btn btn-primary mr-1" href="#carouselRot2" role="button" data-slide="prev">\
-                    <i class="fa fa-arrow-left"></i>\
-                </a>\
-                <a class="btn btn-primary" href="#carouselRot2" role="button" data-slide="next">\
-                    <i class="fa fa-arrow-right"></i>\
-                </a>\
-          </div>\
-          <div id="carouselRot2" class="carousel slide p-top" data-ride="carousel">\
-            <div class="carousel-inner">\
-              <div class="carousel-item active">\
-                <div class="cards-wrapper pt-5">\
-                    <div class="wrapper">\
-                      <div class="card front-face">\
-                          <img src="./images/tempo/08_Territórios da Cidadania.jpg">\
-                          <div class="text-box">\
-                            <h3>Título</h3>\
-                          </div>\
-                      </div>\
-                      <div class="card back-face">\
-                          <img src="./images/tempo/08_Territórios da Cidadania.jpg">\
-                          <div class="info">\
-                              <div class="title">\
-                                  CodingLab</div>\
-                              <p>\
-                                  User interface designer and <br>front-end developer</p>\
-                          </div>\
-                      </div>\
-                    </div>\
-                    <div class="wrapper d-none d-md-block">\
-                      <div class="card front-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                      </div>\
-                      <div class="card back-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                          <div class="info">\
-                              <div class="title">\
-                                  CodingLab</div>\
-                              <p>\
-                                  User interface designer and <br>front-end developer</p>\
-                          </div>\
-                      </div>\
-                    </div>\
-                    <div class="wrapper d-none d-md-block">\
-                      <div class="card front-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                      </div>\
-                      <div class="card back-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                          <div class="info">\
-                              <div class="title">\
-                                  CodingLab</div>\
-                              <p>\
-                                  User interface designer and <br>front-end developer</p>\
-                          </div>\
-                      </div>\
-                    </div>\
-                </div>\
-              </div>\
-              <div class="carousel-item">\
-                <div class="cards-wrapper pt-5">\
-                    <div class="wrapper">\
-                      <div class="card front-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                      </div>\
-                      <div class="card back-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                          <div class="info">\
-                              <div class="title">\
-                                  CodingLab</div>\
-                              <p>\
-                                  User interface designer and <br>front-end developer</p>\
-                          </div>\
-                      </div>\
-                    </div>\
-                    <div class="wrapper d-none d-md-block">\
-                      <div class="card front-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                      </div>\
-                      <div class="card back-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                          <div class="info">\
-                              <div class="title">\
-                                  CodingLab</div>\
-                              <p>\
-                                  User interface designer and <br>front-end developer</p>\
-                          </div>\
-                      </div>\
-                    </div>\
-                    <div class="wrapper d-none d-md-block">\
-                      <div class="card front-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                      </div>\
-                      <div class="card back-face">\
-                          <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">\
-                          <div class="info">\
-                              <div class="title">\
-                                  CodingLab</div>\
-                              <p>\
-                                  User interface designer and <br>front-end developer</p>\
-                          </div>\
-                      </div>\
-                    </div>\
-                </div>\
-              </div>\
-            </div>\
-          </div>\
+          <h1 class="azul txt-cent">TESTE</h1>\
         </div>\
       </div>\
       ',
