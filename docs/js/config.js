@@ -192,7 +192,7 @@ var config = {
   },
 
   {
-      id: "retrospectiva2",
+      id: "retrospectiva",
       alignment: "full",
       hidden: false,
       //title: 'Abertura',
@@ -676,16 +676,13 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">\
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
-                  <i class="fa fa-arrow-left fa-2x cursor-hover"></i>\
-                  <span class="sr-only">Previous</span>\
-                </a>\
-                <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">\
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>\
-                  <i class="fa fa-arrow-right fa-2x cursor-hover"></i>\
-                  <span class="sr-only">Next</span>\
-                </a>\
+                <ol class="carousel-indicators">\
+                  <li data-target="#carousel-thumbs" data-slide-to="0" class="active"></li>\
+                  <li data-target="#carousel-thumbs" data-slide-to="1"></li>\
+                  <li data-target="#carousel-thumbs" data-slide-to="2"></li>\
+                  <li data-target="#carousel-thumbs" data-slide-to="3"></li>\
+                  <li data-target="#carousel-thumbs" data-slide-to="4"></li>\
+                </ol>\
             </div>\
         </div>\
       </div>\

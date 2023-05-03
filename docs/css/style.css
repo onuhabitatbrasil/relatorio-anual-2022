@@ -586,11 +586,18 @@ ul.social-icons li{
 #myCarousel img {
     object-fit: cover;
     height: 400px;
-    border-radius: 25px;
+    
+}
+
+#myCarousel .carousel-inner {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.50);
+    margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 #carousel-thumbs img {
     border: 5px solid transparent;
+    border-radius: 10px;
     cursor: pointer;
     object-fit: cover;
     height: 75px;
@@ -604,6 +611,20 @@ ul.social-icons li{
 /*#carousel-thumbs .selected img {
     border-color: rgb(255, 166, 0);
 }*/
+
+.card-img-overlay h4 {
+    color: #cc3480;
+    font-size: 16px;
+}
+
+.card-img-overlay h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.card-img-overlay p {
+    line-height: 1;
+}
   
 .carousel-control-prev,
 .carousel-control-next {
@@ -738,18 +759,3 @@ ul.social-icons li{
 .accordion h1, .h1 {
     font-family: 'Bolgart', sans-serif;
 }
-
-.card-img-overlay h4 {
-    color: #cc3480;
-    font-size: 16px;
-}
-
-.card-img-overlay h3 {
-    color: #fff;
-    font-size: 16px;
-}
-
-.card-img-overlay p {
-    line-height: 1;
-}
-

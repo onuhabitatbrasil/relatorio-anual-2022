@@ -4919,7 +4919,7 @@ input[type="button"].btn-block {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1.25rem;
+  padding: 0.5rem 1rem;
   border-radius: calc(0.25rem - 1px);
 }
 
@@ -6652,7 +6652,7 @@ a.close.disabled {
 }
 
 .carousel-indicators {
-  position: absolute;
+  position: block;
   right: 0;
   bottom: 0;
   left: 0;
@@ -6676,7 +6676,7 @@ a.close.disabled {
   cursor: pointer;
   background-color: #000;
   background-color: rgba(0,0,0,0);
-  border: 1px solid #fff;
+  border: 1px solid #cc3480;
   border-radius: 10px;
 }
 
@@ -6710,7 +6710,7 @@ a.close.disabled {
 
 .carousel-indicators .active {
   opacity: 1;
-  background-color: #fff;
+  background-color: #cc3480;
 }
 
 .carousel-caption {
