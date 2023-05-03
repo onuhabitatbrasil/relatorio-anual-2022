@@ -578,15 +578,13 @@ ul.social-icons li{
     background: rgba(255,255,255,0.4);
     bottom: 0;
     left: 0;
-    padding: 0 50px;
+    padding: 0 15px;
     right: 0;
-    z-index: 999;
 }
 
 #myCarousel img {
     object-fit: cover;
     height: 400px;
-    
 }
 
 #myCarousel .carousel-inner {
@@ -601,14 +599,21 @@ ul.social-icons li{
     cursor: pointer;
     object-fit: cover;
     height: 75px;
-    width: 120px
+    width: 120px;
 }
 
-#carousel-thumbs img:hover {
+#carousel-thumbs .carousel-item {
+    transition: -webkit-transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+  }
+
+/*#carousel-thumbs img:hover {
     border-color: rgba(204, 52, 128, 1);
+    cursor: pointer;
 }
 
-/*#carousel-thumbs .selected img {
+    #carousel-thumbs .selected img {
     border-color: rgb(255, 166, 0);
 }*/
 

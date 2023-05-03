@@ -210,7 +210,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
               </div>\
-              <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">\
+              <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6500">\
                   <div class="carousel-inner">\
                     <div class="carousel-item active">\
                       <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira">\
@@ -478,7 +478,7 @@ var config = {
               \
               <!-- Carousel Navigation -->\
               \
-              <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">\
+              <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="8000">\
                 <div class="carousel-inner">\
                   <div class="carousel-item active">\
                     <div class="row mx-0">\
