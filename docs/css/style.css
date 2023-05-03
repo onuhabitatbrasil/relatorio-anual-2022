@@ -744,6 +744,12 @@ ul.social-icons li{
     font-size: 16px;
 }
 
+.card-img-overlay h3 {
+    color: #fff;
+    font-size: 16px;
+}
+
 .card-img-overlay p {
     line-height: 1;
 }
+

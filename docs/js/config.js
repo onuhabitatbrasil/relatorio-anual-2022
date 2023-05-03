@@ -484,21 +484,39 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">\
                         <img src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>01</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">\
                         <img src="./images/tempo/02_Visita_Fortaleza.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>01</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">\
                         <img src="./images/tempo/03_G52_Lançamento.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>01</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">\
                         <img src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>02</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">\
                         <img src="./images/tempo/05_RJ_Territórios Sociais.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>02</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">\
                         <img src="./images/tempo/06_MoU_Rio de Janeiro.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>03</h3>\
+                        </div>\
                       </div>\
                     </div>\
                   </div>\
@@ -506,21 +524,39 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">\
                         <img src="./images/tempo/07_Alagoas_Seminário.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>03</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">\
                         <img src="./images/tempo/08_Territórios da Cidadania.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>03</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">\
                         <img src="./images/tempo/09_BH_Izidora_Assembleia RL e HG.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>03</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">\
                         <img src="./images/tempo/10_Regularização fundiária_AL_Foto Marcio Ferreira.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>04</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-10" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="10">\
                         <img src="./images/tempo/11_Teresina_Missão Maio.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>04</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-11" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="11">\
                         <img src="./images/tempo/12_I Encontro InRede_Fortaleza.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>05</h3>\
+                        </div>\
                       </div>\
                     </div>\
                   </div>\
@@ -528,21 +564,39 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-12" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="12">\
                         <img src="./images/tempo/13_Conexões Urbanas_Análise técnica em Dionísio Cerqueira.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>05</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-13" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="13">\
                         <img src="./images/tempo/14_Alagoas_Visão das Grotas.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>06</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-14" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="14">\
                         <img src="./images/tempo/15_CSST.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>06</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-15" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="15">\
                         <img src="./images/tempo/16_G52_Reunião Online.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>07</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-16" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="16">\
                         <img src="./images/tempo/17_Praia em São Paulo.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>07</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-17" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="17">\
                         <img src="./images/tempo/18_JF_Piloto de MRP em área rural.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>08</h3>\
+                        </div>\
                       </div>\
                     </div>\
                   </div>\
@@ -550,21 +604,39 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-18" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="18">\
                         <img src="./images/tempo/19_Alagoas_Dia Internacional da Juventude.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>08</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-19" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="19">\
                         <img src="./images/tempo/20_JF_Workshop Agenda 2030.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>09</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-20" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="20">\
                         <img src="./images/tempo/21_SP_Parque da Luz.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>09</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-21" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="21">\
                         <img src="./images/tempo/22_Rio Cidade Antirracista.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>09</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-22" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="22">\
                         <img src="./images/tempo/23_Circuito Urbano.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>10</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-23" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="23">\
                         <img src="./images/tempo/24_Programa Digaê_Minne Santos.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>10</h3>\
+                        </div>\
                       </div>\
                     </div>\
                   </div>\
@@ -572,18 +644,33 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-24" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="24">\
                         <img src="./images/tempo/25_Ascom SUDENE.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>11</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-25" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="25">\
                         <img src="./images/tempo/26_Conexões Urbanas_Missão Alain.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>11</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-26" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="26">\
                         <img src="./images/tempo/27_Virada_Sustentavel.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>11</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-27" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="27">\
                         <img src="./images/tempo/28_Seminário Cooperaçao Pernambuco.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>12</h3>\
+                        </div>\
                       </div>\
                       <div id="carousel-selector-28" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="28">\
                         <img src="./images/tempo/29_Argentina_Ciudad deNeuquen.jpg" class="img-fluid" alt="...">\
+                        <div class="card-img-overlay text-white">\
+                          <h3>12</h3>\
+                        </div>\
                       </div>\
                       <div class="col-2 px-1 py-2"></div>\
                     </div>\
