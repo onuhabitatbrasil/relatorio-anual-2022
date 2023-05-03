@@ -213,13 +213,17 @@ var config = {
               <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6500">\
                   <div class="carousel-inner">\
                     <div class="carousel-item active">\
-                      <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira">\
-                      <div class="card-img-overlay text-white">\
-                        <h4>ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira</h4>\
-                        <p class="card-text">\
-                          Em uma colaboração inédita entre os escritórios do ONU-Habitat no Brasil e no Líbano, o projeto chega a seis municípios de três países na aplicação de metodologias do Programa Global de Espaços Públicos. Realizada com atividades presenciais e virtuais, a programação do lançamento gerou um grande engajamento local. Participaram dos eventos mais de 80 pessoas, envolvendo autoridades, servidores públicos e representantes de universidades e de organizações da sociedade civil. Durante dois anos, o projeto Conexões Urbanas vai realizar capacitações com atores locais, aplicar metodologias participativas e revisar políticas públicas em cidades do Brasil, Argentina, Paraguai e Líbano.\
-                        </p>\
-                      </div>\
+                        <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p class="card-text">\
+                              Em uma colaboração inédita entre os escritórios do ONU-Habitat no Brasil e no Líbano, o projeto chega a seis municípios de três países na aplicação de metodologias do Programa Global de Espaços Públicos. Realizada com atividades presenciais e virtuais, a programação do lançamento gerou um grande engajamento local. Participaram dos eventos mais de 80 pessoas, envolvendo autoridades, servidores públicos e representantes de universidades e de organizações da sociedade civil. Durante dois anos, o projeto Conexões Urbanas vai realizar capacitações com atores locais, aplicar metodologias participativas e revisar políticas públicas em cidades do Brasil, Argentina, Paraguai e Líbano.</p>\
+                            </p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2>ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira</h2>\
+                          </article>\
+                        </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/02_Visita_Fortaleza.jpg" alt="Second slide">\
@@ -790,10 +794,7 @@ var config = {
           <h1 class="azul txt-cent">Metodologias</h1>\
                 <div class="container">\
                 <div class="row">\
-                    <div class="col-6">\
-                        <h3 class="mb-3">Carousel cards title </h3>\
-                    </div>\
-                    <div class="col-6 text-right">\
+                    <div class="col-12 text-center">\
                         <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">\
                             <i class="fa fa-arrow-left"></i>\
                         </a>\
@@ -903,35 +904,6 @@ var config = {
                 </div>\
             </div>\
           </div>\
-      </div>\
-      ',
-      location: {
-        center: [-51.06166, -15.66707],
-        zoom: 1.5,
-        pitch: 0.00,
-        bearing: 0.00,
-        speed: 2,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
-    },
-
-    {
-      id: "other",
-      alignment: "full",
-      hidden: false,
-      //title: 'Abertura',
-      //bookmark: 'Abertura',
-      description: '\
-      <div class="light">\
-        <div class="container-carousel">\
-          <h1 class="azul txt-cent">TESTE</h1>\
-        </div>\
       </div>\
       ',
       location: {
