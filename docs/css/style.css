@@ -738,3 +738,12 @@ ul.social-icons li{
 .accordion h1, .h1 {
     font-family: 'Bolgart', sans-serif;
 }
+
+.card-img-overlay h4 {
+    color: #cc3480;
+    font-size: 16px;
+}
+
+.card-img-overlay p {
+    line-height: 1;
+}
