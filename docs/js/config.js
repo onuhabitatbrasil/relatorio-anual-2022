@@ -88,7 +88,8 @@ var config = {
           zoom: 1.5,
           pitch: 0,
           bearing: 0,
-          speed: 0.5
+          speed: 0.25,
+          curve: 3
           // flyTo additional controls-
           // These options control the flight curve, making it move
           // slowly and zoom out almost completely before starting
@@ -213,207 +214,263 @@ var config = {
                   <div class="carousel-inner">\
                     <div class="carousel-item active">\
                       <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira">\
-                      <div class="carousel-caption d-none d-md-block">\
+                      <div class="card-img-overlay text-white">\
                         <h4>ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira</h4>\
-                        <p>Em uma colaboração inédita entre os escritórios do ONU-Habitat no Brasil e no Líbano, o projeto chega a seis municípios de três países na aplicação de metodologias do Programa Global de Espaços Públicos. Realizada com atividades presenciais e virtuais, a programação do lançamento gerou um grande engajamento local. Participaram dos eventos mais de 80 pessoas, envolvendo autoridades, servidores públicos e representantes de universidades e de organizações da sociedade civil. Durante dois anos, o projeto Conexões Urbanas vai realizar capacitações com atores locais, aplicar metodologias participativas e revisar políticas públicas em cidades do Brasil, Argentina, Paraguai e Líbano.</p>\
+                        <p class="card-text">\
+                          Em uma colaboração inédita entre os escritórios do ONU-Habitat no Brasil e no Líbano, o projeto chega a seis municípios de três países na aplicação de metodologias do Programa Global de Espaços Públicos. Realizada com atividades presenciais e virtuais, a programação do lançamento gerou um grande engajamento local. Participaram dos eventos mais de 80 pessoas, envolvendo autoridades, servidores públicos e representantes de universidades e de organizações da sociedade civil. Durante dois anos, o projeto Conexões Urbanas vai realizar capacitações com atores locais, aplicar metodologias participativas e revisar políticas públicas em cidades do Brasil, Argentina, Paraguai e Líbano.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/02_Visita_Fortaleza.jpg" alt="Second slide">\
                       <div class="card-img-overlay text-white">\
-                        <h4>Card title</h4>\
+                        <h4>ONU-Habitat assina Memorando de Entendimento com Prefeitura de Fortaleza, marcando o início de uma parceria para promover o desenvolvimento urbano sustentável</h4>\
                         <p class="card-text">\
-                          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.\
+                          Com o documento, o ONU-Habitat e o Instituto de Planejamento de Fortaleza (Iplanfor) deram início ao plano de trabalho que prevê ações de compartilhamento de informações, dados e metodologias, além de trocas de experiências para aprimorar o desenho de políticas públicas e de ferramentas de gestão de informação na região de Fortaleza. A parceria, com duração de 24 meses, tem como objetivo principal fomentar a implementação da Nova Agenda Urbana e da Agenda 2030, com destaque para o Objetivo de Desenvolvimento Sustentável 11 – tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis – e, assim, contribuir para a melhora na qualidade de vida da população local.\
                         </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/03_G52_Lançamento.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Lançamento do projeto G52: Cidades-Polo Ampliando os Marcos do Desenvolvimento Regional</h4>\
+                        <p class="card-text">\
+                          Selecionadas por seu papel de influência em suas regiões, as 52 cidades-polo que formam a área de atuação da Superintendência de Desenvolvimento do Nordeste (Sudene) – grupo chamado de G52 – passaram a integrar o projeto que visa fortalecer suas capacidades de gestão e promover o desenvolvimento urbano sustentável. O objetivo é apoiar a implementação da estratégia territorial do Plano Regional de Desenvolvimento do Nordeste (PRDNE) por meio da criação de um espaço de intercâmbio e cooperação com prefeituras e especialistas sobre governança compartilhada, cooperação intermunicipal e gestão em rede. O evento online de lançamento do projeto contou com a participação de 108 representantes dos municípios do G52, que se engajaram em saber mais sobre a iniciativa e participar de oficinas temáticas.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Início do ciclo de Oficinas de Desenho de Espaços Públicos em Pernambuco em 2022</h4>\
+                        <p class="card-text">\
+                          Jovens de 14 a 29 anos participaram das oficinas da metodologia de Desenhos de Espaços Públicos, realizadas de fevereiro a junho em territórios espalhados por todo o estado. Em cada uma das oficinas, os jovens elaboraram, de forma participativa, propostas concretas para tornar os espaços públicos mais seguros, inclusivos e sustentáveis segundo seu próprio olhar. O método inclui uma caminhada exploratória, a construção de diagnósticos e a criação e apresentação de maquetes que resumam suas sugestões. Em novembro e dezembro, a equipe retornou aos territórios para compartilhar os resultados e as modelagens 3D dos espaços públicos, abarcando as ideias inspiradoras sugeridas pelos jovens.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/05_RJ_Territórios Sociais.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Assinada a expansão do programa Territórios Sociais para toda a cidade do Rio de Janeiro</h4>\
+                        <p class="card-text">\
+                          Inicialmente implementado nos dez grandes complexos de favela do Rio de Janeiro (Rocinha, Alemão, Maré, Lins, Jacarezinho, Penha, Chapadão, Pedreira, Cidade de Deus e Vila Kennedy), o programa Territórios Sociais, parceria do ONU-Habitat com a Prefeitura da Cidade do Rio de Janeiro, identifica e atende moradores de áreas vulnerabilizadas com menores indicadores sociais, inserindo essas famílias em serviços públicos básicos como matrículas em escolas, atendimentos de saúde, encaminhamento a benefícios sociais, diagnóstico habitacional e acesso ao mercado de trabalho e à cultura. Com a expansão, o programa passa a incluir áreas com menores indicadores sociais em toda a cidade. Até 2024, o projeto deve chegar à marca de 1,5 milhões de pessoas atendidas em 652.186 domicílios, localizados em 631 favelas, 82 conjuntos habitacionais e 159 loteamentos irregulares, beneficiando 33% da população da capital.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/06_MoU_Rio de Janeiro.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>ONU-Habitat e Governo do Rio de Janeiro assinam acordo para promover desenvolvimento urbano no estado</h4>\
+                        <p class="card-text">\
+                          Com duração de dois anos, um novo Memorando de Entendimento foi assinado entre as duas partes com o objetivo de buscar soluções para o desenvolvimento urbano sustentável em municípios fluminenses. A ideia é incentivar melhores condições de moradia, análise de dados e um planejamento urbano voltado aos princípios da Nova Agenda Urbana, aumentando a resiliência das cidades. A cerimônia contou com a participação do representante regional do ONU-Habitat para América Latina e Caribe, Elkin Velásquez, e o governador do Rio de Janeiro, Cláudio Castro, em evento realizado no Cristo Redentor.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/07_Alagoas_Seminário.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Realização do seminário "Diretrizes para um Programa Habitacional para Alagoas", em parceria com o Governo de Alagoas</h4>\
+                        <p class="card-text">\
+                          Concluindo a elaboração de soluções e estratégias para o setor de habitação de Alagoas, o evento contou com a presença de mais de 130 pessoas, reunindo representantes da sociedade civil organizada (acadêmicos, lideranças comunitárias, ONGs e movimentos sociais), do poder público (estado e município) e do setor privado. Na oportunidade, foram discutidos os objetivos, os eixos estratégicos e as recomendações para a gestão e o financiamento da proposta de política habitacional consolidado pelo ONU-Habitat.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/08_Territórios da Cidadania.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Lançamento e início das atividades de campo do programa Territórios da Cidadania, em parceria com a Prefeitura de Juiz de Fora</h4>\
+                        <p class="card-text">\
+                          Com o objetivo de dar suporte à construção de políticas públicas baseadas em dados para promover o desenvolvimento urbano e a garantia de direitos sociais, o projeto foi lançado pela Secretaria de Planejamento do Território e Participação Popular em um evento que contou com representantes do executivo municipal, líderes comunitários e artistas. O projeto consiste na aplicação de duas metodologias de coleta de dados, o Mapa Rápido Participativo (MRP) e o Perfil Socioeconômico, em 141 microterritórios vulnerabilizados da cidade, a fim de orientar políticas e ações públicas assertivas para as regiões estudadas. Na mesma semana, foi iniciado o trabalho de campo do MRP, avaliando temas como infraestrutura para mobilidade, acesso aos meios de transporte, padrão das moradias, abastecimento de água, esgotamento sanitário, coleta de lixo e limpeza urbana.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/09_BH_Izidora_Assembleia RL e HG.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Realizada a primeira assembleia nas ocupações Rosa Leão e Helena Greco, em Izidora</h4>\
+                        <p class="card-text">\
+                          A iniciativa apresentou o diagnóstico técnico local para a comunidade e agendou plantões de mapas no território. Estes plantões tiveram como objetivo levar os mapas a espaços das comunidades com grande circulação de pessoas para que seus moradores pudessem contribuir com comentários, críticas, correções ou sugestões de ajustes. Ao longo da implementação do projeto, foram realizadas 17 sessões de mapeamento no território, nove reuniões com líderes e grupos de trabalho e sete assembleias. As ações propostas devem chegar a cerca de 1,8 mil famílias das ocupações Rosa Leão e Helena Greco, localizadas em Izidora, Belo Horizonte.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/10_Regularização fundiária_AL_Foto Marcio Ferreira.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>ONU-Habitat e parceiros capacitam municípios sobre regularização fundiária urbana</h4>\
+                        <p class="card-text">\
+                          Realizada oficina em parceria com o Governo de Alagoas e com o Instituto Pólis para capacitar municípios alagoanos sobre a Regularização Fundiária Urbana (Reurb). Instituída em 2017 pela Lei Federal nº 13.465/17, a Reurb traça medidas de caráter jurídico, urbanístico, ambiental e social voltadas para a regularização fundiária de assentamentos precários. O intuito é de promover mais cidadania por meio da garantia do acesso à moradia adequada. Na oficina, os participantes discutiram o papel dos municípios e do governo na implementação da lei, os desafios enfrentados nesse contexto e as iniciativas já realizadas, previstas ou em curso que se alinham aos aspectos estabelecidos por ela.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/11_Teresina_Missão Maio.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>ONU-Habitat apresenta “Ações Recomendadas para Resiliência e Sustentabilidade” para gestores municipais de Teresina</h4>\
+                        <p class="card-text">\
+                          Com a intenção de apoiar Teresina com dados concretos sobre a cidade, o ONU-Habitat apresentou os resultados do projeto assinado em 2019 com a Prefeitura e o Governo Federal para fortalecer a resiliência urbana da capital piauiense. Construído com base no “Perfil da Cidade de Teresina” e no “Diagnóstico da Resiliência Urbana de Teresina”, o documento fornece aos gestores uma base para a criação de um plano para melhorar a capacidade da gestão em lidar com riscos, choques e problemas crônicos para os próximos anos. Manutenção dos recursos hídricos e equilíbrio do ecossistema foram algumas das prioridades apontadas pelo documento. Na ocasião, estiveram presentes representantes da Prefeitura de Teresina e do Governo do Estado do Piauí.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/12_I Encontro InRede_Fortaleza.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>ONU-Habitat apoia criação da Rede Brasileira de Institutos de Planejamento</h4>\
+                        <p class="card-text">\
+                          Representantes de cidades de todo o Brasil se juntaram no I Encontro de Gestores de Institutos de Planejamento, realizado pela Prefeitura de Fortaleza, para estimular a cultura do planejamento urbano e territorial de médio e longo prazo nas cidades. O ONU-Habitat apoia a iniciativa e esteve presente no encontro. Também foram pauta do encontro a criação de uma Rede Nacional de Institutos de Planejamento, focada em fortalecer o aprimoramento da gestão das cidades; a cooperação entre os municípios e o engajamento de gestores em agendas importantes para o alcance dos ODS, colocando no centro temas como inclusão e sustentabilidade.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/13_Conexões Urbanas_Análise técnica em Dionísio Cerqueira.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>ONU-Habitat realiza oficina de Colaborações Urbanas e entrevistas da Avaliação de Espaços Públicos em municípios na fronteira entre Brasil, Paraguai e Argentina</h4>\
+                        <p class="card-text">\
+                          Municípios da região transfronteiriça participaram de atividades de integração realizadas no âmbito do projeto Conexões Urbanas, dialogando sobre a rede de espaços públicos das cidades. Participaram das oficinas 71 pessoas, entre servidores públicos e lideranças de organizações da sociedade civil. Também foram conduzidas entrevistas com 32 representantes da população local. Além das atividades com a população, a metodologia realizou uma análise técnica. Nas cidades de pequeno porte abarcadas pelo projeto, foram mapeados todos os espaços públicos existentes. Já nas cidades de médio porte, a avaliação foi realizada em uma amostra destes espaços. O objetivo da análise é fornecer dados para ajudar os governos locais a desenvolver políticas urbanas para espaços públicos seguros, saudáveis, acessíveis e inclusivos.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/14_Alagoas_Visão das Grotas.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Brasil debate futuro das cidades no 11 Fórum Urbano Mundial</h4>\
+                        <p class="card-text">\
+                          Mais de 18,5 mil inscritos de 160 países participaram da 11ª Sessão do Fórum Urbano Mundial (WUF, na sigla em inglês), maior conferência global sobre o futuro das cidades. Com o tema “Transformando nossas cidades para um futuro urbano melhor”, o fórum foi realizado em Katowice, na Polônia, com mais de 330 eventos, dos quais o Brasil esteve presente em cerca de 15. Alguns incluíram a participação de iniciativas em parceria com o ONU-Habitat Brasil, e outros contaram com representantes de instituições brasileiras que compartilharam exemplos de sucesso. O escritório Brasil participou remotamente apresentando o PRO-Izidora e o Plano de Urbanização Sustentável da Izidora pela Secretaria Municipal de Política Urbana (SMPU) da Prefeitura Municipal de Belo Horizonte; a estratégia de dados implementada em parceria com o Governo de Alagoas; e os desafios no desenvolvimento de espaços públicos verdes em áreas urbanas através da Cooperação Sul-Sul Trilateral com as cidades de São Paulo e Medellín. Também durante o WUF, o documentário “Visão das Grotas” foi exibido e premiado na mostra Better Cities Film Festival, vencendo a categoria Raising Voices. Produzido por jovens das periferias e grotas de Maceió, o curta-metragem aborda o cotidiano de comunidades precárias da capital durante a pandemia de COVID-19.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/15_CSST.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Início da implementação do programa de parceria Simetria Urbana para promover o desenvolvimento urbano sustentável por meio da Cooperação Sul-Sul Trilateral</h4>\
+                        <p class="card-text">\
+                          Realizada no escritório do ONU-Habitat no Rio de Janeiro, a 1ª Reunião do Comitê Gestor do Simetria Urbana marcou o início da implementação da iniciativa. A reunião contou com a participação das equipes técnicas do ONU-Habitat e da Agência Brasileira de Cooperação do Ministério das Relações Exteriores, representando o Governo Brasileiro. Durante a reunião foi aprovado o Plano Operativo Anual (POA) relativo ao período de junho de 2022 a maio de 2023. Foram também discutidos e acordados os fluxos de gestão, a estratégia de comunicação e a identidade visual do programa, as responsabilidades de cada integrante do projeto e o plano orçamentário para o primeiro ano de implementação.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/16_G52_Reunião Online.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Realizados módulos de capacitação para gestores e servidores municipais do G52</h4>\
+                        <p class="card-text">\
+                          Com 90 horas de formação, 466 inscritos de 41 municípios e 58 especialistas convidados, o ciclo de capacitações foi composto por cinco módulos temáticos, desenhados para fortalecer habilidades e suprir lacunas dos municípios da região. Essas necessidades foram diagnosticadas através de um questionário aplicado aos gestores e de reuniões com pontos focais locais. Os temas abordados incluíram agendas globais de desenvolvimento, cooperação e trabalho em rede, gerenciamento de projetos, economia urbana, planejamento urbano e regional, inovação e gestão metropolitana. Os módulos de capacitação são parte crucial do projeto G52, que visa a superação de desafios por meio da articulação em rede e aumento das capacidades locais nos temas de planejamento urbano regional, elaboração e financiamento de projetos, governo digital e cidades inteligentes centradas nas pessoas.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/17_Praia em São Paulo.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Intercâmbio entre São Paulo e Praia (Cabo Verde) no âmbito do “Desafio Waste Wise Cities” do ONU-Habitat</h4>\
+                        <p class="card-text">\
+                          Representantes da Prefeitura de São Paulo, da Câmara Municipal da Praia e dos escritórios do ONU-Habitat Brasil e Cabo Verde se reuniram na capital paulista para colaborar no âmbito do “Desafio Waste Wise Cities”. A iniciativa conecta Praia, comprometida em estabelecer uma gestão sustentável de resíduos, a São Paulo, que compartilha suas principais práticas. Com a visita da delegação de Praia, São Paulo apresentou soluções de gerenciamento de resíduos sólidos desenvolvidas para problemas similares aos enfrentados pela capital caboverdiana. Após o intercâmbio, foram identificadas áreas prioritárias de intervenção, que incluem o gerenciamento de resíduos hospitalares; a melhoria da logística operacional na Cidade da Praia; o monitoramento do gerenciamento para orientar a correta disposição dos resíduos, especialmente com grandes geradores (como restaurantes, lojas, empresas e indústrias locais); e o desenvolvimento de um programa guarda-chuva que ligue todas as ações de gerenciamento de resíduos na cidade.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/18_JF_Piloto de MRP em área rural.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Realizado o Piloto do Mapa Rápido Participativo (MRP) em área rural</h4>\
+                        <p class="card-text">\
+                          Desenvolvida para ser realizada em espaços urbanos, o MRP é uma metodologia que busca observar e analisar a infraestrutura local. Em parceria com a Secretaria de Agricultura, Pecuária e Abastecimento da Prefeitura de Juiz de Fora, a equipe do projeto Territórios da Cidadania aplicou a pesquisa pela primeira vez em um cenário rural, nos distritos de Caetés de Minas e Sarandira. A metodologia foi mantida, porém de modo adaptado: foi necessário um outro olhar, de forma a entender as peculiaridades do ambiente rural, inaugurando uma nova forma de aplicação da ferramenta.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/19_Alagoas_Dia Internacional da Juventude.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Celebrado o Dia Internacional da Juventude com jovens de Alagoas</h4>\
+                        <p class="card-text">\
+                          Com o evento “Fala!”, o Conselho Estadual da Juventude de Alagoas promoveu uma programação para debater os temas de mobilização e cidade, abordando instrumentos e condições para a juventude pensar, viver, comunicar e, principalmente, transformar seus territórios. No encontro, a equipe do ONU-Habitat falou sobre o “Digaê! Programa Juventudes, Comunicação e Cidade”, desenvolvido em parceria com o Governo de Alagoas. A iniciativa busca mobilizar jovens por meio de diversas linguagens de comunicação para a construção de cidades mais inclusivas e sustentáveis. Focada nas juventudes das grotas, a iniciativa tem o objetivo de divulgar um olhar da comunidade para a comunidade, contando suas próprias histórias e mobilizando seus territórios – fatores essenciais para um futuro urbano melhor.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/20_JF_Workshop Agenda 2030.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Territórios da Cidadania promove workshop sobre a Agenda 2030 e os ODS em Juiz de Fora</h4>\
+                        <p class="card-text">\
+                          Organizado pela Prefeitura de Juiz de Fora, através da Secretaria de Planejamento do Território e Participação Popular (Seppop), em parceria com o ONU-Habitat, o evento focou no compartilhamento de experiências municipais na implementação da Agenda 2030. Foram realizadas palestras de representantes das prefeituras de Niterói, de Belo Horizonte e de São Paulo, que compartilharam suas próprias iniciativas de aplicação dos ODS nas políticas públicas municipais. Cada um dos palestrantes apresentou diagnósticos e deu exemplos sobre a modernização da gestão e os desafios encontrados a partir dos resultados levantados. O evento também teve a participação do representante internacional do ONU-Habitat para Brasil e Cone Sul, Alain Grimard, e da oficial nacional do programa, Rayne Ferretti Moraes.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/21_SP_Parque da Luz.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>ONU-Habitat e Prefeitura de São Paulo assinam projeto para repensar espaços públicos verdes e inclusivos</h4>\
+                        <p class="card-text">\
+                          Com duração de três anos, a parceria tem o objetivo de gerar espaços públicos verdes mais inclusivos e sustentáveis na cidade de São Paulo. Para isso, serão realizadas diferentes análises dos espaços públicos já existentes, produzindo dados e evidências para guiar novas políticas públicas municipais que permitam aumentar a qualidade e diminuir a desigualdade de acesso a esses espaços. Apesar de 48% do território da cidade ter cobertura verde, tais espaços não estão igualmente distribuídos. A população que vive em áreas precárias ou assentamentos informais na cidade chega a 3,6 milhões de habitantes, que são afetados pelo desequilíbrio no acesso a serviços públicos e infraestrutura – incluindo espaços verdes, o que contribui ainda mais para o aumento das desigualdades.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/22_Rio Cidade Antirracista.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Apoio e participação no congresso "Rio, Uma Cidade Antirracista"</h4>\
+                        <p class="card-text">\
+                          A primeira edição do congresso teve como objetivo convidar a população a pensar a cidade como um ambiente democrático, aberto, humanizado e alinhado ao ODS 10, que promove o combate à desigualdade social. O evento debateu um projeto de cidade pautada no combate ao racismo, promovendo o bem viver para todos e todas, em diversos cantos do Rio. Foi um convite para ir à raiz dos problemas sociais, políticos, e econômicos que bloqueiam o progresso de uma cidade igualitária e pacífica lutando por uma cidade sustentável, encontrando, assim, o ideal do ODS 11. O ONU-Habitat participou da mesa “Políticas Públicas e Interseccionalidades: bases para cidades antirracistas”, que abordou diferentes maneiras de incorporar às cidades uma abordagem que contribua para a redução das desigualdades.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/23_Circuito Urbano.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Realizado Circuito Urbano 2022 com recorde de 254 propostas recebidas</h4>\
+                        <p class="card-text">\
+                        Para promover o debate sobre os temas do Outubro Urbano, o escritório do ONU-Habitat no Brasil criou, em 2018, o Circuito Urbano: uma iniciativa para dar visibilidade e apoio institucional a eventos organizados por diversos atores em todo o país. O mês se inicia com o Dia Mundial do Habitat (na primeira segunda-feira do mês) e se encerra com o Dia Mundial das Cidades (31 de outubro). A 5ª edição do Circuito Urbano foi a primeira a realizar eventos virtuais, presenciais e híbridos que ocorreram em 21 estados e no DF. Sob o tema “Localizando os ODS: não deixar ninguém e nenhum lugar para trás”, os eventos foram divididos em cinco linhas temáticas alinhadas à localização dos Objetivos de Desenvolvimento Sustentável: Conhecer; Planejar; Participar e inovar; Financiar e implementar; e Monitorar e avaliar. O ONU-Habitat Brasil aproveitou o momento para apresentar diversas das suas iniciativas, como o Plano de Urbanização Sustentável da Izidora; a metodologia e os resultados do Programa Territórios Sociais como política intersetorial e integrada do governo local; e o processo da avaliação da rede de espaços públicos das cidades pelo projeto Conexões Urbanas.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/24_Programa Digaê_Minne Santos.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Início das formações do programa Digaê!</h4>\
+                        <p class="card-text">\
+                          Composto por 37 jovens das grotas de Maceió, o primeiro ciclo do programa “Digaê! Juventudes, Comunicação e Cidade” iniciou seus trabalhos discutindo temas relacionados ao direito à cidade e à comunicação. Por meio de oficinas, os participantes desenvolveram colaborativamente conteúdos multimídia sobre suas memórias, histórias e narrativas relacionadas às suas comunidades. No percurso, foram realizadas mentorias para elaborar projetos comunitários no campo da comunicação, conectados com a Agenda 2030 e a Nova Agenda Urbana. A ideia é que, por meio do programa, adolescentes e jovens das grotas se apropriem de técnicas e ferramentas de comunicação em prol do fortalecimento da coesão social e do desenvolvimento local de forma autônoma e sustentável.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/25_Ascom SUDENE.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Premiação do Desafio de Inovação do G52 e assinatura da carta compromisso</h4>\
+                        <p class="card-text">\
+                          Realizado em Recife, o evento celebrou a conclusão do projeto G52, premiando as três propostas mais inovadoras do Desafio de Inovação. A ação promoveu uma aplicação concreta e local dos conhecimentos obtidos durante os módulos de capacitação do projeto. Em 1º lugar, ficou Natal (RN), com a proposta "Cidade para Pessoas: Arborização nas ações pelo clima". Em 2º lugar, ficou Fortaleza (CE), com a proposta "Reciclo"; e em 3º lugar, ficou São Luís (MA), com o "Projeto Casa Encantada". Além da premiação, 17 municípios reiteraram o compromisso público de aderir à rede do G52 para enfrentar as desigualdades e superar as divisões sociais e espaciais na Região Nordeste do Brasil através da assinatura da carta de compromisso do G52. Na ocasião, estiveram presentes servidores da Superintendência de Desenvolvimento do Nordeste (Sudene), equipes do Programa das Nações Unidas para o Desenvolvimento (PNUD) e do ONU-Habitat, prefeitos, vice-prefeitos, secretários e servidores dos municípios participantes do projeto.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/26_Conexões Urbanas_Missão Alain.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Lançamento do relatório da Avaliação de Espaços Públicos e missão do ONU-Habitat às regiões transfronteiriças do projeto Conexões Urbanas</h4>\
+                        <p class="card-text">\
+                          A publicação da Avaliação de Espaços Públicos foi feita em um diálogo entre o ONU-Habitat e as autoridades locais e parceiros do projeto. Esta é a primeira vez que a metodologia é aplicada pelo escritório do ONU-Habitat Brasil. Com a divulgação, o relatório já está sendo apropriado pelos municípios como referência para o planejamento e gestão de espaços públicos. A visita do Representante internacional do ONU-Habitat para Brasil e Cone Sul Alain Grimard foi um marco para a entrega do relatório às autoridades locais. A missão passou pelas duas regiões transfronteiriças do projeto. A primeira parada foi nas cidades de Barracão, Bom Jesus do Sul e Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina), seguindo para Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai).\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/27_Virada_Sustentavel.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Participação do ONU-Habitat na Virada Sustentável 2022, em São Paulo</h4>\
+                        <p class="card-text">\
+                          Durante a pandemia da COVID-19, o acesso à moradia adequada tornou-se central no controle da pandemia. No entanto, segundo o IBGE, aproximadamente 25 milhões de domicílios urbanos brasileiros apresentam algum tipo de inadequação. Para chamar atenção para este debate, o ONU-Habitat participou da Virada Sustentável 2022 com uma projeção no bairro da Consolação, em São Paulo. A projeção apresentava o dado de que três em cada quatro cidadãs e cidadãos brasileiros acreditam que o acesso à moradia adequada nas	 cidades piorou durante a pandemia. O número é resultado da Consulta Pública Cidades Sustentáveis 2021, uma parceria entre o ONU-Habitat e o Colab. Promovido anualmente, o festival ocupa espaços da cidade com informações importantes para o debate sobre desenvolvimento sustentável.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/28_Seminário Cooperaçao Pernambuco.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Realizado o seminário “Estratégia de prevenção qualificada das violências. Conquistas e desafios da Cooperação Pernambuco"</h4>\
+                        <p class="card-text">\
+                          O representante internacional do ONU-Habitat para Brasil e Cone Sul, Alain Grimard, esteve no Recife para participar do evento, liderado pela extinta Secretaria de Políticas de Prevenção à Violência e às Drogas de Pernambuco (SPVD). Na ocasião, ele realizou a entrega dos relatórios das metodologias participativas de Desenho de Espaços Públicos e Cidade Mulher às autoridades locais. Além do ONU-Habitat, participaram representantes dos demais parceiros do projeto: o Escritório das Nações Unidas sobre Drogas e Crimes (UNODC), o Programa das Nações Unidas para o Desenvolvimento (PNUD) e o Instituto Igarapé.\
+                        </p>\
                       </div>\
                     </div>\
                     <div class="carousel-item">\
                       <img class="d-block w-100" src="./images/tempo/29_Argentina_Ciudad deNeuquen.jpg" alt="Third slide">\
-                      <div class="carousel-caption d-none d-md-block">\
-                        <h4>...</h4>\
-                        <p>...</p>\
+                      <div class="card-img-overlay text-white">\
+                        <h4>Assinada carta de intenções para apoiar o desenvolvimento urbano sustentável em Neuquén, na Argentina</h4>\
+                        <p class="card-text">\
+                          Para apoiar o governo da província nesta meta, foi firmada uma nova parceria entre a Província de Neuquén, o Conselho Federal de Investimentos (CFI) e a ONU Argentina. A partir deste marco, foi anunciado um novo projeto de assistência técnica e metodológica para apoiar a província na promoção de políticas de planejamento urbano sustentável de suas cidades, seguindo os ideais da Agenda 2030. Financiado pelo CFI, o projeto é liderado pelo ONU-Habitat e é implementado junto ao Escritório das Nações Unidas de Serviços para Projetos (UNOPS) e da ONU Mulheres, com o apoio do Escritório da Coordenadora Residente (OCR) da Argentina. Juntos, os parceiros vão implementar, em 2023, o projeto na província de Neuquén com o apoio da Secretaria de Planejamento e Ação para o Desenvolvimento (COPADE).\
+                        </p>\
                       </div>\
                     </div>\
                   </div>\
