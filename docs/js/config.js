@@ -210,13 +210,13 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
               </div>\
-              <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6500">\
+              <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="996500">\
                   <div class="carousel-inner">\
                     <div class="carousel-item active">\
                         <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira">\
                         <div class="container_foto">\
                           <div class="ver_mas">\
-                            <p class="card-text">\
+                            <p>\
                               Em uma colaboração inédita entre os escritórios do ONU-Habitat no Brasil e no Líbano, o projeto chega a seis municípios de três países na aplicação de metodologias do Programa Global de Espaços Públicos. Realizada com atividades presenciais e virtuais, a programação do lançamento gerou um grande engajamento local. Participaram dos eventos mais de 80 pessoas, envolvendo autoridades, servidores públicos e representantes de universidades e de organizações da sociedade civil. Durante dois anos, o projeto Conexões Urbanas vai realizar capacitações com atores locais, aplicar metodologias participativas e revisar políticas públicas em cidades do Brasil, Argentina, Paraguai e Líbano.</p>\
                             </p>\
                           </div>\

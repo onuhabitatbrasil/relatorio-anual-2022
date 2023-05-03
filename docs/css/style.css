@@ -575,10 +575,9 @@ ul.social-icons li{
 }
 
 #carousel-thumbs {
-    background: rgba(255,255,255,0.4);
     bottom: 0;
     left: 0;
-    padding: 0 15px;
+    padding: 0 10px;
     right: 0;
 }
 
@@ -617,50 +616,83 @@ ul.social-icons li{
     border-color: rgb(255, 166, 0);
 }*/
 
-.card-img-overlay h4 {
-    color: #cc3480;
-    font-size: 16px;
+.container_foto article {
+	padding: 0.5rem 1rem;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
-.card-img-overlay h3 {
-    color: #fff;
-    font-size: 16px;
+.container_foto h2 {
+	color: #fff;
+	font-weight: 800;
+	font-size: 20px;
 }
 
-.card-img-overlay p {
-    line-height: 1;
-}
-  
-.carousel-control-prev,
-.carousel-control-next {
-  width: 50px;
-}
-
-.carousel-caption h3 {
-  font-size: 32px;
+#myCarousel .carousel-item img {
+	-webkit-transition: all 4s ease;
+	-moz-transition: all 4s ease;
+	-o-transition: all 4s ease;
+	-ms-transition: all 4s ease;
+	transition: all 4s ease;
 }
 
-.carousel-caption p {
-  font-size: 18px;
+.ver_mas {
+    padding: 0.5rem 1rem;
+	color: #fff;
+    font-weight: 600;
+	position: absolute;
+	width: 100%;
+	height: 225px;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0;
+	transform: translate(0px, 70px);
+	-webkit-transform: translate(0px, 70px);
+	-moz-transform: translate(0px, 70px);
+	-o-transform: translate(0px, 70px);
+	-ms-transform: translate(0px, 70px);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
-@media all and (max-width: 767px) {
-  .carousel-container #carousel-thumbs img {
-    border-width: 3px;
-  }
+/*hovers*/
+#myCarousel .carousel-item:hover img {
+	transform: scale(1.5);
 }
 
-@media all and (min-width: 576px) {
-  .carousel-container #carousel-thumbs {
-    position: absolute;
-  }
+#myCarousel .carousel-item:hover article {
+	transform: translate(2px, -225px);
+	-webkit-transform: translate(2px, -225px);
+	-moz-transform: translate(2px, -225px);
+	-o-transform: translate(2px, -225px);
+	-ms-transform: translate(2px, -225px);
+
 }
 
-/*@media all and (max-width: 576px) {
-  .carousel-container #carousel-thumbs {
-    background: rgba(204, 52, 128, 0.25);
-  }
-}*/
+#myCarousel .carousel-item:hover .ver_mas {
+	transform: translate(0px, -0px);
+	-webkit-transform: translate(0px, -0px);
+	-moz-transform: translate(0px, -0px);
+	-o-transform: translate(0px, -0px);
+	-ms-transform: translate(0px, -0px);
+	opacity: 1;
+    background-image: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 0%, 0) 0%,
+      hsla(0, 0%, 0%, 0.5) 25%,
+      hsla(0, 0%, 0%, 0.75) 50%,
+      hsla(0, 0%, 0%, 0.85) 100%
+    );
+}
 
 .animated-icon3 {
     width: 30px;
@@ -763,85 +795,4 @@ ul.social-icons li{
 
 .accordion h1, .h1 {
     font-family: 'Bolgart', sans-serif;
-}
-
-
-.container_foto {
-	padding: 0;
-	overflow: hidden;
-}
-
-.container_foto h2 {
-	color: #fff;
-	font-weight: 800;
-	font-size: 20px;
-}
-
-.container_foto article {
-	padding: 5%;
-	position: absolute;
-	bottom: 0;
-	z-index: 1;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}
-
-#myCarousel .carousel-item img {
-    object-fit: cover;
-	width: 100%;
-	top: 0;
-	left: 0;
-	opacity: 1;
-	-webkit-transition: all 4s ease;
-	-moz-transition: all 4s ease;
-	-o-transition: all 4s ease;
-	-ms-transition: all 4s ease;
-	transition: all 4s ease;
-}
-
-.ver_mas {
-	background-color: #ffc5da;
-    color: #cc3480;
-	position: absolute;
-	width: 100%;
-	height: 200px;
-	bottom: 0;
-	z-index: 1;
-	opacity: 0;
-	transform: translate(0px, 70px);
-	-webkit-transform: translate(0px, 70px);
-	-moz-transform: translate(0px, 70px);
-	-o-transform: translate(0px, 70px);
-	-ms-transform: translate(0px, 70px);
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-/*hovers*/
-#myCarousel .carousel-item:hover img {
-	opacity: 0.75;
-	transform: scale(1.25);
-}
-
-#myCarousel .carousel-item:hover article {
-	transform: translate(2px, -150px);
-	-webkit-transform: translate(2px, -200px);
-	-moz-transform: translate(2px, -200px);
-	-o-transform: translate(2px, -200px);
-	-ms-transform: translate(2px, -200px);
-}
-
-#myCarousel .carousel-item:hover .ver_mas {
-	transform: translate(0px, 0px);
-	-webkit-transform: translate(0px, 0px);
-	-moz-transform: translate(0px, 0px);
-	-o-transform: translate(0px, 0px);
-	-ms-transform: translate(0px, 0px);
-	opacity: 1;
 }
