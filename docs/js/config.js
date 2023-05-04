@@ -117,7 +117,7 @@ var config = {
       <div class="light-branco rounded-lg shadow-lg">\
         <div class="container p-right-left p-bottom">\
           <h1 class="azul-habitat">Onde estamos e<br>quem somos</h1>\
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. <strong>In nulla tellus, sagittis sed magna in, cursus pretium diam.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
+          <p>O Programa das Nações Unidas para os Assentamentos Humanos (ONU-Habitat) estabeleceu-se em 1978 como resultado da Conferência das Nações Unidas sobre Assentamentos Humanos (Habitat I). Com sede em Nairóbi, capital do Quênia, o ONU-Habitat é a agência da Organização das Nações Unidas (ONU) especializada em melhorar a qualidade de vida em um mundo majoritariamente urbanizado; construir cidades e comunidades seguras, resilientes e sustentáveis; e promover urbanização como uma força transformadora positiva para pessoas e comunidades, reduzindo a desigualdade, discriminação e pobreza e melhorando a qualidade e o acesso aos serviços básicos.</p>\
         </div>\
       </div>\
       ',
@@ -159,7 +159,7 @@ var config = {
       <div class="light-branco rounded-lg shadow-lg">\
         <div class="container p-right-left p-bottom">\
           <h1 class="azul-habitat">ONU-Habitat Brasil</h1>\
-          <p>O ONU-Habitat está presente no Brasil há mais de 20 anos, atuando em projetos relacionados a diversos temas urbanos em cidades de todo o país. O Escritório Regional para América Latina e o Caribe e o escritório para o Brasil e Cone Sul estão localizados no Rio de Janeiro.</p>\
+          <p>O Escritório Regional do ONU-Habitat para a América Latina e o Caribe está presente na cidade do Rio de Janeiro há mais de 20 anos. A cidade também é sede do escritório responsável pelo Brasil e Cone Sul, que conta com uma equipe dedicada aos projetos e iniciativas implementadas com o Brasil, Argentina, Paraguai, Uruguai e Chile.</p>\
           <img class="p-top" src="images/logo_onuhabitat.png" alt="Logo ONU-Habitat em Português"/>\
         </div>\
       </div>\
@@ -532,11 +532,9 @@ var config = {
                         </div>\
                     </div>\
                   </div>\
-                </div>\
-              \
+              </div>\
               <!-- Carousel Navigation -->\
-              \
-              <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="8000">\
+              <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="7500">\
                 <div class="carousel-inner">\
                   <div class="carousel-item active">\
                     <div class="row mx-0">\
@@ -741,7 +739,7 @@ var config = {
                   <li data-target="#carousel-thumbs" data-slide-to="3"></li>\
                   <li data-target="#carousel-thumbs" data-slide-to="4"></li>\
                 </ol>\
-            </div>\
+              </div>\
         </div>\
       </div>\
       ',
@@ -844,114 +842,65 @@ var config = {
       //bookmark: 'Abertura',
       description: '\
       <div class="light">\
-        <div class="container pb-2">\
+        <div class="container pt-2">\
           <h1 class="azul txt-cent">Metodologias</h1>\
                 <div class="container">\
                 <div class="row">\
                     <div class="col-12 text-center">\
-                        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">\
+                        <a class="btn btn-primary mb-3 mr-1" href="#carouselMetodo" role="button" data-slide="prev">\
                             <i class="fa fa-arrow-left"></i>\
                         </a>\
-                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">\
+                        <a class="btn btn-primary mb-3 " href="#carouselMetodo" role="button" data-slide="next">\
                             <i class="fa fa-arrow-right"></i>\
                         </a>\
                     </div>\
                     <div class="col-12">\
-                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">\
+                        <div id="carouselMetodo" class="carousel slide" data-ride="carousel">\
                             <div class="carousel-inner">\
                                 <div class="carousel-item active">\
                                     <div class="row">\
                                         <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                          <div class="wrapper">\
+                                            <div class="card front-face">\
+                                              <img src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
+                                            </div>\
+                                            <div class="card back-face">\
+                                                <div class="info">\
+                                                  <h4 class="card-title">Avaliação de Espaços Públicos na Escala da Cidade</h4>\
+                                                  <p class="card-text">A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
                                                 </div>\
                                             </div>\
+                                          </div>\
                                         </div>\
                                         <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                          <div class="wrapper">\
+                                            <div class="card front-face">\
+                                              <img src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
+                                            </div>\
+                                            <div class="card back-face">\
+                                                <div class="info">\
+                                                  <h4 class="card-title">TITULO</h4>\
+                                                  <p class="card-text">TEXTO</p>\
                                                 </div>\
                                             </div>\
+                                          </div>\
                                         </div>\
                                         <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
+                                          <div class="wrapper">\
+                                            <div class="card front-face">\
+                                              <img src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
+                                            </div>\
+                                            <div class="card back-face">\
+                                                <div class="info">\
+                                                  <h4 class="card-title">TITULO</h4>\
+                                                  <p class="card-text">TEXTO</p>\
                                                 </div>\
                                             </div>\
+                                          </div>\
                                         </div>\
                                     </div>\
                                 </div>\
-                                <div class="carousel-item">\
-                                    <div class="row">\
-                                        <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
-                                                </div>\
-                                            </div>\
-                                        </div>\
-                                        <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
-                                                </div>\
-                                            </div>\
-                                        </div>\
-                                        <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
-                                                </div>\
-                                            </div>\
-                                        </div>\
-                                    </div>\
-                                </div>\
-                                <div class="carousel-item">\
-                                    <div class="row">\
-                                        <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
-                                                </div>\
-                                            </div>\
-                                        </div>\
-                                        <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
-                                                </div>\
-                                            </div>\
-                                        </div>\
-                                        <div class="col-md-4 mb-3">\
-                                            <div class="card">\
-                                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">\
-                                                <div class="card-body">\
-                                                    <h4 class="card-title">Special title treatment</h4>\
-                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>\
-                                                </div>\
-                                            </div>\
-                                        </div>\
-                                    </div>\
-                                </div>\
+                              </div>\
                             </div>\
                         </div>\
                     </div>\
