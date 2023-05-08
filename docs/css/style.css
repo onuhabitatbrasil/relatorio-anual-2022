@@ -859,5 +859,53 @@ ul.social-icons li{
     font-weight: 500;
 }
 
+#myCarousel2 img {
+    object-fit: cover;
+    height: 400px;
+}
+
+#myCarousel2 .carousel-inner {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.50);
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#myCarousel2 .carousel-item img {
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+}
+
+/*hovers*/
+
+#myCarousel2 .carousel-item:hover .ver_mas {
+	transform: translate(0px, -0px);
+	-webkit-transform: translate(0px, -0px);
+	-moz-transform: translate(0px, -0px);
+	-o-transform: translate(0px, -0px);
+	-ms-transform: translate(0px, -0px);
+	opacity: 1;
+    background-image: linear-gradient(
+        to bottom,
+        hsla(203, 100%, 27%, 0) 0%,
+        hsla(203, 100%, 27%, 0.6) 25%,
+        hsla(203, 100%, 27%, 0.9) 100%
+      );
+}
+
+#myCarousel2 .carousel-indicators li {
+    cursor: default;
+    border: 1px solid #00568a;
+}
 
 
+#myCarousel2 .carousel-indicators .active {
+    background-color: #00568a;
+}
+
+.btn-primary-azul {
+    color: #00568a;
+    border: 2px solid #00568a;
+  }
