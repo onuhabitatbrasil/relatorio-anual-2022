@@ -834,7 +834,7 @@ var config = {
       onChapterExit: []
     },
 
-    {
+    /*{
       id: "metodologias",
       alignment: "full",
       hidden: false,
@@ -923,14 +923,14 @@ var config = {
       callback: "",
       onChapterEnter: [],
       onChapterExit: []
-    },
+    },*/
 
     {
       id: "metodologias",
       alignment: "full",
       hidden: false,
       //title: 'Abertura',
-      //bookmark: 'Abertura',
+      //sbookmark: 'Abertura',
       description: '\
       <div class="light">\
         <div class="container p-bottom">\
