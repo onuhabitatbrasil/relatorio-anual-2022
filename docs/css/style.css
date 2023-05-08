@@ -680,9 +680,9 @@ ul.social-icons li{
 	opacity: 1;
     background-image: linear-gradient(
         to bottom,
-        hsla(0, 0%, 0%, 0) 0%,
-        hsla(0, 0%, 0%, 0.6) 25%,
-        hsla(0, 0%, 0%, 0.9) 100%
+        hsla(330, 60%, 50%, 0) 0%,
+        hsla(330, 60%, 50%, 0.6) 25%,
+        hsla(330, 60%, 50%, 0.9) 100%
       );
 }
 
@@ -908,4 +908,39 @@ ul.social-icons li{
 .btn-primary-azul {
     color: #00568a;
     border: 2px solid #00568a;
-  }
+}
+
+
+#myCarousel3 img {
+    object-fit: cover;
+    height: 400px;
+}
+
+#myCarousel3 .carousel-inner {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.50);
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#myCarousel3 .carousel-item img {
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+}
+
+#myCarousel3 .carousel-item:hover .ver_mas {
+	transform: translate(0px, -0px);
+	-webkit-transform: translate(0px, -0px);
+	-moz-transform: translate(0px, -0px);
+	-o-transform: translate(0px, -0px);
+	-ms-transform: translate(0px, -0px);
+	opacity: 1;
+    background-image: linear-gradient(
+        to bottom,
+        hsla(330, 60%, 50%, 0) 0%,
+        hsla(330, 60%, 50%, 0.6) 25%,
+        hsla(330, 60%, 50%, 0.9) 100%
+      );
+}

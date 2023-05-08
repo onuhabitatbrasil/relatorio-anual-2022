@@ -926,6 +926,182 @@ var config = {
     },*/
 
     {
+      id: "publicacoes",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //sbookmark: 'Abertura',
+      description: '\
+      <div class="light">\
+        <div class="container p-5">\
+            <h1 class="align-self-center rosa txt-cent">Publicações e Plataformas</h1>\
+              <div class="col-12 text-center pb-3">\
+                  <a class="btn btn-primary mr-1" href="#myCarousel3" role="button" data-slide="prev">\
+                      <i class="fa fa-arrow-left cursor-hover"></i>\
+                  </a>\
+                  <a class="btn btn-primary" href="#myCarousel3" role="button" data-slide="next">\
+                      <i class="fa fa-arrow-right cursor-hover"></i>\
+                  </a>\
+              </div>\
+              <div id="myCarousel3" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6500">\
+                  <ol class="carousel-indicators">\
+                      <li data-target="myCarousel3" data-slide-to="0" class="active"></li>\
+                      <li data-target="myCarousel3" data-slide-to="1"></li>\
+                      <li data-target="myCarousel3" data-slide-to="2"></li>\
+                      <li data-target="myCarousel3" data-slide-to="3"></li>\
+                      <li data-target="myCarousel3" data-slide-to="4"></li>\
+                      <li data-target="myCarousel3" data-slide-to="5"></li>\
+                      <li data-target="myCarousel3" data-slide-to="6"></li>\
+                      <li data-target="myCarousel3" data-slide-to="7"></li>\
+                      <li data-target="myCarousel3" data-slide-to="8"></li>\
+                      <li data-target="myCarousel3" data-slide-to="9"></li>\
+                      <li data-target="myCarousel3" data-slide-to="10"></li>\
+                  </ol>\
+                  <div class="carousel-inner">\
+                    <div class="carousel-item active">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2>Desafio de Inovação</h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                    <div class="carousel-item">\
+                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
+                        <div class="container_foto">\
+                          <div class="ver_mas">\
+                            <p></p>\
+                          </div>\
+                          <article class="text-left">\
+                             <h2></h2>\
+                          </article>\
+                        </div>\
+                    </div>\
+                  </div>\
+              </div>\
+            </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    {
       id: "metodologias",
       alignment: "full",
       hidden: false,
