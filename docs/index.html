@@ -21,7 +21,44 @@
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/time.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        $('#theCarousel .multi-item-carousel').on('slide.bs.carousel', function(e) {
+            var $e = $(e.relatedTarget);
+            var idx = $e.index();
+            var itemsPerSlide = 3;
+            var totalItems = $('#theCarousel .carousel-item').length;
+            if (idx >= totalItems - (itemsPerSlide - 1)) {
+              var it = itemsPerSlide - (totalItems - idx);
+              for (var i = 0; i < it; i++) {
+                // append slides to end
+                if (e.direction == "left") {
+                  $('#theCarousel .carousel-item').eq(i).appendTo('#theCarousel .carousel-inner');
+                } else {
+                  $('#theCarousel .carousel-item').eq(0).appendTo('#theCarousel .carousel-inner');
+                }
+              }
+            }
+          });
+    </script>
+
+    <script>
+
+        // Only display 3 items in nav on mobile.
+        if ($(window).width() < 575) {
+            $('#carousel-thumbs .row div:nth-child(4)').each(function() {
+            var rowBoundary = $(this);
+            $('<div class="row mx-0">').insertAfter(rowBoundary.parent()).append(rowBoundary.nextAll().addBack());
+            });
+            $('#carousel-thumbs .carousel-item .row:nth-child(even)').each(function() {
+            var boundary = $(this);
+            $('<div class="carousel-item">').insertAfter(boundary.parent()).append(boundary.nextAll().addBack());
+            });
+        }
+                      
+    </script>
 
     <script>
  
@@ -224,7 +261,7 @@
                 </div>
             </div>
             <div class="row">
-                <a class="smoothscroll" href="#subheader">
+                <a class="smoothscroll" href="#abertura">
                     <div class="scroll-down cursor-hover"></div>
                 </a>           
             </div>

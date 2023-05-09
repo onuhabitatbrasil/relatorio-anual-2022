@@ -540,39 +540,21 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">\
                         <img src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>01</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">\
                         <img src="./images/tempo/02_Visita_Fortaleza.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>01</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">\
                         <img src="./images/tempo/03_G52_Lançamento.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>01</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">\
                         <img src="./images/tempo/04_2022_DEP_Petrolina_ Renatto Mendonca.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>02</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">\
                         <img src="./images/tempo/05_RJ_Territórios Sociais.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>02</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">\
                         <img src="./images/tempo/06_MoU_Rio de Janeiro.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>03</h3>\
-                        </div>\
                       </div>\
                     </div>\
                   </div>\
@@ -580,39 +562,21 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">\
                         <img src="./images/tempo/07_Alagoas_Seminário.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>03</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">\
                         <img src="./images/tempo/08_Territórios da Cidadania.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>03</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">\
                         <img src="./images/tempo/09_BH_Izidora_Assembleia RL e HG.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>03</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">\
                         <img src="./images/tempo/10_Regularização fundiária_AL_Foto Marcio Ferreira.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>04</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-10" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="10">\
                         <img src="./images/tempo/11_Teresina_Missão Maio.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>04</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-11" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="11">\
                         <img src="./images/tempo/12_I Encontro InRede_Fortaleza.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>05</h3>\
-                        </div>\
                       </div>\
                     </div>\
                   </div>\
@@ -620,39 +584,21 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-12" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="12">\
                         <img src="./images/tempo/13_Conexões Urbanas_Análise técnica em Dionísio Cerqueira.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>05</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-13" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="13">\
                         <img src="./images/tempo/14_Alagoas_Visão das Grotas.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>06</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-14" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="14">\
                         <img src="./images/tempo/15_CSST.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>06</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-15" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="15">\
                         <img src="./images/tempo/16_G52_Reunião Online.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>07</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-16" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="16">\
                         <img src="./images/tempo/17_Praia em São Paulo.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>07</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-17" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="17">\
                         <img src="./images/tempo/18_JF_Piloto de MRP em área rural.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>08</h3>\
-                        </div>\
                       </div>\
                     </div>\
                   </div>\
@@ -660,39 +606,21 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-18" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="18">\
                         <img src="./images/tempo/19_Alagoas_Dia Internacional da Juventude.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>08</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-19" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="19">\
                         <img src="./images/tempo/20_JF_Workshop Agenda 2030.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>09</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-20" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="20">\
                         <img src="./images/tempo/21_SP_Parque da Luz.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>09</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-21" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="21">\
                         <img src="./images/tempo/22_Rio Cidade Antirracista.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>09</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-22" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="22">\
                         <img src="./images/tempo/23_Circuito Urbano.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>10</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-23" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="23">\
                         <img src="./images/tempo/24_Programa Digaê_Minne Santos.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>10</h3>\
-                        </div>\
                       </div>\
                     </div>\
                   </div>\
@@ -700,33 +628,18 @@ var config = {
                     <div class="row mx-0">\
                       <div id="carousel-selector-24" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="24">\
                         <img src="./images/tempo/25_Ascom SUDENE.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>11</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-25" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="25">\
                         <img src="./images/tempo/26_Conexões Urbanas_Missão Alain.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>11</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-26" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="26">\
                         <img src="./images/tempo/27_Virada_Sustentavel.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>11</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-27" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="27">\
                         <img src="./images/tempo/28_Seminário Cooperaçao Pernambuco.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>12</h3>\
-                        </div>\
                       </div>\
                       <div id="carousel-selector-28" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="28">\
-                        <img src="./images/tempo/29_Argentina_Ciudad deNeuquen.jpg" class="img-fluid" alt="...">\
-                        <div class="card-img-overlay text-white">\
-                          <h3>12</h3>\
-                        </div>\
+                        <img src="./images/tempo/29_Argentina_Ciudad deNeuquen_mini.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div class="col-2 px-1 py-2"></div>\
                     </div>\
@@ -779,6 +692,7 @@ var config = {
                       </h1>\
                     </div>\
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1512457488427-6d5759c7e17b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c6b5deacc86d6fc5fcac2f06595bcd26" alt="" class="timeline__image"></div>\
                       <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>\
                     </div>\
                   </div>\
@@ -816,6 +730,86 @@ var config = {
               </div>\
             </div>\
         </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    {
+      id: "teste",
+      alignment: "full",
+      hidden: false,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
+      description: '\
+      <div class="light">\
+        <div class="container pt-2">\
+          <h1 class="azul txt-cent">TESTE</h1>\
+          <section class="timeline">\
+              <div class="container">\
+                <div class="row">\
+                  <div class="col-md-10 offset-md-1">\
+                  <div class="accordion" id="accordionNumeros">\
+                    <div class="col-sm-6 timeline__item">\
+                      <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1512457488427-6d5759c7e17b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c6b5deacc86d6fc5fcac2f06595bcd26" alt="" class="timeline__image"></div>\
+                      <p class="timeline__text">\
+                        lorem lorem lorem lorem lorem lorem lorem\
+                        <time class="timeline__date" datetime="2018-04-11">11/04/2018</time>\
+                      </p>\
+                    </div>\
+                    <div class="col-sm-6 timeline__item">\
+                      <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1515846793739-9528018713bc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=b0bd7c84332fd48dcdfdcdd7cd863712" alt="" class="timeline__image"></div>\
+                      <p class="timeline__text">\
+                        lorem lorem lorem lorem lorem lorem lorem\
+                        <time class="timeline__date" datetime="2018-04-12">12/04/2018</time>\
+                      </p>\
+                    </div>\
+                    <div class="col-sm-6 timeline__item">\
+                      <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1509854120-eeab44807cd0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=372f254f3a6916c66c3acb7962c7cd7a" alt="" class="timeline__image"></div>\
+                      <p class="timeline__text">\
+                        lorem lorem lorem lorem lorem lorem lorem\
+                        <time class="timeline__date" datetime="2018-04-13">13/04/2018</time>\
+                      </p>\
+                    </div>\
+                    <div class="col-sm-6 timeline__item">\
+                      <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1503065379937-a6fdb204c4a9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=e790695b4a5ea04a920610ac4c8e6fb9" alt="" class="timeline__image"></div>\
+                      <p class="timeline__text">\
+                        lorem lorem lorem lorem lorem lorem lorem\
+                        <time class="timeline__date" datetime="2018-04-14">14/04/2018</time>\
+                      </p>\
+                    </div>\
+                    <div class="col-sm-6 timeline__item">\
+                      <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1519341984635-a9ed1b935738?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=cac0eb05f36da12d6e567c9dd22beb9f" alt="" class="timeline__image"></div>\
+                      <p class="timeline__text">\
+                        lorem lorem lorem lorem lorem lorem lorem\
+                        <time class="timeline__date" datetime="2018-04-15">15/04/2018</time>\
+                      </p>\
+                    </div>\
+                    <div class="col-sm-6 timeline__item">\
+                      <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1513922203437-86dc31ea478f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=51538ced89fa426bdb48cf9ae0476c5e" alt="" class="timeline__image"></div>\
+                      <p class="timeline__text">\
+                        lorem lorem lorem lorem lorem lorem lorem\
+                        <time class="timeline__date" datetime="2018-04-16">16/04/2018</time>\
+                      </p>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+            </section>\
+          </div>\
       </div>\
       ',
       location: {
@@ -925,161 +919,65 @@ var config = {
       onChapterExit: []
     },*/
 
+
     {
-      id: "publicacoes",
+      id: "metodologias",
       alignment: "full",
       hidden: false,
       //title: 'Abertura',
       //sbookmark: 'Abertura',
       description: '\
       <div class="light">\
-        <div class="container p-5">\
-            <h1 class="align-self-center rosa txt-cent">Publicações e Plataformas</h1>\
-              <div class="col-12 text-center pb-3">\
-                  <a class="btn btn-primary mr-1" href="#myCarousel3" role="button" data-slide="prev">\
+        <div class="container p-bottom">\
+            <h1 class="align-self-center azul txt-cent">2022 em Metodologias</h1>\
+            <div class="col-12 text-center pb-3">\
+                  <a class="btn btn-primary mr-1 btn-primary-azul " href="#theCarousel" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
                   </a>\
-                  <a class="btn btn-primary" href="#myCarousel3" role="button" data-slide="next">\
+                  <a class="btn btn-primary btn-primary-azul " href="#theCarousel" role="button" data-slide="next">\
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
-              </div>\
-              <div id="myCarousel3" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6500">\
-                  <ol class="carousel-indicators">\
-                      <li data-target="myCarousel3" data-slide-to="0" class="active"></li>\
-                      <li data-target="myCarousel3" data-slide-to="1"></li>\
-                      <li data-target="myCarousel3" data-slide-to="2"></li>\
-                      <li data-target="myCarousel3" data-slide-to="3"></li>\
-                      <li data-target="myCarousel3" data-slide-to="4"></li>\
-                      <li data-target="myCarousel3" data-slide-to="5"></li>\
-                      <li data-target="myCarousel3" data-slide-to="6"></li>\
-                      <li data-target="myCarousel3" data-slide-to="7"></li>\
-                      <li data-target="myCarousel3" data-slide-to="8"></li>\
-                      <li data-target="myCarousel3" data-slide-to="9"></li>\
-                      <li data-target="myCarousel3" data-slide-to="10"></li>\
-                  </ol>\
-                  <div class="carousel-inner">\
-                    <div class="carousel-item active">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
+            </div>\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3000">\
+              <ol class="carousel-indicators">\
+                  <li data-target="theCarousel" data-slide-to="0" class="active"></li>\
+                  <li data-target="theCarousel" data-slide-to="1"></li>\
+                  <li data-target="theCarousel" data-slide-to="2"></li>\
+                  <li data-target="theCarousel" data-slide-to="3"></li>\
+                  <li data-target="theCarousel" data-slide-to="4"></li>\
+                  <li data-target="theCarousel" data-slide-to="5"></li>\
+              </ol>\
+              <div class="carousel-inner row w-100 mx-auto  pb-4 pt-4">\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
+                      <article class="text-left">\
+                          <h5>Avaliação de Espaços Públicos na Escala da Cidade</h5>\
+                      </article>\
                     </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Desafio de Inovação</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/publi/.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p></p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2></h2>\
-                          </article>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
                         </div>\
                     </div>\
                   </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <img src="https://via.placeholder.com/300/e91e63/000000?text=2" class="img-fluid mx-auto d-block">\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <img src="https://via.placeholder.com/300/9c27b0/000000?text=3" class="img-fluid mx-auto d-block">\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <img src="https://via.placeholder.com/300/673ab7/000000?text=4" class="img-fluid mx-auto d-block">\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <img src="https://via.placeholder.com/300/4caf50/000000?text=5" class="img-fluid mx-auto d-block">\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <img src="https://via.placeholder.com/300/4caf50/000000?text=6" class="img-fluid mx-auto d-block">\
+                </div>\
               </div>\
             </div>\
         </div>\
@@ -1102,7 +1000,7 @@ var config = {
     },
 
     {
-      id: "metodologias",
+      id: "metodologias2",
       alignment: "full",
       hidden: false,
       //title: 'Abertura',
@@ -1110,7 +1008,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container p-bottom">\
-            <h1 class="align-self-center azul txt-cent">Metodologias</h1>\
+            <h1 class="align-self-center azul txt-cent">2022 em Metodologias</h1>\
               <div class="col-12 text-center pb-3">\
                   <a class="btn btn-primary mr-1 btn-primary-azul " href="#myCarousel2" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
