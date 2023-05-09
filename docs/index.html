@@ -25,21 +25,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script>
-        $('#theCarousel .multi-item-carousel').on('slide.bs.carousel', function(e) {
-            var $e = $(e.relatedTarget);
-            var idx = $e.index();
-            var itemsPerSlide = 3;
-            var totalItems = $('#theCarousel .carousel-item').length;
-            if (idx >= totalItems - (itemsPerSlide - 1)) {
-              var it = itemsPerSlide - (totalItems - idx);
-              for (var i = 0; i < it; i++) {
-                // append slides to end
-                if (e.direction == "left") {
-                  $('#theCarousel .carousel-item').eq(i).appendTo('#theCarousel .carousel-inner');
-                } else {
-                  $('#theCarousel .carousel-item').eq(0).appendTo('#theCarousel .carousel-inner');
-                }
-              }
+        $('.multi-item-carousel .carousel-item').each(function(){
+            var next = $(this).next();
+            if (!next.length) {
+              next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+            
+            if (next.next().length>0) {
+              next.next().children(':first-child').clone().appendTo($(this));
+            } else {
+                $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
             }
           });
     </script>

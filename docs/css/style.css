@@ -914,18 +914,22 @@ ul.social-icons li{
 }
 
 @media (min-width: 768px) {
+
     .multi-item-carousel .carousel-inner .carousel-item {
       margin-right: inherit;
     }
+
     .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item,
     .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item + .carousel-item {
       display: block;
     }
+    
     .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
     .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
     .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
       transition: none;
     }
+    
     .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item + .carousel-item + .carousel-item {
       position: absolute;
       top: 0;
@@ -934,6 +938,7 @@ ul.social-icons li{
       display: block;
       visibility: visible;
     }
+
     .multi-item-carousel .carousel-inner .carousel-item-next,
     .multi-item-carousel .carousel-inner .carousel-item-prev {
       position: relative;

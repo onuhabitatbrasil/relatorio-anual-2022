@@ -938,7 +938,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3000">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3000" role="listbox">\
               <ol class="carousel-indicators">\
                   <li data-target="theCarousel" data-slide-to="0" class="active"></li>\
                   <li data-target="theCarousel" data-slide-to="1"></li>\
