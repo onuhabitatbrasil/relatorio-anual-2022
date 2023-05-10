@@ -507,11 +507,14 @@ ul.social-icons li{
     }
 
     .step {
-        padding-bottom: 65vh;
+        padding-bottom: 100vh;
     }
 
     .fully img {
-        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
     }
 
     .lefty img {
