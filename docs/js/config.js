@@ -846,7 +846,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container container-exp p-bottom">\
-            <h1 class="align-self-center rosa text-center">2022 em Publicações e Plataformas</h1>\
+            <h1 class="align-self-center rosa text-center">2022 em Publicações<br>e Plataformas</h1>\
             <div class="col-12 text-center pb-3">\
                   <a class="btn btn-primary mr-1" href="#theCarouselPub" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
