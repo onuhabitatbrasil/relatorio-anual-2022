@@ -896,8 +896,23 @@ ul.social-icons li{
 }
 
 #theCarouselPub .front-face h5 {
+    color: #fff;
+    position: absolute;
+    background-color: #cc3480;
+    border-radius: 75px;
+    font-size: 0.75rem;
+    margin: 0.75rem 0.5rem;
+    max-width: 80%;
+}
+
+#theCarouselPub .front-face p {
     color: #cc3480;
-    position: relative;
+    border-radius: 25px;
+    background-color: #fff;
+    position: absolute;
+    font-size: 0.65rem;
+    margin: 1rem;
+    padding: 0.25rem;
 }
 
 .wrapper .back-face {

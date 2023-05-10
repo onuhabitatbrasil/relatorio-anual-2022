@@ -861,11 +861,13 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/01_Relatorio_Aval_Esp_Pub_Barracao_comp.jpeg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Avaliação de Espaços Públicos: Cidades na Fronteira</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Relatório da Avaliação de Espaços Públicos em municípios do projeto Conexões Urbanas, incluindo análise de dimensões relacionadas à quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde. O trabalho foi fruto da análise de leis e planos locais, assim como da coleta de informações em visitas de campo e entrevistas com informantes-chave da população.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://drive.google.com/file/d/1BjJ9sYx0sg0NDvC8iAtrQ5GpSNDKYzzd/view">Acessar</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -874,11 +876,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/02_Desenho de Espaços Públicos.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório de Desenho de Espaços Públicos</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">O relatório apresenta a sistematização e resultados das oficinas de Desenho de Espaços Públicos em Pernambuco, que tiveram como objetivo criar propostas concretas para espaços públicos de forma participativa com jovens de 14 a 29 anos. As propostas foram baseadas em diagnósticos, avaliações, necessidades e sugestões dos grupos participantes, visando tornar esses espaços seguros, inclusivos, sustentáveis e saudáveis.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -887,11 +890,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/03_Relatório Cidade Mulher_Caderno Oficinas_Versão 12.12 - online.jpeg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório Cidade Mulher</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">O documento apresenta a sistematização e os resultados das oficinas Cidade Mulher, que buscaram mapear a percepção das mulheres em relação aos fatores que geram (in)segurança em seus territórios. O objetivo foi contribuir para o diagnóstico da segurança urbana e fornecer sugestões para políticas públicas que tornem os espaços públicos mais inclusivos e seguros para mulheres jovens, adultas e idosas.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -900,11 +904,13 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/04_Doc Pés no chao, janela do céu.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Documentário "Pés no Chão, Janela do Céu"</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Através da história de Yasmin Bernardo, jovem moradora da comunidade do Ibura, no Recife (PE), o documentário destaca a importância do protagonismo da juventude no processo de planejamento urbano. Inspirado na oficina de Desenho de Espaços Públicos realizada na comunidade, o curta-metragem revela uma perspectiva crítica sobre sua realidade e mostra soluções criativas para superar desigualdades sociais e violência urbana, permitindo que jovens como ela possam experimentar plenamente o que a cidade tem a oferecer.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://www.youtube.com/watch?v=vHW20i79QyQ ">Acessar</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -913,11 +919,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/05_Progress Report 4_Social Territories_August 2022.jpeg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório anual 2021/2022 de Territórios Sociais</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">O relatório anual apresenta um diagnóstico com dados da Busca Ativa, apontando as vulnerabilidades territoriais das áreas abarcadas pelo programa desde 2019 com base em 138.279 entrevistas realizadas em 40.669 famílias monitoradas. O relatório também apresenta a atuação do programa e os resultados obtidos através da aplicação do protocolo integrado.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -926,11 +933,13 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/06_Relatório Circuito Urbano 2022.jpeg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório Final do Circuito Urbano 2022</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Apresenta os principais dados e destaques do Circuito Urbano, principal iniciativa do ONU-Habitat Brasil para comemorar o Outubro Urbano, mês que concentra debates sobre desafios e oportunidades gerados nas cidades. O relatório inclui informações sobre o perfil do público e dos organizadores, os resultados da comunicação e os principais destaques do Circuito Urbano 2022, que teve como tema "Localizando os ODS: não deixar ninguém e nenhum lugar para trás".</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://infogram.com/relatorio-circuito-urbano-2022-1h0r6rpmwqxvw2e">Acessar</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -939,11 +948,13 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/07_Relatório Anual 2021.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório Anual 2021 do ONU-Habitat Brasil</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">A publicação apresenta os destaques do trabalho realizado em 2021em prol do desenvolvimento urbano sustentável. O relatório apresenta metodologias e ferramentas utilizadas em iniciativas espalhadas por todo o país. Dados, parcerias e histórias de interesse humano também integram o documento, apresentando um panorama de como o programa fortalece cidades e comunidades brasileiras buscando não deixar ninguém e nenhum lugar para trás.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://infogram.com/relatorio-anual-onu-habitat-brasil-2021-1hd12yx7nv5ow6k?live">Acessar</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -952,11 +963,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/08_20230314_relatorio_mrp_integrado_reduzida_correcao_sec.jpeg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório Integrado do Mapa Rápido Participativo de Juiz de Fora</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Sistematiza os resultados do Mapa Rápido Participativo realizado nos 141 territórios abarcados pela parceria entre a Prefeitura de Juiz de Fora e o ONU-Habitat. O relatório fornece uma análise estratégica dos oito macroterritórios de Juiz de Fora, visando compreender as características próprias de cada região e identificar as dinâmicas urbanas locais em comum. O relatório também apresenta uma análise detalhada de cada macroterritório, destacando as características que impactam na qualidade de vida dos moradores.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -965,11 +977,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/09_MRPs.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>141 Relatórios Descritivos do Mapa Rápido Participativo de Juiz de Fora</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Conjunto de 141 relatórios descreve os resultados do Mapa Rápido Participativo realizado entre março e julho de 2022 nas áreas de interesse do projeto em Juiz de Fora. Os relatórios foram produzidos a partir de dados primários coletados por meio de pesquisa de campo, e abordam temas como infraestrutura urbana, habitação, transporte e serviços públicos. Esses relatórios permitem orientar políticas públicas assertivas para a cidade.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -978,11 +991,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/10_20220412_P1.2_G52.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório da Oficina de intercâmbio e cooperação com especialistas nacionais e internacionais sobre governança compartilhada e gestão em rede</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">A publicação apresenta os resultados da oficina de Intercâmbio e Cooperação, realizada em fevereiro de 2022 com a presença de especialistas, autoridades, gestores e técnicos dos municípios do G52. O evento foi composto por diversos painéis e oficinas com o objetivo de fomentar a governança compartilhada e a gestão em rede, com foco em temas como agendas globais de desenvolvimento, inovação pública municipal, gestão de projetos e sustentabilidade financeira.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -991,11 +1005,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/11_20220420_P2.1_G52.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório da Avaliação e priorização das necessidades de capacitação do setor público do G52</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Relatório identifica os desafios e demandas de capacitação das prefeituras do G52. Os resultados buscam contribuir para a formação de servidores e servidoras públicas municipais com base em suas principais necessidades, diagnosticadas por meio de questionários e reuniões com pontos focais.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1004,11 +1019,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/12_20220908_P2.2_G52.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório dos Módulos de treinamento para o desenvolvimento de capacidades do setor público das 52 cidades priorizadas no G52</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Destinados a gestores e servidores do G52, os módulos de treinamento do projeto buscaram disseminar conhecimentos teóricos e experiências práticas para fortalecer as capacidades dos municípios no desenvolvimento urbano e territorial sustentável. O relatório apresenta os resultados alcançados nesses módulos, abrangendo temas como agendas globais de desenvolvimento, cooperação, gerenciamento de projetos, financiamento público, economia urbana, planejamento urbano e regional, inovação, governos digitais e cidades inteligentes centradas nas pessoas.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1017,11 +1033,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/13_20221221_Produto 3.1.jpeg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório sobre o Desafio de Inovação da Rede de Cidades-Polo do Nordeste</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">O relatório apresenta o Desafio de Inovação da Rede de Cidades-Polo do Nordeste, que buscou incentivar as cidades participantes do G52 a desenvolver projetos-piloto incorporando aprendizados anteriores. Houve mentoria para os servidores dos municípios, abordando metodologias participativas e políticas baseadas em evidências. As três melhores propostas foram premiadas em evento público e divulgadas em diferentes meios.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1030,11 +1047,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/14_20221223_Produto 3.2.jpeg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Relatório Final do G52</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">O relatório descreve o evento público de apresentação dos projetos de inovação construídos de maneira compartilhada e da assinatura da adesão à rede. O evento incluiu a premiação do Desafio de Inovação e a assinatura da Carta Compromisso, com a presença de servidores da Sudene, equipes do PNUD e ONU-Habitat, representantes institucionais, prefeitos, vice-prefeitos, secretários e servidores dos municípios do G52.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1043,11 +1061,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/15_Produto 1.2.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Plano de Controle da Expansão: estratégias para limitar a expansão das ocupações da Izidora e permitir a melhoria da gestão dos vazios urbanos</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Material de orientação contendo estratégias para limitar a expansão das ocupações da Izidora, em Belo Horizonte (MG), e permitir a melhoria da gestão dos vazios urbanos.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1056,11 +1075,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/16_1.3 - Recuperação Ambiental_Vol_Branco-1_page-0001.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Plano de Recuperação Ambiental: estratégias para a recuperação ambiental e proteção de áreas vazias nas ocupações da Izidora</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Publicação detalha as condições ambientais nos territórios das ocupações da Izidora, em Belo Horizonte (MG), avaliando danos socioambientais, indicando propostas de recuperação dos atributos naturais e atualizando as informações das ocupações.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1069,11 +1089,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/17_Produto 1.4_vf.jpeg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Plano de Controle de Risco: propostas de intervenções imediatas para eliminar áreas de risco nas ocupações da Izidora</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Publicação analisa as condições geotécnicas das ocupações da Izidora, em Belo Horizonte (MG), e propõe intervenções de redução e eliminação de áreas de risco, com hierarquização das intervenções.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1082,11 +1103,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/18_1.5 - Diagnósticos técnicos_vf-1_page-0001.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Diagnósticos técnicos para as ocupações da Izidora</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Analisa e caracteriza tecnicamente a região da Izidora, em Belo Horizonte (MG), quanto às seguintes temáticas: ambiental; morfologia; padrão de ocupação; sistema viário; risco; e microbacias e drenagem.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1095,11 +1117,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/19_1.5 - Estudos de Alternativas_HG-1_page-0001.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Estudos de alternativas para a ocupação Helena Greco</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Publicação apresenta estudo de alternativas elaboradas para as intervenções na ocupação Helena Greco, em Belo Horizonte (MG), composto por mapas e tabelas comparativos das alternativas. Estas são apresentadas a partir de quatro eixos temáticos principais: caminho das águas, estabilização de encostas, caminho das pessoas e formas de morar.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1108,11 +1131,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/20_1.5 - Estudos de Alternativas_RL-1_page-0001.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Estudos de alternativas para a ocupação Rosa Leão</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Publicação apresenta estudo de alternativas elaboradas para as intervenções na ocupação Rosa Leão, em Belo Horizonte (MG), composto por mapas e tabelas comparativos das alternativas. Estas são apresentadas a partir de quatro eixos temáticos principais: caminho das águas, estabilização de encostas, caminho das pessoas e formas de morar.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1121,11 +1145,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/21_1.5 - Estudos de Alternativas_ES_vf-1_page-0001.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Estudos de alternativas para a ocupação Esperança</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Publicação apresenta o estudo de alternativas elaboradas para as intervenções na ocupação Esperança, em Belo Horizonte (MG), composto por mapas e tabelas comparativos das alternativas. Estas são apresentadas a partir de quatro eixos temáticos principais: caminho das águas, estabilização de encostas, caminho das pessoas e formas de morar.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1134,11 +1159,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/22_1.5 - Estudos de Alternativas_VITORIA_vf.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Publicação</p>\
+                      <h5>Estudos de alternativas para a ocupação Vitória</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Publicação apresenta o estudo de alternativas elaboradas para as intervenções na ocupação Vitória, em Belo Horizonte (MG), composto por mapas e tabelas comparativos das alternativas. Estas são apresentadas a partir de quatro eixos temáticos principais: caminho das águas, estabilização de encostas, caminho das pessoas e formas de morar.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1147,11 +1173,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/23_plataforma_perfil.png">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Plataforma</p>\
+                      <h5>Plataforma de monitoramento do Perfil Socioeconômico de Alagoas</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Dashboard criado no Google Data Studio. O objetivo desta plataforma é fornecer informações básicas para acompanhar o processo de coleta de dados de campo. A base de dados da pesquisa é dividida em áreas de alta e baixa privação social, sendo aplicada nos bairros Bom Parto, Levada, Prado, Ponta Grossa, Trapiche da Barra e Vergel do Lago, todos localizados na região lagunar de Maceió.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1160,11 +1187,12 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/24_painel_jf.png">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Plataforma</p>\
+                      <h5>Painel de Dados interativo de Juiz de Fora</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Plataforma personalizável para armazenar todos os resultados do Mapa Rápido Participativo e do Perfil Socioeconômico aplicados na cidade de Juiz de Fora. Essa ferramenta permite relatórios, gráficos, mapas e simulações, e é útil para as secretarias municipais tomarem decisões mais transparentes, baseadas em evidências, justas e responsáveis.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1173,11 +1201,13 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/25_site_circuito.png">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Plataforma</p>\
+                      <h5>Site do Circuito Urbano</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Plataforma que disponibiliza informações sobre todas as edições do Circuito Urbano, além das seções de Mural das Artes, Caminho da Ação e programação de eventos com Mapa Virtual.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://www.circuitourbano.org/">Acessar</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1186,11 +1216,13 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/26_canal_circuito.png">\
-                      <h5>TITULOTITULOTITULO</h5>\
+                      <p>Plataforma</p>\
+                      <h5>Canal do YouTube do Circuito Urbano</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                            <p class="card-text">Plataforma que apresenta todas as transmissões de eventos realizadas desde 2020 no Circuito Urbano, além de vídeos de melhores momentos de cada edição e dos eventos presenciais.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://www.youtube.com/channel/UCuntso3y0Vcwvr2kWCeiR1g">Acessar</a>\
                         </div>\
                     </div>\
                   </div>\
