@@ -870,13 +870,21 @@ ul.social-icons li{
     border-radius: 10px;
 }
 
-#theCarousel .wrapper .front-face { 
-    background-color: #00568a;
+#theCarouselPub .wrapper .front-face { 
+    background-color: #cc3480;
     color: #fff;
 }
 
-#theCarouselPub .wrapper .front-face { 
-    background-color: #cc3480;
+#theCarouselPub .wrapper .card img {
+    min-height: 100%;
+}
+
+#theCarouselPub .wrapper {
+    height: 250px;
+}
+
+#theCarousel .wrapper .front-face { 
+    background-color: #00568a;
     color: #fff;
 }
 
@@ -887,14 +895,17 @@ ul.social-icons li{
     padding: 1em 1em;
 }
 
+#theCarouselPub .front-face h5 {
+    color: #cc3480;
+    position: relative;
+}
+
 .wrapper .back-face {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     transform: rotateY(180deg);
-    background-color: #00568a;
-    color: #fff;
 }
 
 #theCarousel .wrapper .back-face {

@@ -855,29 +855,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="#theCarouselPub" data-interval="3000" role="listbox">\
-              <ol class="carousel-indicators">\
-                <li data-target="theCarouselPub" data-slide-to="0" class="active"></li>\
-                <li data-target="theCarouselPub" data-slide-to="1"></li>\
-                <li data-target="theCarouselPub" data-slide-to="2"></li>\
-                <li data-target="theCarouselPub" data-slide-to="3"></li>\
-                <li data-target="theCarouselPub" data-slide-to="4"></li>\
-                <li data-target="theCarouselPub" data-slide-to="5"></li>\
-                <li data-target="theCarouselPub" data-slide-to="6"></li>\
-                <li data-target="theCarouselPub" data-slide-to="7"></li>\
-                <li data-target="theCarouselPub" data-slide-to="8"></li>\
-                <li data-target="theCarouselPub" data-slide-to="9"></li>\
-                <li data-target="theCarouselPub" data-slide-to="10"></li>\
-                <li data-target="theCarouselPub" data-slide-to="11"></li>\
-                <li data-target="theCarouselPub" data-slide-to="12"></li>\
-                <li data-target="theCarouselPub" data-slide-to="13"></li>\
-                <li data-target="theCarouselPub" data-slide-to="14"></li>\
-                <li data-target="theCarouselPub" data-slide-to="15"></li>\
-                <li data-target="theCarouselPub" data-slide-to="16"></li>\
-                <li data-target="theCarouselPub" data-slide-to="17"></li>\
-                <li data-target="theCarouselPub" data-slide-to="18"></li>\
-                <li data-target="theCarouselPub" data-slide-to="19"></li>\
-              </ol>\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="993000" role="listbox">\
               <div class="carousel-inner row w-100 mx-auto  pb-4 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
@@ -892,7 +870,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/02_Desenho de Espaços Públicos.jpg">\
@@ -905,7 +883,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/03_Relatório Cidade Mulher_Caderno Oficinas_Versão 12.12 - online.jpeg">\
@@ -918,7 +896,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/04_Doc Pés no chao, janela do céu.jpg">\
@@ -931,20 +909,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
-                  <div class="wrapper">\
-                    <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/IMAGEMIMAGEMIMAGEM.jpg">\
-                      <h5>TITULOTITULOTITULO</h5>\
-                    </div>\
-                    <div class="card back-face">\
-                        <div class="info">\
-                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
-                        </div>\
-                    </div>\
-                  </div>\
-                </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/05_Progress Report 4_Social Territories_August 2022.jpeg">\
@@ -957,7 +922,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/06_Relatório Circuito Urbano 2022.jpeg">\
@@ -970,7 +935,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/07_Relatório Anual 2021.jpg">\
@@ -983,7 +948,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/08_20230314_relatorio_mrp_integrado_reduzida_correcao_sec.jpeg">\
@@ -996,7 +961,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/09_MRPs.jpg">\
@@ -1009,10 +974,10 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/10_20220412_P1.2 Oficina de Intercâmbio e Cooperação (revisado).jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/10_20220412_P1.2_G52.jpg">\
                       <h5>TITULOTITULOTITULO</h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1022,10 +987,10 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/11_20220420_P2.1 Avaliação e priorização das necessidades de capacitação do setor público.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/11_20220420_P2.1_G52.jpg">\
                       <h5>TITULOTITULOTITULO</h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1035,10 +1000,10 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/12_20220908_ P2.2 Módulos de treinamento G52.jpg.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/12_20220908_P2.2_G52.jpg">\
                       <h5>TITULOTITULOTITULO</h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1048,10 +1013,10 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/13_20221221_Produto 3.1.jpeg.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/13_20221221_Produto 3.1.jpeg">\
                       <h5>TITULOTITULOTITULO</h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1061,7 +1026,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/14_20221223_Produto 3.2.jpeg">\
@@ -1074,7 +1039,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/15_Produto 1.2.jpg">\
@@ -1087,7 +1052,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/16_1.3 - Recuperação Ambiental_Vol_Branco-1_page-0001.jpg">\
@@ -1100,7 +1065,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/17_Produto 1.4_vf.jpeg">\
@@ -1113,7 +1078,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/18_1.5 - Diagnósticos técnicos_vf-1_page-0001.jpg">\
@@ -1126,7 +1091,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/19_1.5 - Estudos de Alternativas_HG-1_page-0001.jpg">\
@@ -1139,7 +1104,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/20_1.5 - Estudos de Alternativas_RL-1_page-0001.jpg">\
@@ -1152,7 +1117,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/21_1.5 - Estudos de Alternativas_ES_vf-1_page-0001.jpg">\
@@ -1165,7 +1130,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/22_1.5 - Estudos de Alternativas_VITORIA_vf.jpg">\
@@ -1178,7 +1143,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/23_plataforma_perfil.png">\
@@ -1191,7 +1156,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/24_painel_jf.png">\
@@ -1204,7 +1169,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/25_site_circuito.png">\
@@ -1217,7 +1182,7 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item active col-md-4">\
+                <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/publicacoes/26_canal_circuito.png">\
@@ -1230,7 +1195,37 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
+                <div class="carousel-item col-md-4">\
+                </div>\
               </div>\
+              <ol class="carousel-indicators">\
+                <li data-target="#theCarouselPub" data-slide-to="0" class="active"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="1"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="2"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="3"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="4"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="5"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="6"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="7"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="8"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="9"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="10"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="11"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="12"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="13"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="14"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="15"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="16"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="17"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="18"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="19"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="20"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="21"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="22"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="23"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="24"></li>\
+                <li data-target="#theCarouselPub" data-slide-to="25"></li>\
+              </ol>\
             </div>\
         </div>\
       </div>\
