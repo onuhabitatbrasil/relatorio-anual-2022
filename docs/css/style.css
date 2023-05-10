@@ -151,6 +151,14 @@ a:hover {
     color: #cc3480;
 }
 
+p a, p a:visited {
+    color: #00568a;
+}
+
+p a:hover {
+    color: #cc3480;
+}
+
 #header .logo img{
     width: 15em; 
 }
@@ -282,7 +290,7 @@ ul.social-icons li{
 }
 
 #subheader {
-    background-color: #00afe2;
+    background-color: #fff;
     margin: auto;
     width: 100%;
     position: relative;
@@ -291,11 +299,11 @@ ul.social-icons li{
 }
 
 #subheader p {
-    color: #fff;
+    color: #00568a;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 1em 0;
-    line-height: 24px;
-    font-size: 18px;
+    padding: 0.3em 0;
+    line-height: 1.15;
+    font-size: 0.95rem
 }
 
 #subheader a {
@@ -322,7 +330,7 @@ ul.social-icons li{
 }
  
 #footer {
-    background-color: #fff;
+    background-color: #00afe2;
     width: 100%;
     min-height: 5vh;
     padding-top: 1.5vh;
@@ -335,6 +343,7 @@ ul.social-icons li{
 }
 
 #footer p {
+    color: #fff;
     text-align: center;
     font-size: 0.85rem;
 } 
@@ -350,11 +359,12 @@ ul.social-icons li{
 }
 
 #footer a {
-    color: #00afe2;
+    color: #fff;
 }
 
 #footer a:hover {
-    color: #cc3480;
+    color: #00568a;
+    font-weight: bold;
 }
 
 .indice {
@@ -386,15 +396,33 @@ ul.social-icons li{
 
 .laranja {
     color: #e3773b;
-}
+} 
 
 .rosa {
     color: #cc3480
 }
 
+.amarelo {
+    color: #f1b944
+}
+
+.rosa-b {
+    color: #cc3480;
+    font-weight: bold;
+}
+
 .azul {
+    color: #00568a;
+    font-weight: bold;
+}
+
+.azul-b {
     color: #00568a
 }
+
+.footnote {
+    font-size: 0.6rem;
+} 
 
 .branco {
     color: #fff
@@ -974,3 +1002,4 @@ ul.social-icons li{
     }
     
   }
+

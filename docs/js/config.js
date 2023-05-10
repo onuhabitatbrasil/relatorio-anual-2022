@@ -67,12 +67,22 @@ var config = {
               </div>\
               <div class="row">\
                 <div class="col-md-6">\
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. <strong>Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</strong> Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\
+                    <p><strong class="azul">Território</strong>. Esta palavra possui diferentes definições e é palco de inúmeros debates. Porém, seu conceito é sempre compreendido pelas relações sociais que perpassam sua existência e dinâmica. Assim, ele deve ser entendido a partir de seus usos, sendo o lugar da residência, das trocas materiais, econômicas e culturais, dos conflitos e do exercício do poder e da política. O lugar onde a vida e a história do ser humano se realizam a partir da manifestação de sua existência.</p>\
+                    <p>Partimos desta reflexão, baseada no pensamento do geógrafo brasileiro Milton Santos, para apresentar o princípio que guia a leitura do Relatório Anual 2022 do ONU-Habitat: o território.</p>\
+                    <p>Em 2022, vivemos a retomada do mundo pós-pandemia de COVID-19, revelando a necessidade das cidades de se adaptarem a novas realidades. Também testemunhamos a população mundial chegar ao marco de oito bilhões de pessoas. As áreas urbanas já abrigam 55% dessa população, e é esperado que esse número cresça para 68% até 2050. Esse número sobe para 81% ao considerar a região da América Latina e do Caribe¹, e chega a 85% quando o foco é o Brasil².</p>\
+                    <p>Os desafios urbanos são grandes quando pensados de forma global, mas seu enfrentamento só pode ser encarado quando pensamos no nível local. <strong class="azul">É no nível do território que a transformação para um desenvolvimento urbano sustentável pode ser concretizada.</strong></p>\
                 </div>\
                 <div class="col-md-6">\
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. <strong>In nulla tellus, sagittis sed magna in, cursus pretium diam.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet. Maecenas interdum molestie ligula a maximus. In nulla tellus, sagittis sed magna in, cursus pretium diam.</p>\
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat justo sit amet lorem elementum, imperdiet condimentum nunc tincidunt. Mauris pulvinar purus leo, eu auctor felis consectetur vel. In vehicula vulputate felis vel aliquet.</p>\
+                    <p>Nesta linha, o Secretário-Geral da ONU, António Guterres, defende que cidades e comunidades liderem inovações para reduzir as desigualdades, promovam ação climática e garantam uma recuperação verde e inclusiva da pandemia.</p>\
+                    <p>Para o ONU-Habitat, as cidades e as comunidades são áreas de oportunidade para superar as desigualdades. Por isso, <strong class="azul">o Relatório Anual 2022 traz protagonismo a esses espaços, apresentando iniciativas em cooperação com diferentes níveis de governo para promover o desenvolvimento urbano sustentável.</strong></p>\
+                    <p>Essas iniciativas envolvem a coleta e análise de dados para a promoção de políticas públicas assertivas que consideram a especificidade de cada região; a promoção de espaços públicos mais inclusivos, seguros, resilientes, verdes e sustentáveis; a capacitação de pessoas para pensar, comunicar e resolver problemas urbanos; a construção da resiliência urbana; dentre outros temas englobados pela Nova Agenda Urbana e pela Agenda 2030 para o Desenvolvimento Sustentável.</p>\
+                    <p>Através destas diferentes frentes de atuação, trabalhamos junto aos territórios para construir um futuro urbano melhor sem deixar ninguém e nenhum lugar para trás.</p>\
+                    <p class="rosa-b">Boa leitura!</p>\
+                </div>\
+              </div>\
+              <div class="row">\
+                <div class="col-md-12">\
+                  <p class="footnote">¹ Fonte: World Cities Report 2022: Envisaging the Future of Cities. ONU-Habitat, 2022. Disponível em: <a href="https://unhabitat.org/wcr/" target="_blank">https://unhabitat.org/wcr/</a>.<br>² Fonte: IBGE. Pesquisa Nacional por Amostra de Domicílios (PNAD) 2015. Disponível em: <a href="https://bit.ly/2ZpQARx" target="_blank">https://bit.ly/2ZpQARx</a>.</p>\
                 </div>\
               </div>\
             </div>\
@@ -938,7 +948,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3000" role="listbox">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="99 3000" role="listbox">\
               <ol class="carousel-indicators">\
                   <li data-target="theCarousel" data-slide-to="0" class="active"></li>\
                   <li data-target="theCarousel" data-slide-to="1"></li>\
@@ -952,7 +962,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
-                      <article class="text-left">\
+                      <article class="text-center">\
                           <h5>Avaliação de Espaços Públicos na Escala da Cidade</h5>\
                       </article>\
                     </div>\
@@ -1017,7 +1027,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
               </div>\
-              <div id="myCarousel2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6500">\
+              <div id="myCarousel2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="99500">\
                   <ol class="carousel-indicators">\
                       <li data-target="myCarousel2" data-slide-to="0" class="active"></li>\
                       <li data-target="myCarousel2" data-slide-to="1"></li>\
