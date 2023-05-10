@@ -840,6 +840,418 @@ var config = {
     },*/
 
     {
+      id: "publicacoes",
+      alignment: "full",
+      hidden: false,
+      description: '\
+      <div class="light">\
+        <div class="container container-exp p-bottom">\
+            <h1 class="align-self-center rosa text-center">2022 em Publicações e Plataformas</h1>\
+            <div class="col-12 text-center pb-3">\
+                  <a class="btn btn-primary mr-1" href="#theCarouselPub" role="button" data-slide="prev">\
+                      <i class="fa fa-arrow-left cursor-hover"></i>\
+                  </a>\
+                  <a class="btn btn-primary" href="#theCarouselPub" role="button" data-slide="next">\
+                      <i class="fa fa-arrow-right cursor-hover"></i>\
+                  </a>\
+            </div>\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="#theCarouselPub" data-interval="3000" role="listbox">\
+              <ol class="carousel-indicators">\
+                <li data-target="theCarouselPub" data-slide-to="0" class="active"></li>\
+                <li data-target="theCarouselPub" data-slide-to="1"></li>\
+                <li data-target="theCarouselPub" data-slide-to="2"></li>\
+                <li data-target="theCarouselPub" data-slide-to="3"></li>\
+                <li data-target="theCarouselPub" data-slide-to="4"></li>\
+                <li data-target="theCarouselPub" data-slide-to="5"></li>\
+                <li data-target="theCarouselPub" data-slide-to="6"></li>\
+                <li data-target="theCarouselPub" data-slide-to="7"></li>\
+                <li data-target="theCarouselPub" data-slide-to="8"></li>\
+                <li data-target="theCarouselPub" data-slide-to="9"></li>\
+                <li data-target="theCarouselPub" data-slide-to="10"></li>\
+                <li data-target="theCarouselPub" data-slide-to="11"></li>\
+                <li data-target="theCarouselPub" data-slide-to="12"></li>\
+                <li data-target="theCarouselPub" data-slide-to="13"></li>\
+                <li data-target="theCarouselPub" data-slide-to="14"></li>\
+                <li data-target="theCarouselPub" data-slide-to="15"></li>\
+                <li data-target="theCarouselPub" data-slide-to="16"></li>\
+                <li data-target="theCarouselPub" data-slide-to="17"></li>\
+                <li data-target="theCarouselPub" data-slide-to="18"></li>\
+                <li data-target="theCarouselPub" data-slide-to="19"></li>\
+              </ol>\
+              <div class="carousel-inner row w-100 mx-auto  pb-4 pt-4">\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/01_Relatorio_Aval_Esp_Pub_Barracao_comp.jpeg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/02_Desenho de Espaços Públicos.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/03_Relatório Cidade Mulher_Caderno Oficinas_Versão 12.12 - online.jpeg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/04_Doc Pés no chao, janela do céu.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/IMAGEMIMAGEMIMAGEM.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/05_Progress Report 4_Social Territories_August 2022.jpeg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/06_Relatório Circuito Urbano 2022.jpeg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/07_Relatório Anual 2021.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/08_20230314_relatorio_mrp_integrado_reduzida_correcao_sec.jpeg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/09_MRPs.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/10_20220412_P1.2 Oficina de Intercâmbio e Cooperação (revisado).jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/11_20220420_P2.1 Avaliação e priorização das necessidades de capacitação do setor público.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/12_20220908_ P2.2 Módulos de treinamento G52.jpg.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/13_20221221_Produto 3.1.jpeg.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/14_20221223_Produto 3.2.jpeg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/15_Produto 1.2.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/16_1.3 - Recuperação Ambiental_Vol_Branco-1_page-0001.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/17_Produto 1.4_vf.jpeg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/18_1.5 - Diagnósticos técnicos_vf-1_page-0001.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/19_1.5 - Estudos de Alternativas_HG-1_page-0001.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/20_1.5 - Estudos de Alternativas_RL-1_page-0001.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/21_1.5 - Estudos de Alternativas_ES_vf-1_page-0001.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/22_1.5 - Estudos de Alternativas_VITORIA_vf.jpg">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/23_plataforma_perfil.png">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/24_painel_jf.png">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/25_site_circuito.png">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item active col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/26_canal_circuito.png">\
+                      <h5>TITULOTITULOTITULO</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">TEXTOTEXTOTEXTO</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    {
       id: "metodologias",
       alignment: "full",
       hidden: false,
