@@ -38,10 +38,6 @@ body {
     padding-top: 1em;
 }
 
-.txt-cent {
-    text-align: center;
-}
-
 #mouse-cursor {   
     position: absolute;
     width: 20px;
@@ -303,7 +299,7 @@ ul.social-icons li{
     font-family: 'Source Sans Pro', sans-serif;
     padding: 0.3em 0;
     line-height: 1.15;
-    font-size: 0.95rem
+    font-size: 0.85rem;
 }
 
 #subheader a {
@@ -818,15 +814,9 @@ ul.social-icons li{
     font-family: 'Bolgart', sans-serif;
 }
 
-#carouselMetodo img {
-    object-fit: cover;
-    height: 400px;
-}
-
-
 
 .wrapper {
-    height: 400px;
+    height: 350px;
     width: auto;
     position: relative;
     transform-style: preserve-3d;
@@ -837,13 +827,36 @@ ul.social-icons li{
     position: absolute;
     height: 100%;
     width: 100%;
-    padding: 5px;
-    background: #fff;
+    padding: 4px;
     border-radius: 10px;
     transform: translateY(0deg);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
+    0 2px 2px rgba(0,0,0,0.1), 
+    0 4px 4px rgba(0,0,0,0.1), 
+    0 8px 8px rgba(0,0,0,0.1),
+    0 16px 16px rgba(0,0,0,0.1);
+    background-image: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 0%, 0) 0%,
+      hsla(0, 0%, 0%, 0.009) 11.7%,
+      hsla(0, 0%, 0%, 0.034) 22.1%,
+      hsla(0, 0%, 0%, 0.072) 31.2%,
+      hsla(0, 0%, 0%, 0.123) 39.4%,
+      hsla(0, 0%, 0%, 0.182) 46.6%,
+      hsla(0, 0%, 0%, 0.249) 53.1%,
+      hsla(0, 0%, 0%, 0.320) 58.9%,
+      hsla(0, 0%, 0%, 0.394) 64.3%,
+      hsla(0, 0%, 0%, 0.468) 69.3%,
+      hsla(0, 0%, 0%, 0.540) 74.1%,
+      hsla(0, 0%, 0%, 0.607) 78.8%,
+      hsla(0, 0%, 0%, 0.668) 83.6%,
+      hsla(0, 0%, 0%, 0.721) 88.7%,
+      hsla(0, 0%, 0%, 0.762) 94.1%,
+      hsla(0, 0%, 0%, 0.790) 100%
+    );
 }
 
 .wrapper:hover>.front-face {
@@ -860,6 +873,13 @@ ul.social-icons li{
 .wrapper .front-face { 
     background-color: #00568a;
     color: #fff;
+}
+
+.front-face h5 {
+    position: absolute;
+    font-size: 1.2rem;
+    bottom: 0;
+    padding: 1em 1em;
 }
 
 .wrapper .back-face {
@@ -884,12 +904,8 @@ ul.social-icons li{
 }
 
 .wrapper .back-face .info {
-    text-align: center;
-}
-
-.back-face .info .title {
-    font-size: 25px;
-    font-weight: 500;
+    padding: 0em 0.5rem;
+    font-weight: 600;
 }
 
 #theCarousel .carousel-indicators li {
@@ -1003,3 +1019,26 @@ ul.social-icons li{
     
   }
 
+  @media (min-width: 576px) {
+    .container-exp {
+      max-width: 600px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container-exp {
+      max-width: 800px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container-exp {
+      max-width: 900px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container-exp {
+      max-width: 1000px;
+    }
+  }

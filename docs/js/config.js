@@ -211,7 +211,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container p-bottom">\
-            <h1 class="align-self-center rosa txt-cent">Retrospectiva 2022</h1>\
+            <h1 class="align-self-center rosa text-center">Retrospectiva 2022</h1>\
               <div class="col-12 text-center pb-3">\
                   <a class="btn btn-primary mr-1" href="#myCarousel" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
@@ -691,7 +691,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container p-bottom">\
-          <h1 class="rosa txt-cent">2022 em Números</h1>\
+          <h1 class="rosa text-center">2022 em Números</h1>\
             <div class="row">\
               <div class="col-lg-12">\
                 <div class="accordion" id="accordionNumeros">\
@@ -758,6 +758,7 @@ var config = {
       onChapterExit: []
     },
 
+    /*
     {
       id: "teste",
       alignment: "full",
@@ -767,7 +768,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container pt-2">\
-          <h1 class="azul txt-cent">TESTE</h1>\
+          <h1 class="azul text-center">TESTE</h1>\
           <section class="timeline">\
               <div class="container">\
                 <div class="row">\
@@ -836,110 +837,16 @@ var config = {
       callback: "",
       onChapterEnter: [],
       onChapterExit: []
-    },
-
-    /*{
-      id: "metodologias",
-      alignment: "full",
-      hidden: false,
-      //title: 'Abertura',
-      //bookmark: 'Abertura',
-      description: '\
-      <div class="light">\
-        <div class="container pt-2">\
-          <h1 class="azul txt-cent">Metodologias</h1>\
-                <div class="container">\
-                <div class="row">\
-                    <div class="col-12 text-center">\
-                        <a class="btn btn-primary mb-3 mr-1" href="#carouselMetodo" role="button" data-slide="prev">\
-                            <i class="fa fa-arrow-left"></i>\
-                        </a>\
-                        <a class="btn btn-primary mb-3 " href="#carouselMetodo" role="button" data-slide="next">\
-                            <i class="fa fa-arrow-right"></i>\
-                        </a>\
-                    </div>\
-                    <div class="col-12">\
-                        <div id="carouselMetodo" class="carousel slide" data-ride="carousel">\
-                            <div class="carousel-inner">\
-                                <div class="carousel-item active">\
-                                    <div class="row">\
-                                        <div class="col-md-4 mb-3">\
-                                          <div class="wrapper">\
-                                            <div class="card front-face">\
-                                              <img src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
-                                            </div>\
-                                            <div class="card back-face">\
-                                                <div class="info">\
-                                                  <h4 class="card-title">Avaliação de Espaços Públicos na Escala da Cidade</h4>\
-                                                  <p class="card-text">A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
-                                                </div>\
-                                            </div>\
-                                          </div>\
-                                        </div>\
-                                        <div class="col-md-4 mb-3">\
-                                          <div class="wrapper">\
-                                            <div class="card front-face">\
-                                              <img src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
-                                            </div>\
-                                            <div class="card back-face">\
-                                                <div class="info">\
-                                                  <h4 class="card-title">TITULO</h4>\
-                                                  <p class="card-text">TEXTO</p>\
-                                                </div>\
-                                            </div>\
-                                          </div>\
-                                        </div>\
-                                        <div class="col-md-4 mb-3">\
-                                          <div class="wrapper">\
-                                            <div class="card front-face">\
-                                              <img src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
-                                            </div>\
-                                            <div class="card back-face">\
-                                                <div class="info">\
-                                                  <h4 class="card-title">TITULO</h4>\
-                                                  <p class="card-text">TEXTO</p>\
-                                                </div>\
-                                            </div>\
-                                          </div>\
-                                        </div>\
-                                    </div>\
-                                </div>\
-                              </div>\
-                            </div>\
-                        </div>\
-                    </div>\
-                </div>\
-            </div>\
-          </div>\
-      </div>\
-      ',
-      location: {
-        center: [-51.06166, -15.66707],
-        zoom: 1.5,
-        pitch: 0.00,
-        bearing: 0.00,
-        speed: 2,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
     },*/
-
 
     {
       id: "metodologias",
       alignment: "full",
       hidden: false,
-      //title: 'Abertura',
-      //sbookmark: 'Abertura',
       description: '\
       <div class="light">\
-        <div class="container p-bottom">\
-            <h1 class="align-self-center azul txt-cent">2022 em Metodologias</h1>\
+        <div class="container container-exp p-bottom">\
+            <h1 class="align-self-center azul text-center">2022 em Metodologias</h1>\
             <div class="col-12 text-center pb-3">\
                   <a class="btn btn-primary mr-1 btn-primary-azul " href="#theCarousel" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
@@ -948,7 +855,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="99 3000" role="listbox">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3000" role="listbox">\
               <ol class="carousel-indicators">\
                   <li data-target="theCarousel" data-slide-to="0" class="active"></li>\
                   <li data-target="theCarousel" data-slide-to="1"></li>\
@@ -956,15 +863,18 @@ var config = {
                   <li data-target="theCarousel" data-slide-to="3"></li>\
                   <li data-target="theCarousel" data-slide-to="4"></li>\
                   <li data-target="theCarousel" data-slide-to="5"></li>\
+                  <li data-target="theCarousel" data-slide-to="6"></li>\
+                  <li data-target="theCarousel" data-slide-to="7"></li>\
+                  <li data-target="theCarousel" data-slide-to="8"></li>\
+                  <li data-target="theCarousel" data-slide-to="9"></li>\
+                  <li data-target="theCarousel" data-slide-to="10"></li>\
               </ol>\
               <div class="carousel-inner row w-100 mx-auto  pb-4 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
-                      <article class="text-center">\
-                          <h5>Avaliação de Espaços Públicos na Escala da Cidade</h5>\
-                      </article>\
+                      <h5>Avaliação de Espaços Públicos na Escala da Cidade</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -974,196 +884,137 @@ var config = {
                   </div>\
                 </div>\
                 <div class="carousel-item col-md-4">\
-                  <img src="https://via.placeholder.com/300/e91e63/000000?text=2" class="img-fluid mx-auto d-block">\
-                </div>\
-                <div class="carousel-item col-md-4">\
-                  <img src="https://via.placeholder.com/300/9c27b0/000000?text=3" class="img-fluid mx-auto d-block">\
-                </div>\
-                <div class="carousel-item col-md-4">\
-                  <img src="https://via.placeholder.com/300/673ab7/000000?text=4" class="img-fluid mx-auto d-block">\
-                </div>\
-                <div class="carousel-item col-md-4">\
-                  <img src="https://via.placeholder.com/300/4caf50/000000?text=5" class="img-fluid mx-auto d-block">\
-                </div>\
-                <div class="carousel-item col-md-4">\
-                  <img src="https://via.placeholder.com/300/4caf50/000000?text=6" class="img-fluid mx-auto d-block">\
-                </div>\
-              </div>\
-            </div>\
-        </div>\
-      </div>\
-      ',
-      location: {
-        center: [-51.06166, -15.66707],
-        zoom: 1.5,
-        pitch: 0.00,
-        bearing: 0.00,
-        speed: 2,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
-    },
-
-    {
-      id: "metodologias2",
-      alignment: "full",
-      hidden: false,
-      //title: 'Abertura',
-      //sbookmark: 'Abertura',
-      description: '\
-      <div class="light">\
-        <div class="container p-bottom">\
-            <h1 class="align-self-center azul txt-cent">2022 em Metodologias</h1>\
-              <div class="col-12 text-center pb-3">\
-                  <a class="btn btn-primary mr-1 btn-primary-azul " href="#myCarousel2" role="button" data-slide="prev">\
-                      <i class="fa fa-arrow-left cursor-hover"></i>\
-                  </a>\
-                  <a class="btn btn-primary btn-primary-azul " href="#myCarousel2" role="button" data-slide="next">\
-                      <i class="fa fa-arrow-right cursor-hover"></i>\
-                  </a>\
-              </div>\
-              <div id="myCarousel2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="99500">\
-                  <ol class="carousel-indicators">\
-                      <li data-target="myCarousel2" data-slide-to="0" class="active"></li>\
-                      <li data-target="myCarousel2" data-slide-to="1"></li>\
-                      <li data-target="myCarousel2" data-slide-to="2"></li>\
-                      <li data-target="myCarousel2" data-slide-to="3"></li>\
-                      <li data-target="myCarousel2" data-slide-to="4"></li>\
-                      <li data-target="myCarousel2" data-slide-to="5"></li>\
-                      <li data-target="myCarousel2" data-slide-to="6"></li>\
-                      <li data-target="myCarousel2" data-slide-to="7"></li>\
-                      <li data-target="myCarousel2" data-slide-to="8"></li>\
-                      <li data-target="myCarousel2" data-slide-to="9"></li>\
-                      <li data-target="myCarousel2" data-slide-to="10"></li>\
-                  </ol>\
-                  <div class="carousel-inner">\
-                    <div class="carousel-item active">\
-                        <img class="d-block w-100" src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg" alt="Avaliação de Espaços Públicos na Escala da Cidade">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Avaliação de Espaços Públicos na Escala da Cidade</h2>\
-                          </article>\
-                        </div>\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/02_Avaliação de necessidades de capacitação_Minne Santos.jpg">\
+                      <h5>Avaliação de Necessidades de Capacitação</h5>\
                     </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/02_Avaliação de necessidades de capacitação_Minne Santos.jpg" alt="Second slide" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>A Avaliação de Necessidades de Capacitação é um processo que identifica as necessidades de treinamento e formação de um determinado grupo de profissionais em áreas específicas, como desenvolvimento, cooperação, gerenciamento, financiamento, planejamento e inovação. Essa avaliação pode ser realizada por meio de questionários ou reuniões com grupos focais, e busca aprimorar o conhecimento e habilidades desses profissionais.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Avaliação de Necessidades de Capacitação </h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/03_Cidade Mulher_Renatto Mendonça.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Busca compreender a relação das mulheres com a cidade e diagnosticar as sensações de (in)segurança nos espaços públicos por meio das suas percepções, experiências de cidade e levantamento de necessidades. Esta é uma iniciativa do ONU-Habitat Brasil baseada na metodologia global de Auditoria de Segurança das Mulheres.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Cidade Mulher</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/04_Desafio de Inovação_Ascom Sudene.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Iniciativa que estimula a construção coletiva de soluções de inovação para a gestão pública voltadas a enfrentar problemas urbanos que dificultam o desenvolvimento da região. A metodologia envolve a criação de práticas inovadoras, replicáveis e escalonáveis por meio de estratégias criativas e colaborativas e de processos de experimentação capazes de aprimorar a qualidade dos serviços públicos dos municípios. As melhores propostas são apresentadas e premiadas em um evento de reconhecimento.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Desafio de Inovação</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/05_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Incentiva jovens a melhorar espaços públicos em seus territórios. Com técnicas simples de urbanismo e cartografia, a metodologia desenvolve maquetes físicas dos espaços desejados. As oficinas envolvem dinâmicas e pesquisa de campo, permitindo que os jovens confrontem suas ideias com as de seus vizinhos e comerciantes locais. Os dados coletados são sistematizados em uma proposta final entregue às autoridades e à população local, permitindo que o poder público atue para melhorar os espaços públicos.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Desenho de Espaços Públicos</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/06_Índice de Prosperidade das Cidades_Minne Santos.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Ferramenta que utiliza indicadores para representar seis dimensões da prosperidade nas cidades: produtividade, desenvolvimento de infraestrutura, qualidade de vida, equidade e inclusão social, sustentabilidade ambiental, e governança e legislação urbanas. É utilizado para conceber, monitorar e avaliar ações, programas e políticas públicas implementadas nessas cidades.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Índice de Prosperidade das Cidades</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/07_Laboratório de Planejamento_AL.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Inspiradas na metodologia Urban Labs do ONU-Habitat, o Laboratório considera o alinhamento dos programas de um governo aos Objetivos de Desenvolvimento Sustentável e à Nova Agenda Urbana e elabora coletivamente, com gestores municipais e representantes da sociedade civil, propostas para aperfeiçoar as políticas públicas em questão e promover o desenvolvimento urbano sustentável.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/08_MRP_JF.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Consiste no levantamento de informações sobre a cobertura e qualidade dos serviços públicos relacionados diretamente ao território. Esse método permite diagnosticar as condições de infraestrutura urbana e qualidade dos serviços em assentamentos precários de forma ágil e participativa.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Mapa Rápido Participativo</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/09_Observatório de Políticas Públicas_AL.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Criação de uma plataforma aberta com dados e indicadores alinhados às agendas globais de desenvolvimento sustentável para apoiar políticas públicas setoriais e melhorar o atendimento à população.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Observatório de Políticas Públicas</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/10_Perfil Socioeconômico_JF.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Pesquisa domiciliar amostral que tem como objetivo analisar todo o território avaliado através do diagnóstico da situação sociodemográfica e econômica das famílias, além de avaliar a mobilidade residencial, o acesso a equipamentos e serviços na comunidade e a percepção da população sobre o território em que vivem.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Perfil Socioeconômico</h2>\
-                          </article>\
-                        </div>\
-                    </div>\
-                    <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/metodologias/11_Territórios Sociais_RJ.jpg" alt="">\
-                        <div class="container_foto">\
-                          <div class="ver_mas">\
-                            <p>Programa para reduzir o risco social e as vulnerabilidades das famílias atendidas, dividido em três etapas: busca ativa, plano de ação integrado e monitoramento. Através da aplicação do Índice de Pobreza Multidimensional (IPM), adaptado do PNUD, são identificadas as privações em educação, saúde e padrão de vida. As famílias com maior grau de vulnerabilidade passam a ser monitoradas de forma integrada por diversos órgãos da Prefeitura, na perspectiva de inclusão nos serviços e benefícios e na ampliação de oportunidades.</p>\
-                          </div>\
-                          <article class="text-left">\
-                             <h2>Territórios Sociais</h2>\
-                          </article>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">A Avaliação de Necessidades de Capacitação é um processo que identifica as necessidades de treinamento e formação de um determinado grupo de profissionais em áreas específicas, como desenvolvimento, cooperação, gerenciamento, financiamento, planejamento e inovação. Essa avaliação pode ser realizada por meio de questionários ou reuniões com grupos focais, e busca aprimorar o conhecimento e habilidades desses profissionais.</p>\
                         </div>\
                     </div>\
                   </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/03_Cidade Mulher_Renatto Mendonça.jpg">\
+                      <h5>Cidade Mulher</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Busca compreender a relação das mulheres com a cidade e diagnosticar as sensações de (in)segurança nos espaços públicos por meio das suas percepções, experiências de cidade e levantamento de necessidades. Esta é uma iniciativa do ONU-Habitat Brasil baseada na metodologia global de Auditoria de Segurança das Mulheres.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/04_Desafio de Inovação_Ascom Sudene.jpg">\
+                      <h5>Desafio de Inovação</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Iniciativa que estimula a construção coletiva de soluções de inovação para a gestão pública voltadas a enfrentar problemas urbanos que dificultam o desenvolvimento da região. A metodologia envolve a criação de práticas inovadoras, replicáveis e escalonáveis por meio de estratégias criativas e colaborativas e de processos de experimentação capazes de aprimorar a qualidade dos serviços públicos dos municípios. As melhores propostas são apresentadas e premiadas em um evento de reconhecimento.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/05_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg">\
+                      <h5>Desenho de Espaços Públicos</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Incentiva jovens a melhorar espaços públicos em seus territórios. Com técnicas simples de urbanismo e cartografia, a metodologia desenvolve maquetes físicas dos espaços desejados. As oficinas envolvem dinâmicas e pesquisa de campo, permitindo que os jovens confrontem suas ideias com as de seus vizinhos e comerciantes locais. Os dados coletados são sistematizados em uma proposta final entregue às autoridades e à população local, permitindo que o poder público atue para melhorar os espaços públicos.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/06_Índice de Prosperidade das Cidades_Minne Santos.jpg">\
+                      <h5>Índice de Prosperidade das Cidades</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Ferramenta que utiliza indicadores para representar seis dimensões da prosperidade nas cidades: produtividade, desenvolvimento de infraestrutura, qualidade de vida, equidade e inclusão social, sustentabilidade ambiental, e governança e legislação urbanas. É utilizado para conceber, monitorar e avaliar ações, programas e políticas públicas implementadas nessas cidades.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/07_Laboratório de Planejamento_AL.jpg">\
+                      <h5>Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Inspirada na metodologia Urban Labs do ONU-Habitat, o Laboratório considera o alinhamento dos programas de um governo aos Objetivos de Desenvolvimento Sustentável e à Nova Agenda Urbana e elabora coletivamente, com gestores municipais e representantes da sociedade civil, propostas para aperfeiçoar as políticas públicas em questão e promover o desenvolvimento urbano sustentável.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/08_MRP_JF.jpg">\
+                      <h5>Mapa Rápido Participativo</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Consiste no levantamento de informações sobre a cobertura e qualidade dos serviços públicos relacionados diretamente ao território. Esse método permite diagnosticar as condições de infraestrutura urbana e qualidade dos serviços em assentamentos precários de forma ágil e participativa.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/09_Observatório de Políticas Públicas_AL.jpg">\
+                      <h5>Observatório de Políticas Públicas</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Criação de uma plataforma aberta com dados e indicadores alinhados às agendas globais de desenvolvimento sustentável para apoiar políticas públicas setoriais e melhorar o atendimento à população.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/10_Perfil Socioeconômico_JF.jpg">\
+                      <h5>Perfil Socioeconômico</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Pesquisa domiciliar amostral que tem como objetivo analisar todo o território avaliado através do diagnóstico da situação sociodemográfica e econômica das famílias, além de avaliar a mobilidade residencial, o acesso a equipamentos e serviços na comunidade e a percepção da população sobre o território em que vivem.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                  <div class="wrapper">\
+                    <div class="card front-face">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/11_Territórios Sociais_RJ.jpg">\
+                      <h5>Territórios Sociais</h5>\
+                    </div>\
+                    <div class="card back-face">\
+                        <div class="info">\
+                            <p class="card-text">Programa para reduzir o risco social e as vulnerabilidades das famílias atendidas, dividido em três etapas: busca ativa, plano de ação integrado e monitoramento. Através da aplicação do Índice de Pobreza Multidimensional (IPM), adaptado do PNUD, são identificadas as privações em educação, saúde e padrão de vida. As famílias com maior grau de vulnerabilidade passam a ser monitoradas de forma integrada por diversos órgãos da Prefeitura, na perspectiva de inclusão nos serviços e benefícios e na ampliação de oportunidades.</p>\
+                        </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <div class="carousel-item col-md-4">\
+                </div>\
               </div>\
             </div>\
         </div>\

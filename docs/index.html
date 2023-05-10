@@ -25,22 +25,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script>
-        $('.multi-item-carousel .carousel-item').each(function(){
-            var next = $(this).next();
-            if (!next.length) {
-              next = $(this).siblings(':first');
-            }
-            next.children(':first-child').clone().appendTo($(this));
-            
-            if (next.next().length>0) {
-              next.next().children(':first-child').clone().appendTo($(this));
-            } else {
-                $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-            }
-          });
-    </script>
-
-    <script>
 
         // Only display 3 items in nav on mobile.
         if ($(window).width() < 575) {
@@ -273,7 +257,7 @@
 
     <div id="subheader">
         <div class="container p-bottom">
-            <h1 class="amarelo txt-cent pb-3 pt-3">Agradecimentos</h1>
+            <h1 class="amarelo text-center pb-3 pt-3">Agradecimentos</h1>
             <p>Os territórios foram os protagonistas da atuação do ONU-Habitat Brasil em 2022. Através dos diversos exemplos apresentados ao longo deste relatório, percebemos que é no nível local que os Objetivos de Desenvolvimento Sustentável e as diretrizes da Nova Agenda Urbana podem, de fato, ser alcançados.</p>
             <p>Para isso, contamos com o apoio de inúmeras pessoas. Nossos projetos e ações só chegaram a cada um dos territórios apresentados graças à colaboração de diversos parceiros que se empenharam em transformar desafios em soluções. Além disso, agradecemos a todas as pessoas – crianças, jovens, mulheres e homens – que se envolveram nessas atividades, tornando cada processo mais inclusivo.</p>
             <p>As ações mencionadas também só foram possíveis graças à dedicação de 194 pessoas que fizeram parte da equipe de escritório e de campo do ONU-Habitat Brasil em diversas partes do país e em diferentes áreas de atuação. É por meio do trabalho incansável desta equipe multidisciplinar que cada território no Brasil pode chegar mais perto de ser um espaço equitativo e sustentável.</p>
@@ -284,7 +268,7 @@
 
     <div id="footer">
         <div class="container">
-            <h4 class="branco txt-cent">CONHEÇA MAIS O ONU-HABITAT ATRAVÉS DE NOSSAS REDES SOCIAIS</h4>
+            <h4 class="branco text-center">CONHEÇA MAIS O ONU-HABITAT ATRAVÉS DE NOSSAS REDES SOCIAIS</h4>
             <ul class="social-icons pt-3">
                 <li>
                     <a href="https://www.instagram.com/onuhabitatbrasil/" target="_blank" title="Instagram" alt="Instagram">
