@@ -1568,7 +1568,7 @@ var config = {
               </div>\
           </div>\
             <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-sudene.png" alt="" class="img-fluid"/>\
+                <img src="images/historia-sudene.jpg" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
@@ -1734,7 +1734,7 @@ var config = {
               </div>\
           </div>\
             <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-alagoas.png" alt="" class="img-fluid"/>\
+                <img src="images/historia-alagoas.jpg" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
@@ -1844,7 +1844,7 @@ var config = {
                 </div>\
             </div>\
               <div class="col-lg-4 align-self-end">\
-                  <img src="images/pernambuco.png" alt="" class="img-fluid"/>\
+                  <img src="images/historia-pernambuco.jpg" alt="" class="img-fluid"/>\
               </div>\
             </div>\
           </div>\
@@ -2085,7 +2085,7 @@ var config = {
               </div>\
           </div>\
             <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-jf.png" alt="" class="img-fluid"/>\
+                <img src="images/historia-jf.jpg" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
@@ -2200,7 +2200,7 @@ var config = {
                 </div>\
             </div>\
               <div class="col-lg-4 align-self-end">\
-                  <img src="images/historia-rj.png" alt="" class="img-fluid"/>\
+                  <img src="images/historia-rj.jpg" alt="" class="img-fluid"/>\
               </div>\
             </div>\
           </div>\
@@ -2312,7 +2312,7 @@ var config = {
                 </div>\
             </div>\
               <div class="col-lg-4 align-self-end">\
-                  <img src="images/sao_paulo.png" alt="" class="img-fluid"/>\
+                  <img src="images/historia-sao-paulo.jpg" alt="" class="img-fluid"/>\
               </div>\
             </div>\
           </div>\
@@ -2415,7 +2415,7 @@ var config = {
                 </div>\
             </div>\
               <div class="col-lg-4 align-self-end">\
-                  <img src="images/historia-conexoes.png" alt="" class="img-fluid"/>\
+                  <img src="images/historia-conexoes.jpg" alt="" class="img-fluid"/>\
               </div>\
             </div>\
           </div>\
@@ -2513,7 +2513,7 @@ var config = {
               </div>\
           </div>\
             <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-curitiba.png" alt="" class="img-fluid"/>\
+                <img src="images/historia-curitiba.jpg" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
@@ -2608,7 +2608,7 @@ var config = {
               </div>\
           </div>\
             <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-wwc.png" alt="" class="img-fluid"/>\
+                <img src="images/historia-wwc.jpg" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
