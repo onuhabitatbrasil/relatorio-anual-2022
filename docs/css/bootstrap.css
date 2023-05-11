@@ -557,15 +557,6 @@ pre code {
   margin-left: auto;
 }
 
-.container-history
- {
-  width: 100%;
-  padding: 0 0;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1300px;
-}
-
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 550px;

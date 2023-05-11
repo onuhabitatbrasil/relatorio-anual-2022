@@ -1051,6 +1051,14 @@ ul.social-icons li{
   max-width: 100%;
 }
 
+.container-history {
+  width: 100%;
+  padding: 0 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
+}
+
 @media (min-width: 576px) {
   .container-exp {
     max-width: 700px;
@@ -1061,6 +1069,9 @@ ul.social-icons li{
   p {
       font-size: 0.85rem;
       line-height: 1;
+  }
+  .container-history {
+    max-width: 800px;
   }
 }
 
@@ -1075,6 +1086,9 @@ ul.social-icons li{
     font-size: 0.8rem;
     line-height: 1.1;
   }
+  .container-history {
+    max-width: 1000px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1088,6 +1102,9 @@ ul.social-icons li{
     font-size: 0.8rem;
     line-height: 1.1;
   }
+  .container-history {
+    max-width: 1100px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1100,5 +1117,8 @@ ul.social-icons li{
   p {
     font-size: 0.9rem;
     line-height: 1.1;
+  }
+  .container-history {
+    max-width: 1400px;
   }
 }

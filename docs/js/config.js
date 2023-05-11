@@ -1962,7 +1962,7 @@ var config = {
               </div>\
           </div>\
             <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-bh.png" alt="" class="img-fluid"/>\
+                <img src="images/historia-bh.jpg" alt="" class="img-fluid"/>\
             </div>\
           </div>\
         </div>\
