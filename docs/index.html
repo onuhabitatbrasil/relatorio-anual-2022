@@ -115,23 +115,6 @@
     </script>
 
     <script>
-
-        (function () {
-            function update() {
-              var className = "navbar-ontop";
-              var nav = document.querySelector(".navbar");
-          
-              if (window.scrollY > 550) nav.classList.remove(className);
-              else nav.classList.add(className);
-            }
-            window.addEventListener("scroll", function () {
-              update();
-            });
-        })();
-
-    </script>
-
-    <script>
         $(document).ready(function(){
             // Add minus icon for collapse element which is open by default
             $(".collapse.show").each(function(){
@@ -241,7 +224,7 @@
                 </div>
             </div>
             <div class="row">
-                <a class="smoothscroll" href="#abertura">
+                <a class="smoothscroll" href="#intro-empty">
                     <div class="scroll-down cursor-hover"></div>
                 </a>           
             </div>
@@ -257,7 +240,7 @@
 
     <div id="subheader">
         <div class="container p-bottom">
-            <h1 class="amarelo text-center pb-3 pt-3">Agradecimentos</h1>
+            <h1 class="amarelo text-center pb-3">Agradecimentos</h1>
             <p>Os territórios foram os protagonistas da atuação do ONU-Habitat Brasil em 2022. Através dos diversos exemplos apresentados ao longo deste relatório, percebemos que é no nível local que os Objetivos de Desenvolvimento Sustentável e as diretrizes da Nova Agenda Urbana podem, de fato, ser alcançados.</p>
             <p>Para isso, contamos com o apoio de inúmeras pessoas. Nossos projetos e ações só chegaram a cada um dos territórios apresentados graças à colaboração de diversos parceiros que se empenharam em transformar desafios em soluções. Além disso, agradecemos a todas as pessoas – crianças, jovens, mulheres e homens – que se envolveram nessas atividades, tornando cada processo mais inclusivo.</p>
             <p>As ações mencionadas também só foram possíveis graças à dedicação de 194 pessoas que fizeram parte da equipe de escritório e de campo do ONU-Habitat Brasil em diversas partes do país e em diferentes áreas de atuação. É por meio do trabalho incansável desta equipe multidisciplinar que cada território no Brasil pode chegar mais perto de ser um espaço equitativo e sustentável.</p>
@@ -296,13 +279,17 @@
             <img src="images/logo_onuhabitat_branco.png" alt="Logo ONU-Habitat">
         </div>
         <div class="indice">
-            <a href="#" class="cursor-hover">Início</a> 
-            <a href="#abertura" class="cursor-hover">Abertura</a> 
-            <a href="#onu-habitat-brasil" class="cursor-hover">ONU-Habitat no Brasil</a> 
-            <a href="#linha-tempo" class="cursor-hover">Linha do Tempo</a>     
+            <a class="cursor-hover" href="#">Início</a>
+            <a class="cursor-hover" href="#abertura">Abertura</a>
+            <a class="cursor-hover" href="#onu-habitat-brasil">ONU-Habitat</a>
+            <a class="cursor-hover" href="#retrospectiva">Retrospectiva</a>
+            <a class="cursor-hover" href="#numeros">Números</a>
+            <a class="cursor-hover" href="#publicacoes">Publicações e Plataformas</a>
+            <a class="cursor-hover" href="#metodologias">Metodologias</a>
+            <a class="cursor-hover" href="#territorio-sudene">Histórias e Territórios</a>
         </div>        
-        <p>Copyright © ONU-Habitat 2023</p>
-        <p>Desenvolvido com <a href="https://github.com/mapbox/storytelling" class="cursor-hover" target="_blank">Mapbox Storytelling</a>.</p>
+        <p>Copyright © <a class="cursor-hover" target="_blank" href="https://github.com/onuhabitatbrasil/relatorio-anual-2022">ONU-Habitat 2023</p>
+        <p>Desenvolvido com <a class="cursor-hover" target="_blank" href="https://github.com/mapbox/storytelling">Mapbox Storytelling</a>.</p>
     </div>
 
     <script src="./js/config.js"></script>

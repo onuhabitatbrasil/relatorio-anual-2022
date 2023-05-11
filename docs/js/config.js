@@ -1,9 +1,8 @@
 var config = {
-  style: "mapbox://styles/gabrielvazdemelo/clc0l7t96001k14s44ih6kdi0",
-  accessToken:
-    "pk.eyJ1IjoiZ2FicmllbHZhemRlbWVsbyIsImEiOiJja3NqZ2xnbGcyZWNnMzFxdHdibzd0bGU5In0.PC9uOpr-sNcBIYadfuEgUg",
+  style: "mapbox://styles/gabrielvazdemelo/clhj5gj4r00ew01qs6d1o6t83",
+  accessToken: "pk.eyJ1IjoiZ2FicmllbHZhemRlbWVsbyIsImEiOiJja3NqZ2xnbGcyZWNnMzFxdHdibzd0bGU5In0.PC9uOpr-sNcBIYadfuEgUg",
   showMarkers: false,
-  markerColor: "#00afe2",
+  //markerColor: "#00afe2",
   //projection: 'equirectangular',
   //Read more about available projections here
   //https://docs.mapbox.com/mapbox-gl-js/example/projections/
@@ -28,25 +27,38 @@ var config = {
 
     {
       id: "intro-empty",
-      alignment: "left",
+      alignment: "full",
       hidden: true,
       //title: 'Abertura',
       //bookmark: 'Abertura',
-      description: "",
+      description: '',
       location: {
-        center: [-51.06166, -15.66707],
-        zoom: 1.5,
+        center: [-0, 0],
+        zoom: 0.7,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 0.5,
+        speed: 5,
+        duration: 500
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      spinGlobe: false,
+      spinGlobe: true,
       mapInteractive: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      onChapterEnter: [
+        {
+            layer: 'satellite',
+            opacity: 1,
+            duration: 2500
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'satellite',
+              opacity: 0,
+              duration: 1500
+          }
+      ]
     },
 
     {
@@ -57,8 +69,8 @@ var config = {
       bookmark: 'Abertura',
       description: '\
       <div class="light-branco">\
-        <div class="container-history p-bottom p-top">\
-          <div class="row no-gutters p-right-left">\
+        <div class="container-history p-bottom">\
+          <div class="row no-gutters">\
             <div class="col-lg-7">\
               <div class="row">\
                 <div class="col-md-12">\
@@ -67,14 +79,14 @@ var config = {
               </div>\
               <div class="row">\
                 <div class="col-md-6">\
-                    <p><strong class="azul">Território</strong>. Esta palavra possui diferentes definições e é palco de inúmeros debates. Porém, seu conceito é sempre compreendido pelas relações sociais que perpassam sua existência e dinâmica. Assim, ele deve ser entendido a partir de seus usos, sendo o lugar da residência, das trocas materiais, econômicas e culturais, dos conflitos e do exercício do poder e da política. O lugar onde a vida e a história do ser humano se realizam a partir da manifestação de sua existência.</p>\
+                    <p><span class="azul">Território</span>. Esta palavra possui diferentes definições e é palco de inúmeros debates. Porém, seu conceito é sempre compreendido pelas relações sociais que perpassam sua existência e dinâmica. Assim, ele deve ser entendido a partir de seus usos, sendo o lugar da residência, das trocas materiais, econômicas e culturais, dos conflitos e do exercício do poder e da política. O lugar onde a vida e a história do ser humano se realizam a partir da manifestação de sua existência.</p>\
                     <p>Partimos desta reflexão, baseada no pensamento do geógrafo brasileiro Milton Santos, para apresentar o princípio que guia a leitura do Relatório Anual 2022 do ONU-Habitat: o território.</p>\
                     <p>Em 2022, vivemos a retomada do mundo pós-pandemia de COVID-19, revelando a necessidade das cidades de se adaptarem a novas realidades. Também testemunhamos a população mundial chegar ao marco de oito bilhões de pessoas. As áreas urbanas já abrigam 55% dessa população, e é esperado que esse número cresça para 68% até 2050. Esse número sobe para 81% ao considerar a região da América Latina e do Caribe¹, e chega a 85% quando o foco é o Brasil².</p>\
-                    <p>Os desafios urbanos são grandes quando pensados de forma global, mas seu enfrentamento só pode ser encarado quando pensamos no nível local. <strong class="azul">É no nível do território que a transformação para um desenvolvimento urbano sustentável pode ser concretizada.</strong></p>\
+                    <p>Os desafios urbanos são grandes quando pensados de forma global, mas seu enfrentamento só pode ser encarado quando pensamos no nível local. <span class="azul">É no nível do território que a transformação para um desenvolvimento urbano sustentável pode ser concretizada.</span></p>\
                 </div>\
                 <div class="col-md-6">\
                     <p>Nesta linha, o Secretário-Geral da ONU, António Guterres, defende que cidades e comunidades liderem inovações para reduzir as desigualdades, promovam ação climática e garantam uma recuperação verde e inclusiva da pandemia.</p>\
-                    <p>Para o ONU-Habitat, as cidades e as comunidades são áreas de oportunidade para superar as desigualdades. Por isso, <strong class="azul">o Relatório Anual 2022 traz protagonismo a esses espaços, apresentando iniciativas em cooperação com diferentes níveis de governo para promover o desenvolvimento urbano sustentável.</strong></p>\
+                    <p>Para o ONU-Habitat, as cidades e as comunidades são áreas de oportunidade para superar as desigualdades. Por isso, <span class="azul">o Relatório Anual 2022 traz protagonismo a esses espaços, apresentando iniciativas em cooperação com diferentes níveis de governo para promover o desenvolvimento urbano sustentável.</span></p>\
                     <p>Essas iniciativas envolvem a coleta e análise de dados para a promoção de políticas públicas assertivas que consideram a especificidade de cada região; a promoção de espaços públicos mais inclusivos, seguros, resilientes, verdes e sustentáveis; a capacitação de pessoas para pensar, comunicar e resolver problemas urbanos; a construção da resiliência urbana; dentre outros temas englobados pela Nova Agenda Urbana e pela Agenda 2030 para o Desenvolvimento Sustentável.</p>\
                     <p>Através destas diferentes frentes de atuação, trabalhamos junto aos territórios para construir um futuro urbano melhor sem deixar ninguém e nenhum lugar para trás.</p>\
                     <p class="rosa-b">Boa leitura!</p>\
@@ -94,12 +106,12 @@ var config = {
       </div>\
       ',
       location: {
-          center: [-51.06166, -15.66707],
-          zoom: 1.5,
+          //center: [-51.06166, -15.66707],
+          zoom: 0.7,
           pitch: 0,
           bearing: 0,
           speed: 0.25,
-          curve: 3
+          curve: 1
           // flyTo additional controls-
           // These options control the flight curve, making it move
           // slowly and zoom out almost completely before starting
@@ -120,7 +132,6 @@ var config = {
       id: 'onu-habitat',
       alignment: 'left',
       hidden: false,
-      //title: 'Escritório ONU-Habitat Brasil',
       bookmark: 'ONU-Habitat',
       image: false,
       description: '\
@@ -133,11 +144,11 @@ var config = {
       ',
       location: {     
         center: [36.78120, -1.21891],
-        zoom: 5.49,
+        zoom: 10,
         pitch: 55.50,
         bearing: -8.80,
         speed: 0.25,
-        curve: 3
+        curve: 1
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -147,7 +158,8 @@ var config = {
       onChapterEnter: [
            {
                layer: 'pin-nairobi',
-               opacity: 1
+               opacity: 1,
+               duration: 5000
            }
       ],
       onChapterExit: [
@@ -170,16 +182,15 @@ var config = {
         <div class="container p-right-left p-bottom">\
           <h1 class="azul-habitat">ONU-Habitat Brasil</h1>\
           <p>O Escritório Regional do ONU-Habitat para a América Latina e o Caribe está presente na cidade do Rio de Janeiro há mais de 20 anos. A cidade também é sede do escritório responsável pelo Brasil e Cone Sul, que conta com uma equipe dedicada aos projetos e iniciativas implementadas com o Brasil, Argentina, Paraguai, Uruguai e Chile.</p>\
-          <img class="p-top" src="images/logo_onuhabitat.png" alt="Logo ONU-Habitat em Português"/>\
         </div>\
       </div>\
       ',
       location: {     
-          center: [-43.22909, -22.92985],
+          center: [-43.19005, -22.92996],
           zoom: 11.62,
           pitch: 0.00,
           bearing: 0.00,
-          speed: 0.5,
+          speed: 0.25,
           curve: 3
       },
       mapAnimation: 'flyTo',
@@ -190,13 +201,15 @@ var config = {
       onChapterEnter: [
            {
                layer: 'pin-rio',
-               opacity: 1
+               opacity: 1,
+               duration: 5000
            }
       ],
       onChapterExit: [
            {
                layer: 'pin-rio',
-               opacity: 0
+               opacity: 0,
+               duration: 2500
            }
       ]
   },
@@ -225,7 +238,7 @@ var config = {
                     <div class="carousel-item active">\
                         <img class="d-block w-100" src="./images/tempo/01_Conexões Urbanas_Tríplice Fronteira.jpg" alt="ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira">\
                         <div class="container_foto">\
-                          <div class="ver_mas">\
+                          <div class="ver_mas d-block">\
                             <p>Em uma colaboração inédita entre os escritórios do ONU-Habitat no Brasil e no Líbano, o projeto chega a seis municípios de três países na aplicação de metodologias do Programa Global de Espaços Públicos. Realizada com atividades presenciais e virtuais, a programação do lançamento gerou um grande engajamento local. Participaram dos eventos mais de 80 pessoas, envolvendo autoridades, servidores públicos e representantes de universidades e de organizações da sociedade civil. Durante dois anos, o projeto Conexões Urbanas vai realizar capacitações com atores locais, aplicar metodologias participativas e revisar políticas públicas em cidades do Brasil, Argentina, Paraguai e Líbano.</p>\
                           </div>\
                           <article class="text-left">\
@@ -671,7 +684,8 @@ var config = {
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 0.5,
+        speed: 1,
+        curve: 1
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -1507,11 +1521,13 @@ var config = {
       onChapterEnter: [
         {
             layer: 'munic-g52',
-            opacity: 1
+            opacity: 1,
+            duration: 2000
         },
         {
             layer: 'sudene',
-            opacity: 1
+            opacity: 1,
+            duration: 2000
         }
       ],
       onChapterExit: [
@@ -1658,11 +1674,11 @@ var config = {
     </div>\
     ',
       location: {
-          center: [-35.76117, -9.61398],
+          center: [-35.73026, -9.64462],
           zoom: 11.35,
           pitch: 45.00,
           bearing: 0.00,
-          speed: 2
+          speed: 1
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -1672,7 +1688,8 @@ var config = {
       onChapterEnter: [
           {
               layer: 'grotas',
-              opacity: 1
+              opacity: 1,
+              duration: 1000
           }
       ],
       onChapterExit: [
@@ -1719,7 +1736,7 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-35.76117, -9.61398],
+        center: [-35.73026, -9.64462],
         zoom: 11.35,
         pitch: 45.00,
         bearing: 0.00,
@@ -1881,7 +1898,7 @@ var config = {
         zoom: 14.40,
         pitch: 56.69,
         bearing: 28.64,
-        speed: 2
+        speed: 1
     },
     mapAnimation: 'flyTo',
     rotateAnimation: false,
@@ -1891,7 +1908,8 @@ var config = {
     onChapterEnter: [
       {
           layer: 'satellite',
-          opacity: 1
+          opacity: 1,
+          duration: 5000
       },
       {
         layer: 'road-label-simple',
@@ -1901,7 +1919,7 @@ var config = {
     onChapterExit: [
         {
             layer: 'satellite',
-            opacity: 0
+            opacity: 0,
         },
         {
           layer: 'road-label-simple',
@@ -2218,6 +2236,8 @@ var config = {
             <h1 class="laranja">São Paulo</h1>\
             <p>Uma metrópole global profundamente dinâmica, digitalizada e complexa. São Paulo é lar de 12,4 milhões de pessoas, distribuídas em uma área de mais de 1,5 mil quilômetros quadrados. Somada aos outros 38 municípios que compõem sua Região Metropolitana, ela concentra metade da população do Estado e mais de 30% do PIB do país.</p>\
             <p>Ao longo do século 19, durante o Ciclo do Café, o rápido crescimento populacional e produtivo da cidade consolidou sua mancha urbana, comprometendo os biomas locais – especialmente o de Mata Atlântica, predominante na região. Além do espaço geográfico, também se perderam inúmeras espécies de fauna e flora que faziam parte desse ecossistema.</p>\
+            <p>Essa trajetória, no entanto, está em transformação. Hoje, apesar da fama de selva de pedra ser parte incontornável do imaginário da cidade, quase metade do território de São Paulo corresponde à cobertura verde, e quase um terço é território rural. Em 30 anos, o número de parques cresceu de 32 para 111, o que ilustra a preocupação do município em incentivar o desenvolvimento e a ocupação dos espaços verdes pelas pessoas.</p>\
+            <p>Neste processo, São Paulo tem mantido em vista a necessidade de avaliar a qualidade de parques e áreas de conservação, promovendo espaços verdes de maneira mais igualitária para seus milhões de moradores. Além disso, outras ações também estão em foco: capacitar instituições e sociedade civil para criar, gerir e monitorar a qualidade dos equipamentos urbanos; identificar áreas em potencial para desenvolver novos espaços públicos verdes e garantir a participação da população de forma equilibrada com relação a raça, classe, gênero e território.</p>\
           </div>\
         </div>\
         ',
@@ -2242,47 +2262,6 @@ var config = {
         onChapterExit: [
             {
                 layer: 'sp-urbano-rural',
-                opacity: 0
-            }
-        ]
-    },
-
-    {
-        id: 'territorio-sp-2',
-        alignment: 'left',
-        hidden: false,
-        bookmark: 'Territorio São Paulo',
-        image: false,
-        description: '\
-        <div class="light rounded-lg shadow-lg">\
-          <div class="container p-right-left p-bottom">\
-            <h1 class="laranja">São Paulo</h1>\
-            <p>Essa trajetória, no entanto, está em transformação. Hoje, apesar da fama de selva de pedra ser parte incontornável do imaginário da cidade, quase metade do território de São Paulo corresponde à cobertura verde, e quase um terço é território rural. Em 30 anos, o número de parques cresceu de 32 para 111, o que ilustra a preocupação do município em incentivar o desenvolvimento e a ocupação dos espaços verdes pelas pessoas.</p>\
-            <p>Neste processo, São Paulo tem mantido em vista a necessidade de avaliar a qualidade de parques e áreas de conservação, promovendo espaços verdes de maneira mais igualitária para seus milhões de moradores. Além disso, outras ações também estão em foco: capacitar instituições e sociedade civil para criar, gerir e monitorar a qualidade dos equipamentos urbanos; identificar áreas em potencial para desenvolver novos espaços públicos verdes e garantir a participação da população de forma equilibrada com relação a raça, classe, gênero e território.</p>\
-          </div>\
-        </div>\
-        ',
-        location: {
-          center: [-46.87607, -23.69847],
-          zoom: 9.76,
-          pitch: 45.00,
-          bearing: 0.00,
-          speed: 2
-        },
-        mapAnimation: 'flyTo',
-        rotateAnimation: false,
-        spinGlobe: false,
-        mapInteractive: true,
-        callback: '',
-        onChapterEnter: [
-          {
-              layer: 'sp-parques-cent',
-              opacity: 1
-          }
-        ],
-        onChapterExit: [
-            {
-                layer: 'sp-parques-cent',
                 opacity: 0
             }
         ]
@@ -2364,6 +2343,8 @@ var config = {
               <h1 class="laranja">Conexões Urbanas</h1>\
                 <p>Mais do que bordas de um território, cidades nas fronteiras podem ser pontos de encontro cultural. Lugares nos quais são fortalecidas as conexões urbanas. Esse é o exemplo percebido em duas regiões na fronteira entre Brasil, Argentina e Paraguai.</p>\
                 <p>A primeira fica entre Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e tem 500 mil habitantes - o maior núcleo urbano da fronteira brasileira. A região é conhecida pelas Cataratas do Iguaçu, pela Usina Hidrelétrica de Itaipu e pela expressividade das atividades comerciais. Além de portas de entrada para seus respectivos países, os municípios também são o destino de imigrantes, que somam cerca de 80 nacionalidades.</p>\
+                <p>A segunda região é formada pelos municípios de Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina). Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
+                <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma mancha urbana única. Por apresentarem desafios e potenciais conjuntos, a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
             </div>\
           </div>\
           ',
@@ -2387,44 +2368,6 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-      },
-
-      {
-        id: 'territorio-conexoes-2',
-        alignment: 'left',
-        hidden: false,
-        //title: 'Escritório ONU-Habitat Brasil',
-        //bookmark: 'Territorios',
-        image: false,
-        description: '\
-        <div class="light rounded-lg shadow-lg">\
-          <div class="container p-right-left p-bottom">\
-            <h1 class="laranja">Conexões Urbanas</h1>\
-              <p>A segunda região é formada pelos municípios de Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina). Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
-              <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma mancha urbana única. Por apresentarem desafios e potenciais conjuntos, a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
-          </div>\
-        </div>\
-        ',
-        location: {
-              center: [-54.24178, -26.16576],
-              zoom: 8.42,
-              pitch: 54.02,
-              bearing: -30.90,
-              speed: 2
-              // flyTo additional controls-
-              // These options control the flight curve, making it move
-              // slowly and zoom out almost completely before starting
-              // to pan.
-              //speed: 2, // make the flying slow
-              //curve: 1, // change the speed at which it zooms out
-          },
-          mapAnimation: 'flyTo',
-          rotateAnimation: false,
-          spinGlobe: false,
-          mapInteractive: true,
-          callback: '',
-          onChapterEnter: [],
-          onChapterExit: []
     },
 
     {

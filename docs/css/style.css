@@ -22,7 +22,7 @@ body {
 }
 
 .p-bottom {
-    padding-bottom: 1.5em;
+    padding-bottom: 1.25em;
 }
 
 .p-left {
@@ -30,8 +30,8 @@ body {
 }
 
 .p-right-left {
-    padding-right: 2em;
-    padding-left: 2em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
 }
 
 .p-top {
@@ -51,13 +51,9 @@ body {
     transition: top 0.025s ease, left 0.025s ease, transform 0.5s ease;
 }
 
-.navbar-brand img {
-    width: 150px;
-}
-
 .navbar-collapse {
     position: fixed;
-    top: 50px;
+    top: 40px;
     right: 0;
     padding: 15px 25px;
     width: 30%;
@@ -178,13 +174,8 @@ p a:hover {
     font-size: 2rem;
 }
 
-.navbar {
-    transition: all .5s ease-out;
-}
-  
-.navbar-ontop{
-    background-color: transparent !important;
-    box-shadow: none;
+.navbar-brand img {
+    width: 100px;
 }
 
 @media (min-width: 576px) { 
@@ -222,7 +213,7 @@ p a:hover {
         font-size: 3rem;
     }
     .navbar-brand img {
-        width: 200px;
+        width: 185px;
     }    
  }
 
@@ -233,6 +224,9 @@ p a:hover {
     #header h2 {
         font-size: 3rem;
     }
+    .navbar-brand img {
+        width: 200px;
+    }  
  }
 
 ul>li{
@@ -275,6 +269,19 @@ ul.social-icons li{
 	animation: fade_move_down 1.25s ease-in-out infinite;
 }
 
+.light-trans {
+    background-color: transparent;
+    display: flex;
+}
+  
+.scroll-down-white {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
 .scroll-down:hover{
 	border-bottom: 5px solid #cc3480;
 	border-right: 5px solid #cc3480;
@@ -297,9 +304,7 @@ ul.social-icons li{
 #subheader p {
     color: #00568a;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 0.3em 0;
-    line-height: 1.15;
-    font-size: 0.85rem;
+    padding: 0.4em 0;
 }
 
 #subheader a {
@@ -462,9 +467,10 @@ ul.social-icons li{
 }
 
 .step {
-    padding-bottom: 50em;
-    /* margin-bottom: 10vh; */
-    opacity: 0.25;
+    padding-bottom: 35em;
+    /*margin-bottom: 30vh;*/
+    opacity: 0.5;
+    transition-duration: 1s;
 }
 
 .step.active {
@@ -507,14 +513,15 @@ ul.social-icons li{
     }
 
     .step {
-        padding-bottom: 100vh;
+        /*padding-bottom: 100vh;*/
+        margin-bottom: 50vh;
     }
 
     .fully img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 75%;
     }
 
     .lefty img {
@@ -528,8 +535,8 @@ ul.social-icons li{
     .centered,
     .lefty,
     .righty {
-        width: 80vw;
-        margin: 0 auto;
+        width: 75vw;
+        margin: 0 0 0 1em;
     }
     
 }
@@ -611,6 +618,7 @@ ul.social-icons li{
 #myCarousel img {
     object-fit: cover;
     height: 400px;
+    cursor: pointer;
 }
 
 #myCarousel .carousel-inner {
@@ -634,8 +642,8 @@ ul.social-icons li{
     transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
   }
 
-#carousel-thumbs img:focus,
-#carousel-thumbs img:hover {
+  #carousel-thumbs img:hover,
+  #carousel-thumbs img:focus {
     border-color: rgba(204, 52, 128, 1);
     cursor: pointer;
 }
@@ -1038,28 +1046,60 @@ ul.social-icons li{
       visibility: visible;
     }
     
-  }
+}
 
-  @media (min-width: 576px) {
-    .container-exp {
-      max-width: 700px;
-    }
+.img-fluid {
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .container-exp {
+    max-width: 700px;
   }
-  
-  @media (min-width: 768px) {
-    .container-exp {
-      max-width: 900px;
-    }
+  .img-fluid {
+      max-width: 75%;
   }
-  
-  @media (min-width: 992px) {
-    .container-exp {
-      max-width: 1000px;
-    }
+  p {
+      font-size: 0.85rem;
+      line-height: 1;
   }
-  
-  @media (min-width: 1200px) {
-    .container-exp {
-      max-width: 1250px;
-    }
+}
+
+@media (min-width: 768px) {
+  .container-exp {
+    max-width: 900px;
   }
+  .img-fluid {
+      max-width: 75%;
+  }
+  p {
+    font-size: 0.85rem;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-exp {
+    max-width: 1000px;
+  }
+  .img-fluid {
+      max-width: 100%;
+  }
+  p {
+    font-size: 0.85rem;
+    line-height: 1.15;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-exp {
+    max-width: 1250px;
+  }
+  .img-fluid {
+      max-width: 100%;
+  }
+  p {
+    font-size: 0.95rem;
+    line-height: 1.2;
+  }
+}

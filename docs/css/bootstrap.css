@@ -83,8 +83,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-size: 0.85rem;
-  line-height: 1.15;
+  font-size: 0.8rem;
+  line-height: 1;
   text-align: justify;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -354,11 +354,11 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 h1, .h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Bolgart', sans-serif;
   text-transform: uppercase;
 }
@@ -481,10 +481,6 @@ mark,
   content: "\2014\00A0";
 }
 
-.img-fluid {
-  max-width: 100%;
-}
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -567,7 +563,7 @@ pre code {
   padding: 0 0;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1350px;
+  max-width: 1300px;
 }
 
 @media (min-width: 576px) {
@@ -4400,8 +4396,8 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
-  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.5);
+  padding: 0.25rem 1.5rem;
+  /*box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.5);*/
 }
 
 .navbar .container,
@@ -8175,7 +8171,7 @@ button.bg-dark:focus {
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.25) !important;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.75) !important;
 }
 
 .shadow-none {
