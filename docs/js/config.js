@@ -1241,8 +1241,6 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item col-md-4">\
-                </div>\
               </div>\
               <ol class="carousel-indicators">\
                 <li data-target="#theCarouselPub" data-slide-to="0" class="active"></li>\
@@ -1466,8 +1464,6 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item col-md-4">\
-                </div>\
               </div>\
             </div>\
         </div>\
@@ -1687,12 +1683,21 @@ var config = {
       callback: '',
       onChapterEnter: [
           {
-              layer: 'grotas',
+              layer: 'satellite',
               opacity: 1,
-              duration: 1000
+              duration: 4000
+          },
+          {
+              layer: 'grotas',
+              opacity: 0.5,
+              duration: 2000
           }
       ],
       onChapterExit: [
+          {
+              layer: 'satellite',
+              opacity: 0
+          },
           {
               layer: 'grotas',
               opacity: 0
@@ -2028,11 +2033,20 @@ var config = {
       callback: '',
       onChapterEnter: [
           {
+              layer: 'satellite',
+              opacity: 1,
+              duration: 4000
+          },
+          {
               layer: 'microterritorios',
-              opacity: 1
+              opacity: 0.5
           }
       ],
       onChapterExit: [
+          {
+              layer: 'satellite',
+              opacity: 0
+          },
           {
               layer: 'microterritorios',
               opacity: 0
@@ -2225,7 +2239,7 @@ var config = {
     },
 
     {
-        id: 'territorio-sp-1',
+        id: 'territorio-sp',
         alignment: 'left',
         hidden: false,
         bookmark: 'Territorio São Paulo',
@@ -2331,7 +2345,7 @@ var config = {
       },
 
       {
-          id: 'territorio-conexoes-1',
+          id: 'territorio-conexoes',
           alignment: 'left',
           hidden: false,
           //title: 'Escritório ONU-Habitat Brasil',

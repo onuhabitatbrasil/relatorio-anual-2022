@@ -175,7 +175,7 @@ p a:hover {
 }
 
 .navbar-brand img {
-    width: 100px;
+    width: 150px;
 }
 
 @media (min-width: 576px) { 
@@ -201,7 +201,7 @@ p a:hover {
         width: 16em;
     }
     .navbar-brand img {
-        width: 125px;
+        width: 175px;
     }
 }
 
@@ -213,7 +213,7 @@ p a:hover {
         font-size: 3rem;
     }
     .navbar-brand img {
-        width: 185px;
+        width: 200px;
     }    
  }
 
@@ -225,7 +225,7 @@ p a:hover {
         font-size: 3rem;
     }
     .navbar-brand img {
-        width: 200px;
+        width: 225px;
     }  
  }
 
@@ -467,7 +467,7 @@ ul.social-icons li{
 }
 
 .step {
-    padding-bottom: 35em;
+    padding-bottom: 70vh;
     /*margin-bottom: 30vh;*/
     opacity: 0.5;
     transition-duration: 1s;
@@ -513,15 +513,14 @@ ul.social-icons li{
     }
 
     .step {
-        /*padding-bottom: 100vh;*/
-        margin-bottom: 50vh;
+        padding-bottom: 50vh;
     }
 
     .fully img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 75%;
+        width: 70%;
     }
 
     .lefty img {
@@ -535,7 +534,7 @@ ul.social-icons li{
     .centered,
     .lefty,
     .righty {
-        width: 75vw;
+        width: 65vw;
         margin: 0 0 0 1em;
     }
     
@@ -1073,7 +1072,7 @@ ul.social-icons li{
       max-width: 75%;
   }
   p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     line-height: 1.1;
   }
 }
@@ -1086,8 +1085,8 @@ ul.social-icons li{
       max-width: 100%;
   }
   p {
-    font-size: 0.85rem;
-    line-height: 1.15;
+    font-size: 0.8rem;
+    line-height: 1.1;
   }
 }
 
@@ -1099,7 +1098,7 @@ ul.social-icons li{
       max-width: 100%;
   }
   p {
-    font-size: 0.95rem;
-    line-height: 1.2;
+    font-size: 0.9rem;
+    line-height: 1.1;
   }
 }
