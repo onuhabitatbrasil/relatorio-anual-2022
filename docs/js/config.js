@@ -662,7 +662,7 @@ var config = {
                         <img src="./images/tempo/28_Seminário Cooperaçao Pernambuco.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div id="carousel-selector-28" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="28">\
-                        <img src="./images/tempo/29_Argentina_Ciudad deNeuquen_mini.jpg" class="img-fluid" alt="...">\
+                        <img src="./images/tempo/29_Argentina_Ciudad deNeuquen.jpg" class="img-fluid" alt="...">\
                       </div>\
                       <div class="col-2 px-1 py-2"></div>\
                     </div>\
