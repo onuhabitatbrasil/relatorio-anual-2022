@@ -1652,121 +1652,6 @@ var config = {
   },
 
   {
-    id: 'territorio-alagoas',
-    alignment: 'left',
-    hidden: false,
-    //title: 'Escritório ONU-Habitat Brasil',
-    bookmark: 'Territorios',
-    image: false,
-    description: '\
-    <div class="light rounded-lg shadow-lg">\
-      <div class="container p-right-left p-bottom">\
-        <h1 class="laranja">Alagoas</h1>\
-        <p>Apesar de serem elementos marcantes em Maceió e estarem presentes em mais da metade de seus bairros, as grotas – assentamentos precários que ficam em vales sinuosos e vulneráveis – podem se destacar ou passar totalmente despercebidas na paisagem local.</p>\
-        <p>Por muito tempo, as grotas foram invisibilizadas. Até um passado bastante recente, pouco ou quase nada se sabia sobre elas. Por serem morada de boa parte da população de baixa renda da capital alagoana, elas ocupavam também um outro espaço, desta vez imaterial e de estigma no imaginário coletivo.</p>\
-        <p>Entendendo que as cerca de cem grotas de Maceió eram muito mais do que os aspectos negativos que geralmente lhes eram atribuídos, o Governo de Alagoas passou a dar novos contornos à paisagem já conhecida do estado, agregando esses territórios aos centros das discussões. Por meio de uma plataforma de ações focadas em melhorias de mobilidade urbana e habitacionais, veio a infraestrutura necessária para que outras narrativas sobre as grotas fossem construídas e, também, a percepção de que era urgente conhecê-las melhor para atender às suas demandas.</p>\
-        <p>Seja por meio da coleta e do tratamento de dados qualificados ou pela capacitação de jovens dessas comunidades, o ONU-Habitat se junta a essa história justamente pela necessidade de produzir conhecimentos e dar novos sentidos linguísticos e práticos a esses territórios, reconstruindo a paisagem das grotas ao lado e a partir de quem de fato as vivencia.</p>\
-      </div>\
-    </div>\
-    ',
-      location: {
-          center: [-35.73026, -9.64462],
-          zoom: 11.35,
-          pitch: 45.00,
-          bearing: 0.00,
-          speed: 1
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: true,
-      callback: '',
-      onChapterEnter: [
-          {
-              layer: 'satellite',
-              opacity: 1,
-              duration: 4000
-          },
-          {
-              layer: 'grotas',
-              opacity: 0.5,
-              duration: 2000
-          }
-      ],
-      onChapterExit: [
-          {
-              layer: 'satellite',
-              opacity: 0
-          },
-          {
-              layer: 'grotas',
-              opacity: 0
-          }
-      ]
-    },
-
-    {
-      id: 'historia-alagoas',
-      alignment: 'full',
-      hidden: false,
-      bookmark: 'Alagoas',
-      description: '\
-      <div class="light">\
-        <div class="container-history text-left">\
-          <div class="row no-gutters p-left">\
-            <div class="col-lg-8">\
-              <div class="row">\
-                <div class="col-md-12">\
-                  <h1 class="laranja">Menino da vila, menino da ONU</h1>\
-                </div>\
-              </div>\
-              <div class="row p-bottom">\
-                <div class="col-md-6">\
-                  <p>A subida que leva até a Vila Emater II, nos arredores do antigo lixão de Maceió, não é das mais simples. No meio do caminho, entretanto, já é possível se deparar com uma das vistas mais bonitas da <strong class="rosa">cidade: a imensidão do mar de Jacarecica está logo ali.</strong> Ao mesmo tempo que orgulha a comunidade, a paisagem também é motivo de preocupação, já que colabora para a especulação imobiliária na terra que há décadas faz com que famílias de catadores se vejam lutando por moradia adequada e melhores condições de vida.</p>\
-                  <p>Quem pode falar melhor sobre a Vila, no entanto, é Antônio Givaldo: jovem de 17 anos, adotado por sua avó materna, que hoje é conhecido como o <strong class="rosa">“o menino da ONU”</strong>. É assim que ele diz ser recebido na vizinhança após aparecer em um vídeo nas redes sociais do ONU-Habitat em que conta sobre o seu lugar no mundo. <strong>“Eles dizem: Parabéns, Antônio! Lute sempre pela nossa comunidade”. Isso é bom. Você sente que o seu esforço tá valendo a pena”</strong>.</p>\
-                  <p>Antônio é um dos participantes do <strong class="rosa">Programa Digaê – Juventudes</strong>, Comunicação e Cidade. Realizado pelo ONU-Habitat em parceria com o Governo de Alagoas, o projeto dá continuidade ao trabalho desenvolvido pelas duas instituições nos assentamentos precários que, em Maceió, são conhecidos como grotas. <strong>“O Digaê mudou a minha vida. Foi uma experiência com jovens de diferentes grotas que gostam de se envolver nos movimentos, uma diversidade grande. Eu via neles e replicava em mim. Eles eram um espelho de como eu queria estar hoje”</strong>, compartilha.</p>\
-                  </div>\
-                <div class="col-md-6">\
-                  <p>A iniciativa vai formar 80 jovens em temas relacionados ao direito à cidade e à comunicação, estimulando que outras narrativas sobre suas comunidades sejam criadas. <strong>“Eu vim conhecer o direito à cidade no Digaê. Moro numa comunidade bem carente e nunca tinha chegado ninguém pra me dizer: você tem direito à cidade”</strong>.</p>\
-                  <p>O território em que Antônio cresceu já simboliza, por si só, uma <strong class="rosa">conquista para a sua comunidade</strong>, que concilia a luta pela garantia de seus direitos ao desafio de fazer com que a coleta seletiva seja implementada no município. Isso tudo talvez explique o brilho que o jovem carrega nos olhos ao falar de onde vem, o carinho nas palavras ao frisar: <strong>“minha comunidade representa tudo pra mim”</strong>.</p>\
-                  <p>Talvez justifique, também, as vontades que têm para o futuro dela, como a transformação do antigo lixão em um parque municipal. <strong>“A Vila era muito mal falada e ela não é isso. Tem cultura, diversidade, uma juventude talentosa, mães batalhadoras. Espero que os jovens daqui se interessem ainda mais em políticas públicas, no direito à cidade. Que eles tenham forças e vão na frente porque eu vou continuar lutando pela nossa comunidade até o fim da minha vida”</strong>.</p>\
-                </div>\
-              </div>\
-          </div>\
-            <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-alagoas.jpg" alt="" class="img-fluid"/>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      ',
-      location: {
-        center: [-35.73026, -9.64462],
-        zoom: 11.35,
-        pitch: 45.00,
-        bearing: 0.00,
-        speed: 2
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: '',
-      onChapterEnter: [
-        {
-            layer: 'grotas',
-            opacity: 0.5
-        }
-      ],
-      onChapterExit: [
-          {
-              layer: 'grotas',
-              opacity: 0
-          }
-      ]
-    },
-
-    {
       id: 'territorio-pe',
       alignment: 'left',
       hidden: false,
@@ -1881,6 +1766,121 @@ var config = {
             }
         ]
     },
+
+    {
+      id: 'territorio-alagoas',
+      alignment: 'left',
+      hidden: false,
+      //title: 'Escritório ONU-Habitat Brasil',
+      bookmark: 'Territorios',
+      image: false,
+      description: '\
+      <div class="light rounded-lg shadow-lg">\
+        <div class="container p-right-left p-bottom">\
+          <h1 class="laranja">Alagoas</h1>\
+          <p>Apesar de serem elementos marcantes em Maceió e estarem presentes em mais da metade de seus bairros, as grotas – assentamentos precários que ficam em vales sinuosos e vulneráveis – podem se destacar ou passar totalmente despercebidas na paisagem local.</p>\
+          <p>Por muito tempo, as grotas foram invisibilizadas. Até um passado bastante recente, pouco ou quase nada se sabia sobre elas. Por serem morada de boa parte da população de baixa renda da capital alagoana, elas ocupavam também um outro espaço, desta vez imaterial e de estigma no imaginário coletivo.</p>\
+          <p>Entendendo que as cerca de cem grotas de Maceió eram muito mais do que os aspectos negativos que geralmente lhes eram atribuídos, o Governo de Alagoas passou a dar novos contornos à paisagem já conhecida do estado, agregando esses territórios aos centros das discussões. Por meio de uma plataforma de ações focadas em melhorias de mobilidade urbana e habitacionais, veio a infraestrutura necessária para que outras narrativas sobre as grotas fossem construídas e, também, a percepção de que era urgente conhecê-las melhor para atender às suas demandas.</p>\
+          <p>Seja por meio da coleta e do tratamento de dados qualificados ou pela capacitação de jovens dessas comunidades, o ONU-Habitat se junta a essa história justamente pela necessidade de produzir conhecimentos e dar novos sentidos linguísticos e práticos a esses territórios, reconstruindo a paisagem das grotas ao lado e a partir de quem de fato as vivencia.</p>\
+        </div>\
+      </div>\
+      ',
+        location: {
+            center: [-35.73026, -9.64462],
+            zoom: 11.35,
+            pitch: 45.00,
+            bearing: 0.00,
+            speed: 1
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: true,
+        callback: '',
+        onChapterEnter: [
+            {
+                layer: 'satellite',
+                opacity: 1,
+                duration: 4000
+            },
+            {
+                layer: 'grotas',
+                opacity: 0.5,
+                duration: 2000
+            }
+        ],
+        onChapterExit: [
+            {
+                layer: 'satellite',
+                opacity: 0
+            },
+            {
+                layer: 'grotas',
+                opacity: 0
+            }
+        ]
+      },
+  
+      {
+        id: 'historia-alagoas',
+        alignment: 'full',
+        hidden: false,
+        bookmark: 'Alagoas',
+        description: '\
+        <div class="light">\
+          <div class="container-history text-left">\
+            <div class="row no-gutters p-left">\
+              <div class="col-lg-8">\
+                <div class="row">\
+                  <div class="col-md-12">\
+                    <h1 class="laranja">Menino da vila, menino da ONU</h1>\
+                  </div>\
+                </div>\
+                <div class="row p-bottom">\
+                  <div class="col-md-6">\
+                    <p>A subida que leva até a Vila Emater II, nos arredores do antigo lixão de Maceió, não é das mais simples. No meio do caminho, entretanto, já é possível se deparar com uma das vistas mais bonitas da <strong class="rosa">cidade: a imensidão do mar de Jacarecica está logo ali.</strong> Ao mesmo tempo que orgulha a comunidade, a paisagem também é motivo de preocupação, já que colabora para a especulação imobiliária na terra que há décadas faz com que famílias de catadores se vejam lutando por moradia adequada e melhores condições de vida.</p>\
+                    <p>Quem pode falar melhor sobre a Vila, no entanto, é Antônio Givaldo: jovem de 17 anos, adotado por sua avó materna, que hoje é conhecido como o <strong class="rosa">“o menino da ONU”</strong>. É assim que ele diz ser recebido na vizinhança após aparecer em um vídeo nas redes sociais do ONU-Habitat em que conta sobre o seu lugar no mundo. <strong>“Eles dizem: Parabéns, Antônio! Lute sempre pela nossa comunidade”. Isso é bom. Você sente que o seu esforço tá valendo a pena”</strong>.</p>\
+                    <p>Antônio é um dos participantes do <strong class="rosa">Programa Digaê – Juventudes</strong>, Comunicação e Cidade. Realizado pelo ONU-Habitat em parceria com o Governo de Alagoas, o projeto dá continuidade ao trabalho desenvolvido pelas duas instituições nos assentamentos precários que, em Maceió, são conhecidos como grotas. <strong>“O Digaê mudou a minha vida. Foi uma experiência com jovens de diferentes grotas que gostam de se envolver nos movimentos, uma diversidade grande. Eu via neles e replicava em mim. Eles eram um espelho de como eu queria estar hoje”</strong>, compartilha.</p>\
+                    </div>\
+                  <div class="col-md-6">\
+                    <p>A iniciativa vai formar 80 jovens em temas relacionados ao direito à cidade e à comunicação, estimulando que outras narrativas sobre suas comunidades sejam criadas. <strong>“Eu vim conhecer o direito à cidade no Digaê. Moro numa comunidade bem carente e nunca tinha chegado ninguém pra me dizer: você tem direito à cidade”</strong>.</p>\
+                    <p>O território em que Antônio cresceu já simboliza, por si só, uma <strong class="rosa">conquista para a sua comunidade</strong>, que concilia a luta pela garantia de seus direitos ao desafio de fazer com que a coleta seletiva seja implementada no município. Isso tudo talvez explique o brilho que o jovem carrega nos olhos ao falar de onde vem, o carinho nas palavras ao frisar: <strong>“minha comunidade representa tudo pra mim”</strong>.</p>\
+                    <p>Talvez justifique, também, as vontades que têm para o futuro dela, como a transformação do antigo lixão em um parque municipal. <strong>“A Vila era muito mal falada e ela não é isso. Tem cultura, diversidade, uma juventude talentosa, mães batalhadoras. Espero que os jovens daqui se interessem ainda mais em políticas públicas, no direito à cidade. Que eles tenham forças e vão na frente porque eu vou continuar lutando pela nossa comunidade até o fim da minha vida”</strong>.</p>\
+                  </div>\
+                </div>\
+            </div>\
+              <div class="col-lg-4 align-self-end">\
+                  <img src="images/historia-alagoas.jpg" alt="" class="img-fluid"/>\
+              </div>\
+            </div>\
+          </div>\
+        </div>\
+        ',
+        location: {
+          center: [-35.73026, -9.64462],
+          zoom: 11.35,
+          pitch: 45.00,
+          bearing: 0.00,
+          speed: 2
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: false,
+        callback: '',
+        onChapterEnter: [
+          {
+              layer: 'grotas',
+              opacity: 0.5
+          }
+        ],
+        onChapterExit: [
+            {
+                layer: 'grotas',
+                opacity: 0
+            }
+        ]
+     },
 
     {
       id: 'territorio-bh',
