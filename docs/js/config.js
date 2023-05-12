@@ -1778,7 +1778,7 @@ var config = {
         <div class="container p-right-left p-bottom">\
           <h1 class="laranja">Pernambuco</h1>\
           <p>Pernambuco se manifesta nos contrastes entre Zona da Mata, Agreste e Sertão. É o estado mais antigo do Brasil, com uma história vista a olho nu em suas conhecidas construções coloniais, e ouvida em ritmo de frevo e maracatu. São 185 municípios contando sobre passado e presente de uma região diversa em povo e território.</p>\
-          <p>Pernambuco se manifesta nos contrastes entre Zona da Mata, Agreste e Sertão. É o estado mais antigo do Brasil, com uma história vista a olho nu em suas conhecidas construções coloniais, e ouvida em ritmo de frevo e maracatu. São 185 municípios contando sobre passado e presente de uma região diversa em povo e território.</p>\
+          <p>As histórias do presente trazem uma rica vida cultural. Elas dividem espaço com altos índices de violência, deixando marcas no cotidiano de jovens e de mulheres. Para contribuir com as políticas públicas de prevenção social à violência, o ONU-Habitat implementou as metodologias participativas de Desenho de Espaços Públicos e Auditoria de Segurança das Mulheres, ou Cidade Mulher, através da iniciativa Cooperação Pernambuco.</p>\
           <p>A implementação das metodologias passou por comunidades de cada uma das regiões pernambucanas. A grande dispersão territorial permitiu compreender nuances locais importantes, que contemplam a enorme diversidade que define o estado de Pernambuco.</p>\
         </div>\
       </div>\
@@ -2592,7 +2592,7 @@ var config = {
               </div>\
               <div class="row p-bottom">\
                 <div class="col-md-6">\
-                <p>Era início de 2020, e o mundo ainda se adaptava à rápida digitalização que se deu junto à pandemia da COVID-19. Igor Rezende Vilela, assessor de Assuntos Internacionais da Prefeitura de São Paulo, buscava oportunidades de cooperação internacional que se adequassem às novas recomendações sanitárias.</p>\
+                  <p>Era início de 2020, e o mundo ainda se adaptava à rápida digitalização que se deu junto à pandemia da COVID-19. Igor Rezende Vilela, assessor de Assuntos Internacionais da Prefeitura de São Paulo, buscava oportunidades de cooperação internacional que se adequassem às novas recomendações sanitárias.</p>\
                   <p>Foi assim que ele chegou ao <strong class="rosa">Waste Wise Cities</strong>. Desde 2018, o projeto coordenado pela sede do ONU-Habitat promove um intercâmbio de conhecimentos entre cidades do Sul Global. As temáticas de trabalho focam principalmente em reduzir o impacto ambiental negativo das cidades, prestando especial atenção à qualidade do ar e à gestão de resíduos municipais.</p>\
                   <p>São Paulo foi a primeira cidade brasileira a participar da iniciativa, escolhendo Praia, capital de Cabo Verde, para um intercâmbio em gestão de resíduos. As cidades têm diferenças concretas como número de habitantes e características geográficas, mas foram as semelhanças que chamaram atenção.</p>\
                   <p><strong>"Um grande catalizador do intercâmbio foi a proximidade não só linguística como cultural, mesmo com proporções tão diferentes. Em algum momento, São Paulo já teve cem mil habitantes. O que já aconteceu aqui pode ser compartilhado"</strong>, afirma Igor.</p>\
