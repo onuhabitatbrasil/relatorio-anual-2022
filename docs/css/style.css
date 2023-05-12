@@ -487,7 +487,7 @@ ul.social-icons li{
 .mapboxgl-ctrl-top-right {
     margin-top: 75px !important;
     margin-right: 20px !important;
-    z-index: 999;
+    z-index: 99999;
 }
   
 @media (max-width: 700px) {

@@ -9,7 +9,7 @@ var config = {
   inset: false,
   legend: false, // if legend is set to true, inset will be disabled.
   theme: "light",
-  use3dTerrain: false, //set true for enabling 3D maps.
+  use3dTerrain: true, //set true for enabling 3D maps.
   useCustomLayers: false, //set true for enabling custom layers from sources.js
   bookmarks: true,
   chapterReturn: false,

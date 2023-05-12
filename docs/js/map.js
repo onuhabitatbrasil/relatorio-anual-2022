@@ -196,8 +196,8 @@ var map = new mapboxgl.Map({
     // make storymap partially interactive
     interactive: true,
     dragPan: false,
-    dragRotate: false,
-    doubleClickZoom: false,
+    dragRotate: true,
+    doubleClickZoom: true,
     scrollZoom: false,
     touchZoomRotate: false,
 });
