@@ -99,7 +99,7 @@ var config = {
               </div>\
             </div>\
             <div class="col-lg-5 align-self-center">\
-                <img src="images/abertura.png" alt="" class="img-fluid" />\
+                <img src="images/abertura.jpg" alt="" class="img-fluid" />\
             </div>\
           </div>\
         </div>\
