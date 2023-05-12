@@ -469,7 +469,7 @@ ul.social-icons li{
 .step {
     padding-bottom: 70vh;
     /*margin-bottom: 30vh;*/
-    opacity: 0.5;
+    opacity: 0.85;
     transition-duration: 1s;
 }
 
@@ -1067,7 +1067,7 @@ ul.social-icons li{
       max-width: 75%;
   }
   p {
-      font-size: 0.85rem;
+      font-size: 0.775rem;
       line-height: 1;
   }
   .container-history {
@@ -1083,7 +1083,7 @@ ul.social-icons li{
       max-width: 75%;
   }
   p {
-    font-size: 0.8rem;
+    font-size: 0.775rem;
     line-height: 1.1;
   }
   .container-history {
