@@ -638,10 +638,10 @@ ul.social-icons li{
     transition: -webkit-transform 2s ease-in-out;
     transition: transform 2s ease-in-out;
     transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
-  }
+}
 
-  #carousel-thumbs img:hover,
-  #carousel-thumbs img:focus {
+#carousel-thumbs img:hover,
+#carousel-thumbs img:focus {
     border-color: rgba(204, 52, 128, 1);
     cursor: pointer;
 }
@@ -822,7 +822,6 @@ ul.social-icons li{
 .accordion h1, .h1 {
     font-family: 'Bolgart', sans-serif;
 }
-
 
 .wrapper {
     height: 350px;
@@ -1058,6 +1057,14 @@ ul.social-icons li{
   max-width: 600px;
 }
 
+.container-num {
+    width: 100%;
+    padding: 10px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px;
+}
+
 @media (min-width: 576px) {
   .container-exp {
     max-width: 700px;
@@ -1071,6 +1078,9 @@ ul.social-icons li{
   }
   .container-history {
     max-width: 800px;
+  }
+  .container-num {
+    max-width: 600px;
   }
 }
 
@@ -1088,6 +1098,9 @@ ul.social-icons li{
   .container-history {
     max-width: 1000px;
   }
+  .container-num {
+    max-width: 900px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1104,6 +1117,9 @@ ul.social-icons li{
   .container-history {
     max-width: 1100px;
   }
+  .container-num {
+    max-width: 1150px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1119,5 +1135,8 @@ ul.social-icons li{
   }
   .container-history {
     max-width: 1300px;
+  }
+  .container-num {
+    max-width: 1250px;
   }
 }

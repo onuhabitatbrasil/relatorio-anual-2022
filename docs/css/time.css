@@ -69,8 +69,8 @@
   margin-left: 10px;
   margin-right: 20px;
   overflow: hidden;
-  border-radius: 50%;
-  border: 3px solid #cc3480;
+  /*border-radius: 50%;
+  border: 3px solid #cc3480;*/
   display: inline-flex;
 }
 @media (min-width: 576px) {
@@ -104,3 +104,7 @@
   font-size: 12px;
   color: #cc3480;
 }/*# sourceMappingURL=time.css.map */
+
+.accordion .card-body {
+  font-size: 0.85rem;
+}

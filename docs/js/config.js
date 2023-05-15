@@ -710,44 +710,306 @@ var config = {
               <div class="col-lg-12">\
                 <div class="accordion" id="accordionNumeros">\
                   <div class="card">\
-                    <div class="card-header" id="headingOne">\
+                    <div class="card-header" id="heading-1">\
                       <h1 class="clearfix mb-0">\
-                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> 10.000 pessoas beneficiadas</a>\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1"><i class="fa fa-chevron-circle-down"></i> 210 jovens</a>\
                       </h1>\
                     </div>\
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionNumeros">\
-                    <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1512457488427-6d5759c7e17b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c6b5deacc86d6fc5fcac2f06595bcd26" alt="" class="timeline__image"></div>\
-                      <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>\
+                    <div id="collapse-1" class="collapse" aria-labelledby="heading-1" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/01_12_jovens.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">210 jovens de 14 a 29 anos participaram de Oficinas de Desenho de Espaços Públicos em Pernambuco e conceberam, de forma participativa, propostas concretas de desenhos de espaços públicos seguros, inclusivos, sustentáveis e saudáveis para suas cidades.</div>\
                     </div>\
                   </div>\
                   <div class="card">\
-                    <div class="card-header" id="headingTwo">\
-                      <h1 class="mb-0">\
-                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> 1.000 pessoas capacitadas</a>\
+                    <div class="card-header" id="heading-2">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2"><i class="fa fa-chevron-circle-down"></i> 140 pessoas</a>\
                       </h1>\
                     </div>\
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionNumeros">\
-                      <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>\
+                    <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/02_140_pessoas.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">140 pessoas — dentre elas mulheres que se identificam como cisgênero, transgênero e pessoas travestis — participaram de oficinas "Cidade Mulher" em Pernambuco. Os grupos mapearam a percepção dos fatores de (in)segurança no território sob a perspectiva das mulheres, contribuindo para um diagnóstico de segurança urbana e sugestões para políticas públicas mais inclusivas e seguras.  </div>\
                     </div>\
                   </div>\
                   <div class="card">\
-                    <div class="card-header" id="headingThree">\
-                      <h1 class="mb-0">\
-                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> 50 parcerias estabelecidas</a>\
+                    <div class="card-header" id="heading-3">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3"><i class="fa fa-chevron-circle-down"></i> Criado Clube de Astronomia</a>\
                       </h1>\
                     </div>\
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionNumeros">\
-                      <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>\
+                    <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/03_clube_astro.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">Criado Clube de Astronomia na comunidade do Ibura, no Recife, Pernambuco, idealizado durante as gravações do documentário “Pés no Chão, Janela do Céu” e inspirado na oficina de Desenho de Espaços Públicos realizada na região em fevereiro.</div>\
                     </div>\
                   </div>\
                   <div class="card">\
-                    <div class="card-header" id="headingFour">\
-                      <h1 class="mb-0">\
-                        <a class="btn btn-link collapsed cursor-hover" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> 50 publicações</a>\
+                    <div class="card-header" id="heading-X">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4"><i class="fa fa-chevron-circle-down"></i> 13.419 entrevistas domiciliares</a>\
                       </h1>\
                     </div>\
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionNumeros">\
-                      <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>\
+                    <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/04_14_ent_dom.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">13.419 entrevistas domiciliares realizadas em 12 complexos de favelas pelo Programa Territórios Sociais na cidade do Rio de Janeiro, somando 2.392 novas famílias cadastradas na iniciativa. Além disso, 15,4 mil pessoas foram atendidas pela Secretaria Municipal de Saúde, 6 mil foram impactadas pela Secretaria Municipal de Assistência Social e 2,7 mil crianças e adolescentes foram encaminhados à Coordenadoria Regional de Educação.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-5">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-5" aria-expanded="true" aria-controls="collapse-5"><i class="fa fa-chevron-circle-down"></i> 1.155 domicílios</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-5" class="collapse" aria-labelledby="heading-5" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/05_1155_dom.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">1.155 domicílios de famílias cadastradas no Programa Territórios Sociais foram beneficiados com melhorias habitacionais pelo programa Casa Carioca. 90 famílias receberam doações de filtros de barro em parceria com a Secretaria Municipal de Saúde para acesso mais fácil à água potável e para reduzir a incidência de doenças relacionadas à água.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-6">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6"><i class="fa fa-chevron-circle-down"></i> Mais de 50 brasileiros</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-6" class="collapse" aria-labelledby="heading-6" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/06_50_brasileiros.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">Mais de 50 brasileiros participaram da 11ª Sessão do Fórum Urbano Mundial, principal conferência global sobre urbanização sustentável, organizada pelo ONU-Habitat. Com mais de 330 eventos, o congresso foi realizado em Katowice, na Polônia, entre os dias 26 e 30 de junho, para discutir desafios da urbanização. A cidade de Fortaleza aproveitou a oportunidade para lançar sua candidatura para sediar a 13ª edição da conferência, a ser realizada em 2026.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-7">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-7" aria-expanded="true" aria-controls="collapse-7"><i class="fa fa-chevron-circle-down"></i> 17 plantões</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-7" class="collapse" aria-labelledby="heading-7" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/07_17_plantoes.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">17 plantões com mapas no território, 9 reuniões com lideranças e grupos de trabalho e 7 assembleias realizadas para a elaboração participativa do Plano de Urbanização Sustentável da Izidora, em parceria com a Prefeitura de Belo Horizonte, a Secretaria Municipal de Política Urbana e a Companhia Urbanizadora de Habitação de Belo Horizonte (Urbel).</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-8">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-8" aria-expanded="true" aria-controls="collapse-8"><i class="fa fa-chevron-circle-down"></i> 3,4 mil pessoas</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-8" class="collapse" aria-labelledby="heading-8" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/08_3_4_mil_pessoas.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">3,4 mil pessoas de 6 bairros da região lagunar de Maceió entrevistadas para compreender a situação socioeconômica e demográfica da população. Entre os resultados, está o dado de que 69% se identificam como pretas ou pardas. A pesquisa também mostrou que 27% dos domicílios possuem acesso ao Auxílio Brasil/Bolsa Família. Além disso, a praia (39%) e o shopping (27%) são as principais atividades de lazer das pessoas acima de 14 anos na região.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-9">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-9" aria-expanded="true" aria-controls="collapse-9"><i class="fa fa-chevron-circle-down"></i> 22 funcionários</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-9" class="collapse" aria-labelledby="heading-9" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/09_10_11_funcionarios.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">22 funcionários do governo estadual de Alagoas capacitados na oficina de imersão do Programa Minha Cidade Linda, organizado no âmbito do Laboratório de Planejamento e Projetos de Alagoas. A oficina incluiu a apresentação do programa e seus impactos, propostas de soluções inovadoras para melhorar o programa de forma colaborativa e transversal e a promoção da integração entre as secretarias estaduais e demais instituições participantes.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-10">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-10" aria-expanded="true" aria-controls="collapse-10"><i class="fa fa-chevron-circle-down"></i> 28 funcionários</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-10" class="collapse" aria-labelledby="heading-10" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/09_10_11_funcionarios.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">28 funcionários do governo municipal e estadual e 69 lideranças comunitárias e representantes da sociedade civil participaram de roda de diálogo para discutir o diagnóstico do setor habitacional de Maceió e Alagoas e as estratégias propostas pelo ONU-Habitat para redução do déficit quantitativo e qualitativo do estado.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-11">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-11" aria-expanded="true" aria-controls="collapse-11"><i class="fa fa-chevron-circle-down"></i> 138 funcionários</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-11" class="collapse" aria-labelledby="heading-11" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/09_10_11_funcionarios.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">138 funcionários do governo, acadêmicos, lideranças comunitárias, representantes da sociedade civil e membros do ONU-Habitat participaram do seminário de discussão e apresentação das Diretrizes para a Política Habitacional de Alagoas. Apresentou-se o diagnóstico do setor habitacional de Alagoas, bem como os objetivos, eixos estratégicos e recomendações para a gestão e o financiamento da política habitacional.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-12">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-12" aria-expanded="true" aria-controls="collapse-12"><i class="fa fa-chevron-circle-down"></i> 37 jovens</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-12" class="collapse" aria-labelledby="heading-12" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/01_12_jovens.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">37 jovens moradores de assentamentos precários capacitados em comunicação e mobilização comunitária no primeiro ciclo do programa Digaê! - Juventudes, Comunicação e Cidade. Para debater a realidade das grotas e ampliar o repertório dos jovens sobre ferramentas de comunicação, a iniciativa é dividida em três módulos: direito à cidade; linguagens de comunicação e projetos de intervenção em comunicação nas grotas.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-13">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-13" aria-expanded="true" aria-controls="collapse-13"><i class="fa fa-chevron-circle-down"></i> 65 mil moradores</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-13" class="collapse" aria-labelledby="heading-13" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/13_65_mil_moradores.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">65 mil moradores de 141 territórios em Juiz de Fora estão sendo beneficiados pelo levantamento de dados e elaboração de mais de 4.500 mapas sobre infraestrutura urbana, habitação, transporte e serviços públicos com o Mapa Rápido Participativo (MRP) das áreas mais vulnerabilizadas da cidade.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-14">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-14" aria-expanded="true" aria-controls="collapse-14"><i class="fa fa-chevron-circle-down"></i> 1,3 mil entrevistas</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-14" class="collapse" aria-labelledby="heading-14" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/14_1_3_mil_entrevistas.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">1,3 mil entrevistas realizadas e 3,3 mil residências visitadas durante pesquisa do Perfil Socioeconômico em Juiz de Fora. A ação visa identificar dados que informem políticas públicas e programas, com foco especial em educação e apoio a famílias vulneráveis, especialmente chefiadas por mulheres. Alguns dos dados mostram uma taxa de 85% de de frequência escolar entre pessoas de 10 a 18 anos, 16% das residências recebendo Auxílio Brasil/Bolsa Família e 57% das residências chefiadas por mulheres.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-15">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-15" aria-expanded="true" aria-controls="collapse-15"><i class="fa fa-chevron-circle-down"></i> 80 representantes</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-15" class="collapse" aria-labelledby="heading-15" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/15_80_representantes.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">80 representantes da população atuaram como informantes-chave na Avaliação de Espaços Públicos aplicada na fronteira entre Brasil e Argentina. A ação retrata a rede de espaços públicos dos municípios de Barracão (PR), Dionísio Cerqueira (SC), Bom Jesus do Sul (PR), no Brasil, e Bernardo de Irigoyen, na Argentina, a partir de aspectos como quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-16">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-16" aria-expanded="true" aria-controls="collapse-16"><i class="fa fa-chevron-circle-down"></i> Dados e recomendações</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-16" class="collapse" aria-labelledby="heading-16" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/16_dados_recomendacoes.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">Prefeitura Municipal de Barracão (PR) utiliza os dados e recomendações da Avaliação de Espaços Públicos na revisão de seu Plano Diretor Municipal, com recomendações para fortalecer a apropriação de espaços públicos das cidades. Em Dionísio Cerqueira (SC), a prefeitura municipal, em colaboração com a população e com um escritório de arquitetura local, está desenvolvendo uma iniciativa voluntária para promover melhorias na praça Professor Dalilo Quintino Pereira, a principal da cidade.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-17">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-17" aria-expanded="true" aria-controls="collapse-17"><i class="fa fa-chevron-circle-down"></i> 466 gestores e servidores municipais</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-17" class="collapse" aria-labelledby="heading-17" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/17_466_gestores.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">466 gestores e servidores municipais de 41 municípios se inscreveram para os cinco módulos de capacitação promovidos para a Rede de Cidades-Polo do Nordeste. Foram 90 horas de formação voltadas a fortalecer suas capacidades de gestão e promover o desenvolvimento urbano regional de forma sustentável.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-18">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-18" aria-expanded="true" aria-controls="collapse-18"><i class="fa fa-chevron-circle-down"></i> 17 municípios</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-18" class="collapse" aria-labelledby="heading-18" data-parent="#accordionNumeros">\
+                    <div class="timeline__image-wrapper"><img src="./images/numeros/18_17_munic.svg" alt="" class="timeline__image"></div>\
+                      <div class="card-body">17 municípios assinaram a carta de compromisso da Rede de Cidades-Polo do Nordeste (G52) para cooperar no enfrentamento às desigualdades e na superação das divisões sociais e espaciais nas cidades e territórios do Nordeste do Brasil. A iniciativa teve o apoio do ONU-Habitat.</div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-19">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-19" aria-expanded="true" aria-controls="collapse-19"><i class="fa fa-chevron-circle-down"></i> 254 eventos inscritos</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-19" class="collapse" aria-labelledby="heading-19" data-parent="#accordionNumeros">\
+                      <div class="timeline__image-wrapper">\
+                        <img src="./images/numeros/19_254_eventos.svg" alt="" class="timeline__image">\
+                      </div>\
+                      <div class="card-body">\
+                        254 eventos inscritos na 5ª edição do Circuito Urbano, um recorde da iniciativa. Sob o tema “Localizando os ODS: não deixar ninguém e nenhum lugar para trás”, 183 eventos foram realizados nas modalidades virtual, híbrida e presencial, chegando a 21 estados e ao Distrito Federal.\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-20">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-20" aria-expanded="true" aria-controls="collapse-20"><i class="fa fa-chevron-circle-down"></i> 122 instituições e 20 pessoas físicas realizaram 183 eventos</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-20" class="collapse" aria-labelledby="heading-20" data-parent="#accordionNumeros">\
+                      <div class="timeline__image-wrapper">\
+                        <img src="./images/numeros/20_122_inst.svg" alt="" class="timeline__image">\
+                      </div>\
+                      <div class="card-body">\
+                        122 instituições e 20 pessoas físicas realizaram 183 eventos na edição de 2022 do Circuito Urbano, somando mil painelistas e moderadores, um público virtual de 12,9 mil espectadores e mais de 10 mil pessoas no público presencial. Os eventos trouxeram discussões sobre inclusão, sustentabilidade e desenvolvimento urbano, divididos em cinco linhas temáticas voltadas aos Objetivos de Desenvolvimento Sustentável: Conhecer; Planejar; Participar e Inovar; Financiar e Implementar; e Monitorar e Avaliar.\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-21">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-21" aria-expanded="true" aria-controls="collapse-21"><i class="fa fa-chevron-circle-down"></i> 194 pessoas</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-21" class="collapse" aria-labelledby="heading-21" data-parent="#accordionNumeros">\
+                      <div class="timeline__image-wrapper">\
+                        <img src="./images/numeros/21_194_pessoas.svg" alt="" class="timeline__image">\
+                      </div>\
+                      <div class="card-body">\
+                        194 pessoas fizeram parte da equipe de escritório e de campo do ONU-Habitat Brasil, sendo 139 mulheres e 55 homens, distribuídas em diferentes localidades. \
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-22">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-22" aria-expanded="true" aria-controls="collapse-22"><i class="fa fa-chevron-circle-down"></i> 28 missões</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-22" class="collapse" aria-labelledby="heading-22" data-parent="#accordionNumeros">\
+                      <div class="timeline__image-wrapper">\
+                        <img src="./images/numeros/22_28_missoes.svg" alt="" class="timeline__image">\
+                      </div>\
+                      <div class="card-body">\
+                        28 missões organizadas pelo time do ONU-Habitat Brasil para realizar ações de advocacy, apresentar resultados e conduzir treinamentos, oficinas e atividades participativas, além de participar em eventos, seminários e comitês de planejamento – atividades essenciais para fomentar um crescimento urbano sustentável e produzir efeitos benéficos nas comunidades locais.\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-23">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-23" aria-expanded="true" aria-controls="collapse-23"><i class="fa fa-chevron-circle-down"></i> 20 novas parcerias</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-23" class="collapse" aria-labelledby="heading-23" data-parent="#accordionNumeros">\
+                      <div class="timeline__image-wrapper">\
+                        <img src="./images/numeros/23_20_novas_parcerias.svg" alt="" class="timeline__image">\
+                      </div>\
+                      <div class="card-body">\
+                        20 novas parcerias concretizadas em 2022, incluindo as modalidades de Apoio Institucional, Carta de Parceria e Memorando de Entendimento. As novas ações se somam a quatro outras iniciativas vigentes, totalizando 24 parcerias institucionais no total.  \
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-24">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-24" aria-expanded="true" aria-controls="collapse-24"><i class="fa fa-chevron-circle-down"></i> Mais de 630 menções na imprensa</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-24" class="collapse" aria-labelledby="heading-24" data-parent="#accordionNumeros">\
+                      <div class="timeline__image-wrapper">\
+                        <img src="./images/numeros/24_mais_de_630.svg" alt="" class="timeline__image">\
+                      </div>\
+                      <div class="card-body">\
+                        Mais de 630 menções na imprensa sobre as ações do ONU-Habitat em 2022, com destaque para veiculações na TV aberta, entrevistas em rádio e diversas matérias em mídias internacionais, nacionais e locais.\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="card">\
+                    <div class="card-header" id="heading-25">\
+                      <h1 class="clearfix mb-0">\
+                        <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-25" aria-expanded="true" aria-controls="collapse-25"><i class="fa fa-chevron-circle-down"></i> 22 mil seguidores</a>\
+                      </h1>\
+                    </div>\
+                    <div id="collapse-25" class="collapse" aria-labelledby="heading-25" data-parent="#accordionNumeros">\
+                      <div class="timeline__image-wrapper">\
+                        <img src="./images/numeros/25_22_mil_seguidores.svg" alt="" class="timeline__image">\
+                      </div>\
+                      <div class="card-body">\
+                        22 mil seguidores alcançados e mais de 200 publicações elaboradas para o Instagram com notícias sobre ações locais, advocacy e resultados da atuação no país.\
+                      </div>\
                     </div>\
                   </div>\
                 </div>\
@@ -772,7 +1034,7 @@ var config = {
       onChapterExit: []
     },
 
-    /*
+   
     {
       id: "teste",
       alignment: "full",
@@ -781,19 +1043,28 @@ var config = {
       //bookmark: 'Abertura',
       description: '\
       <div class="light">\
-        <div class="container pt-2">\
-          <h1 class="azul text-center">TESTE</h1>\
+        <div class="container-num pt-2">\
+          <h1 class="rosa text-center">2022 em Números</h1>\
           <section class="timeline">\
-              <div class="container">\
                 <div class="row">\
                   <div class="col-md-10 offset-md-1">\
                   <div class="accordion" id="accordionNumeros">\
                     <div class="col-sm-6 timeline__item">\
-                      <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1512457488427-6d5759c7e17b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c6b5deacc86d6fc5fcac2f06595bcd26" alt="" class="timeline__image"></div>\
-                      <p class="timeline__text">\
-                        lorem lorem lorem lorem lorem lorem lorem\
-                        <time class="timeline__date" datetime="2018-04-11">11/04/2018</time>\
-                      </p>\
+                      <div class="timeline__image-wrapper">\
+                        <img src="./images/numeros/25_22_mil_seguidores.svg" alt="" class="timeline__image">\
+                      </div>\
+                      <div class="card">\
+                      <div class="card-header" id="heading-26">\
+                        <h1 class="clearfix mb-0">\
+                          <a class="btn btn-link cursor-hover" data-toggle="collapse" data-target="#collapse-26" aria-expanded="true" aria-controls="collapse-26"><i class="fa fa-chevron-circle-down"></i> 22 mil seguidores</a>\
+                        </h1>\
+                      </div>\
+                      <div id="collapse-26" class="collapse" aria-labelledby="heading-26" data-parent="#accordionNumeros">\
+                        <div class="card-body">\
+                          alcançados e mais de 200 publicações elaboradas para o Instagram com notícias sobre ações locais, advocacy e resultados da atuação no país.\
+                        </div>\
+                      </div>\
+                    </div>\
                     </div>\
                     <div class="col-sm-6 timeline__item">\
                       <div class="timeline__image-wrapper"><img src="https://images.unsplash.com/photo-1515846793739-9528018713bc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=b0bd7c84332fd48dcdfdcdd7cd863712" alt="" class="timeline__image"></div>\
@@ -832,7 +1103,6 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-              </div>\
             </section>\
           </div>\
       </div>\
@@ -851,7 +1121,7 @@ var config = {
       callback: "",
       onChapterEnter: [],
       onChapterExit: []
-    },*/
+    },
 
     {
       id: "publicacoes",
