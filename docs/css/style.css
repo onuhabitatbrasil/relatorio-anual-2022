@@ -25,6 +25,10 @@ body {
     padding-bottom: 1.25em;
 }
 
+.p-right {
+    padding-right: 1em;
+}
+
 .p-left {
     padding-left: 3em;
 }
@@ -1046,7 +1050,11 @@ ul.social-icons li{
 }
 
 .img-fluid {
-  max-width: 100%;
+    max-width: 100%;
+}
+
+.img-hist {
+    max-width: 60%;
 }
 
 .container-history {
@@ -1069,8 +1077,8 @@ ul.social-icons li{
   .container-exp {
     max-width: 700px;
   }
-  .img-fluid {
-      max-width: 75%;
+  .img-hist {
+    max-width: 70%;
   }
   p {
       font-size: 0.775rem;
@@ -1088,8 +1096,8 @@ ul.social-icons li{
   .container-exp {
     max-width: 900px;
   }
-  .img-fluid {
-      max-width: 75%;
+  .img-hist {
+    max-width: 70%;
   }
   p {
     font-size: 0.775rem;
@@ -1107,7 +1115,7 @@ ul.social-icons li{
   .container-exp {
     max-width: 1000px;
   }
-  .img-fluid {
+  .img-hist {
       max-width: 100%;
   }
   p {
@@ -1126,7 +1134,7 @@ ul.social-icons li{
   .container-exp {
     max-width: 1250px;
   }
-  .img-fluid {
+  .img-hist {
       max-width: 100%;
   }
   p {

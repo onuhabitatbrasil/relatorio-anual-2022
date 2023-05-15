@@ -108,3 +108,11 @@
 .accordion .card-body {
   font-size: 0.85rem;
 }
+
+.accordion .btn {
+  padding: 0;
+}
+
+.accordion img {
+  width: 100%;
+}

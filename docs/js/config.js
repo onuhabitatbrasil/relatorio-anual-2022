@@ -707,8 +707,8 @@ var config = {
         <div class="container p-bottom">\
           <h1 class="rosa text-center">2022 em Números</h1>\
             <div class="row">\
-              <div class="col-lg-12">\
-                <div class="accordion" id="accordionNumeros">\
+              <div class="accordion" id="accordionNumeros">\
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">\
                   <div class="card">\
                     <div class="card-header" id="heading-1">\
                       <h1 class="clearfix mb-0">\
@@ -852,6 +852,8 @@ var config = {
                       <div class="card-body">65 mil moradores de 141 territórios em Juiz de Fora estão sendo beneficiados pelo levantamento de dados e elaboração de mais de 4.500 mapas sobre infraestrutura urbana, habitação, transporte e serviços públicos com o Mapa Rápido Participativo (MRP) das áreas mais vulnerabilizadas da cidade.</div>\
                     </div>\
                   </div>\
+                </div>\
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">\
                   <div class="card">\
                     <div class="card-header" id="heading-14">\
                       <h1 class="clearfix mb-0">\
@@ -1727,7 +1729,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container-history text-left">\
-          <div class="row no-gutters p-left">\
+          <div class="row no-gutters">\
             <div class="col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
@@ -1885,7 +1887,7 @@ var config = {
         description: '\
         <div class="light">\
           <div class="container-history text-left">\
-            <div class="row no-gutters p-left">\
+            <div class="row no-gutters">\
               <div class="col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
@@ -2010,7 +2012,7 @@ var config = {
         description: '\
         <div class="light">\
           <div class="container-history text-left">\
-            <div class="row no-gutters p-left">\
+            <div class="row no-gutters">\
               <div class="col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
@@ -2121,8 +2123,8 @@ var config = {
       bookmark: 'Belo Horizonte',
       description: '\
       <div class="light">\
-        <div class="container-history text-left">\
-          <div class="row no-gutters p-left">\
+        <div class="row no-gutters p-left p-right">\
+          <div class="row no-gutters">\
             <div class="col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
@@ -2243,7 +2245,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container-history text-left">\
-          <div class="row no-gutters p-left">\
+          <div class="row no-gutters">\
             <div class="col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
@@ -2357,7 +2359,7 @@ var config = {
         description: '\
         <div class="light">\
           <div class="container-history text-left">\
-            <div class="row no-gutters p-left">\
+            <div class="row no-gutters">\
               <div class="col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
@@ -2470,7 +2472,7 @@ var config = {
         description: '\
         <div class="light">\
           <div class="container-history">\
-            <div class="row no-gutters p-left">\
+            <div class="row no-gutters">\
               <div class="col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
@@ -2575,7 +2577,7 @@ var config = {
         description: '\
         <div class="light">\
           <div class="container-history text-left">\
-            <div class="row no-gutters p-left">\
+            <div class="row no-gutters">\
               <div class="col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
@@ -2672,8 +2674,8 @@ var config = {
       bookmark: 'Curitiba',
       description: '\
       <div class="light">\
-        <div class="container-history text-left">\
-          <div class="row no-gutters p-left">\
+        <div class="container-history text-left p-right">\
+          <div class="row no-gutters">\
             <div class="col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
@@ -2743,7 +2745,7 @@ var config = {
         ',
         location: {
           center: [-51.06166, -15.66707],
-          zoom: 1,
+          zoom: 0.7,
           pitch: 0.00,
           bearing: 0.00,
           speed: 0.5,
@@ -2765,7 +2767,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container-history text-left">\
-          <div class="row no-gutters p-left">\
+          <div class="row no-gutters">\
             <div class="col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
@@ -2788,28 +2790,40 @@ var config = {
                   <p>Igor também enfatizou a importância de iniciativas de cooperação Sul-Sul para fortalecer relações entre países do Sul Global e desenvolver a região. <strong>“Para a diplomacia subnacional, a participação de São Paulo nessa iniciativa foi um case. Espero que a partir desse ano isso seja colocado a nível nacional. Essa experiência de sair do seu lugar e ir para o lugar do outro foi valiosa"</strong>.</p>\
                 </div>\
               </div>\
-          </div>\
-            <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-wwc.jpg" alt="" class="img-fluid"/>\
             </div>\
-          </div>\
+              <div class="col-lg-4 align-self-end">\
+                  <img src="images/historia-wwc.jpg" alt="" class="img-fluid img-hist"/>\
+              </div>\
+            </div>\
         </div>\
       </div>\
       ',
       location: {
-        center: [-51.06166, -15.66707],
-        zoom: 1.5,
+        /*center: [-51.06166, -15.66707],*/
+        zoom: 0.7,
         pitch: 0.00,
         bearing: 0.00,
         speed: 0.5,
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
-      spinGlobe: false,
+      spinGlobe: true,
       mapInteractive: false,
       callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+          layer: 'satellite',
+          opacity: 0,
+          duration: 1500
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'satellite',
+          opacity: 1,
+          duration: 500
+        }
+      ]
     }
 
   ]
