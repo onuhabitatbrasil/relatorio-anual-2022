@@ -2740,6 +2740,13 @@ var config = {
               <p>De forma geral, o Sul Global abrange países e regiões muito diferentes entre si. No entanto, uma das formas de uso do termo está relacionada à ideia de que esses países podem colaborar para avançarem juntos em questões sociais, econômicas, ambientais e políticas.</p>\
               <p>No contexto urbano, diferentes territórios do Sul Global podem, por exemplo, trocar conhecimentos para resolver problemas relacionados à falta de moradia ou o acesso à água. Essa forma de colaboração é chamada de Cooperação Sul-Sul (CSS), por meio da qual dois ou mais países promovem intercâmbios de conhecimento, transferências de tecnologias, respostas a emergências e desenvolvimento de meios de subsistência.</p>\
               <p>Sua vantagem é que diferentes regiões do Sul com frequência apresentam problemas ou capacidades similares. Isso significa que, quando um país ou cidade do Sul desenvolve uma solução para um desafio, essa boa prática pode ser adaptada para outro contexto com mais facilidade, chegando a bons resultados de forma mais eficiente.</p>\
+              <ul class="fa-ul ul-legend">\
+                <li class="li-hover" value="global-south">\
+                  <span class="fa-li" style="color:#f1b944;">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Região considerada como Sul Global</span>\
+                </li>\
+              </ul>\
           </div>\
         </div>\
         ',
@@ -2755,8 +2762,29 @@ var config = {
         spinGlobe: true,
         mapInteractive: false,
         callback: '',
-        onChapterEnter: [],
-        onChapterExit: []
+        onChapterEnter: [
+          {
+            layer: 'global-south',
+            opacity: 0.85,
+            duration: 1000
+          },
+          {
+            layer: 'satellite',
+            opacity: 0,
+            duration: 100
+          }
+        ],
+        onChapterExit: [
+          {
+            layer: 'global-south',
+            opacity: 0
+          },
+          {
+            layer: 'satellite',
+            opacity: 0,
+            duration: 0
+          }
+        ]
     },
 
     {
@@ -2812,16 +2840,25 @@ var config = {
       callback: '',
       onChapterEnter: [
         {
+          layer: 'global-south',
+          opacity: 0.75
+        },
+        {
           layer: 'satellite',
           opacity: 0,
-          duration: 1500
+          duration: 500
         }
       ],
       onChapterExit: [
         {
+          layer: 'global-south',
+          opacity: 0,
+          duration: 1000
+        },
+        {
           layer: 'satellite',
           opacity: 1,
-          duration: 500
+          duration: 750
         }
       ]
     }

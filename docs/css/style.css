@@ -251,6 +251,29 @@ ul.social-icons li{
    display: inline;
 }
   
+/* Hover list layer */
+.li-hover{
+    cursor: pointer;
+    margin: 15px 0px 0px 0px;
+    font-size: 0.85rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.li-hover:hover{
+    font-weight: bold;
+}
+.li-hover-hover{
+    font-weight: bold;
+}
+#ul-depth{
+    width: fit-content;
+}
+.fa-li {
+    top: 0;
+}
+.fa-ul {
+    width: fit-content;
+}
+
 .scroll-down {
 	position: absolute;
 	left: 50%;
@@ -272,11 +295,6 @@ ul.social-icons li{
 	-moz-animation: fade_move_down 1.25s ease-in-out infinite;
 	animation: fade_move_down 1.25s ease-in-out infinite;
 }
-
-.light-trans {
-    background-color: transparent;
-    display: flex;
-}
   
 .scroll-down-white {
     display: flex;
@@ -296,7 +314,7 @@ ul.social-icons li{
 	border-right: 2px solid #cc3480;
 }
 
-#subheader {
+#agradecimentos {
     background-color: #fff;
     margin: auto;
     width: 100%;
@@ -305,34 +323,11 @@ ul.social-icons li{
 	height: 100%;
 }
 
-#subheader p {
+#agradecimentos p {
     color: #00568a;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#subheader a {
-    color: #fff;
-}
-
-#subheader a:hover {
-    color: #cc3480;
-}
-
-#subheader .scroll-down {
-	border-bottom: 2px solid #fff;
-	border-right: 2px solid #fff;
-}
-
-#subheader .scroll-down:hover{
-	border-bottom: 5px solid #fff;
-	border-right: 5px solid #fff;
-}
-
-#subheader .scroll-down:visited{
-	border-bottom: 2px solid #fff;
-	border-right: 2px solid #fff;
-}
- 
 #footer {
     background-color: #00afe2;
     width: 100%;
@@ -480,10 +475,6 @@ ul.social-icons li{
     opacity: 0.99;
 }
 
-#rotate-mobile {
-    display: none;
-}
-
 .mapboxgl-popup {
     font: 12px/20px 'Montserrat', Helvetica, sans-serif;
 }
@@ -500,7 +491,7 @@ ul.social-icons li{
         padding-left: 0em;
     }
 
-    #subheader p {
+    #agradecimentos p {
         line-height: 1em;
         font-size: 0.95em;
     }    

@@ -438,3 +438,28 @@ function updateInsetLayer(bounds) {
 
 // setup resize event
 window.addEventListener('resize', scroller.resize);
+
+document.querySelectorAll('.ul-legend').forEach(item => {
+    item.addEventListener("mouseover", function (e) {
+        [...item.children].forEach(function (li) {
+            setLayerOpacity({
+                layer: li.getAttribute('value'),
+                opacity: 1
+            })
+        })
+        setLayerOpacity({
+            layer: e.target.getAttribute('value'),
+            opacity: 1
+        })
+    }, false)
+
+    item.addEventListener("mouseout", function (e) {
+        [...item.children].forEach(function (li) {
+            setLayerOpacity({
+                layer: li.getAttribute('value'),
+                opacity: 0.85
+            })
+        })
+    }, false);
+
+})
