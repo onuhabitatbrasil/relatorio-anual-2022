@@ -1682,20 +1682,27 @@ var config = {
           <p>Uma vocação em comum une 52 municípios espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a Rede de Cidades-Polo do Nordeste — o G52.</p>\
           <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a abrangência da rede para o norte de Minas Gerais e Espírito Santo. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
           <p>Para fortalecer as capacidades de planejamento regional e estimular a articulação em rede, as cidades foram alvo de uma iniciativa que estimulou o desenvolvimento de soluções inovadoras, sustentáveis e escalonáveis para os desafios que enfrentam.</p>\
+          <ul class="fa-ul">\
+                <li class="li-hover" value="sudene">\
+                  <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Área de atuação da SUDENE</span>\
+                </li>\
+          </ul>\
         </div>\
       </div>\
       ',
       location: {
-          center: [-47.41445, -12.83204],
-          zoom: 4.91,
-          pitch: 46.00,
+          center: [-43.28458, -10.95274],
+          zoom: 4.25,
+          pitch: 30.00,
           bearing: 0.00,
           speed: 0.25
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       spinGlobe: false,
-      mapInteractive: false,
+      mapInteractive: true,
       callback: '',
       onChapterEnter: [
         {
@@ -1705,7 +1712,7 @@ var config = {
         },
         {
             layer: 'sudene',
-            opacity: 1,
+            opacity: 0.5,
             duration: 2000
         }
       ],
@@ -1758,9 +1765,9 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-47.41445, -12.83204],
-        zoom: 4.91,
-        pitch: 46.00,
+        //center: [-47.41445, -12.83204],
+        zoom: 4.25,
+        pitch: 30.00,
         bearing: 0.00,
         speed: 2
       },
@@ -1772,7 +1779,7 @@ var config = {
       onChapterEnter: [
         {
             layer: 'munic-g52',
-            opacity: 0.5
+            opacity: 1
         },
         {
             layer: 'sudene',
@@ -1805,31 +1812,50 @@ var config = {
           <p>Adaptação, flexibilidade, gestão de risco e integração são algumas das palavras que descrevem a atuação de Teresina frente às mudanças climáticas. Localizada no semiárido nordestino, a cidade aquece até duas vezes mais rápido que a média global de temperatura. Isso torna a capital piauiense mais vulnerável aos impactos ambientais, resultando em enchentes, secas e ondas de calor que a desafiam constantemente.</p>\
           <p>Para solucionar estes e demais problemas, a cidade está implementando soluções de baixo custo baseadas na natureza para lidar com o ciclo da água e o desequilíbrio do ecossistema - reforçando a reputação de “cidade verde” que enfrenta os desafios climáticos.</p>\
           <p>Através de oficinas participativas, o Programa Global de Cidades Resilientes do ONU-Habitat e a Prefeitura de Teresina definiram atores urbanos estratégicos e prioridades da cidade para lidar com choques, riscos e impactos causados pela mudança do clima. As atividades realizadas pelo programa possibilitaram uma avaliação das ações do município, além de definir ações eficazes e estratégicas alinhadas aos problemas enfrentados no presente e que virão no futuro, tornando a cidade mais resiliente e sustentável.</p>\
+          <p style = "margin-top:1.75em; font-size:0.75rem;">As tonalidades de vermelho indicam áreas onde as temperaturas médias anuais de 2019 foram mais quentes do que no período de 1951 a 1980 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=GISS_TA_Y&date=2023-03-01">NASA/GISS/2019)</a>.</p>\
+          <img style = "width: 35%;" src="assets/legend_teresina.png" alt="Legenda de tonalidades de temperaturas anormais"/>\
         </div>\
       </div>\
       ',
       location: {
-          center: [-42.80643, -5.08873],
-          zoom: 11.99,
-          pitch: 45.00,
+          center: [-44.03826, 26.14931],
+          zoom: 1.25,
+          pitch: 0.00,
           bearing: 0.00,
           speed: 2
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
-      spinGlobe: false,
+      spinGlobe: true,
       mapInteractive: true,
       callback: '',
       onChapterEnter: [
         {
-            layer: 'teresina',
+            layer: 'pin-teresina',
             opacity: 1
+        },
+        {
+          layer: 'global-anomalia',
+          opacity: 1,
+          duration: 1500
+        },
+        {
+          layer: 'country-label',
+          opacity: 0
         }
       ],
       onChapterExit: [
           {
-              layer: 'teresina',
+              layer: 'pin-teresina',
               opacity: 0
+          },
+          {
+            layer: 'global-anomalia',
+            opacity: 0
+          },
+          {
+            layer: 'country-label',
+            opacity: 1
           }
       ]
   },
@@ -1848,13 +1874,30 @@ var config = {
           <p>Pernambuco se manifesta nos contrastes entre Zona da Mata, Agreste e Sertão. É o estado mais antigo do Brasil, com uma história vista a olho nu em suas conhecidas construções coloniais, e ouvida em ritmo de frevo e maracatu. São 185 municípios contando sobre passado e presente de uma região diversa em povo e território.</p>\
           <p>As histórias do presente trazem uma rica vida cultural. Elas dividem espaço com altos índices de violência, deixando marcas no cotidiano de jovens e de mulheres. Para contribuir com as políticas públicas de prevenção social à violência, o ONU-Habitat implementou as metodologias participativas de Desenho de Espaços Públicos e Auditoria de Segurança das Mulheres, ou Cidade Mulher, através da iniciativa Cooperação Pernambuco.</p>\
           <p>A implementação das metodologias passou por comunidades de cada uma das regiões pernambucanas. A grande dispersão territorial permitiu compreender nuances locais importantes, que contemplam a enorme diversidade que define o estado de Pernambuco.</p>\
+          <ul class="fa-ul">\
+                <li class="li-hover pr-5" value="subregioes-pe">\
+                  <span class="fa-li" style="color:#e3773b; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Sertão</span>\
+                </li>\
+                <li class="li-hover pr-5" value="subregioes-pe">\
+                  <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Agreste</span>\
+                </li>\
+                <li class="li-hover" value="subregioes-pe">\
+                  <span class="fa-li" style="color:#f1b944; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Zona da Mata</span>\
+                </li>\
+          </ul>\
         </div>\
       </div>\
       ',
     location: {
-        center: [-39.39162, -8.60275],
-        zoom: 6.13,
-        pitch: 45.00,
+        center: [-38.17727, -8.29398],
+        zoom: 5.5,
+        pitch: 40.00,
         bearing: 0.00,
         speed: 2
     },
@@ -1867,12 +1910,20 @@ var config = {
       {
           layer: 'munic-pe',
           opacity: 1
+      },
+      {
+        layer: 'subregioes-pe',
+        opacity: 0.7
       }
     ],
     onChapterExit: [
         {
             layer: 'munic-pe',
             opacity: 0
+        },
+        {
+          layer: 'subregioes-pe',
+          opacity: 0
         }
     ]
   },
@@ -1919,11 +1970,11 @@ var config = {
         </div>\
         ',
         location: {
-          center: [-39.39162, -8.60275],
-          zoom: 6.13,
-          pitch: 45.00,
-          bearing: 0.00,
-          speed: 2
+          //center: [-38.17727, -8.29398],
+          //zoom: 5.5,
+          //pitch: 40.00,
+          //bearing: 0.00,
+          //speed: 2
             // flyTo additional controls-
             // These options control the flight curve, making it move
             // slowly and zoom out almost completely before starting
@@ -2841,7 +2892,7 @@ var config = {
       onChapterEnter: [
         {
           layer: 'global-south',
-          opacity: 0.75
+          opacity: 0.85
         },
         {
           layer: 'satellite',

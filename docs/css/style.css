@@ -139,6 +139,10 @@ a:hover {
     color: #cc3480;
 }
 
+p a {
+    text-decoration: underline;
+}
+
 #header a {
     color: #ffc5da;
 }
@@ -253,17 +257,17 @@ ul.social-icons li{
   
 /* Hover list layer */
 .li-hover{
-    cursor: pointer;
     margin: 15px 0px 0px 0px;
     font-size: 0.85rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
+/*
 .li-hover:hover{
     font-weight: bold;
 }
 .li-hover-hover{
     font-weight: bold;
-}
+}*/
 #ul-depth{
     width: fit-content;
 }
@@ -467,8 +471,8 @@ ul.social-icons li{
 .step {
     padding-bottom: 80vh;
     /*margin-bottom: 30vh;*/
-    opacity: 0.85;
-    transition-duration: 1s;
+    opacity: 0.7;
+    transition-duration: 0.5s;
 }
 
 .step.active {
@@ -477,12 +481,6 @@ ul.social-icons li{
 
 .mapboxgl-popup {
     font: 12px/20px 'Montserrat', Helvetica, sans-serif;
-}
-
-.mapboxgl-ctrl-top-right {
-    margin-top: 75px !important;
-    margin-right: 20px !important;
-    z-index: 99999;
 }
   
 @media (max-width: 700px) {
@@ -495,11 +493,6 @@ ul.social-icons li{
         line-height: 1em;
         font-size: 0.95em;
     }    
-
-    .mapboxgl-ctrl-top-right {
-        margin-top: 7em !important;
-		margin-right: 0em !important;
-	}
 
     #features {
         width: 100%;
@@ -1139,3 +1132,9 @@ ul.social-icons li{
     max-width: 1250px;
   }
 }
+
+.mapboxgl-ctrl-top-right {
+    padding-top: 10em;
+    padding-right: 2.5em;
+}
+   

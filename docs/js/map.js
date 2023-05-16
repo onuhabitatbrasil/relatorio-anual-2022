@@ -194,10 +194,10 @@ var map = new mapboxgl.Map({
     // set custom projection
     projection: config.projection,
     // make storymap partially interactive
-    interactive: true,
+    interactive: config.mapInteractive,
     dragPan: false,
-    dragRotate: true,
-    doubleClickZoom: true,
+    dragRotate: false,
+    doubleClickZoom: false,
     scrollZoom: false,
     touchZoomRotate: false,
 });
@@ -236,7 +236,7 @@ map.on("load", function () {
             'maxzoom': 14
         });
         // add the DEM source as a terrain layer with exaggerated height
-        map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+        map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.75 });
 
         // add a sky layer that will show when the map is highly pitched
         map.addLayer({
@@ -314,14 +314,14 @@ map.on("load", function () {
             if (chapter.mapInteractive) {
                 map.addControl(navigation);
                 map.dragPan.enable();
-                map.doubleClickZoom.enable();
+                map.dragRotate.enable();
                 map.getCanvas().style.cursor = 'grab';
             } else {
                 if (map.hasControl(navigation)) {
                     map.removeControl(navigation);
                 }
                 map.dragPan.disable();
-                map.doubleClickZoom.disable();
+                map.dragRotate.disable();
                 map.getCanvas().style.cursor = 'default';
             }
             if (chapter.callback) {
@@ -346,6 +346,7 @@ map.on("load", function () {
                 });
             }
         })
+        
         .onStepExit(response => {
             var chapter = config.chapters.find(chap => chap.id === response.element.id);
             response.element.classList.remove('active');
@@ -457,7 +458,7 @@ document.querySelectorAll('.ul-legend').forEach(item => {
         [...item.children].forEach(function (li) {
             setLayerOpacity({
                 layer: li.getAttribute('value'),
-                opacity: 0.85
+                opacity: 0.8
             })
         })
     }, false);
