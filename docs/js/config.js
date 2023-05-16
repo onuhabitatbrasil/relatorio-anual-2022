@@ -1695,7 +1695,7 @@ var config = {
       location: {
           center: [-43.28458, -10.95274],
           zoom: 4.25,
-          pitch: 30.00,
+          pitch: 25.00,
           bearing: 0.00,
           speed: 0.25
       },
@@ -1766,10 +1766,10 @@ var config = {
       ',
       location: {
         //center: [-47.41445, -12.83204],
-        zoom: 4.25,
-        pitch: 30.00,
-        bearing: 0.00,
-        speed: 2
+        //zoom: 4.25,
+        //pitch: 30.00,
+        //bearing: 0.00,
+        //speed: 2
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
