@@ -1,14 +1,3 @@
-.timeline {
-  padding: 40px 10%;
-}
-
-@media (min-width: 576px) {
-  .timeline {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 .timeline__item {
   position: relative;
   display: flex;
@@ -16,6 +5,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .timeline__item::before {
   content: "";
   position: absolute;
@@ -27,6 +17,7 @@
   border-radius: 50%;
   background-color: #cc3480;
 }
+
 .timeline__item::after {
   content: "";
   position: absolute;
@@ -36,7 +27,47 @@
   width: 1px;
   background-color: #d7d7d7;
 }
+
+.timeline__image-wrapper {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  /*border-radius: 50%;
+  border: 3px solid #cc3480;*/
+  display: inline-flex;
+}
+
+.timeline__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.accordion .card-body {
+  font-size: 0.65rem;
+  line-height: 1.15;
+}
+
+.accordion .btn {
+  padding: 0;
+}
+
+.accordion img {
+  width: 100%;
+}
+
 @media (min-width: 576px) {
+
+  .timeline__image-wrapper {
+    width: 74px;
+    height: 74px;
+  }
+
   .timeline__item {
     flex-direction: row-reverse;
     text-align: right;
@@ -60,20 +91,7 @@
   .timeline__item:nth-child(even)::after {
     left: -1px;
   }
-}
 
-.timeline__image-wrapper {
-  flex-shrink: 0;
-  width: 74px;
-  height: 74px;
-  margin-left: 10px;
-  margin-right: 20px;
-  overflow: hidden;
-  /*border-radius: 50%;
-  border: 3px solid #cc3480;*/
-  display: inline-flex;
-}
-@media (min-width: 576px) {
   .timeline__image-wrapper {
     margin-left: 20px;
     margin-right: 0;
@@ -82,37 +100,31 @@
     margin-left: 0;
     margin-right: 20px;
   }
+
+  .accordion .card-body {
+    font-size: 0.7rem;
+    line-height: 1.15;
+  }
+
 }
 
-.timeline__image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+@media (min-width: 768px) {
+  .accordion .card-body {
+    font-size: 0.7rem;
+    line-height: 1.15;
+  }
 }
 
-.timeline__text {
-  margin: 0;
-  line-height: 1.4;
+@media (min-width: 992px) {
+  .accordion .card-body {
+    font-size: 0.825rem;
+    line-height: 1.175;
+  }
 }
 
-.timeline__date {
-  display: block;
-  margin-top: 5px;
-  font-weight: bold;
-  font-size: 12px;
-  color: #cc3480;
-}/*# sourceMappingURL=time.css.map */
-
-.accordion .card-body {
-  font-size: 0.85rem;
-}
-
-.accordion .btn {
-  padding: 0;
-}
-
-.accordion img {
-  width: 100%;
+@media (min-width: 1200px) {
+  .accordion .card-body {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
 }
