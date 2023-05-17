@@ -1081,8 +1081,8 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
     max-width: 50%;
   }
   p {
-      font-size: 0.8rem;
-      line-height: 1;
+    font-size: 0.8rem;
+    line-height: 1;
   }
   .container-history {
     max-width: 800px;
@@ -1100,8 +1100,9 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
     max-width: 900px;
   }
   .img-hist {
-    max-width: 50%;
-    align-self: center;
+    max-width: 30%;
+    margin: auto;    
+    display: block;
   }
   p {
     font-size: 0.8rem;
