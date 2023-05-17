@@ -1938,20 +1938,20 @@ var config = {
     mapInteractive: true,
     callback: '',
     onChapterEnter: [
-      {
-          layer: 'munic-pe',
-          opacity: 1
-      },
+      //{
+      //    layer: 'munic-pe',
+      //    opacity: 1
+      //},
       {
         layer: 'subregioes-pe',
         opacity: 0.7
       }
     ],
     onChapterExit: [
-        {
-            layer: 'munic-pe',
-            opacity: 0
-        },
+      //  {
+      //     layer: 'munic-pe',
+      //      opacity: 0
+      // },
         {
           layer: 'subregioes-pe',
           opacity: 0
@@ -2018,20 +2018,20 @@ var config = {
         mapInteractive: false,
         callback: '',
         onChapterEnter: [
-          {
-              layer: 'munic-pe',
-              opacity: 1
-          },
+        //  {
+        //      layer: 'munic-pe',
+        //      opacity: 1
+        //  },
           {
             layer: 'subregioes-pe',
             opacity: 0.7
           }
         ],
         onChapterExit: [
-            {
-                layer: 'munic-pe',
-                opacity: 0
-            },
+         //   {
+         //       layer: 'munic-pe',
+         //       opacity: 0
+         //   },
             {
               layer: 'subregioes-pe',
               opacity: 0
@@ -2178,10 +2178,10 @@ var config = {
       </div>\
       ',
       location: {
-          center: [-43.91840, -19.81976],
-          zoom: 13.23,
-          pitch: 68.50,
-          bearing: -167.20,
+          center: [-43.93074, -19.86761],
+          zoom: 11.71,
+          pitch: 60.50,
+          bearing: 0.00,
           speed: 1
       },
       mapAnimation: 'flyTo',
@@ -2193,12 +2193,12 @@ var config = {
         {
             layer: 'satellite',
             opacity: 0.5,
-            duration: 3000
+            duration: 2000
         },
         {
             layer: 'agsn',
             opacity: 0.7,
-            duration: 4000
+            duration: 1000
         }
       ],
       onChapterExit: [
@@ -2263,8 +2263,7 @@ var config = {
       onChapterEnter: [
         {
             layer: 'agsn',
-            opacity: 0.7,
-            duration: 4000
+            opacity: 0.7
         }
       ],
       onChapterExit: [
@@ -2308,12 +2307,12 @@ var config = {
         {
             layer: 'satellite',
             opacity: 0.5,
-            duration: 3000
+            duration: 2000
         },
         {
             layer: 'agsn',
             opacity: 0.7,
-            duration: 4000
+            duration: 1000
         }
       ],
       onChapterExit: [
@@ -2386,8 +2385,7 @@ var config = {
       onChapterEnter: [
         {
             layer: 'agsn',
-            opacity: 0.7,
-            duration: 4000
+            opacity: 0.7
         }
       ],
       onChapterExit: [
@@ -2432,12 +2430,12 @@ var config = {
           {
               layer: 'satellite',
               opacity: 0.5,
-              duration: 3000
+              duration: 2000
           },
           {
               layer: 'agsn',
               opacity: 0.7,
-              duration: 4000
+              duration: 1000
           }
         ],
         onChapterExit: [
@@ -2512,8 +2510,7 @@ var config = {
         onChapterEnter: [
           {
               layer: 'agsn',
-              opacity: 0.7,
-              duration: 4000
+              opacity: 0.7
           }
         ],
         onChapterExit: [
