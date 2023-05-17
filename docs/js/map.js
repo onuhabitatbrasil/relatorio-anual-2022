@@ -195,7 +195,7 @@ var map = new mapboxgl.Map({
     projection: config.projection,
     // make storymap partially interactive
     interactive: config.mapInteractive,
-    dragPan: false,
+    dragPan: true,
     dragRotate: false,
     doubleClickZoom: false,
     scrollZoom: false,
@@ -315,6 +315,7 @@ map.on("load", function () {
                 map.addControl(navigation);
                 map.dragPan.enable();
                 map.dragRotate.enable();
+                map.doubleClickZoom.enable();
                 map.getCanvas().style.cursor = 'grab';
             } else {
                 if (map.hasControl(navigation)) {
@@ -322,6 +323,7 @@ map.on("load", function () {
                 }
                 map.dragPan.disable();
                 map.dragRotate.disable();
+                map.doubleClickZoom.disable();
                 map.getCanvas().style.cursor = 'default';
             }
             if (chapter.callback) {

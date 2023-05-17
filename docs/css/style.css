@@ -1041,8 +1041,8 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
 }
 
 .mapboxgl-ctrl-top-right {
-    margin-top: 40vh;
-    margin-right: 2em;
+    margin-top: 45vh;
+    margin-right: 1em;
 }
 
 .img-fluid {
@@ -1101,10 +1101,11 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
   }
   .img-hist {
     max-width: 50%;
+    align-self: center;
   }
   p {
     font-size: 0.8rem;
-    line-height: 1.1;
+    line-height: 1;
   }
   .container-history {
     max-width: 1000px;
@@ -1129,7 +1130,7 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
   }
   p {
     font-size: 0.8rem;
-    line-height: 1.1;
+    line-height: 1;
   }
   .container-history {
     max-width: 1100px;
@@ -1141,7 +1142,7 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
     font-size: 1rem;
   }
   .lefty {
-    width: 33vw;
+    width: 35vw;
   }
 }
 
@@ -1153,8 +1154,8 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
       max-width: 100%;
   }
   p {
-    font-size: 0.9rem;
-    line-height: 1.1;
+    font-size: 0.85rem;
+    line-height: 1;
   }
   .container-history {
     max-width: 1300px;
@@ -1167,7 +1168,7 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
     float: right !important;
   }
   .lefty {
-    width: 30vw;
+    width: 33vw;
   }  
 }
    

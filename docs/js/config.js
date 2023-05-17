@@ -1764,9 +1764,9 @@ var config = {
       bookmark: 'SUDENE',
       description: '\
       <div class="light">\
-        <div class="container-history text-left">\
+        <div class="container-history no-gutters p-left p-right">\
           <div class="row no-gutters">\
-            <div class="col-lg-8">\
+            <div class="col-md-12 col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
                   <h1 class="laranja">Espaços verdes do semiárido</h1>\
@@ -1779,14 +1779,14 @@ var config = {
                   <p>Depois de participar da fase de capacitações temáticas oferecidas pela iniciativa para fortalecer os servidores da rede, a prefeitura de Serra Talhada se inscreveu no Desafio de Inovação, que tinha como objetivo engajar esses servidores a aplicar, em seu próprio contexto, o conhecimento adquirido.</p>\
                   <p>Para isso, cada proposta precisava conter um diagnóstico de problema, uma solução e um plano de ação – tudo voltado ao desenvolvimento urbano sustentável local. Para escolher a melhor ideia, a Prefeitura de Serra Talhada fez uma chamada interna, pedindo às secretarias o envio de sugestões. As melhores ideias foram construídas coletivamente ao longo de reuniões e debates.</p>\
                 </div>\
-                <div class="col-md-12 col-lg-6">\
+              <div class="col-md-12 col-lg-6">\
                 <p>De cinco sugestões iniciais, a escolhida foi “Espaços Verdes”, capitaneada pela Secretaria de Meio Ambiente. Transformando espaços públicos ociosos em áreas verdes e sociáveis, a proposta combate as ilhas do calor e aumenta o bem-estar dos moradores, além de potencializar o Plano de Arborização Urbana do município.<\p>\
                 <p>“Pensamos uma proposta do zero, tendo em vista que tinha de ser algo inovador. Queríamos envolver a população, oferecer lazer e qualidade de vida, e trabalhar com áreas verdes nas zonas periféricas do município”, explica o secretário do Meio Ambiente de Serra Talhada, Sinézio Rodrigues.<\p>\              <p>O projeto ficou em quinto lugar no Desafio de Inovação, garantindo a menção honrosa concedida a cidades com menos de 200 mil habitantes. Em Serra Talhada, a proposta foi tão bem recebida que vai virar realidade. A previsão é que ela comece a ser implementada em novembro de 2023, reestruturando canteiros que não possuem arborização e que estão localizados em bairros periféricos.</p>\
                 <p>Rodrigues complementa que os efeitos dessa iniciativa vão ser sentidos por muito tempo. “O principal legado que levamos com esta experiência foi o aprendizado em trabalhar em conjunto com os demais órgãos municipais e construir estratégias que vão ser extremamente benéficas para o desenvolvimento sustentável de nosso município”.</p>\
                 </div>\
               </div>\
             </div>\
-            <div class="col-lg-4 align-self-end">\
+            <div class="col-md-12 col-lg-4 align-self-lg-end">\
                 <img src="images/historia-sudene.jpg" alt="" class="img-hist"/>\
             </div>\
           </div>\
@@ -1967,23 +1967,23 @@ var config = {
         bookmark: 'Pernambuco',
         description: '\
         <div class="light">\
-          <div class="container-history text-left">\
+          <div class="container-history no-gutters p-left p-right">\
             <div class="row no-gutters">\
-              <div class="col-lg-8">\
+              <div class="col-md-12 col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
                     <h1 class="laranja">Infinitas conexões entre o espaço público e o sideral</h1>\
                   </div>\
                 </div>\
                 <div class="row p-bottom">\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                       <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
                       <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
                       <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
                       <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano.</p>\
                       <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
                   </div>\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                       <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, com o encontro desses dois universos e com o respeito às soluções inusitadas, <strong>muitos caminhos foram abertos e alguns já renderam frutos</strong>.</p>\
                       <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário <strong>“Pés no Chão, Janela do Céu”</strong>, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
                       <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
@@ -1991,8 +1991,8 @@ var config = {
                       </p>\
                   </div>\
                 </div>\
-            </div>\
-              <div class="col-lg-4 align-self-end">\
+              </div>\
+              <div class="col-md-12 col-lg-4 align-self-lg-end">\
                   <img src="images/historia-pernambuco.jpg" alt="" class="img-hist"/>\
               </div>\
             </div>\
@@ -2048,12 +2048,19 @@ var config = {
       image: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-        <div class="container p-right-left p-bottom">\
+        <div class="container p-right-left">\
           <h1 class="laranja">Alagoas</h1>\
           <p>Apesar de serem elementos marcantes em Maceió e estarem presentes em mais da metade de seus bairros, as grotas – assentamentos precários que ficam em vales sinuosos e vulneráveis – podem se destacar ou passar totalmente despercebidas na paisagem local.</p>\
           <p>Por muito tempo, as grotas foram invisibilizadas. Até um passado bastante recente, pouco ou quase nada se sabia sobre elas. Por serem morada de boa parte da população de baixa renda da capital alagoana, elas ocupavam também um outro espaço, desta vez imaterial e de estigma no imaginário coletivo.</p>\
           <p>Entendendo que as cerca de cem grotas de Maceió eram muito mais do que os aspectos negativos que geralmente lhes eram atribuídos, o Governo de Alagoas passou a dar novos contornos à paisagem já conhecida do estado, agregando esses territórios aos centros das discussões. Por meio de uma plataforma de ações focadas em melhorias de mobilidade urbana e habitacionais, veio a infraestrutura necessária para que outras narrativas sobre as grotas fossem construídas e, também, a percepção de que era urgente conhecê-las melhor para atender às suas demandas.</p>\
           <p>Seja por meio da coleta e do tratamento de dados qualificados ou pela capacitação de jovens dessas comunidades, o ONU-Habitat se junta a essa história justamente pela necessidade de produzir conhecimentos e dar novos sentidos linguísticos e práticos a esses territórios, reconstruindo a paisagem das grotas ao lado e a partir de quem de fato as vivencia.</p>\
+          <ul class="fa-ul">\
+                <li class="li-hover" value="grotas">\
+                  <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Grotas</span>\
+                </li>\
+          </ul>\
         </div>\
       </div>\
       ',
@@ -2073,17 +2080,13 @@ var config = {
             {
                 layer: 'satellite',
                 opacity: 0.5,
-                duration: 4000
+                duration: 3000
             },
             {
                 layer: 'grotas',
-                opacity: 0.5,
-                duration: 5000
-            }//,
-            //{
-            //  layer: 'building-extrusion',
-            //  opacity: 0.5
-            //}
+                opacity: 0.7,
+                duration: 4000
+            }
         ],
         onChapterExit: [
             {
@@ -2093,11 +2096,7 @@ var config = {
             {
                 layer: 'grotas',
                 opacity: 0
-            }//,
-            //{
-            //  layer: 'building-extrusion',
-            //  opacity: 0.5
-            //}
+            }
         ]
       },
   
@@ -2108,40 +2107,40 @@ var config = {
         bookmark: 'Alagoas',
         description: '\
         <div class="light">\
-          <div class="container-history text-left">\
+          <div class="container-history no-gutters p-left p-right">\
             <div class="row no-gutters">\
-              <div class="col-lg-8">\
+              <div class="col-md-12 col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
                     <h1 class="laranja">Menino da vila, menino da ONU</h1>\
                   </div>\
                 </div>\
                 <div class="row p-bottom">\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                     <p>A subida que leva até a Vila Emater II, nos arredores do antigo lixão de Maceió, não é das mais simples. No meio do caminho, entretanto, já é possível se deparar com uma das vistas mais bonitas da <strong class="rosa">cidade: a imensidão do mar de Jacarecica está logo ali.</strong> Ao mesmo tempo que orgulha a comunidade, a paisagem também é motivo de preocupação, já que colabora para a especulação imobiliária na terra que há décadas faz com que famílias de catadores se vejam lutando por moradia adequada e melhores condições de vida.</p>\
                     <p>Quem pode falar melhor sobre a Vila, no entanto, é Antônio Givaldo: jovem de 17 anos, adotado por sua avó materna, que hoje é conhecido como o <strong class="rosa">“o menino da ONU”</strong>. É assim que ele diz ser recebido na vizinhança após aparecer em um vídeo nas redes sociais do ONU-Habitat em que conta sobre o seu lugar no mundo. <strong>“Eles dizem: Parabéns, Antônio! Lute sempre pela nossa comunidade”. Isso é bom. Você sente que o seu esforço tá valendo a pena”</strong>.</p>\
                     <p>Antônio é um dos participantes do <strong class="rosa">Programa Digaê – Juventudes</strong>, Comunicação e Cidade. Realizado pelo ONU-Habitat em parceria com o Governo de Alagoas, o projeto dá continuidade ao trabalho desenvolvido pelas duas instituições nos assentamentos precários que, em Maceió, são conhecidos como grotas. <strong>“O Digaê mudou a minha vida. Foi uma experiência com jovens de diferentes grotas que gostam de se envolver nos movimentos, uma diversidade grande. Eu via neles e replicava em mim. Eles eram um espelho de como eu queria estar hoje”</strong>, compartilha.</p>\
                     </div>\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                     <p>A iniciativa vai formar 80 jovens em temas relacionados ao direito à cidade e à comunicação, estimulando que outras narrativas sobre suas comunidades sejam criadas. <strong>“Eu vim conhecer o direito à cidade no Digaê. Moro numa comunidade bem carente e nunca tinha chegado ninguém pra me dizer: você tem direito à cidade”</strong>.</p>\
                     <p>O território em que Antônio cresceu já simboliza, por si só, uma <strong class="rosa">conquista para a sua comunidade</strong>, que concilia a luta pela garantia de seus direitos ao desafio de fazer com que a coleta seletiva seja implementada no município. Isso tudo talvez explique o brilho que o jovem carrega nos olhos ao falar de onde vem, o carinho nas palavras ao frisar: <strong>“minha comunidade representa tudo pra mim”</strong>.</p>\
                     <p>Talvez justifique, também, as vontades que têm para o futuro dela, como a transformação do antigo lixão em um parque municipal. <strong>“A Vila era muito mal falada e ela não é isso. Tem cultura, diversidade, uma juventude talentosa, mães batalhadoras. Espero que os jovens daqui se interessem ainda mais em políticas públicas, no direito à cidade. Que eles tenham forças e vão na frente porque eu vou continuar lutando pela nossa comunidade até o fim da minha vida”</strong>.</p>\
                   </div>\
                 </div>\
-            </div>\
-              <div class="col-lg-4 align-self-end">\
-                  <img src="images/historia-alagoas.jpg" alt="" class="img-fluid"/>\
               </div>\
-            </div>\
+                <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                    <img src="images/historia-alagoas.jpg" alt="" class="img-hist"/>\
+                </div>\
+              </div>\
           </div>\
         </div>\
         ',
         location: {
-          center: [-35.73026, -9.64462],
-          zoom: 11.35,
-          pitch: 45.00,
-          bearing: 0.00,
-          speed: 2
+          //center: [-35.73026, -9.64462],
+          //zoom: 11.35,
+          //pitch: 45.00,
+          //bearing: 0.00,
+          speed: 1
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
@@ -2151,14 +2150,14 @@ var config = {
         onChapterEnter: [
           {
               layer: 'grotas',
-              opacity: 0.5
+              opacity: 0.75
           }
         ],
         onChapterExit: [
-            {
-                layer: 'grotas',
-                opacity: 0
-            }
+          {
+              layer: 'grotas',
+              opacity: 0
+          }
         ]
      },
 
@@ -2179,10 +2178,10 @@ var config = {
       </div>\
       ',
     location: {
-        center: [-43.92136, -19.80455],
-        zoom: 14.40,
-        pitch: 56.69,
-        bearing: 28.64,
+        center: [-43.91840, -19.81976],
+        zoom: 13.23,
+        pitch: 68.50,
+        bearing: -167.20,
         speed: 1
     },
     mapAnimation: 'flyTo',
@@ -2193,22 +2192,23 @@ var config = {
     onChapterEnter: [
       {
           layer: 'satellite',
-          opacity: 1,
-          duration: 5000
+          opacity: 0.5,
+          duration: 3000
       },
       {
-        layer: 'road-label-simple',
-        opacity: 0
+          layer: 'izidora',
+          opacity: 0.7,
+          duration: 4000
       }
     ],
     onChapterExit: [
         {
             layer: 'satellite',
-            opacity: 0,
+            opacity: 0
         },
         {
-          layer: 'road-label-simple',
-          opacity: 1
+            layer: 'izidora',
+            opacity: 0
         }
     ]
   },
@@ -2220,29 +2220,29 @@ var config = {
       bookmark: 'Belo Horizonte',
       description: '\
       <div class="light">\
-        <div class="row no-gutters p-left p-right">\
+        <div class="container-history no-gutters p-left p-right">\
           <div class="row no-gutters">\
-            <div class="col-lg-8">\
+            <div class="col-md-12 col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
                   <h1 class="laranja">Articulando o direito à moradia</h1>\
                 </div>\
               </div>\
               <div class="row p-bottom">\
-                <div class="col-md-6">\
+                <div class="col-md-12 col-lg-6">\
                     <p>Charlene Cristiane Egídio foi uma das primeiras pessoas a chegar no terreno que se tornaria a Rosa Leão, uma das quatro ocupações da Izidora. Ela e seu filho Pedro, na época com três anos, moraram em uma barraca de lona nos primórdios da ocupação, em 2013. Não levou muito tempo até que, em meio a uma comunidade que crescia e tinha a necessidade urgente de se organizar, a liderança nata de Charlene tomasse forma, dando a ela uma posição de coordenação.</p>\
                     <p>Com a ocupação ganhando corpo, casas começaram a ser construídas, ruas precisavam ser abertas. E cada centímetro de decisão passava por uma força característica da Izidora: a participação popular. Ela está presente em cada fase da história de ocupação, em cada articulação com instituições que, ao longo do tempo, passaram a auxiliar a comunidade.</p>\
                     <p>Assumir o papel de liderança trouxe mudanças. Uma delas foi receber formações que aguçaram seu olhar político, ético e humano, que expandiu o horizonte da função a ser cumprida. "A gente passa a se formar ser humano. Porque aqui você começa a sentir a dor do outro, e aí começa a entender que é um chamado ser liderança. É insano, mas é um chamado necessário".</p>\
                     <p>Para ela, sua principal função é a articulação. E esse papel é fundamental na elaboração do plano de urbanização popular que passou a nascer. Junto à comunidade, a Prefeitura de Belo Horizonte, o ONU-Habitat e o UNOPS trabalham no Plano de Urbanização Sustentável da Izidora, o primeiro para um assentamento informal em Belo Horizonte que traz a resiliência urbana como tema central.</p>\
                 </div>\
-                <div class="col-md-6">\
+                <div class="col-md-12 col-lg-6">\
                     <p>Charlene se envolveu com o Plano desde o princípio, abrindo caminhos de diálogo entre as partes. Para ela, é importante mediar a conversa entre os técnicos e a população, garantindo que esta entenda o papel e a linguagem dos parceiros. "A linguagem técnica tem que ser transformada em linguagem popular quando a gente tá falando de diversidade. Se o povo não tá entendendo, o meu papel é buscar entendimento e saber como funciona o projeto". Sua expectativa é de que o plano, fruto dessa parceria, seja o ideal para o território, contemplando os desejos e demandas de quem vive ali.</p>\
                     <p>Nesse processo, ela vê que muito já mudou. Ela se descobriu uma mulher empoderada, que não abaixa a cabeça a ninguém. Já Izidora tem o potencial de ser exemplo internacional, transformando o que era conflito fundiário em um projeto urbanístico feito em conjunto pelo olhar dos moradores e pelo poder público. "Imagine se todo mundo, todos os bairros que são feitos em Belo Horizonte, tivessem a oportunidade dessa escuta, de você dizer o que que quer aqui, e você discutir isso com o povo que vai viver lá, né? Hoje, depois de 10 anos, a gente vê esperança, perspectiva de melhora, de respeito, de cidadania, de dizer que a gente faz parte de Belo Horizonte e tem direito de morar em Belo Horizonte".</p>\
                 </div>\
               </div>\
-          </div>\
-            <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-bh.jpg" alt="" class="img-fluid"/>\
+            </div>\
+            <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                <img src="images/historia-bh.jpg" alt="" class="img-hist"/>\
             </div>\
           </div>\
         </div>\
@@ -2341,22 +2341,22 @@ var config = {
       bookmark: 'Juiz de Fora',
       description: '\
       <div class="light">\
-        <div class="container-history text-left">\
+        <div class="container-history no-gutters p-left p-right">\
           <div class="row no-gutters">\
-            <div class="col-lg-8">\
+            <div class="col-md-12 col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
                   <h1 class="laranja">De volta às origens</h1>\
                 </div>\
               </div>\
               <div class="row p-bottom">\
-                <div class="col-md-6">\
+                <div class="col-md-12 col-lg-6">\
                     <p>Em 2022, a geógrafa Elaine Cristóvão Coelho viajou quase 1,5 mil km de Salvador para voltar ao lugar onde sua trajetória começou. Ela cresceu no bairro Marumbi, na zona leste de Juiz de Fora (MG), uma região que historicamente apresenta alta vulnerabilidade social. Atuando como supervisora de campo no ONU-Habitat, ela percorreu uma extensão equivalente a 350 campos de futebol em vias íngremes, sinuosas, com características que mesclam rural e urbano. Tudo para promover o desenvolvimento socioeconômico e garantir o acesso a programas de cidadania em 141 microterritórios da cidade.</p>\
                     <p>O Territórios da Cidadania, projeto no qual atuou, é uma parceria com a Prefeitura de Juiz de Fora para realizar um diagnóstico dos espaços urbanos, das moradias e da população que reside nesses locais. Atuando como uma ferramenta de planejamento e gestão, os dados coletados auxiliam na superação de desigualdades socioespaciais, embasando a formulação de políticas públicas e priorizações de investimento.</p>\
                     <p>A conexão de Elaine com trabalhos de impacto social parte da sua própria vivência. Enquanto crescia, sua casa era de chão batido, as ruas não tinham asfalto e, para estudar, seu padrinho ajudava na compra dos cadernos. A educação era um instrumento de transformação social. “Venho de uma linhagem de empregadas domésticas: minha mãe, minha avó, minhas tias e eu também fomos empregadas domésticas. Sempre tive fé na educação porque sabia que ela poderia me salvar profissional e economicamente”.</p>\
                     <p>Elaine se formou geógrafa e, vinte anos depois, retornou ao território para atuar como profissional do projeto. A contratação de habitantes dos microterritórios no projeto possibilitou a entrada de pessoas especializadas que entendem melhor a realidade dessas localidades e se identificam</p>\
                 </div>\
-                <div class="col-md-6">\
+                <div class="col-md-12 col-lg-6">\
                     <p>com sua população. Essa é também uma forma de dar um retorno para regiões historicamente invisibilizadas no planejamento urbano da cidade.</p>\
                     <p>Elaine entende que as informações coletadas não são só números. Por trás, há uma pessoa com frustrações, problemas e sonhos. “É preciso analisar o que aquele dado quer dizer. Existe um contexto que ajuda a explicar esse indicador. As pessoas precisam e querem ser ouvidas. Por isso sempre gostei muito de acompanhar o trabalho de campo”.</p>\
                     <p>As metodologias aplicadas na cidade — Mapa Rápido Participativo e Perfil Socioeconômico — são participativas. Para Elaine, equilibrar a visão técnica com a percepção da população é o primeiro passo para garantir o sucesso do projeto: perceber que a Prefeitura busca conhecer o indivíduo e suas necessidades é uma forma de trazer como retorno políticas públicas mais assertivas. “Nesse diagnóstico, é importante se esvaziar das nossas próprias percepções. Eu vou ouvir do outro o que ele pensa sobre si e sobre onde ele mora”, explica. “Não me lembro disso já ter sido feito aqui; é uma inovação da qual fico muito feliz por ter participado. Sei que vai mudar a vida de muita gente”.</p>\
@@ -2364,8 +2364,8 @@ var config = {
                 </div>\
               </div>\
           </div>\
-            <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-jf.jpg" alt="" class="img-fluid"/>\
+          <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                <img src="images/historia-jf.jpg" alt="" class="img-hist"/>\
             </div>\
           </div>\
         </div>\
@@ -2455,23 +2455,23 @@ var config = {
         bookmark: 'Rio de Janeiro',
         description: '\
         <div class="light">\
-          <div class="container-history text-left">\
+          <div class="container-history no-gutters p-left p-right">\
             <div class="row no-gutters">\
-              <div class="col-lg-8">\
+              <div class="col-md-12 col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
                     <h1 class="laranja">De um teto para um lar</h1>\
                   </div>\
                 </div>\
                 <div class="row p-bottom">\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                       <p>Há mais de 40 anos, Vera Lucia Jorge – ou dona Vera – fez da Vila do João sua casa. Ela não “é cria” de lá, mas seus filhos são. Hoje, ela é aposentada e mora com seu filho caçula em uma casa de cinco cômodos.</p>\
                       <p>A Vila do João é uma favela que faz parte do Complexo da Maré, no Rio de Janeiro. Dona Vera conta que tem tudo perto de casa: do mercado à ginástica. “Eu amo isso aqui”, enfatiza, olhando ao redor como quem tem na casa uma parceira. O amor pela comunidade é antigo, afinal, foi lá onde ela criou filhos e filhas, mas o olhar sobre a casa já foi de preocupação.</p>\
                       <p>“A casa era uma coisa muito complicada, muito pobre mesmo. A janela era a mesma coisa que não ter. Ela era segurada com uma bengala: quando encostava, caía. Porta a gente encostava com o sofá".</p>\
                       <p>Hoje, o piso branco, as portas e janelas de ferro e o banheiro com água encanada contam a história de uma construção que se transformou em lar. Dona Vera foi contemplada pelo projeto Casa Carioca, da Secretaria de Ação Comunitária da Prefeitura da Cidade do Rio de Janeiro. O projeto seleciona moradias, a partir de critérios sociais, e realiza melhorias habitacionais focadas no bem-estar e na saúde de seus moradores.</p>\
                       <p>As famílias contempladas foram identificadas a partir da busca ativa do programa Territórios Sociais. Foi o que aconteceu com dona Vera, que respondeu ao questionário do programa em novembro de 2019, e o atendimento da família seguiu até 2022, quando a obra foi iniciada. “Foi um presente de Natal e ano novo”, relembra.</p>\
                   </div>\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                       <p>O Territórios Sociais é uma parceria entre ONU-Habitat e a Prefeitura da Cidade do Rio de Janeiro que se baseia em três pilares: busca ativa, atendimento integrado e monitoramento. O programa realiza o mapeamento das áreas com os menores índices de desenvolvimento social, identificando famílias mais vulneráveis com o objetivo de reduzir seu risco social através de ações integradas das diversas políticas públicas que compõem a iniciativa.</p>\
                       <p>Informações como condições de edificação, acessibilidade e vulnerabilidade social são compartilhadas como insumo para oferta de serviços e políticas públicas orientadas por dados. O programa tem atuado nos dez maiores complexos de favela da cidade, e recentemente iniciou a expansão para outros territórios – com a qual pretende alcançar mais 486 mil domicílios.</p>\
                       <p>“A parceria do Casa Carioca com o Territórios Sociais foi importantíssima porque a gente pula a etapa de diagnóstico justamente porque ele já existe. Com esses dados, o Casa Carioca fica muito mais embasado, o que é fundamental. A melhoria da casa não é só a parte física: mexe com a autoestima da pessoa também”, compartilha Marli Peçanha, secretária de Ação Comunitária.</p>\
@@ -2479,8 +2479,8 @@ var config = {
                   </div>\
                 </div>\
             </div>\
-              <div class="col-lg-4 align-self-end">\
-                  <img src="images/historia-rj.jpg" alt="" class="img-fluid"/>\
+            <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                  <img src="images/historia-rj.jpg" alt="" class="img-hist"/>\
               </div>\
             </div>\
           </div>\
@@ -2568,22 +2568,22 @@ var config = {
         bookmark: 'História São Paulo',
         description: '\
         <div class="light">\
-          <div class="container-history">\
+          <div class="container-history no-gutters p-left p-right">\
             <div class="row no-gutters">\
-              <div class="col-lg-8">\
+              <div class="col-md-12 col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
                     <h1 class="laranja">Horizonte mais verde na metrópole global</h1>\
                   </div>\
                 </div>\
                 <div class="row p-bottom">\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                       <p><strong>Espaços públicos verdes</strong> ganharam ainda mais protagonismo após a pandemia da COVID-19. Na percepção da coordenadora de Gestão de Parques e Biodiversidade da Secretaria Municipal do Verde e do Meio Ambiente (SVMA) de São Paulo, Tamires Oliveira, <strong>“as pessoas passaram a ocupar os parques com muito mais intensidade nos últimos três anos, criaram novos usos e finalidades, estão muito mais presentes ali”</strong>. E a cidade está atenta a essa tendência. Nos últimos anos, a SVMA vem trabalhando para aprimorar estratégias de planejamento, implementação e gestão dos espaços verdes.</p>\
                       <p>Parte desse movimento foi o diálogo iniciado com o ONU-Habitat para trocar experiências, metodologias e ferramentas. O primeiro marco da parceria foi a participação ativa da Prefeitura de São Paulo no Circuito Urbano – a maior iniciativa nacional para celebrar o Outubro Urbano.</p>\
                       <p>A formalização da cooperação se deu com a assinatura de um Memorando de Entendimento (MoU) do ONU-Habitat com a SMVA, a Secretaria Municipal de Relações Internacionais (SMRI) e a Secretaria de Governo em novembro de 2021, permitindo a ampliação das frentes de intercâmbio e atividades conjuntas. Para avançar nos esforços de promover maior acesso, participação popular e resiliência dos espaços verdes de São Paulo, em 2022 foi assinado um projeto conjunto entre a SVMA e o ONU-Habitat que terá a duração de três anos.</p>\
                       <p>Em 2021 e 2022, a cidade marcou presença como organizadora principal e coorganizadora de 13 eventos do Circuito Urbano,</p>\
                   </div>\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                       <p>e também contou com o apoio institucional do ONU-Habitat para a representação da equipe da SVMA da 11ª edição Fórum Urbano Mundial, na Polônia, e da COP27, no Egito, ambos em 2022.</p>\
                       <p>No final de 2022, a parceria avançou mais uma etapa, com a assinatura do acordo para o desenvolvimento do projeto <strong>Viva o Verde SP</strong>, que visa a promoção de espaços públicos verdes mais justos, resilientes e sustentáveis, acessíveis a todas e todos. Iniciado em janeiro de 2023, o projeto conta com uma equipe alocada em São Paulo para aplicar as metodologias de avaliação do ONU-Habitat, entre outras.</p>\
                       <p><strong>“Um aspecto crucial dessa parceria é termos um diagnóstico real dos parques. Isso é desafiador devido ao número muito grande de equipamentos e à diversidade entre eles. Contar com esse trabalho com o ONU-Habitat, com uma equipe qualificada, vai trazer muitos ganhos. Teremos material, um norte a seguir e consistência em qualquer política pública que se queira desenhar para esses equipamentos públicos”</strong>, explica Tamires.</p>\
@@ -2592,8 +2592,8 @@ var config = {
                   </div>\
                 </div>\
             </div>\
-              <div class="col-lg-4 align-self-end">\
-                  <img src="images/historia-sao-paulo.jpg" alt="" class="img-fluid"/>\
+            <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                  <img src="images/historia-sao-paulo.jpg" alt="" class="img-hist"/>\
               </div>\
             </div>\
           </div>\
@@ -2673,30 +2673,30 @@ var config = {
         bookmark: 'Conexões',
         description: '\
         <div class="light">\
-          <div class="container-history text-left">\
+          <div class="container-history no-gutters p-left p-right">\
             <div class="row no-gutters">\
-              <div class="col-lg-8">\
+              <div class="col-md-12 col-lg-8">\
                 <div class="row">\
                   <div class="col-md-12">\
                     <h1 class="laranja">Juntos pelo bem comum</h1>\
                   </div>\
                 </div>\
                 <div class="row p-bottom">\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                     <p>Oito lugares, um só espaço. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas três cidades, três estados e dois países: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina.</p>\
                     <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: harmonia. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um “portunhol” característico, assim como em diversos outros aspectos culturais. E essa composição gera uma identidade única.</p>\
                     <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. A gente não vê a fronteira como um ponto de separação, mas sim de união”.</p>\
                     <p>A frase é de Monica Raquel Franchini, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do La Frontera – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
                   </div>\
-                  <div class="col-md-6">\
+                  <div class="col-md-12 col-lg-6">\
                     <p>A missão do grupo está baseada em promover os pontos fortes da região através da cooperação e da socialização, estabelecendo parcerias e divulgando sua cultura. Apesar de estar à frente da área de educação, a paixão de Monica pela região transborda para os outros domínios.</p>\
                     <p>Um marco para o grupo foi a chegada do Conexões Urbanas, iniciativa do ONU-Habitat cujo objetivo é apoiar os municípios na definição de ações para melhorar sua rede de espaços públicos. O projeto promoveu uma avaliação de 32 espaços públicos da região, analisando sua distribuição, acessibilidade, instalações físicas, conforto, segurança, verde, governança, tipos de usos e usuários. Além do conglomerado na fronteira Brasil e Argentina, fazem parte do projeto os municípios de Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e mais duas cidades no Líbano.</p>\
                     <p>Para Monica, essa parceria vai potencializar as ações do grupo La Frontera, já que os dados fornecidos poderão servir de base para muitas outras ações. Ela sente que as duas instituições têm uma sinergia única em seus objetivos. “Temos que acreditar na nossa gente. Não somos uma só cidade, não somos um só povo: somos uma região fronteiriça com as mesmas necessidades e o mesmo interesse: o bem comum. E o projeto Conexões Urbanas está nos ajudando a se potencializar e crescer como um todo”.</p>\
                   </div>\
                 </div>\
             </div>\
-              <div class="col-lg-4 align-self-end">\
-                  <img src="images/historia-conexoes.jpg" alt="" class="img-fluid"/>\
+            <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                  <img src="images/historia-conexoes.jpg" alt="" class="img-hist"/>\
               </div>\
             </div>\
           </div>\
@@ -2771,30 +2771,30 @@ var config = {
       bookmark: 'Curitiba',
       description: '\
       <div class="light">\
-        <div class="container-history text-left p-right">\
+        <div class="container-history no-gutters p-left p-right">\
           <div class="row no-gutters">\
-            <div class="col-lg-8">\
+            <div class="col-md-12 col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
                   <h1 class="laranja">Criando comunidades carbono zero</h1>\
                 </div>\
               </div>\
               <div class="row p-bottom">\
-                <div class="col-md-6">\
+                <div class="col-md-12 col-lg-6">\
                     <p>Apesar de próximas, o Vale do Pinhão e a Vila Torres não compartilham entre si muitas características. Enquanto a primeira é uma região industrial em reurbanização, a segunda é uma comunidade com baixo índice de desenvolvimento humano. Uma nova iniciativa, no entanto, promete unir as duas regiões em torno de um mesmo objetivo: tornarem-se as primeiras comunidades carbono zero de Curitiba.</p>\
                     <p>Esse foi o objetivo proposto pelo Instituto de Pesquisa e Planejamento Urbano de Curitiba no Climate Smart Cities Challenge – competição proposta pelo ONU-Habitat com o governo da Suécia para acelerar a transição para a neutralidade climática em quatro cidades: Curitiba, Bogotá (Colômbia), Bristol (Reino Unido) e Makindye Ssabagabo (Uganda).</p>\
                     <p>O time vencedor da iniciativa, Curitiba Smart Neighborhoods, é formado pela união de quatro empresas. A startup curitibana Agentes do Meio Ambiente (AMA), líder do time, se inscreveu na competição decidida a avançar. Com aplicativos de zeladoria urbana e educação ambiental, a empresa promove a sustentabilidade em cidades do Paraná e Santa Catarina.</p>\
                     <p>O Desafio é uma competição em etapas. Quando os nove finalistas foram divulgados, a iniciativa convidou os inovadores a formar times que incorporassem seus concorrentes, criando soluções mais robustas. Pensando nisso, o AMA convidou os demais finalistas a se unirem a ela. A resposta positiva veio de três empresas: a também curitibana Ambiente Livre e as suecas Nudgd e Smart Green Stations. Com uma proposta inédita integrando as quatro soluções, a nova equipe foi anunciada vencedora.</p>\
                 </div>\
-                <div class="col-md-6">\
+                <div class="col-md-12 col-lg-6">\
                     <p>Para colocar as ideias em prática, o caminho ainda está sendo percorrido. Após o resultado, a equipe passou para a fase de planejamento, detalhando como tornar as comunidades curitibanas neutras em carbono com soluções de energia elétrica, gestão de resíduos e mobilidade.</p>\
                     <p>O resultado é uma complexa proposta de soluções físicas e digitais que, integradas, formam um sistema que atua para reduzir emissões em várias frentes. Cada empresa contribui dentro do time com sua área de expertise. O AMA promove a criação de comunidades digitais com moradores engajados pela sustentabilidade, criando líderes locais e promovendo educação ambiental, gerindo o sistema físico por meio de seus aplicativos. O Ambiente Livre contribui com sistemas de compostagem e hortas urbanas, criando um ciclo orgânico de reciclagem e produção de alimentos. A Smart Green Stations fornece mobiliário urbano inteligente e autossuficiente em energia, potencializando a compostagem. Já a Nudgd acrescenta soluções de ciência comportamental por meio de interações com os cidadãos, promovendo escolhas sustentáveis no dia a dia.</p>\
                     <p>Com a fase de planejamento finalizada, o momento é de iniciar a demonstração do sistema, que ocorrerá após a captação de recursos. O time destaca que, desde que foram anunciados vencedores, já houve mudanças concretas. Além da divulgação internacional e de novas oportunidades de negócio, a equipe ganhou o sentimento de esperança. “A partir do momento em que as pessoas entendem o que estamos fazendo, tem muita gente disposta a ajudar”, destaca Carolina Neiverth Rosas, gestora ambiental no Ambiente Livre. “Percebemos que existe uma nova complementação em prol de projetos socioambientais”.</p>\
                 </div>\
               </div>\
           </div>\
-            <div class="col-lg-4 align-self-end">\
-                <img src="images/historia-curitiba.jpg" alt="" class="img-fluid"/>\
+          <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                <img src="images/historia-curitiba.jpg" alt="" class="img-hist"/>\
             </div>\
           </div>\
         </div>\
@@ -2891,23 +2891,23 @@ var config = {
       bookmark: 'Alagoas',
       description: '\
       <div class="light">\
-        <div class="container-history text-left">\
+        <div class="container-history no-gutters p-left p-right">\
           <div class="row no-gutters">\
-            <div class="col-lg-8">\
+            <div class="col-md-12 col-lg-8">\
               <div class="row">\
                 <div class="col-md-12">\
                   <h1 class="laranja">O lugar do outro como terreno fértil para aprendizados</h1>\
                 </div>\
               </div>\
               <div class="row p-bottom">\
-                <div class="col-md-6">\
+                <div class="col-md-12 col-lg-6">\
                   <p>Era início de 2020, e o mundo ainda se adaptava à rápida digitalização que se deu junto à pandemia da COVID-19. Igor Rezende Vilela, assessor de Assuntos Internacionais da Prefeitura de São Paulo, buscava oportunidades de cooperação internacional que se adequassem às novas recomendações sanitárias.</p>\
                   <p>Foi assim que ele chegou ao <strong class="rosa">Waste Wise Cities</strong>. Desde 2018, o projeto coordenado pela sede do ONU-Habitat promove um intercâmbio de conhecimentos entre cidades do Sul Global. As temáticas de trabalho focam principalmente em reduzir o impacto ambiental negativo das cidades, prestando especial atenção à qualidade do ar e à gestão de resíduos municipais.</p>\
                   <p>São Paulo foi a primeira cidade brasileira a participar da iniciativa, escolhendo Praia, capital de Cabo Verde, para um intercâmbio em gestão de resíduos. As cidades têm diferenças concretas como número de habitantes e características geográficas, mas foram as semelhanças que chamaram atenção.</p>\
                   <p><strong>"Um grande catalizador do intercâmbio foi a proximidade não só linguística como cultural, mesmo com proporções tão diferentes. Em algum momento, São Paulo já teve cem mil habitantes. O que já aconteceu aqui pode ser compartilhado"</strong>, afirma Igor.</p>\
                   <p>Geisa Barreto, técnica superior de Limpeza Urbana em Praia, conta do entusiasmo da equipe ao receber o convite. A capital se candidatou no programa esperando descobrir novos horizontes para a gestão de resíduos.</p>\
                 </div>\
-                <div class="col-md-6">\
+                <div class="col-md-12 col-lg-6">\
                   <p><strong>“Aprendemos muito sobre informatização do sistema de recolhimento de resíduos, organização de catadores em cooperativas, tratamento de resíduos hospitalares e estações de transferência. Essa missão teve um impacto positivo, adquirimos experiências que podemos aplicar aqui”</strong>, destaca.</p>\
                   <p>A cooperação estava prevista para ocorrer virtualmente. Qual não foi a felicidade geral ao descobrir que um intercâmbio presencial seria possível em 2022? A experiência envolveu missões para Praia e para São Paulo, e foi essencial para identificar “pontos-cegos” das trocas online.</p>\
                   <p>Hoje, as melhorias nos processos de ambos os territórios já são perceptíveis. Em São Paulo, os técnicos aprenderam formas didáticas de falar sobre o trabalho de gestão de resíduos e passaram a tratar a transparência como prioridade. Em Praia, novas recomendações sobre o tratamento diferenciado de resíduos potencialmente tóxicos, como os hospitalares, estão sendo estudadas.</p>\
@@ -2916,8 +2916,8 @@ var config = {
                 </div>\
               </div>\
             </div>\
-              <div class="col-lg-4 align-self-end">\
-                  <img src="images/historia-wwc.jpg" alt="" class="img-fluid img-hist"/>\
+            <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                  <img src="images/historia-wwc.jpg" alt="" class="img-hist"/>\
               </div>\
             </div>\
         </div>\
