@@ -1669,7 +1669,7 @@ var config = {
     },
 
     {
-      id: 'territorio-sudene',
+      id: 'territorio-g52',
       alignment: 'left',
       hidden: false,
       //title: 'Escritório ONU-Habitat Brasil',
@@ -1729,7 +1729,7 @@ var config = {
     },    
 
     {
-      id: 'historia-sudene',
+      id: 'historia-g52',
       alignment: 'full',
       hidden: false,
       bookmark: 'SUDENE',
