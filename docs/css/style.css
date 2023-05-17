@@ -258,7 +258,7 @@ ul.social-icons li{
 /* Hover list layer */
 .li-hover{
     margin: 15px 0px 0px 0px;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
 /*
@@ -508,10 +508,6 @@ ul.social-icons li{
         margin-left: auto;
         margin-right: auto;
         width: 75%;
-    }
-
-    .lefty img {
-        width: 10em;
     }
 
     #footer p {
@@ -1015,7 +1011,7 @@ ul.social-icons li{
     .multi-item-carousel .active.carousel-item-left + .carousel-item-next.carousel-item-left,
     .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item,
     .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-    .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
       position: relative;
       transform: translate3d(-100%, 0, 0);
       visibility: visible;
@@ -1033,12 +1029,17 @@ ul.social-icons li{
     
 }
 
+.mapboxgl-ctrl-top-right {
+    padding-top: 10em;
+    padding-right: 2.5em;
+}
+
 .img-fluid {
     max-width: 100%;
 }
 
 .img-hist {
-    max-width: 60%;
+    max-width: 50%;
 }
 
 .container-history {
@@ -1058,7 +1059,7 @@ ul.social-icons li{
 }
 
 .card .btn {
-    font-size: 0.75rem;
+    font-size: 0.775rem;
 }
 
 @media (min-width: 576px) {
@@ -1066,7 +1067,7 @@ ul.social-icons li{
     max-width: 700px;
   }
   .img-hist {
-    max-width: 70%;
+    max-width: 50%;
   }
   p {
       font-size: 0.8rem;
@@ -1088,7 +1089,7 @@ ul.social-icons li{
     max-width: 900px;
   }
   .img-hist {
-    max-width: 70%;
+    max-width: 50%;
   }
   p {
     font-size: 0.8rem;
@@ -1102,6 +1103,9 @@ ul.social-icons li{
   }
   .card .btn {
     font-size: 0.85rem;
+  }
+  .lefty {
+    width: 40vw;
   }
 }
 
@@ -1125,6 +1129,9 @@ ul.social-icons li{
   .card .btn {
     font-size: 1rem;
   }
+  .lefty {
+    width: 30vw;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1144,10 +1151,12 @@ ul.social-icons li{
   .container-num {
     max-width: 1250px;
   }
-}
-
-.mapboxgl-ctrl-top-right {
-    padding-top: 10em;
-    padding-right: 2.5em;
+  .img-fluid {
+    max-height: 80vh;
+    float: right !important;
+  }
+  .lefty {
+    width: 27vw;
+  }  
 }
    

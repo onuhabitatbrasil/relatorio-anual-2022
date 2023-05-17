@@ -579,11 +579,6 @@ pre code {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 825px;
   }
-
-  .img-fluid {
-    max-height: 80vh;
-    float: right !important;
-  }
 }
 
 .row {
