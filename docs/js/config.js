@@ -1677,7 +1677,7 @@ var config = {
       image: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-        <div class="container p-right-left p-bottom">\
+        <div class="container p-right-left">\
           <h1 class="laranja">G52</h1>\
           <p>Uma vocação em comum une 52 municípios espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a Rede de Cidades-Polo do Nordeste — o G52.</p>\
           <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a abrangência da rede para o norte de Minas Gerais e Espírito Santo. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
@@ -1779,11 +1779,13 @@ var config = {
       onChapterEnter: [
         {
             layer: 'munic-g52',
-            opacity: 1
+            opacity: 1,
+            duration: 2000
         },
         {
             layer: 'sudene',
-            opacity: 0.5
+            opacity: 0.5,
+            duration: 2000
         }
       ],
       onChapterExit: [
@@ -1822,7 +1824,7 @@ var config = {
           zoom: 1.25,
           pitch: 0.00,
           bearing: 0.00,
-          speed: 2
+          speed: 1
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -1963,7 +1965,7 @@ var config = {
                 </div>\
             </div>\
               <div class="col-lg-4 align-self-end">\
-                  <img src="images/historia-pernambuco.jpg" alt="" class="img-fluid"/>\
+                  <img src="images/historia-pernambuco.jpg" alt="" class="img-hist"/>\
               </div>\
             </div>\
           </div>\
@@ -1990,13 +1992,21 @@ var config = {
         onChapterEnter: [
           {
               layer: 'munic-pe',
-              opacity: 0.5
+              opacity: 1
+          },
+          {
+            layer: 'subregioes-pe',
+            opacity: 0.7
           }
         ],
         onChapterExit: [
             {
                 layer: 'munic-pe',
                 opacity: 0
+            },
+            {
+              layer: 'subregioes-pe',
+              opacity: 0
             }
         ]
     },
