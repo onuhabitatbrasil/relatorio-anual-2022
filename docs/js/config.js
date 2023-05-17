@@ -1738,22 +1738,22 @@ var config = {
             layer: 'munic-g52',
             opacity: 1,
             duration: 2000
-        },
-        {
-            layer: 'sudene',
-            opacity: 0.5,
-            duration: 1500
-        }
+        }//,
+        //{
+        //    layer: 'sudene',
+        //    opacity: 0.5,
+        //    duration: 1500
+        //}
       ],
       onChapterExit: [
         {
           layer: 'munic-g52',
           opacity: 0
-        },
-        {
-          layer: 'sudene',
-          opacity: 0
-        }
+        }//,
+        //{
+        ////  layer: 'sudene',
+        //  opacity: 0
+        //}
       ]
     },    
 
@@ -1865,11 +1865,11 @@ var config = {
             layer: 'pin-teresina',
             opacity: 1
         },
-        {
-          layer: 'global-anomalia',
-          opacity: 1,
-          duration: 1500
-        },
+        //{
+        //  layer: 'global-anomalia',
+        //  opacity: 1,
+        //  duration: 1500
+        //},
         {
           layer: 'country-label',
           opacity: 0
@@ -1880,10 +1880,10 @@ var config = {
               layer: 'pin-teresina',
               opacity: 0
           },
-          {
-            layer: 'global-anomalia',
-            opacity: 0
-          },
+          //{
+          //  layer: 'global-anomalia',
+          //  opacity: 0
+          //},
           {
             layer: 'country-label',
             opacity: 1
@@ -2083,7 +2083,7 @@ var config = {
                 duration: 3000
             },
             {
-                layer: 'grotas',
+                layer: 'agsn',
                 opacity: 0.7,
                 duration: 4000
             }
@@ -2094,7 +2094,7 @@ var config = {
                 opacity: 0
             },
             {
-                layer: 'grotas',
+                layer: 'agsn',
                 opacity: 0
             }
         ]
@@ -2149,13 +2149,13 @@ var config = {
         callback: '',
         onChapterEnter: [
           {
-              layer: 'grotas',
+              layer: 'agsn',
               opacity: 0.75
           }
         ],
         onChapterExit: [
           {
-              layer: 'grotas',
+              layer: 'agsn',
               opacity: 0
           }
         ]
@@ -2177,40 +2177,40 @@ var config = {
         </div>\
       </div>\
       ',
-    location: {
-        center: [-43.91840, -19.81976],
-        zoom: 13.23,
-        pitch: 68.50,
-        bearing: -167.20,
-        speed: 1
-    },
-    mapAnimation: 'flyTo',
-    rotateAnimation: false,
-    spinGlobe: false,
-    mapInteractive: true,
-    callback: '',
-    onChapterEnter: [
-      {
-          layer: 'satellite',
-          opacity: 0.5,
-          duration: 3000
+      location: {
+          center: [-43.91840, -19.81976],
+          zoom: 13.23,
+          pitch: 68.50,
+          bearing: -167.20,
+          speed: 1
       },
-      {
-          layer: 'izidora',
-          opacity: 0.7,
-          duration: 4000
-      }
-    ],
-    onChapterExit: [
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: true,
+      callback: '',
+      onChapterEnter: [
         {
             layer: 'satellite',
-            opacity: 0
+            opacity: 0.5,
+            duration: 3000
         },
         {
-            layer: 'izidora',
-            opacity: 0
+            layer: 'agsn',
+            opacity: 0.7,
+            duration: 4000
         }
-    ]
+      ],
+      onChapterExit: [
+          {
+              layer: 'satellite',
+              opacity: 0
+          },
+          {
+              layer: 'agsn',
+              opacity: 0
+          }
+      ]
   },
 
    {
@@ -2262,22 +2262,15 @@ var config = {
       callback: '',
       onChapterEnter: [
         {
-            layer: 'satellite',
-            opacity: 1
-        },
-        {
-          layer: 'road-label-simple',
-          opacity: 0
+            layer: 'agsn',
+            opacity: 0.7,
+            duration: 4000
         }
       ],
       onChapterExit: [
           {
-              layer: 'satellite',
+              layer: 'agsn',
               opacity: 0
-          },
-          {
-            layer: 'road-label-simple',
-            opacity: 1
           }
       ]
   },
@@ -2312,15 +2305,16 @@ var config = {
       mapInteractive: true,
       callback: '',
       onChapterEnter: [
-          {
-              layer: 'satellite',
-              opacity: 1,
-              duration: 4000
-          },
-          {
-              layer: 'microterritorios',
-              opacity: 0.5
-          }
+        {
+            layer: 'satellite',
+            opacity: 0.5,
+            duration: 3000
+        },
+        {
+            layer: 'agsn',
+            opacity: 0.7,
+            duration: 4000
+        }
       ],
       onChapterExit: [
           {
@@ -2328,7 +2322,7 @@ var config = {
               opacity: 0
           },
           {
-              layer: 'microterritorios',
+              layer: 'agsn',
               opacity: 0
           }
       ]
@@ -2391,15 +2385,16 @@ var config = {
       callback: '',
       onChapterEnter: [
         {
-            layer: 'microterritorios',
-            opacity: 0.5
+            layer: 'agsn',
+            opacity: 0.7,
+            duration: 4000
         }
       ],
       onChapterExit: [
-        {
-            layer: 'microterritorios',
-            opacity: 0
-        }
+          {
+              layer: 'agsn',
+              opacity: 0
+          }
       ]
     },
 
@@ -2435,16 +2430,26 @@ var config = {
         callback: '',
         onChapterEnter: [
           {
-              layer: 'pin-rio',
-              opacity: 1
-          }
-     ],
-     onChapterExit: [
+              layer: 'satellite',
+              opacity: 0.5,
+              duration: 3000
+          },
           {
-              layer: 'pin-rio',
-              opacity: 0
+              layer: 'agsn',
+              opacity: 0.7,
+              duration: 4000
           }
-     ]
+        ],
+        onChapterExit: [
+            {
+                layer: 'satellite',
+                opacity: 0
+            },
+            {
+                layer: 'agsn',
+                opacity: 0
+            }
+        ]
     },
 
     {
@@ -2506,13 +2511,14 @@ var config = {
         callback: '',
         onChapterEnter: [
           {
-              layer: 'munic-pe',
-              opacity: 0.5
+              layer: 'agsn',
+              opacity: 0.7,
+              duration: 4000
           }
         ],
         onChapterExit: [
             {
-                layer: 'munic-pe',
+                layer: 'agsn',
                 opacity: 0
             }
         ]
@@ -2661,8 +2667,18 @@ var config = {
             spinGlobe: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+              {
+                  layer: 'fronteira',
+                  opacity: 1
+              }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'fronteira',
+                    opacity: 0
+                }
+            ]
     },
 
     {
@@ -2707,7 +2723,7 @@ var config = {
             zoom: 1.5,
             pitch: 0,
             bearing: 0,
-            speed: 2
+            speed: 1
             // flyTo additional controls-
             // These options control the flight curve, making it move
             // slowly and zoom out almost completely before starting
@@ -2720,8 +2736,18 @@ var config = {
         spinGlobe: false,
         mapInteractive: false,
         callback: '',
-        onChapterEnter: [],
-        onChapterExit: []
+        onChapterEnter: [
+          {
+              layer: 'fronteira',
+              opacity: 1
+          }
+        ],
+        onChapterExit: [
+            {
+                layer: 'fronteira',
+                opacity: 0
+            }
+        ]
     },
 
     {
