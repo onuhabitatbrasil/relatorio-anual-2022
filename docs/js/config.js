@@ -1706,18 +1706,11 @@ var config = {
       image: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-        <div class="container p-right-left">\
+        <div class="container p-right-left p-bottom">\
           <h1 class="laranja">G52</h1>\
           <p>Uma vocação em comum une 52 municípios espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a Rede de Cidades-Polo do Nordeste — o G52.</p>\
           <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a abrangência da rede para o norte de Minas Gerais e Espírito Santo. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
           <p>Para fortalecer as capacidades de planejamento regional e estimular a articulação em rede, as cidades foram alvo de uma iniciativa que estimulou o desenvolvimento de soluções inovadoras, sustentáveis e escalonáveis para os desafios que enfrentam.</p>\
-          <ul class="fa-ul">\
-                <li class="li-hover" value="sudene">\
-                  <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
-                  <i class="fa fa-square"></i></span>\
-                  <span>Área de atuação da SUDENE</span>\
-                </li>\
-          </ul>\
         </div>\
       </div>\
       ',
@@ -1900,18 +1893,18 @@ var config = {
       image: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-        <div class="container p-right-left p-bottom">\
+        <div class="container p-right-left">\
           <h1 class="laranja">Pernambuco</h1>\
           <p>Pernambuco se manifesta nos contrastes entre Zona da Mata, Agreste e Sertão. É o estado mais antigo do Brasil, com uma história vista a olho nu em suas conhecidas construções coloniais, e ouvida em ritmo de frevo e maracatu. São 185 municípios contando sobre passado e presente de uma região diversa em povo e território.</p>\
           <p>As histórias do presente trazem uma rica vida cultural. Elas dividem espaço com altos índices de violência, deixando marcas no cotidiano de jovens e de mulheres. Para contribuir com as políticas públicas de prevenção social à violência, o ONU-Habitat implementou as metodologias participativas de Desenho de Espaços Públicos e Auditoria de Segurança das Mulheres, ou Cidade Mulher, através da iniciativa Cooperação Pernambuco.</p>\
           <p>A implementação das metodologias passou por comunidades de cada uma das regiões pernambucanas. A grande dispersão territorial permitiu compreender nuances locais importantes, que contemplam a enorme diversidade que define o estado de Pernambuco.</p>\
           <ul class="fa-ul">\
-                <li class="li-hover pr-5" value="subregioes-pe">\
+                <li class="li-hover pr-4" value="subregioes-pe">\
                   <span class="fa-li" style="color:#e3773b; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Sertão</span>\
                 </li>\
-                <li class="li-hover pr-5" value="subregioes-pe">\
+                <li class="li-hover pr-4" value="subregioes-pe">\
                   <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Agreste</span>\
@@ -2080,12 +2073,12 @@ var config = {
             {
                 layer: 'satellite',
                 opacity: 0.5,
-                duration: 3000
+                duration: 2000
             },
             {
                 layer: 'agsn',
                 opacity: 0.7,
-                duration: 4000
+                duration: 1000
             }
         ],
         onChapterExit: [
@@ -2170,10 +2163,17 @@ var config = {
       image: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-        <div class="container p-right-left p-bottom">\
+        <div class="container p-right-left">\
           <h1 class="laranja">Belo Horizonte</h1>\
           <p>A região central de Belo Horizonte apresenta um desenho urbano com ruas amplas, arborizadas e repletas de rios e córregos, com vistas para a Serra do Curral. O cenário de modernização, construído desde o final do século 19, se contrapõe a outro, formado pela expansão urbana, com diversos assentamentos informais. Em um contexto mais recente, iniciado nos anos 2010, quando ocupando as ruas e experimentando a cidade de outras maneiras, as pessoas de Belo Horizonte passam a reivindicar seu pertencimento à cidade e levantam diversas pautas urbanas. E é nesse contexto em que surgem as ocupações da Izidora – considerado um dos maiores conflitos fundiários latino-americanos pela Habitat III, é também um dos maiores movimentos por direito à moradia do país.</p>\
-          <p>Izidora carrega em sua essência uma comunidade engajada na busca de melhorias para seu território, que demanda em uníssono: queremos morar, e queremos morar com direitos. Para promover o diálogo e transformar demandas em planos de ação e urbanização, surge o PRO-IZIDORA (Programa de Proteção Ambiental e Melhorias Urbanas da região da Izidora), iniciativa da Prefeitura de Belo Horizonte, por meio da SMPU e da Urbel, em parceria com o ONU-Habitat e o UNOPS. A partir dele, reivindicações da população ganham novos contornos com a real intenção da chegada de políticas públicas e direitos básicos às quatro ocupações da região, cujos nomes refletem mulheres que marcaram a história da cidade e substantivos que representam sua luta: Helena Greco, Rosa Leão, Vitória e Esperança. </p>\
+          <p>Izidora carrega em sua essência uma comunidade engajada na busca de melhorias para seu território, que demanda em uníssono: queremos morar, e queremos morar com direitos. Para promover o diálogo e transformar demandas em planos de ação e urbanização, surge o PRO-IZIDORA (Programa de Proteção Ambiental e Melhorias Urbanas da região da Izidora), iniciativa da Prefeitura de Belo Horizonte, por meio da SMPU e da Urbel, em parceria com o ONU-Habitat e o UNOPS. A partir dele, reivindicações da população ganham novos contornos com a real intenção da chegada de políticas públicas e direitos básicos às quatro ocupações da região, cujos nomes refletem mulheres que marcaram a história da cidade e substantivos que representam sua luta: Helena Greco, Rosa Leão, Vitória e Esperança.</p>\
+          <ul class="fa-ul">\
+                <li class="li-hover" value="agsn">\
+                  <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Ocupações da Izidora</span>\
+                </li>\
+          </ul>\
         </div>\
       </div>\
       ',
@@ -2283,11 +2283,18 @@ var config = {
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
-          <div class="container p-right-left p-bottom">\
+          <div class="container p-right-left">\
             <h1 class="laranja">Juiz de Fora</h1>\
             <p>Maior cidade da Zona da Mata de Minas Gerais, Juiz de Fora é reconhecida pelo seu povo acolhedor, pelo espírito vanguardista e pelas diversas experiências que proporciona. Com uma população de aproximadamente 577 mil habitantes e uma localização estratégica, ela se apresenta como capital regional, exercendo influência nos municípios do entorno.</p>\
             <p>Manchester Mineira e Princesa de Minas são alguns títulos que demonstram sua identidade pioneira e singular. O município foi um importante polo industrial, abrigando diversas fábricas ao longo de sua expansão, como Marmelos Zero, a primeira grande usina hidrelétrica da América do Sul.</p>\
             <p>Andar pelas ruas é reconhecer em cada canto um pouco da sua história de 172 anos, da sua arquitetura tradicional, dos seus contornos culturais. Mas é também perceber as inúmeras desigualdades territoriais. Conhecer o seu espaço, suas contradições e seus moradores possibilita que Juiz de Fora seja transformada para garantir o direito à cidade a sua população. Para isso, o projeto Territórios da Cidadania atua em 141 microterritórios historicamente excluídos do planejamento urbano. Neste contexto, os dados se transformam em políticas públicas capazes de melhorar a vida de todos os juizforanos.</p>\
+            <ul class="fa-ul">\
+                <li class="li-hover" value="grotas">\
+                  <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Microterritórios</span>\
+                </li>\
+            </ul>\
           </div>\
         </div>\
         ',
@@ -2405,11 +2412,18 @@ var config = {
       image: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-        <div class="container p-right-left p-bottom">\
+        <div class="container p-right-left">\
           <h1 class="laranja">Rio de Janeiro</h1>\
             <p>“A rua tem alma!”, declarou João do Rio em 1908. No Rio de Janeiro, a alma das ruas tem protagonismo de quem produz a história da cidade. Por elas, estas histórias são transportadas como células nas veias de uma cidade viva.</p>\
             <p>São mais de seis milhões de pessoas ocupando as ruas de formas distintas – e, portanto, vivendo cidades distintas. Por isso, a rua também ensina sobre desigualdades. Há 1.074 favelas no Rio de Janeiro, onde vive 22% da população carioca. É o maior percentual de pessoas vivendo em favelas do Brasil. Nesse contexto, os desafios do crescimento urbano acelerado são mais latentes e visíveis.</p>\
             <p>Ao mesmo tempo em que denunciam desigualdades, as ruas das favelas guardam uma fonte inesgotável de cultura, potencial econômico e desenvolvimento de capacidades. É por elas que, de porta em porta, o ONU-Habitat e a Prefeitura da Cidade do Rio de Janeiro mapeiam a materialidade das condições de vida de quem as ocupam, na busca de reduzir o risco social de famílias mais vulneráveis. Os dados coletados são uma ferramenta essencial para a implementação de políticas públicas baseadas em evidência, promovendo um atendimento integrado e um monitoramento da situação. É assim que, com o olhar atento do poder público, as ruas da favela vão pouco a pouco transformando as histórias que contam.</p>\
+            <ul class="fa-ul">\
+                <li class="li-hover" value="grotas">\
+                  <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Vilas e Favelas</span>\
+                </li>\
+            </ul>\
         </div>\
       </div>\
       ',
@@ -2528,12 +2542,24 @@ var config = {
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
-          <div class="container p-right-left p-bottom">\
+          <div class="container p-right-left">\
             <h1 class="laranja">São Paulo</h1>\
             <p>Uma metrópole global profundamente dinâmica, digitalizada e complexa. São Paulo é lar de 12,4 milhões de pessoas, distribuídas em uma área de mais de 1,5 mil quilômetros quadrados. Somada aos outros 38 municípios que compõem sua Região Metropolitana, ela concentra metade da população do Estado e mais de 30% do PIB do país.</p>\
             <p>Ao longo do século 19, durante o Ciclo do Café, o rápido crescimento populacional e produtivo da cidade consolidou sua mancha urbana, comprometendo os biomas locais – especialmente o de Mata Atlântica, predominante na região. Além do espaço geográfico, também se perderam inúmeras espécies de fauna e flora que faziam parte desse ecossistema.</p>\
             <p>Essa trajetória, no entanto, está em transformação. Hoje, apesar da fama de selva de pedra ser parte incontornável do imaginário da cidade, quase metade do território de São Paulo corresponde à cobertura verde, e quase um terço é território rural. Em 30 anos, o número de parques cresceu de 32 para 111, o que ilustra a preocupação do município em incentivar o desenvolvimento e a ocupação dos espaços verdes pelas pessoas.</p>\
             <p>Neste processo, São Paulo tem mantido em vista a necessidade de avaliar a qualidade de parques e áreas de conservação, promovendo espaços verdes de maneira mais igualitária para seus milhões de moradores. Além disso, outras ações também estão em foco: capacitar instituições e sociedade civil para criar, gerir e monitorar a qualidade dos equipamentos urbanos; identificar áreas em potencial para desenvolver novos espaços públicos verdes e garantir a participação da população de forma equilibrada com relação a raça, classe, gênero e território.</p>\
+            <ul class="fa-ul">\
+                <li class="li-hover pr-4" value="grotas">\
+                  <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Zona urbana</span>\
+                </li>\
+                <li class="li-hover" value="grotas">\
+                  <span class="fa-li" style="color:#378f24; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Zona rural</span>\
+                </li>\
+            </ul>\
           </div>\
         </div>\
         ',
@@ -2547,12 +2573,12 @@ var config = {
         mapAnimation: 'flyTo',
         rotateAnimation: false,
         spinGlobe: false,
-        mapInteractive: true,
+        mapInteractive: false,
         callback: '',
         onChapterEnter: [
           {
               layer: 'sp-urbano-rural',
-              opacity: 1
+              opacity: 0.75
           }
         ],
         onChapterExit: [
@@ -2636,12 +2662,19 @@ var config = {
           image: false,
           description: '\
           <div class="light rounded-lg shadow-lg">\
-            <div class="container p-right-left p-bottom">\
+            <div class="container p-right-left">\
               <h1 class="laranja">Conexões Urbanas</h1>\
                 <p>Mais do que bordas de um território, cidades nas fronteiras podem ser pontos de encontro cultural. Lugares nos quais são fortalecidas as conexões urbanas. Esse é o exemplo percebido em duas regiões na fronteira entre Brasil, Argentina e Paraguai.</p>\
                 <p>A primeira fica entre Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e tem 500 mil habitantes - o maior núcleo urbano da fronteira brasileira. A região é conhecida pelas Cataratas do Iguaçu, pela Usina Hidrelétrica de Itaipu e pela expressividade das atividades comerciais. Além de portas de entrada para seus respectivos países, os municípios também são o destino de imigrantes, que somam cerca de 80 nacionalidades.</p>\
                 <p>A segunda região é formada pelos municípios de Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina). Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
                 <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma mancha urbana única. Por apresentarem desafios e potenciais conjuntos, a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
+                <ul class="fa-ul">\
+                  <li class="li-hover" value="grotas">\
+                    <span class="fa-li" style="color:#cc3480; opacity: 1">\
+                    <i class="fa fa-minus"></i></span>\
+                    <span>Fronteira compartilhada entre Argentina, Brasil e Paraguai</span>\
+                  </li>\
+                </ul>\
             </div>\
           </div>\
           ',
@@ -2661,7 +2694,7 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             spinGlobe: false,
-            mapInteractive: true,
+            mapInteractive: false,
             callback: '',
             onChapterEnter: [
               {
@@ -2853,7 +2886,7 @@ var config = {
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
-          <div class="container p-right-left p-bottom">\
+          <div class="container p-right-left">\
             <h1 class="laranja">Sul Global</h1>\
               <p>O termo Sul Global surgiu nos anos 1980 para substituir expressões tidas como obsoletos, como “países subdesenvolvidos” ou “em desenvolvimento”. Embora a maior parte dos países de baixa e média renda esteja localizada no hemisfério sul, a distinção não reflete totalmente sua real divisão geográfica. Um país é definido como Norte ou Sul não devido à sua localização geográfica, mas a certos indicadores econômicos e de qualidade de vida de sua população.</p>\
               <p>De forma geral, o Sul Global abrange países e regiões muito diferentes entre si. No entanto, uma das formas de uso do termo está relacionada à ideia de que esses países podem colaborar para avançarem juntos em questões sociais, econômicas, ambientais e políticas.</p>\
