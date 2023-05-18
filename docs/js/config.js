@@ -2256,18 +2256,8 @@ var config = {
       spinGlobe: false,
       mapInteractive: false,
       callback: '',
-      onChapterEnter: [
-        {
-            layer: 'agsn',
-            opacity: 0.6
-        }
-      ],
-      onChapterExit: [
-        {
-            layer: 'agsn',
-            opacity: 0
-        }
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
   },
 
   {
@@ -2306,28 +2296,8 @@ var config = {
       spinGlobe: false,
       mapInteractive: true,
       callback: '',
-      onChapterEnter: [
-        {
-            layer: 'satellite',
-            opacity: 0.5,
-            duration: 2000
-        },
-        {
-            layer: 'agsn',
-            opacity: 0.7,
-            duration: 1000
-        }
-      ],
-      onChapterExit: [
-          {
-              layer: 'satellite',
-              opacity: 0
-          },
-          {
-              layer: 'agsn',
-              opacity: 0
-          }
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
 
     {
@@ -2350,10 +2320,10 @@ var config = {
                     <p>Em 2022, a geógrafa Elaine Cristóvão Coelho viajou quase 1,5 mil km de Salvador para voltar ao lugar onde sua trajetória começou. Ela cresceu no bairro Marumbi, na zona leste de Juiz de Fora (MG), uma região que historicamente apresenta alta vulnerabilidade social. Atuando como supervisora de campo no ONU-Habitat, ela percorreu uma extensão equivalente a 350 campos de futebol em vias íngremes, sinuosas, com características que mesclam rural e urbano. Tudo para promover o desenvolvimento socioeconômico e garantir o acesso a programas de cidadania em 141 microterritórios da cidade.</p>\
                     <p>O Territórios da Cidadania, projeto no qual atuou, é uma parceria com a Prefeitura de Juiz de Fora para realizar um diagnóstico dos espaços urbanos, das moradias e da população que reside nesses locais. Atuando como uma ferramenta de planejamento e gestão, os dados coletados auxiliam na superação de desigualdades socioespaciais, embasando a formulação de políticas públicas e priorizações de investimento.</p>\
                     <p>A conexão de Elaine com trabalhos de impacto social parte da sua própria vivência. Enquanto crescia, sua casa era de chão batido, as ruas não tinham asfalto e, para estudar, seu padrinho ajudava na compra dos cadernos. A educação era um instrumento de transformação social. “Venho de uma linhagem de empregadas domésticas: minha mãe, minha avó, minhas tias e eu também fomos empregadas domésticas. Sempre tive fé na educação porque sabia que ela poderia me salvar profissional e economicamente”.</p>\
-                    <p>Elaine se formou geógrafa e, vinte anos depois, retornou ao território para atuar como profissional do projeto. A contratação de habitantes dos microterritórios no projeto possibilitou a entrada de pessoas especializadas que entendem melhor a realidade dessas localidades e se identificam</p>\
+                    <p>Elaine se formou geógrafa e, vinte anos depois, retornou ao território para atuar como profissional do projeto. A contratação de habitantes dos microterritórios no projeto possibilitou a entrada de pessoas especializadas que entendem melhor a realidade dessas localidades e se identificam com sua população.</p>\
                 </div>\
                 <div class="col-md-6 col-lg-6">\
-                    <p>com sua população. Essa é também uma forma de dar um retorno para regiões historicamente invisibilizadas no planejamento urbano da cidade.</p>\
+                    <p>Essa é também uma forma de dar um retorno para regiões historicamente invisibilizadas no planejamento urbano da cidade.</p>\
                     <p>Elaine entende que as informações coletadas não são só números. Por trás, há uma pessoa com frustrações, problemas e sonhos. “É preciso analisar o que aquele dado quer dizer. Existe um contexto que ajuda a explicar esse indicador. As pessoas precisam e querem ser ouvidas. Por isso sempre gostei muito de acompanhar o trabalho de campo”.</p>\
                     <p>As metodologias aplicadas na cidade — Mapa Rápido Participativo e Perfil Socioeconômico — são participativas. Para Elaine, equilibrar a visão técnica com a percepção da população é o primeiro passo para garantir o sucesso do projeto: perceber que a Prefeitura busca conhecer o indivíduo e suas necessidades é uma forma de trazer como retorno políticas públicas mais assertivas. “Nesse diagnóstico, é importante se esvaziar das nossas próprias percepções. Eu vou ouvir do outro o que ele pensa sobre si e sobre onde ele mora”, explica. “Não me lembro disso já ter sido feito aqui; é uma inovação da qual fico muito feliz por ter participado. Sei que vai mudar a vida de muita gente”.</p>\
                     <p>E mudou a vida dela também. “Parecia uma possibilidade tão remota trabalhar na ONU, era algo que eu nem sonhava. Isso me dá esperança de que pessoas como eu, mulheres negras, de origem pobre, podem alcançar esses espaços”, comemora. “Eu parti de muito longe, é como uma chancela da minha trajetória: tá vendo onde você pode chegar? Isso só me motiva a buscar mais e entender que eu posso, que as minhas também podem. Acho que eu sou parecida com quem sempre sonhei ser”.</p>\
@@ -2372,7 +2342,7 @@ var config = {
         zoom: 11,
         pitch: 45.00,
         bearing: 0.00,
-        speed: 2
+        speed: 1
           // flyTo additional controls-
           // These options control the flight curve, making it move
           // slowly and zoom out almost completely before starting
@@ -2385,18 +2355,8 @@ var config = {
       spinGlobe: false,
       mapInteractive: false,
       callback: '',
-      onChapterEnter: [
-        {
-            layer: 'agsn',
-            opacity: 0.7
-        }
-      ],
-      onChapterExit: [
-          {
-              layer: 'agsn',
-              opacity: 0
-          }
-      ]
+      onChapterEnter: [],
+      onChapterExit: []
     },
 
     {
@@ -2660,10 +2620,10 @@ var config = {
           <div class="light rounded-lg shadow-lg">\
             <div class="container p-right-left">\
               <h1 class="laranja">Conexões Urbanas</h1>\
-                <p>Mais do que bordas de um território, cidades nas fronteiras podem ser pontos de encontro cultural. Lugares nos quais são fortalecidas as conexões urbanas. Esse é o exemplo percebido em duas regiões na fronteira entre Brasil, Argentina e Paraguai.</p>\
-                <p>A primeira fica entre Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e tem 500 mil habitantes - o maior núcleo urbano da fronteira brasileira. A região é conhecida pelas Cataratas do Iguaçu, pela Usina Hidrelétrica de Itaipu e pela expressividade das atividades comerciais. Além de portas de entrada para seus respectivos países, os municípios também são o destino de imigrantes, que somam cerca de 80 nacionalidades.</p>\
-                <p>A segunda região é formada pelos municípios de Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina). Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
-                <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma mancha urbana única. Por apresentarem desafios e potenciais conjuntos, a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
+                <p>Mais do que bordas de um território, cidades nas fronteiras podem ser pontos de encontro cultural. <b>Lugares nos quais são fortalecidas as conexões urbanas</b>. Esse é o exemplo percebido em duas regiões na <b>fronteira entre Brasil, Argentina e Paraguai</b>.</p>\
+                <p>A primeira fica entre <b>Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai)</b> e tem 500 mil habitantes - o maior núcleo urbano da fronteira brasileira. A região é conhecida pelas Cataratas do Iguaçu, pela Usina Hidrelétrica de Itaipu e pela expressividade das atividades comerciais. Além de portas de entrada para seus respectivos países, os municípios também são o destino de imigrantes, que somam cerca de 80 nacionalidades.</p>\
+                <p>A segunda região é formada pelos municípios de <b>Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina)</b>. Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
+                <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma <b>mancha urbana única</b>. Por apresentarem desafios e potenciais conjuntos, <b>a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado</b>. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma <b>rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos</b>, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
                 <ul class="fa-ul">\
                   <li class="li-hover">\
                     <span class="fa-li" style="color:#f1b944; opacity: 1">\
@@ -2676,7 +2636,7 @@ var config = {
           ',
           location: {
                 center: [-54.24178, -26.16576],
-                zoom: 8.42,
+                zoom: 7.42,
                 pitch: 54.02,
                 bearing: -30.90,
                 speed: 2
@@ -2732,15 +2692,15 @@ var config = {
                 </div>\
                 <div class="row p-bottom">\
                   <div class="col-md-6 col-lg-6">\
-                    <p>Oito lugares, um só espaço. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas três cidades, três estados e dois países: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina.</p>\
-                    <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: harmonia. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um “portunhol” característico, assim como em diversos outros aspectos culturais. E essa composição gera uma identidade única.</p>\
-                    <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. A gente não vê a fronteira como um ponto de separação, mas sim de união”.</p>\
-                    <p>A frase é de Monica Raquel Franchini, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do La Frontera – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
+                    <p><b>Oito lugares, um só espaço</b>. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas <b>três cidades, três estados e dois países: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina</b>.</p>\
+                    <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: <b>harmonia</b>. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um <b>“portunhol”</b> característico, assim como em diversos outros aspectos culturais. E essa composição gera uma identidade única.</p>\
+                    <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. A gente não vê a fronteira como um ponto de separação, mas sim de <b>união</b>”.</p>\
+                    <p>A frase é de <b>Monica Raquel Franchini</b>, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do <b>La Frontera</b> – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
                   </div>\
                   <div class="col-md-6 col-lg-6">\
                     <p>A missão do grupo está baseada em promover os pontos fortes da região através da cooperação e da socialização, estabelecendo parcerias e divulgando sua cultura. Apesar de estar à frente da área de educação, a paixão de Monica pela região transborda para os outros domínios.</p>\
-                    <p>Um marco para o grupo foi a chegada do Conexões Urbanas, iniciativa do ONU-Habitat cujo objetivo é apoiar os municípios na definição de ações para melhorar sua rede de espaços públicos. O projeto promoveu uma avaliação de 32 espaços públicos da região, analisando sua distribuição, acessibilidade, instalações físicas, conforto, segurança, verde, governança, tipos de usos e usuários. Além do conglomerado na fronteira Brasil e Argentina, fazem parte do projeto os municípios de Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e mais duas cidades no Líbano.</p>\
-                    <p>Para Monica, essa parceria vai potencializar as ações do grupo La Frontera, já que os dados fornecidos poderão servir de base para muitas outras ações. Ela sente que as duas instituições têm uma sinergia única em seus objetivos. “Temos que acreditar na nossa gente. Não somos uma só cidade, não somos um só povo: somos uma região fronteiriça com as mesmas necessidades e o mesmo interesse: o bem comum. E o projeto Conexões Urbanas está nos ajudando a se potencializar e crescer como um todo”.</p>\
+                    <p>Um marco para o grupo foi a chegada do <b>Conexões Urbanas</b>, iniciativa do ONU-Habitat cujo objetivo é apoiar os municípios na definição de ações para melhorar sua rede de <b>espaços públicos</b>. O projeto promoveu uma avaliação de 32 espaços públicos da região, analisando sua distribuição, acessibilidade, instalações físicas, conforto, segurança, verde, governança, tipos de usos e usuários. <b>Além do conglomerado na fronteira Brasil e Argentina, fazem parte do projeto os municípios de Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e mais duas cidades no Líbano</b>.</p>\
+                    <p>Para Monica, essa parceria vai potencializar as ações do grupo La Frontera, já que os dados fornecidos poderão servir de base para muitas outras ações. Ela sente que as duas instituições têm uma sinergia única em seus objetivos. <b>“Temos que acreditar na nossa gente. Não somos uma só cidade, não somos um só povo: somos uma região fronteiriça com as mesmas necessidades e o mesmo interesse: o bem comum. E o projeto Conexões Urbanas está nos ajudando a se potencializar e crescer como um todo”</b>.</p>\
                   </div>\
                 </div>\
             </div>\
@@ -2802,9 +2762,9 @@ var config = {
         <div class="light rounded-lg shadow-lg">\
           <div class="container p-right-left p-bottom">\
             <h1 class="laranja">Curitiba</h1>\
-              <p>Para além das araucárias e calçadas de petit-pavê, Curitiba é referência internacional em planejamento urbano e soluções de mobilidade. A partir dos anos 1960, a criação de estações-tubo, canaletas exclusivas para ônibus expressos (sistema conhecido por BRT) e parques públicos atrelados a obras arquitetônicas icônicas popularizaram mundo afora a imagem de uma cidade que estava à frente do seu tempo.</p>\
+              <p>Para além das araucárias e calçadas de petit-pavê, <b>Curitiba é referência internacional em planejamento urbano e soluções de mobilidade</b>. A partir dos anos 1960, a criação de estações-tubo, canaletas exclusivas para ônibus expressos (sistema conhecido por BRT) e parques públicos atrelados a obras arquitetônicas icônicas popularizaram mundo afora a imagem de uma cidade que estava à frente do seu tempo.</p>\
               <p>Não é exagero dizer, portanto, que a capital paranaense tem em seu cerne a inovação. No século 21, no entanto, essa ideia começa a ganhar novos contornos: a de cidade inteligente. As marcas do urbanismo passam a estar interligadas à ideia de que, mais do que conectada, a cidade deve promover qualidade de vida para seus quase dois milhões de habitantes.</p>\
-              <p>Esse percurso passa necessariamente pelo desenvolvimento urbano sustentável. Não à toa, uma das metas da cidade é atingir a neutralidade de carbono até 2050. Para auxiliar no alcance desse objetivo, a cidade foi a única do Brasil a participar de um desafio de inovação promovido pelo ONU-Habitat – o <strong class="rosa">Climate Smart Cities Challenge</strong> –, com o objetivo de avançar em soluções para criar comunidades carbono zero.</p>\
+              <p>Esse percurso passa necessariamente pelo desenvolvimento urbano sustentável. Não à toa, <b>uma das metas da cidade é atingir a neutralidade de carbono até 2050</b>. Para auxiliar no alcance desse objetivo, a cidade foi a única do Brasil a participar de um desafio de inovação promovido pelo ONU-Habitat – o <b>Climate Smart Cities Challenge</b> –, com o objetivo de avançar em soluções para criar comunidades carbono zero.</p>\
               <ul class="fa-ul">\
                   <li class="li-hover pr-4">\
                     <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
@@ -2841,7 +2801,7 @@ var config = {
         mapAnimation: 'flyTo',
         rotateAnimation: false,
         spinGlobe: false,
-        mapInteractive: true,
+        mapInteractive: false,
         callback: '',
         onChapterEnter: [
           {
@@ -2939,15 +2899,15 @@ var config = {
         <div class="light rounded-lg shadow-lg">\
           <div class="container p-right-left">\
             <h1 class="laranja">Sul Global</h1>\
-              <p>O termo Sul Global surgiu nos anos 1980 para substituir expressões tidas como obsoletos, como “países subdesenvolvidos” ou “em desenvolvimento”. Embora a maior parte dos países de baixa e média renda esteja localizada no hemisfério sul, a distinção não reflete totalmente sua real divisão geográfica. Um país é definido como Norte ou Sul não devido à sua localização geográfica, mas a certos indicadores econômicos e de qualidade de vida de sua população.</p>\
-              <p>De forma geral, o Sul Global abrange países e regiões muito diferentes entre si. No entanto, uma das formas de uso do termo está relacionada à ideia de que esses países podem colaborar para avançarem juntos em questões sociais, econômicas, ambientais e políticas.</p>\
-              <p>No contexto urbano, diferentes territórios do Sul Global podem, por exemplo, trocar conhecimentos para resolver problemas relacionados à falta de moradia ou o acesso à água. Essa forma de colaboração é chamada de Cooperação Sul-Sul (CSS), por meio da qual dois ou mais países promovem intercâmbios de conhecimento, transferências de tecnologias, respostas a emergências e desenvolvimento de meios de subsistência.</p>\
-              <p>Sua vantagem é que diferentes regiões do Sul com frequência apresentam problemas ou capacidades similares. Isso significa que, quando um país ou cidade do Sul desenvolve uma solução para um desafio, essa boa prática pode ser adaptada para outro contexto com mais facilidade, chegando a bons resultados de forma mais eficiente.</p>\
+              <p>O termo Sul Global <b>surgiu nos anos 1980 para substituir expressões tidas como obsoletos, como “países subdesenvolvidos” ou “em desenvolvimento”</b>. Embora a maior parte dos países de baixa e média renda esteja localizada no hemisfério sul, a distinção não reflete totalmente sua real divisão geográfica. Um país é definido como Norte ou Sul não devido à sua localização geográfica, mas a certos indicadores econômicos e de qualidade de vida de sua população.</p>\
+              <p>De forma geral, o Sul Global abrange países e regiões muito diferentes entre si. No entanto, uma das formas de uso do termo está relacionada à ideia de que <b>esses países podem colaborar para avançarem juntos em questões sociais, econômicas, ambientais e políticas</b>.</p>\
+              <p>No contexto urbano, diferentes territórios do Sul Global podem, por exemplo, trocar conhecimentos para resolver problemas relacionados à falta de moradia ou o acesso à água. Essa forma de colaboração é chamada de <b>Cooperação Sul-Sul (CSS)</b>, por meio da qual dois ou mais países promovem intercâmbios de conhecimento, transferências de tecnologias, respostas a emergências e desenvolvimento de meios de subsistência.</p>\
+              <p>Sua vantagem é que diferentes regiões do Sul com frequência apresentam problemas ou capacidades similares. Isso significa que, <b>quando um país ou cidade do Sul desenvolve uma solução para um desafio, essa boa prática pode ser adaptada para outro contexto com mais facilidade</b>, chegando a bons resultados de forma mais eficiente.</p>\
               <ul class="fa-ul ul-legend">\
                 <li class="li-hover">\
                   <span class="fa-li" style="color:#f1b944;">\
                   <i class="fa fa-square"></i></span>\
-                  <span>Região considerada como Sul Global</span>\
+                  <span>Sul Global</span>\
                 </li>\
               </ul>\
           </div>\
@@ -2970,22 +2930,12 @@ var config = {
             layer: 'global-south',
             opacity: 0.85,
             duration: 1000
-          },
-          {
-            layer: 'satellite',
-            opacity: 0,
-            duration: 100
           }
         ],
         onChapterExit: [
           {
             layer: 'global-south',
             opacity: 0
-          },
-          {
-            layer: 'satellite',
-            opacity: 0,
-            duration: 0
           }
         ]
     },
@@ -3008,17 +2958,17 @@ var config = {
               <div class="row p-bottom">\
                 <div class="col-md-6 col-lg-6">\
                   <p>Era início de 2020, e o mundo ainda se adaptava à rápida digitalização que se deu junto à pandemia da COVID-19. Igor Rezende Vilela, assessor de Assuntos Internacionais da Prefeitura de São Paulo, buscava oportunidades de cooperação internacional que se adequassem às novas recomendações sanitárias.</p>\
-                  <p>Foi assim que ele chegou ao <strong class="rosa">Waste Wise Cities</strong>. Desde 2018, o projeto coordenado pela sede do ONU-Habitat promove um intercâmbio de conhecimentos entre cidades do Sul Global. As temáticas de trabalho focam principalmente em reduzir o impacto ambiental negativo das cidades, prestando especial atenção à qualidade do ar e à gestão de resíduos municipais.</p>\
+                  <p>Foi assim que ele chegou ao <b>Waste Wise Cities</b>. Desde 2018, o projeto coordenado pela sede do ONU-Habitat promove um intercâmbio de conhecimentos entre cidades do Sul Global. As temáticas de trabalho focam principalmente em reduzir o impacto ambiental negativo das cidades, prestando especial atenção à qualidade do ar e à gestão de resíduos municipais.</p>\
                   <p>São Paulo foi a primeira cidade brasileira a participar da iniciativa, escolhendo Praia, capital de Cabo Verde, para um intercâmbio em gestão de resíduos. As cidades têm diferenças concretas como número de habitantes e características geográficas, mas foram as semelhanças que chamaram atenção.</p>\
-                  <p><strong>"Um grande catalizador do intercâmbio foi a proximidade não só linguística como cultural, mesmo com proporções tão diferentes. Em algum momento, São Paulo já teve cem mil habitantes. O que já aconteceu aqui pode ser compartilhado"</strong>, afirma Igor.</p>\
+                  <p><b>"Um grande catalizador do intercâmbio foi a proximidade não só linguística como cultural, mesmo com proporções tão diferentes. Em algum momento, São Paulo já teve cem mil habitantes. O que já aconteceu aqui pode ser compartilhado"</b>, afirma Igor.</p>\
                   <p>Geisa Barreto, técnica superior de Limpeza Urbana em Praia, conta do entusiasmo da equipe ao receber o convite. A capital se candidatou no programa esperando descobrir novos horizontes para a gestão de resíduos.</p>\
                 </div>\
                 <div class="col-md-6 col-lg-6">\
-                  <p><strong>“Aprendemos muito sobre informatização do sistema de recolhimento de resíduos, organização de catadores em cooperativas, tratamento de resíduos hospitalares e estações de transferência. Essa missão teve um impacto positivo, adquirimos experiências que podemos aplicar aqui”</strong>, destaca.</p>\
+                  <p><b>“Aprendemos muito sobre informatização do sistema de recolhimento de resíduos, organização de catadores em cooperativas, tratamento de resíduos hospitalares e estações de transferência. Essa missão teve um impacto positivo, adquirimos experiências que podemos aplicar aqui”</b>, destaca.</p>\
                   <p>A cooperação estava prevista para ocorrer virtualmente. Qual não foi a felicidade geral ao descobrir que um intercâmbio presencial seria possível em 2022? A experiência envolveu missões para Praia e para São Paulo, e foi essencial para identificar “pontos-cegos” das trocas online.</p>\
                   <p>Hoje, as melhorias nos processos de ambos os territórios já são perceptíveis. Em São Paulo, os técnicos aprenderam formas didáticas de falar sobre o trabalho de gestão de resíduos e passaram a tratar a transparência como prioridade. Em Praia, novas recomendações sobre o tratamento diferenciado de resíduos potencialmente tóxicos, como os hospitalares, estão sendo estudadas.</p>\
-                  <p><strong>“Temos vários centros de saúde e grandes hospitais. Fiquei encantada em como São Paulo faz o tratamento deste tipo de resíduos. Eles são transportados separadamente, passam por uma descontaminação, para então serem transportadas para o aterro"</strong>, ressaltou Geisa.</p>\
-                  <p>Igor também enfatizou a importância de iniciativas de cooperação Sul-Sul para fortalecer relações entre países do Sul Global e desenvolver a região. <strong>“Para a diplomacia subnacional, a participação de São Paulo nessa iniciativa foi um case. Espero que a partir desse ano isso seja colocado a nível nacional. Essa experiência de sair do seu lugar e ir para o lugar do outro foi valiosa"</strong>.</p>\
+                  <p><b>“Temos vários centros de saúde e grandes hospitais. Fiquei encantada em como São Paulo faz o tratamento deste tipo de resíduos. Eles são transportados separadamente, passam por uma descontaminação, para então serem transportadas para o aterro"</b>, ressaltou Geisa.</p>\
+                  <p>Igor também enfatizou a importância de iniciativas de cooperação Sul-Sul para fortalecer relações entre países do Sul Global e desenvolver a região. <b>“Para a diplomacia subnacional, a participação de São Paulo nessa iniciativa foi um case. Espero que a partir desse ano isso seja colocado a nível nacional. Essa experiência de sair do seu lugar e ir para o lugar do outro foi valiosa"</b>.</p>\
                 </div>\
               </div>\
             </div>\
@@ -3072,7 +3022,36 @@ var config = {
           opacity: 1
         }
       ]
-    }
+    },
+
+    {
+      id: "final-empty",
+      alignment: "full",
+      hidden: true,
+      //title: 'Abertura',
+      //bookmark: 'Abertura',
+      description: '',
+      location: {},
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: true,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [
+        {
+            layer: 'satellite',
+            opacity: 1,
+            duration: 2500
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'satellite',
+              opacity: 0,
+              duration: 1500
+          }
+      ]
+    },
 
   ]
   
