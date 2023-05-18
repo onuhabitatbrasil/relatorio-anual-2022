@@ -157,14 +157,14 @@ var config = {
       callback: '',
       onChapterEnter: [
            {
-               layer: 'pin-nairobi',
+               layer: 'pin-onu',
                opacity: 1,
                duration: 5000
            }
       ],
       onChapterExit: [
            {
-               layer: 'pin-nairobi',
+               layer: 'pin-onu',
                opacity: 0
            }
       ]
@@ -200,14 +200,14 @@ var config = {
       callback: '',
       onChapterEnter: [
            {
-               layer: 'pin-rio',
+               layer: 'pin-onu',
                opacity: 1,
                duration: 5000
            }
       ],
       onChapterExit: [
            {
-               layer: 'pin-rio',
+               layer: 'pin-onu',
                opacity: 0,
                duration: 2500
            }
@@ -1836,7 +1836,7 @@ var config = {
           <p>Adaptação, flexibilidade, gestão de risco e integração são algumas das palavras que descrevem a atuação de Teresina frente às mudanças climáticas. Localizada no semiárido nordestino, a cidade aquece até duas vezes mais rápido que a média global de temperatura. Isso torna a capital piauiense mais vulnerável aos impactos ambientais, resultando em enchentes, secas e ondas de calor que a desafiam constantemente.</p>\
           <p>Para solucionar estes e demais problemas, a cidade está implementando soluções de baixo custo baseadas na natureza para lidar com o ciclo da água e o desequilíbrio do ecossistema - reforçando a reputação de “cidade verde” que enfrenta os desafios climáticos.</p>\
           <p>Através de oficinas participativas, o Programa Global de Cidades Resilientes do ONU-Habitat e a Prefeitura de Teresina definiram atores urbanos estratégicos e prioridades da cidade para lidar com choques, riscos e impactos causados pela mudança do clima. As atividades realizadas pelo programa possibilitaram uma avaliação das ações do município, além de definir ações eficazes e estratégicas alinhadas aos problemas enfrentados no presente e que virão no futuro, tornando a cidade mais resiliente e sustentável.</p>\
-          <p style = "margin-top:1.75em; font-size:0.75rem;">As tonalidades de vermelho indicam áreas onde as temperaturas médias anuais de 2019 foram mais quentes do que no período de 1951 a 1980 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=GISS_TA_Y&date=2023-03-01">NASA/GISS/2019)</a>.</p>\
+          <p style = "margin-top:1.75em; font-size:0.75rem;">Áreas superficiais onde estava mais quente ou mais frio durante o dia no mês de dezembro de 2019 do que as temperaturas médias em relação ao mesmo mês entre 2001 e 2010 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_LSTAD_M&year=2019">MODIS/NASA/2019)</a>.</p>\
           <img style = "width: 35%;" src="assets/legend_teresina.png" alt="Legenda de tonalidades de temperaturas anormais"/>\
         </div>\
       </div>\
@@ -1858,11 +1858,11 @@ var config = {
             layer: 'pin-teresina',
             opacity: 1
         },
-        //{
-        //  layer: 'global-anomalia',
-        //  opacity: 1,
-        //  duration: 1500
-        //},
+        {
+          layer: 'temperature',
+          opacity: 0.9,
+          duration: 1500
+        },
         {
           layer: 'country-label',
           opacity: 0
@@ -1873,10 +1873,10 @@ var config = {
               layer: 'pin-teresina',
               opacity: 0
           },
-          //{
-          //  layer: 'global-anomalia',
-          //  opacity: 0
-          //},
+          {
+            layer: 'temperature',
+            opacity: 0
+          },
           {
             layer: 'country-label',
             opacity: 1
@@ -1928,23 +1928,25 @@ var config = {
     mapAnimation: 'flyTo',
     rotateAnimation: false,
     spinGlobe: false,
-    mapInteractive: true,
+    mapInteractive: false,
     callback: '',
     onChapterEnter: [
-      //{
-      //    layer: 'munic-pe',
-      //    opacity: 1
-      //},
+      {
+          layer: 'munic-pe-conex',
+          opacity: 1,
+          duration: 4000
+      },
       {
         layer: 'subregioes-pe',
         opacity: 0.7
       }
     ],
     onChapterExit: [
-      //  {
-      //     layer: 'munic-pe',
-      //      opacity: 0
-      // },
+        {
+          layer: 'munic-pe-conex',
+          opacity: 0,
+          duration: 500
+        },
         {
           layer: 'subregioes-pe',
           opacity: 0
@@ -1993,17 +1995,11 @@ var config = {
         </div>\
         ',
         location: {
-          //center: [-38.17727, -8.29398],
-          //zoom: 5.5,
-          //pitch: 40.00,
-          //bearing: 0.00,
+          center: [-38.17727, -8.29398],
+          zoom: 5.5,
+          pitch: 40.00,
+          bearing: 0.00,
           speed: 1
-            // flyTo additional controls-
-            // These options control the flight curve, making it move
-            // slowly and zoom out almost completely before starting
-            // to pan.
-            //speed: 2, // make the flying slow
-            //curve: 1, // change the speed at which it zooms out
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
@@ -2011,20 +2007,20 @@ var config = {
         mapInteractive: false,
         callback: '',
         onChapterEnter: [
-        //  {
-        //      layer: 'munic-pe',
-        //      opacity: 1
-        //  },
+          {
+              layer: 'munic-pe-conex',
+              opacity: 1
+          },
           {
             layer: 'subregioes-pe',
             opacity: 0.7
           }
         ],
         onChapterExit: [
-         //   {
-         //       layer: 'munic-pe',
-         //       opacity: 0
-         //   },
+            {
+              layer: 'munic-pe-conex',
+              opacity: 0
+            },
             {
               layer: 'subregioes-pe',
               opacity: 0
@@ -2171,7 +2167,7 @@ var config = {
                 <li class="li-hover" value="agsn">\
                   <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
-                  <span>Ocupações da Izidora</span>\
+                  <span>Izidora</span>\
                 </li>\
           </ul>\
         </div>\
@@ -2197,7 +2193,7 @@ var config = {
         },
         {
             layer: 'agsn',
-            opacity: 0.7,
+            opacity: 0.6,
             duration: 1000
         }
       ],
@@ -2263,14 +2259,14 @@ var config = {
       onChapterEnter: [
         {
             layer: 'agsn',
-            opacity: 0.7
+            opacity: 0.6
         }
       ],
       onChapterExit: [
-          {
-              layer: 'agsn',
-              opacity: 0
-          }
+        {
+            layer: 'agsn',
+            opacity: 0
+        }
       ]
   },
 
@@ -2303,7 +2299,7 @@ var config = {
           zoom: 11,
           pitch: 45.00,
           bearing: 0.00,
-          speed: 2
+          speed: 1
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -2700,13 +2696,21 @@ var config = {
               {
                   layer: 'fronteira',
                   opacity: 1
-              }
+              },
+              {
+                layer: 'munic-pe-conex',
+                opacity: 1
+              },
             ],
             onChapterExit: [
                 {
                     layer: 'fronteira',
                     opacity: 0
-                }
+                },
+                {
+                  layer: 'munic-pe-conex',
+                  opacity: 0
+                },
             ]
     },
 
@@ -2748,10 +2752,10 @@ var config = {
         </div>\
         ',
         location: {
-            center: [-22.32528, -2.14945],
-            zoom: 1.5,
-            pitch: 0,
-            bearing: 0,
+            //center: [-22.32528, -2.14945],
+            //zoom: 1.5,
+            //pitch: 0,
+            //bearing: 0,
             speed: 1
             // flyTo additional controls-
             // These options control the flight curve, making it move
@@ -2769,12 +2773,20 @@ var config = {
           {
               layer: 'fronteira',
               opacity: 1
+          },
+          {
+            layer: 'munic-pe-conex',
+            opacity: 1
           }
         ],
         onChapterExit: [
             {
                 layer: 'fronteira',
                 opacity: 0
+            },
+            {
+              layer: 'munic-pe-conex',
+              opacity: 0
             }
         ]
     },

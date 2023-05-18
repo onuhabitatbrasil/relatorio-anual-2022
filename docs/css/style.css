@@ -469,8 +469,8 @@ ul.social-icons li{
 }
 
 .step {
-    padding-top: 35vh;
-    padding-bottom: 35vh;
+    padding-top: 25vh;
+    padding-bottom: 30vh;
     /*margin-bottom: 30vh;*/
     opacity: 0.7;
     transition-duration: 0.5s;
@@ -1156,7 +1156,7 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
     line-height: 1;
   }
   .container-history {
-    max-width: 1300px;
+    max-width: 1150px;
   }
   .container-num {
     max-width: 1250px;
