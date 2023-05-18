@@ -469,8 +469,8 @@ ul.social-icons li{
 }
 
 .step {
-    padding-top: 25vh;
-    padding-bottom: 30vh;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
     /*margin-bottom: 30vh;*/
     opacity: 0.7;
     transition-duration: 0.5s;

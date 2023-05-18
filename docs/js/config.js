@@ -148,7 +148,7 @@ var config = {
         pitch: 55.50,
         bearing: -8.80,
         speed: 0.3,
-        curve: 0.5
+        curve: 0.75
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -191,7 +191,7 @@ var config = {
           pitch: 0.00,
           bearing: 0.00,
           speed: 0.3,
-          curve: 0.5
+          curve: 0.75
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -1724,7 +1724,7 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       spinGlobe: false,
-      mapInteractive: true,
+      mapInteractive: false,
       callback: '',
       onChapterEnter: [
         {
@@ -1843,7 +1843,7 @@ var config = {
       ',
       location: {
           center: [-42.78482, -5.18682],
-          zoom: 1.25,
+          zoom: 2.5,
           pitch: 0.00,
           bearing: 0.00,
           speed: 1
@@ -1851,7 +1851,7 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       spinGlobe: true,
-      mapInteractive: true,
+      mapInteractive: false,
       callback: '',
       onChapterEnter: [
         {
@@ -2424,7 +2424,7 @@ var config = {
       </div>\
       ',
         location: {     
-            center: [-43.39320, -22.92253],
+            center: [-43.43852, -22.91464],
             zoom: 10.40,
             pitch: 46.00,
             bearing: -13.60,
@@ -2551,7 +2551,7 @@ var config = {
                   <span>Zona urbana</span>\
                 </li>\
                 <li class="li-hover" value="grotas">\
-                  <span class="fa-li" style="color:#378f24; opacity: 0.75">\
+                  <span class="fa-li" style="color:#f1b944; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Zona rural</span>\
                 </li>\
@@ -2574,7 +2574,7 @@ var config = {
         onChapterEnter: [
           {
               layer: 'sp-urbano-rural',
-              opacity: 0.75
+              opacity: 0.7
           }
         ],
         onChapterExit: [
@@ -2637,13 +2637,13 @@ var config = {
         callback: '',
         onChapterEnter: [
           {
-              layer: 'sp-parques-cent',
-              opacity: 0.5
+              layer: 'sp-urbano-rural',
+              opacity: 0.7
           }
         ],
         onChapterExit: [
             {
-                layer: 'sp-parques-cent',
+                layer: 'sp-urbano-rural',
                 opacity: 0
             }
         ]
@@ -2666,7 +2666,7 @@ var config = {
                 <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma mancha urbana única. Por apresentarem desafios e potenciais conjuntos, a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
                 <ul class="fa-ul">\
                   <li class="li-hover" value="grotas">\
-                    <span class="fa-li" style="color:#cc3480; opacity: 1">\
+                    <span class="fa-li" style="color:#f1b944; opacity: 1">\
                     <i class="fa fa-minus"></i></span>\
                     <span>Fronteira compartilhada entre Argentina, Brasil e Paraguai</span>\
                   </li>\
@@ -2809,25 +2809,36 @@ var config = {
         </div>\
         ',
         location: {
-            center: [-49.33857, -25.50005],
-            zoom: 9.93,
-            pitch: 45.00,
-            bearing: 0.00,
-            speed: 0.5
-            // flyTo additional controls-
-            // These options control the flight curve, making it move
-            // slowly and zoom out almost completely before starting
-            // to pan.
-            //speed: 2, // make the flying slow
-            //curve: 1, // change the speed at which it zooms out
+          center: [-49.33857, -25.50005],
+          zoom: 11.17,
+          pitch: 52.00,
+          bearing: 0.00,
+          speed: 1
+          // flyTo additional controls-
+          // These options control the flight curve, making it move
+          // slowly and zoom out almost completely before starting
+          // to pan.
+          //speed: 2, // make the flying slow
+          //curve: 1, // change the speed at which it zooms out
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
         spinGlobe: false,
         mapInteractive: true,
         callback: '',
-        onChapterEnter: [],
-        onChapterExit: []
+        onChapterEnter: [
+          {
+            layer: 'curitiba',
+            opacity: 0.75,
+            duration: 1000
+          }
+        ],
+        onChapterExit: [
+          {
+            layer: 'curitiba',
+            opacity: 0
+          }
+        ]
     },
 
     {
@@ -2869,10 +2880,10 @@ var config = {
       ',
       location: {
         center: [-49.33857, -25.50005],
-        zoom: 9.93,
-        pitch: 45.00,
+        zoom: 11.17,
+        pitch: 52.00,
         bearing: 0.00,
-        speed: 0.5
+        speed: 1
         // flyTo additional controls-
         // These options control the flight curve, making it move
         // slowly and zoom out almost completely before starting
@@ -2885,8 +2896,19 @@ var config = {
       spinGlobe: false,
       mapInteractive: false,
       callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+          layer: 'curitiba',
+          opacity: 0.75,
+          duration: 1000
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'curitiba',
+          opacity: 0
+        }
+      ]
   },
 
   {
