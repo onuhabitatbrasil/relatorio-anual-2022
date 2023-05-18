@@ -2413,13 +2413,12 @@ var config = {
         </div>\
       </div>\
       ',
-          location: {     
-            center: [-43.18504, -22.93452],
-            zoom: 12.19,
-            pitch: 45.00,
-            bearing: -40.00,              
-            speed: 0.5,
-            curve: 3
+        location: {     
+            center: [-43.39320, -22.92253],
+            zoom: 10.40,
+            pitch: 46.00,
+            bearing: -13.60,
+            speed: 1
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
@@ -2490,11 +2489,11 @@ var config = {
         </div>\
         ',
         location: {
-          center: [-39.39162, -8.60275],
-          zoom: 6.13,
-          pitch: 45.00,
-          bearing: 0.00,
-          speed: 2
+            //center: [-43.39320, -22.92253],
+            //zoom: 10.40,
+            //pitch: 46.00,
+            //bearing: -13.60,
+            speed: 1
             // flyTo additional controls-
             // These options control the flight curve, making it move
             // slowly and zoom out almost completely before starting
@@ -2543,7 +2542,7 @@ var config = {
           zoom: 9.16,
           pitch: 45.00,
           bearing: 0.00,
-          speed: 2
+          speed: 1
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
@@ -2603,11 +2602,11 @@ var config = {
         </div>\
         ',
         location: {
-          center: [-46.87607, -23.69847],
-          zoom: 9.76,
-          pitch: 45.00,
-          bearing: 0.00,
-          speed: 2
+          //center: [-46.87607, -23.69847],
+          //zoom: 9.76,
+          //pitch: 45.00,
+          //bearing: 0.00,
+          speed: 1
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
