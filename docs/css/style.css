@@ -447,7 +447,7 @@ ul.social-icons li{
 
 .lefty {
     width: 33vw;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 .righty {
@@ -469,8 +469,7 @@ ul.social-icons li{
 }
 
 .step {
-    padding-top: 35vh;
-    padding-bottom: 35vh;
+    padding-bottom: 65vh;
     /*margin-bottom: 30vh;*/
     opacity: 0.7;
     transition-duration: 0.5s;
@@ -1114,6 +1113,9 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
   .card .btn {
     font-size: 0.85rem;
   }
+  #theCarouselPub .card .btn {
+    font-size: 0.75rem;
+  }
   .lefty {
     width: 36vw;
   }
@@ -1149,14 +1151,14 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
     max-width: 1250px;
   }
   .img-hist {
-      max-width: 100%;
+      max-width: 90%;
   }
   p {
     font-size: 0.85rem;
     line-height: 1;
   }
   .container-history {
-    max-width: 1150px;
+    max-width: 1275px;
   }
   .container-num {
     max-width: 1250px;

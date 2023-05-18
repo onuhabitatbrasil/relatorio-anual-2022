@@ -148,7 +148,7 @@ var config = {
         pitch: 55.50,
         bearing: -8.80,
         speed: 0.3,
-        curve: 0.75
+        curve: 1
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -158,8 +158,7 @@ var config = {
       onChapterEnter: [
            {
                layer: 'pin-onu',
-               opacity: 1,
-               duration: 5000
+               opacity: 1
            }
       ],
       onChapterExit: [
@@ -187,11 +186,11 @@ var config = {
       ',
       location: {     
           center: [-43.19005, -22.92996],
-          zoom: 10.62,
+          zoom: 11.5,
           pitch: 0.00,
           bearing: 0.00,
           speed: 0.3,
-          curve: 0.75
+          curve: 1
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -201,15 +200,13 @@ var config = {
       onChapterEnter: [
            {
                layer: 'pin-onu',
-               opacity: 1,
-               duration: 5000
+               opacity: 1
            }
       ],
       onChapterExit: [
            {
                layer: 'pin-onu',
-               opacity: 0,
-               duration: 2500
+               opacity: 0
            }
       ]
   },
@@ -1706,11 +1703,18 @@ var config = {
       image: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-        <div class="container p-right-left p-bottom">\
+        <div class="container p-right-left">\
           <h1 class="laranja">G52</h1>\
-          <p>Uma vocação em comum une 52 municípios espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a Rede de Cidades-Polo do Nordeste — o G52.</p>\
-          <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a abrangência da rede para o norte de Minas Gerais e Espírito Santo. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
+          <p>Uma vocação em comum une <b>52 municípios</b> espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a <b>Rede de Cidades-Polo do Nordeste — o G52</b>.</p>\
+          <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a <b>abrangência da rede para o norte de Minas Gerais e Espírito Santo</b>. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
           <p>Para fortalecer as capacidades de planejamento regional e estimular a articulação em rede, as cidades foram alvo de uma iniciativa que estimulou o desenvolvimento de soluções inovadoras, sustentáveis e escalonáveis para os desafios que enfrentam.</p>\
+          <ul class="fa-ul">\
+                <li class="li-hover">\
+                  <span class="fa-li" style="color:#f1b944; opacity: 0.75">\
+                  <i class="fa fa-square"></i></span>\
+                  <span>Área de atuação da SUDENE</span>\
+                </li>\
+          </ul>\
         </div>\
       </div>\
       ',
@@ -1731,22 +1735,22 @@ var config = {
             layer: 'munic-g52',
             opacity: 1,
             duration: 2000
-        }//,
-        //{
-        //    layer: 'sudene',
-        //    opacity: 0.5,
-        //    duration: 1500
-        //}
+        },
+        {
+            layer: 'area-sudene',
+            opacity: 0.5,
+            duration: 1500
+        }
       ],
       onChapterExit: [
         {
           layer: 'munic-g52',
           opacity: 0
-        }//,
-        //{
-        ////  layer: 'sudene',
-        //  opacity: 0
-        //}
+        },
+        {
+          layer: 'area-sudene',
+          opacity: 0
+        }
       ]
     },    
 
@@ -1767,15 +1771,15 @@ var config = {
               </div>\
               <div class="row p-bottom">\
                 <div class="col-md-6 col-lg-6">\
-                  <p>Localizada no centro do estado de Pernambuco, Serra Talhada pode ser conhecida como a capital do xaxado ou a terra natal de Lampião. Também pode ser ponto de referência na região por ser um polo de educação, saúde e comércio. Mas, recentemente, ela recebeu um destaque inédito: uma menção honrosa no Desafio de Inovação da Rede de Cidades-Polo do Nordeste, com uma proposta que reestrutura espaços verdes em regiões periféricas do município – e que tem planos para sair do papel.</p>\
-                  <p>O desafio consistiu na fase final de um projeto da Superintendência de Desenvolvimento do Nordeste (Sudene) em parceria com o ONU-Habitat e o Programa das Nações Unidas para o Desenvolvimento (PNUD). A iniciativa tinha como objetivo aprimorar a construção de políticas de desenvolvimento urbano sustentável na área de atuação da Sudene: 52 cidades-polo do Nordeste que exercem influência em suas regiões.</p>\
+                  <p>Localizada no centro do estado de Pernambuco, <b>Serra Talhada</b> pode ser conhecida como a capital do xaxado ou a terra natal de Lampião. Também pode ser ponto de referência na região por ser um polo de educação, saúde e comércio. Mas, recentemente, ela recebeu um destaque inédito: uma <b>menção honrosa no Desafio de Inovação da Rede de Cidades-Polo do Nordeste</b>, com uma proposta que reestrutura espaços verdes em regiões periféricas do município – e que tem planos para sair do papel.</p>\
+                  <p>O desafio consistiu na fase final de um projeto da <b>Superintendência de Desenvolvimento do Nordeste (Sudene) em parceria com o ONU-Habitat e o Programa das Nações Unidas para o Desenvolvimento (PNUD)</b>. A iniciativa tinha como objetivo aprimorar a construção de políticas de desenvolvimento urbano sustentável na área de atuação da Sudene: 52 cidades-polo do Nordeste que exercem influência em suas regiões.</p>\
                   <p>Depois de participar da fase de capacitações temáticas oferecidas pela iniciativa para fortalecer os servidores da rede, a prefeitura de Serra Talhada se inscreveu no Desafio de Inovação, que tinha como objetivo engajar esses servidores a aplicar, em seu próprio contexto, o conhecimento adquirido.</p>\
                   <p>Para isso, cada proposta precisava conter um diagnóstico de problema, uma solução e um plano de ação – tudo voltado ao desenvolvimento urbano sustentável local. Para escolher a melhor ideia, a Prefeitura de Serra Talhada fez uma chamada interna, pedindo às secretarias o envio de sugestões. As melhores ideias foram construídas coletivamente ao longo de reuniões e debates.</p>\
                 </div>\
                 <div class="col-md-6 col-lg-6">\
-                  <p>De cinco sugestões iniciais, a escolhida foi “Espaços Verdes”, capitaneada pela Secretaria de Meio Ambiente. Transformando espaços públicos ociosos em áreas verdes e sociáveis, a proposta combate as ilhas do calor e aumenta o bem-estar dos moradores, além de potencializar o Plano de Arborização Urbana do município.<\p>\
-                  <p>“Pensamos uma proposta do zero, tendo em vista que tinha de ser algo inovador. Queríamos envolver a população, oferecer lazer e qualidade de vida, e trabalhar com áreas verdes nas zonas periféricas do município”, explica o secretário do Meio Ambiente de Serra Talhada, Sinézio Rodrigues.<\p>\              <p>O projeto ficou em quinto lugar no Desafio de Inovação, garantindo a menção honrosa concedida a cidades com menos de 200 mil habitantes. Em Serra Talhada, a proposta foi tão bem recebida que vai virar realidade. A previsão é que ela comece a ser implementada em novembro de 2023, reestruturando canteiros que não possuem arborização e que estão localizados em bairros periféricos.</p>\
-                  <p>Rodrigues complementa que os efeitos dessa iniciativa vão ser sentidos por muito tempo. “O principal legado que levamos com esta experiência foi o aprendizado em trabalhar em conjunto com os demais órgãos municipais e construir estratégias que vão ser extremamente benéficas para o desenvolvimento sustentável de nosso município”.</p>\
+                  <p>De cinco sugestões iniciais, a escolhida foi <b>“Espaços Verdes”, capitaneada pela Secretaria de Meio Ambiente</b>. Transformando espaços públicos ociosos em áreas verdes e sociáveis, a proposta combate as ilhas do calor e aumenta o bem-estar dos moradores, além de potencializar o Plano de Arborização Urbana do município.<\p>\
+                  <p><b>“Pensamos uma proposta do zero, tendo em vista que tinha de ser algo inovador. Queríamos envolver a população, oferecer lazer e qualidade de vida, e trabalhar com áreas verdes nas zonas periféricas do município”</b>, explica o secretário do Meio Ambiente de Serra Talhada, Sinézio Rodrigues.<\p>\              <p>O projeto ficou em quinto lugar no Desafio de Inovação, garantindo a menção honrosa concedida a cidades com menos de 200 mil habitantes. Em Serra Talhada, a proposta foi tão bem recebida que vai virar realidade. A previsão é que ela comece a ser implementada em novembro de 2023, reestruturando canteiros que não possuem arborização e que estão localizados em bairros periféricos.</p>\
+                  <p>Rodrigues complementa que os efeitos dessa iniciativa vão ser sentidos por muito tempo. <b>“O principal legado que levamos com esta experiência foi o aprendizado em trabalhar em conjunto com os demais órgãos municipais e construir estratégias que vão ser extremamente benéficas para o desenvolvimento sustentável de nosso município”</b>.</p>\
                 </div>\
               </div>\
             </div>\
@@ -1801,13 +1805,11 @@ var config = {
       onChapterEnter: [
         {
             layer: 'munic-g52',
-            opacity: 1,
-            duration: 2000
+            opacity: 1
         },
         {
-            layer: 'sudene',
-            opacity: 0.5,
-            duration: 2000
+            layer: 'area-sudene',
+            opacity: 0.5
         }
       ],
       onChapterExit: [
@@ -1816,7 +1818,7 @@ var config = {
           opacity: 0
         },
         {
-          layer: 'sudene',
+          layer: 'area-sudene',
           opacity: 0
         }
       ]
@@ -1833,25 +1835,25 @@ var config = {
       <div class="light rounded-lg shadow-lg">\
         <div class="container p-right-left p-bottom">\
           <h1 class="laranja">Teresina</h1>\
-          <p>Adaptação, flexibilidade, gestão de risco e integração são algumas das palavras que descrevem a atuação de Teresina frente às mudanças climáticas. Localizada no semiárido nordestino, a cidade aquece até duas vezes mais rápido que a média global de temperatura. Isso torna a capital piauiense mais vulnerável aos impactos ambientais, resultando em enchentes, secas e ondas de calor que a desafiam constantemente.</p>\
+          <p><b>Adaptação, flexibilidade, gestão de risco e integração são algumas das palavras que descrevem a atuação de Teresina frente às mudanças climáticas</b>. Localizada no semiárido nordestino, a cidade aquece até duas vezes mais rápido que a média global de temperatura. Isso torna a capital piauiense mais vulnerável aos impactos ambientais, resultando em enchentes, secas e ondas de calor que a desafiam constantemente.</p>\
           <p>Para solucionar estes e demais problemas, a cidade está implementando soluções de baixo custo baseadas na natureza para lidar com o ciclo da água e o desequilíbrio do ecossistema - reforçando a reputação de “cidade verde” que enfrenta os desafios climáticos.</p>\
-          <p>Através de oficinas participativas, o Programa Global de Cidades Resilientes do ONU-Habitat e a Prefeitura de Teresina definiram atores urbanos estratégicos e prioridades da cidade para lidar com choques, riscos e impactos causados pela mudança do clima. As atividades realizadas pelo programa possibilitaram uma avaliação das ações do município, além de definir ações eficazes e estratégicas alinhadas aos problemas enfrentados no presente e que virão no futuro, tornando a cidade mais resiliente e sustentável.</p>\
-          <p style = "margin-top:1.75em; font-size:0.75rem;">Áreas superficiais onde estava mais quente ou mais frio durante o dia no mês de dezembro de 2019 do que as temperaturas médias em relação ao mesmo mês entre 2001 e 2010 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_LSTAD_M&year=2019">MODIS/NASA/2019)</a>.</p>\
+          <p>Através de oficinas participativas, o <b>Programa Global de Cidades Resilientes do ONU-Habitat e a Prefeitura de Teresina</b> definiram atores urbanos estratégicos e prioridades da cidade para lidar com choques, riscos e impactos causados pela mudança do clima. As atividades realizadas pelo programa possibilitaram uma avaliação das ações do município, além de definir ações eficazes e estratégicas alinhadas aos problemas enfrentados no presente e que virão no futuro, tornando a cidade mais resiliente e sustentável.</p>\
+          <p style = "margin-top:1.75em; font-size:0.75rem;">Áreas de superfície onde estava mais quente ou mais frio durante o dia no mês de dezembro de 2019 do que as temperaturas médias em relação ao mesmo mês entre 2001 e 2010 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_LSTAD_M&year=2019">MODIS/NASA/2019)</a>.</p>\
           <img style = "width: 35%;" src="assets/legend_teresina.png" alt="Legenda de tonalidades de temperaturas anormais"/>\
         </div>\
       </div>\
       ',
       location: {
-          center: [-42.78482, -5.18682],
+          center: [-71.49061, -3.85115],
           zoom: 2.5,
           pitch: 0.00,
           bearing: 0.00,
-          speed: 1
+          speed: 0.5
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       spinGlobe: true,
-      mapInteractive: false,
+      mapInteractive: true,
       callback: '',
       onChapterEnter: [
         {
@@ -1861,11 +1863,7 @@ var config = {
         {
           layer: 'temperature',
           opacity: 0.9,
-          duration: 1500
-        },
-        {
-          layer: 'country-label',
-          opacity: 0
+          duration: 2000
         }
       ],
       onChapterExit: [
@@ -1876,10 +1874,6 @@ var config = {
           {
             layer: 'temperature',
             opacity: 0
-          },
-          {
-            layer: 'country-label',
-            opacity: 1
           }
       ]
   },
@@ -1895,8 +1889,8 @@ var config = {
       <div class="light rounded-lg shadow-lg">\
         <div class="container p-right-left">\
           <h1 class="laranja">Pernambuco</h1>\
-          <p>Pernambuco se manifesta nos contrastes entre Zona da Mata, Agreste e Sertão. É o estado mais antigo do Brasil, com uma história vista a olho nu em suas conhecidas construções coloniais, e ouvida em ritmo de frevo e maracatu. São 185 municípios contando sobre passado e presente de uma região diversa em povo e território.</p>\
-          <p>As histórias do presente trazem uma rica vida cultural. Elas dividem espaço com altos índices de violência, deixando marcas no cotidiano de jovens e de mulheres. Para contribuir com as políticas públicas de prevenção social à violência, o ONU-Habitat implementou as metodologias participativas de Desenho de Espaços Públicos e Auditoria de Segurança das Mulheres, ou Cidade Mulher, através da iniciativa Cooperação Pernambuco.</p>\
+          <p><b>Pernambuco se manifesta nos contrastes entre Zona da Mata, Agreste e Sertão</b>. É o estado mais antigo do Brasil, com uma história vista a olho nu em suas conhecidas construções coloniais, e ouvida em ritmo de frevo e maracatu. São 185 municípios contando sobre passado e presente de uma <b>região diversa em povo e território</b>.</p>\
+          <p>As histórias do presente trazem uma rica vida cultural. Elas dividem espaço com altos índices de violência, deixando marcas no cotidiano de jovens e de mulheres. <b>Para contribuir com as políticas públicas de prevenção social à violência, o ONU-Habitat implementou as metodologias participativas de Desenho de Espaços Públicos e Auditoria de Segurança das Mulheres, ou Cidade Mulher, através da iniciativa Cooperação Pernambuco</b></p>\
           <p>A implementação das metodologias passou por comunidades de cada uma das regiões pernambucanas. A grande dispersão territorial permitiu compreender nuances locais importantes, que contemplam a enorme diversidade que define o estado de Pernambuco.</p>\
           <ul class="fa-ul">\
                 <li class="li-hover pr-4" value="subregioes-pe">\
@@ -1972,18 +1966,24 @@ var config = {
                 </div>\
                 <div class="row p-bottom">\
                   <div class="col-md-6 col-lg-6">\
-                      <p>Foi em uma Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
-                      <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
-                      <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
-                      <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano.</p>\
-                      <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
+                    \
+                    <p>Foi em uma <b>Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou</b>.</p>\
+                    \
+                    <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
+                    \
+                    <p>Dentre elas, a <b>instalação de uma luneta</b> em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
+                    \
+                    <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano.</p>\
+                    \
                   </div>\
                   <div class="col-md-6 col-lg-6">\
-                      <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, com o encontro desses dois universos e com o respeito às soluções inusitadas, <strong>muitos caminhos foram abertos e alguns já renderam frutos</strong>.</p>\
-                      <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário <strong>“Pés no Chão, Janela do Céu”</strong>, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
-                      <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
-                      <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário “Pés no Chão, Janela do Céu”, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco Pernambuco.\
-                      </p>\
+                    \
+                    <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, <b>com o encontro desses dois universos e com o respeito às soluções inusitadas, muitos caminhos foram abertos e alguns já renderam frutos</b>.</p>\
+                    \
+                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do <b>documentário “Pés no Chão, Janela do Céu”</b>, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
+                    \
+                    <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
+                    \
                   </div>\
                 </div>\
               </div>\
@@ -2039,12 +2039,12 @@ var config = {
       <div class="light rounded-lg shadow-lg">\
         <div class="container p-right-left">\
           <h1 class="laranja">Alagoas</h1>\
-          <p>Apesar de serem elementos marcantes em Maceió e estarem presentes em mais da metade de seus bairros, as grotas – assentamentos precários que ficam em vales sinuosos e vulneráveis – podem se destacar ou passar totalmente despercebidas na paisagem local.</p>\
-          <p>Por muito tempo, as grotas foram invisibilizadas. Até um passado bastante recente, pouco ou quase nada se sabia sobre elas. Por serem morada de boa parte da população de baixa renda da capital alagoana, elas ocupavam também um outro espaço, desta vez imaterial e de estigma no imaginário coletivo.</p>\
-          <p>Entendendo que as cerca de cem grotas de Maceió eram muito mais do que os aspectos negativos que geralmente lhes eram atribuídos, o Governo de Alagoas passou a dar novos contornos à paisagem já conhecida do estado, agregando esses territórios aos centros das discussões. Por meio de uma plataforma de ações focadas em melhorias de mobilidade urbana e habitacionais, veio a infraestrutura necessária para que outras narrativas sobre as grotas fossem construídas e, também, a percepção de que era urgente conhecê-las melhor para atender às suas demandas.</p>\
-          <p>Seja por meio da coleta e do tratamento de dados qualificados ou pela capacitação de jovens dessas comunidades, o ONU-Habitat se junta a essa história justamente pela necessidade de produzir conhecimentos e dar novos sentidos linguísticos e práticos a esses territórios, reconstruindo a paisagem das grotas ao lado e a partir de quem de fato as vivencia.</p>\
+          <p>Apesar de serem elementos marcantes em Maceió e estarem presentes em mais da metade de seus bairros, as <b>grotas – assentamentos precários que ficam em vales sinuosos e vulneráveis</b> – podem se destacar ou passar totalmente despercebidas na paisagem local.</p>\
+          <p><b>Por muito tempo, as grotas foram invisibilizadas</b>. Até um passado bastante recente, pouco ou quase nada se sabia sobre elas. Por serem morada de boa parte da população de baixa renda da capital alagoana, elas ocupavam também um outro espaço, desta vez imaterial e de estigma no imaginário coletivo.</p>\
+          <p>Entendendo que as cerca de cem grotas de Maceió eram muito mais do que os aspectos negativos que geralmente lhes eram atribuídos, <b>o Governo de Alagoas passou a dar novos contornos à paisagem já conhecida do estado, agregando esses territórios aos centros das discussões</b>. Por meio de uma plataforma de ações focadas em melhorias de mobilidade urbana e habitacionais, veio a infraestrutura necessária para que outras narrativas sobre as grotas fossem construídas e, também, a percepção de que era urgente conhecê-las melhor para atender às suas demandas.</p>\
+          <p>Seja por meio da <b>coleta e do tratamento de dados qualificados ou pela capacitação de jovens dessas comunidades</b>, o ONU-Habitat se junta a essa história justamente pela necessidade de produzir conhecimentos e dar novos sentidos linguísticos e práticos a esses territórios, reconstruindo a paisagem das grotas ao lado e a partir de quem de fato as vivencia.</p>\
           <ul class="fa-ul">\
-                <li class="li-hover" value="grotas">\
+                <li class="li-hover">\
                   <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Grotas</span>\
@@ -2106,14 +2106,14 @@ var config = {
                 </div>\
                 <div class="row p-bottom">\
                   <div class="col-md-6 col-lg-6">\
-                    <p>A subida que leva até a Vila Emater II, nos arredores do antigo lixão de Maceió, não é das mais simples. No meio do caminho, entretanto, já é possível se deparar com uma das vistas mais bonitas da <strong class="rosa">cidade: a imensidão do mar de Jacarecica está logo ali.</strong> Ao mesmo tempo que orgulha a comunidade, a paisagem também é motivo de preocupação, já que colabora para a especulação imobiliária na terra que há décadas faz com que famílias de catadores se vejam lutando por moradia adequada e melhores condições de vida.</p>\
-                    <p>Quem pode falar melhor sobre a Vila, no entanto, é Antônio Givaldo: jovem de 17 anos, adotado por sua avó materna, que hoje é conhecido como o <strong class="rosa">“o menino da ONU”</strong>. É assim que ele diz ser recebido na vizinhança após aparecer em um vídeo nas redes sociais do ONU-Habitat em que conta sobre o seu lugar no mundo. <strong>“Eles dizem: Parabéns, Antônio! Lute sempre pela nossa comunidade”. Isso é bom. Você sente que o seu esforço tá valendo a pena”</strong>.</p>\
-                    <p>Antônio é um dos participantes do <strong class="rosa">Programa Digaê – Juventudes</strong>, Comunicação e Cidade. Realizado pelo ONU-Habitat em parceria com o Governo de Alagoas, o projeto dá continuidade ao trabalho desenvolvido pelas duas instituições nos assentamentos precários que, em Maceió, são conhecidos como grotas. <strong>“O Digaê mudou a minha vida. Foi uma experiência com jovens de diferentes grotas que gostam de se envolver nos movimentos, uma diversidade grande. Eu via neles e replicava em mim. Eles eram um espelho de como eu queria estar hoje”</strong>, compartilha.</p>\
+                    <p>A subida que leva até a Vila Emater II, nos arredores do antigo lixão de Maceió, não é das mais simples. No meio do caminho, entretanto, já é possível se deparar com uma das vistas mais bonitas da <b>cidade: a imensidão do mar de Jacarecica está logo ali.</b> Ao mesmo tempo que orgulha a comunidade, a paisagem também é motivo de preocupação, já que colabora para a especulação imobiliária na terra que há décadas faz com que famílias de catadores se vejam lutando por moradia adequada e melhores condições de vida.</p>\
+                    <p>Quem pode falar melhor sobre a Vila, no entanto, é Antônio Givaldo: jovem de 17 anos, adotado por sua avó materna, que hoje é conhecido como o <b>“o menino da ONU”</b>. É assim que ele diz ser recebido na vizinhança após aparecer em um vídeo nas redes sociais do ONU-Habitat em que conta sobre o seu lugar no mundo. <b>“Eles dizem: Parabéns, Antônio! Lute sempre pela nossa comunidade”. Isso é bom. Você sente que o seu esforço tá valendo a pena”</b>.</p>\
+                    <p>Antônio é um dos participantes do <b>Programa Digaê – Juventudes</b>, Comunicação e Cidade. Realizado pelo ONU-Habitat em parceria com o Governo de Alagoas, o projeto dá continuidade ao trabalho desenvolvido pelas duas instituições nos assentamentos precários que, em Maceió, são conhecidos como grotas. <b>“O Digaê mudou a minha vida. Foi uma experiência com jovens de diferentes grotas que gostam de se envolver nos movimentos, uma diversidade grande. Eu via neles e replicava em mim. Eles eram um espelho de como eu queria estar hoje”</b>, compartilha.</p>\
                     </div>\
                   <div class="col-md-6 col-lg-6">\
-                    <p>A iniciativa vai formar 80 jovens em temas relacionados ao direito à cidade e à comunicação, estimulando que outras narrativas sobre suas comunidades sejam criadas. <strong>“Eu vim conhecer o direito à cidade no Digaê. Moro numa comunidade bem carente e nunca tinha chegado ninguém pra me dizer: você tem direito à cidade”</strong>.</p>\
-                    <p>O território em que Antônio cresceu já simboliza, por si só, uma <strong class="rosa">conquista para a sua comunidade</strong>, que concilia a luta pela garantia de seus direitos ao desafio de fazer com que a coleta seletiva seja implementada no município. Isso tudo talvez explique o brilho que o jovem carrega nos olhos ao falar de onde vem, o carinho nas palavras ao frisar: <strong>“minha comunidade representa tudo pra mim”</strong>.</p>\
-                    <p>Talvez justifique, também, as vontades que têm para o futuro dela, como a transformação do antigo lixão em um parque municipal. <strong>“A Vila era muito mal falada e ela não é isso. Tem cultura, diversidade, uma juventude talentosa, mães batalhadoras. Espero que os jovens daqui se interessem ainda mais em políticas públicas, no direito à cidade. Que eles tenham forças e vão na frente porque eu vou continuar lutando pela nossa comunidade até o fim da minha vida”</strong>.</p>\
+                    <p>A iniciativa vai formar 80 jovens em temas relacionados ao direito à cidade e à comunicação, estimulando que outras narrativas sobre suas comunidades sejam criadas. <b>“Eu vim conhecer o direito à cidade no Digaê. Moro numa comunidade bem carente e nunca tinha chegado ninguém pra me dizer: você tem direito à cidade”</b>.</p>\
+                    <p>O território em que Antônio cresceu já simboliza, por si só, uma <b>conquista para a sua comunidade</b>, que concilia a luta pela garantia de seus direitos ao desafio de fazer com que a coleta seletiva seja implementada no município. Isso tudo talvez explique o brilho que o jovem carrega nos olhos ao falar de onde vem, o carinho nas palavras ao frisar: <b>“minha comunidade representa tudo pra mim”</b>.</p>\
+                    <p>Talvez justifique, também, as vontades que têm para o futuro dela, como a transformação do antigo lixão em um parque municipal. <b>“A Vila era muito mal falada e ela não é isso. Tem cultura, diversidade, uma juventude talentosa, mães batalhadoras. Espero que os jovens daqui se interessem ainda mais em políticas públicas, no direito à cidade. Que eles tenham forças e vão na frente porque eu vou continuar lutando pela nossa comunidade até o fim da minha vida”</b>.</p>\
                   </div>\
                 </div>\
               </div>\
@@ -2161,23 +2161,23 @@ var config = {
       <div class="light rounded-lg shadow-lg">\
         <div class="container p-right-left">\
           <h1 class="laranja">Belo Horizonte</h1>\
-          <p>A região central de Belo Horizonte apresenta um desenho urbano com ruas amplas, arborizadas e repletas de rios e córregos, com vistas para a Serra do Curral. O cenário de modernização, construído desde o final do século 19, se contrapõe a outro, formado pela expansão urbana, com diversos assentamentos informais. Em um contexto mais recente, iniciado nos anos 2010, quando ocupando as ruas e experimentando a cidade de outras maneiras, as pessoas de Belo Horizonte passam a reivindicar seu pertencimento à cidade e levantam diversas pautas urbanas. E é nesse contexto em que surgem as ocupações da Izidora – considerado um dos maiores conflitos fundiários latino-americanos pela Habitat III, é também um dos maiores movimentos por direito à moradia do país.</p>\
-          <p>Izidora carrega em sua essência uma comunidade engajada na busca de melhorias para seu território, que demanda em uníssono: queremos morar, e queremos morar com direitos. Para promover o diálogo e transformar demandas em planos de ação e urbanização, surge o PRO-IZIDORA (Programa de Proteção Ambiental e Melhorias Urbanas da região da Izidora), iniciativa da Prefeitura de Belo Horizonte, por meio da SMPU e da Urbel, em parceria com o ONU-Habitat e o UNOPS. A partir dele, reivindicações da população ganham novos contornos com a real intenção da chegada de políticas públicas e direitos básicos às quatro ocupações da região, cujos nomes refletem mulheres que marcaram a história da cidade e substantivos que representam sua luta: Helena Greco, Rosa Leão, Vitória e Esperança.</p>\
+          <p>A região central de Belo Horizonte apresenta um desenho urbano com ruas amplas, arborizadas e repletas de rios e córregos, com vistas para a Serra do Curral. O cenário de modernização, construído desde o final do século 19, se contrapõe a outro, formado pela expansão urbana, com diversos assentamentos informais. Em um contexto mais recente, iniciado nos anos 2010, quando ocupando as ruas e experimentando a cidade de outras maneiras, as pessoas de Belo Horizonte passam a reivindicar seu <b>pertencimento à cidade e levantam diversas pautas urbanas</b>. E é nesse contexto em que surgem as <b>ocupações da Izidora – considerado um dos maiores conflitos fundiários latino-americanos pela Habitat III, é também um dos maiores movimentos por direito à moradia do país</b>.</p>\
+          <p>Izidora carrega em sua essência uma comunidade engajada na busca de melhorias para seu território, que demanda em uníssono: <b>queremos morar, e queremos morar com direitos</b>. Para promover o diálogo e transformar demandas em planos de ação e urbanização, surge o <b>PRO-IZIDORA (Programa de Proteção Ambiental e Melhorias Urbanas da região da Izidora), iniciativa da Prefeitura de Belo Horizonte, por meio da SMPU e da Urbel, em parceria com o ONU-Habitat e o UNOPS</b>. A partir dele, reivindicações da população ganham novos contornos com a real intenção da chegada de políticas públicas e direitos básicos às quatro ocupações da região, cujos nomes refletem mulheres que marcaram a história da cidade e substantivos que representam sua luta: <b>Helena Greco, Rosa Leão, Vitória e Esperança.</b></p>\
           <ul class="fa-ul">\
                 <li class="li-hover" value="agsn">\
                   <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
-                  <span>Izidora</span>\
+                  <span>Ocupações da Izidora</span>\
                 </li>\
           </ul>\
         </div>\
       </div>\
       ',
       location: {
-          center: [-43.93074, -19.86761],
-          zoom: 11.71,
-          pitch: 60.50,
-          bearing: 0.00,
+          center: [-43.93352, -19.86222],
+          zoom: 11.48,
+          pitch: 42.00,
+          bearing: 13.60,
           speed: 1
       },
       mapAnimation: 'flyTo',
@@ -2226,14 +2226,14 @@ var config = {
               </div>\
               <div class="row p-bottom">\
                 <div class="col-md-6 col-lg-6">\
-                    <p>Charlene Cristiane Egídio foi uma das primeiras pessoas a chegar no terreno que se tornaria a Rosa Leão, uma das quatro ocupações da Izidora. Ela e seu filho Pedro, na época com três anos, moraram em uma barraca de lona nos primórdios da ocupação, em 2013. Não levou muito tempo até que, em meio a uma comunidade que crescia e tinha a necessidade urgente de se organizar, a liderança nata de Charlene tomasse forma, dando a ela uma posição de coordenação.</p>\
-                    <p>Com a ocupação ganhando corpo, casas começaram a ser construídas, ruas precisavam ser abertas. E cada centímetro de decisão passava por uma força característica da Izidora: a participação popular. Ela está presente em cada fase da história de ocupação, em cada articulação com instituições que, ao longo do tempo, passaram a auxiliar a comunidade.</p>\
-                    <p>Assumir o papel de liderança trouxe mudanças. Uma delas foi receber formações que aguçaram seu olhar político, ético e humano, que expandiu o horizonte da função a ser cumprida. "A gente passa a se formar ser humano. Porque aqui você começa a sentir a dor do outro, e aí começa a entender que é um chamado ser liderança. É insano, mas é um chamado necessário".</p>\
-                    <p>Para ela, sua principal função é a articulação. E esse papel é fundamental na elaboração do plano de urbanização popular que passou a nascer. Junto à comunidade, a Prefeitura de Belo Horizonte, o ONU-Habitat e o UNOPS trabalham no Plano de Urbanização Sustentável da Izidora, o primeiro para um assentamento informal em Belo Horizonte que traz a resiliência urbana como tema central.</p>\
+                    <p><b>Charlene Cristiane Egídio foi uma das primeiras pessoas a chegar no terreno que se tornaria a Rosa Leão, uma das quatro ocupações da Izidora</b>. Ela e seu filho Pedro, na época com três anos, moraram em uma barraca de lona nos primórdios da ocupação, em 2013. Não levou muito tempo até que, em meio a uma comunidade que crescia e tinha a necessidade urgente de se organizar, a liderança nata de Charlene tomasse forma, dando a ela uma <b>posição de coordenação</b>.</p>\
+                    <p>Com a ocupação ganhando corpo, casas começaram a ser construídas, ruas precisavam ser abertas. E cada centímetro de decisão passava por uma força característica da Izidora: <b>a participação popular</b>. Ela está presente em cada fase da história de ocupação, em cada articulação com instituições que, ao longo do tempo, passaram a auxiliar a comunidade.</p>\
+                    <p>Assumir o papel de liderança trouxe mudanças. Uma delas foi receber formações que aguçaram seu olhar político, ético e humano, que expandiu o horizonte da função a ser cumprida. <b>"A gente passa a se formar ser humano. Porque aqui você começa a sentir a dor do outro, e aí começa a entender que é um chamado ser liderança. É insano, mas é um chamado necessário"</b>.</p>\
+                    <p>Para ela, sua principal função é a articulação. E esse papel é fundamental na elaboração do plano de urbanização popular que passou a nascer. Junto à comunidade, a Prefeitura de Belo Horizonte, o ONU-Habitat e o UNOPS trabalham no <b>Plano de Urbanização Sustentável da Izidora, o primeiro para um assentamento informal em Belo Horizonte que traz a resiliência urbana como tema central</b>.</p>\
                 </div>\
                 <div class="col-md-6 col-lg-6">\
-                    <p>Charlene se envolveu com o Plano desde o princípio, abrindo caminhos de diálogo entre as partes. Para ela, é importante mediar a conversa entre os técnicos e a população, garantindo que esta entenda o papel e a linguagem dos parceiros. "A linguagem técnica tem que ser transformada em linguagem popular quando a gente tá falando de diversidade. Se o povo não tá entendendo, o meu papel é buscar entendimento e saber como funciona o projeto". Sua expectativa é de que o plano, fruto dessa parceria, seja o ideal para o território, contemplando os desejos e demandas de quem vive ali.</p>\
-                    <p>Nesse processo, ela vê que muito já mudou. Ela se descobriu uma mulher empoderada, que não abaixa a cabeça a ninguém. Já Izidora tem o potencial de ser exemplo internacional, transformando o que era conflito fundiário em um projeto urbanístico feito em conjunto pelo olhar dos moradores e pelo poder público. "Imagine se todo mundo, todos os bairros que são feitos em Belo Horizonte, tivessem a oportunidade dessa escuta, de você dizer o que que quer aqui, e você discutir isso com o povo que vai viver lá, né? Hoje, depois de 10 anos, a gente vê esperança, perspectiva de melhora, de respeito, de cidadania, de dizer que a gente faz parte de Belo Horizonte e tem direito de morar em Belo Horizonte".</p>\
+                    <p>Charlene se envolveu com o Plano desde o princípio, abrindo caminhos de diálogo entre as partes. Para ela, é importante mediar a conversa entre os técnicos e a população, garantindo que esta entenda o papel e a linguagem dos parceiros. <b>"A linguagem técnica tem que ser transformada em linguagem popular quando a gente tá falando de diversidade. Se o povo não tá entendendo, o meu papel é buscar entendimento e saber como funciona o projeto"</b>. Sua expectativa é de que o plano, fruto dessa parceria, seja o ideal para o território, contemplando os desejos e demandas de quem vive ali.</p>\
+                    <p>Nesse processo, ela vê que muito já mudou. Ela se descobriu uma mulher empoderada, que não abaixa a cabeça a ninguém. Já Izidora tem o potencial de ser exemplo internacional, transformando o que era conflito fundiário em um projeto urbanístico feito em conjunto pelo olhar dos moradores e pelo poder público. <b>"Imagine se todo mundo, todos os bairros que são feitos em Belo Horizonte, tivessem a oportunidade dessa escuta, de você dizer o que que quer aqui, e você discutir isso com o povo que vai viver lá, né? Hoje, depois de 10 anos, a gente vê esperança, perspectiva de melhora, de respeito, de cidadania, de dizer que a gente faz parte de Belo Horizonte e tem direito de morar em Belo Horizonte"</b>.</p>\
                 </div>\
               </div>\
             </div>\
@@ -2245,11 +2245,11 @@ var config = {
       </div>\
       ',
       location: {
-          center: [-43.92136, -19.80455],
-          zoom: 14.40,
-          pitch: 56.69,
-          bearing: 28.64,
-          speed: 2
+          center: [-43.93352, -19.86222],
+          zoom: 11.48,
+          pitch: 42.00,
+          bearing: 13.60,
+          speed: 1
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -2285,7 +2285,7 @@ var config = {
             <p>Manchester Mineira e Princesa de Minas são alguns títulos que demonstram sua identidade pioneira e singular. O município foi um importante polo industrial, abrigando diversas fábricas ao longo de sua expansão, como Marmelos Zero, a primeira grande usina hidrelétrica da América do Sul.</p>\
             <p>Andar pelas ruas é reconhecer em cada canto um pouco da sua história de 172 anos, da sua arquitetura tradicional, dos seus contornos culturais. Mas é também perceber as inúmeras desigualdades territoriais. Conhecer o seu espaço, suas contradições e seus moradores possibilita que Juiz de Fora seja transformada para garantir o direito à cidade a sua população. Para isso, o projeto Territórios da Cidadania atua em 141 microterritórios historicamente excluídos do planejamento urbano. Neste contexto, os dados se transformam em políticas públicas capazes de melhorar a vida de todos os juizforanos.</p>\
             <ul class="fa-ul">\
-                <li class="li-hover" value="grotas">\
+                <li class="li-hover">\
                   <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Microterritórios</span>\
@@ -2414,7 +2414,7 @@ var config = {
             <p>São mais de seis milhões de pessoas ocupando as ruas de formas distintas – e, portanto, vivendo cidades distintas. Por isso, a rua também ensina sobre desigualdades. Há 1.074 favelas no Rio de Janeiro, onde vive 22% da população carioca. É o maior percentual de pessoas vivendo em favelas do Brasil. Nesse contexto, os desafios do crescimento urbano acelerado são mais latentes e visíveis.</p>\
             <p>Ao mesmo tempo em que denunciam desigualdades, as ruas das favelas guardam uma fonte inesgotável de cultura, potencial econômico e desenvolvimento de capacidades. É por elas que, de porta em porta, o ONU-Habitat e a Prefeitura da Cidade do Rio de Janeiro mapeiam a materialidade das condições de vida de quem as ocupam, na busca de reduzir o risco social de famílias mais vulneráveis. Os dados coletados são uma ferramenta essencial para a implementação de políticas públicas baseadas em evidência, promovendo um atendimento integrado e um monitoramento da situação. É assim que, com o olhar atento do poder público, as ruas da favela vão pouco a pouco transformando as histórias que contam.</p>\
             <ul class="fa-ul">\
-                <li class="li-hover" value="grotas">\
+                <li class="li-hover">\
                   <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Vilas e Favelas</span>\
@@ -2545,12 +2545,12 @@ var config = {
             <p>Essa trajetória, no entanto, está em transformação. Hoje, apesar da fama de selva de pedra ser parte incontornável do imaginário da cidade, quase metade do território de São Paulo corresponde à cobertura verde, e quase um terço é território rural. Em 30 anos, o número de parques cresceu de 32 para 111, o que ilustra a preocupação do município em incentivar o desenvolvimento e a ocupação dos espaços verdes pelas pessoas.</p>\
             <p>Neste processo, São Paulo tem mantido em vista a necessidade de avaliar a qualidade de parques e áreas de conservação, promovendo espaços verdes de maneira mais igualitária para seus milhões de moradores. Além disso, outras ações também estão em foco: capacitar instituições e sociedade civil para criar, gerir e monitorar a qualidade dos equipamentos urbanos; identificar áreas em potencial para desenvolver novos espaços públicos verdes e garantir a participação da população de forma equilibrada com relação a raça, classe, gênero e território.</p>\
             <ul class="fa-ul">\
-                <li class="li-hover pr-4" value="grotas">\
+                <li class="li-hover pr-4" >\
                   <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Zona urbana</span>\
                 </li>\
-                <li class="li-hover" value="grotas">\
+                <li class="li-hover">\
                   <span class="fa-li" style="color:#f1b944; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Zona rural</span>\
@@ -2665,7 +2665,7 @@ var config = {
                 <p>A segunda região é formada pelos municípios de Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina). Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
                 <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma mancha urbana única. Por apresentarem desafios e potenciais conjuntos, a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
                 <ul class="fa-ul">\
-                  <li class="li-hover" value="grotas">\
+                  <li class="li-hover">\
                     <span class="fa-li" style="color:#f1b944; opacity: 1">\
                     <i class="fa fa-minus"></i></span>\
                     <span>Fronteira compartilhada entre Argentina, Brasil e Paraguai</span>\
@@ -2805,6 +2805,23 @@ var config = {
               <p>Para além das araucárias e calçadas de petit-pavê, Curitiba é referência internacional em planejamento urbano e soluções de mobilidade. A partir dos anos 1960, a criação de estações-tubo, canaletas exclusivas para ônibus expressos (sistema conhecido por BRT) e parques públicos atrelados a obras arquitetônicas icônicas popularizaram mundo afora a imagem de uma cidade que estava à frente do seu tempo.</p>\
               <p>Não é exagero dizer, portanto, que a capital paranaense tem em seu cerne a inovação. No século 21, no entanto, essa ideia começa a ganhar novos contornos: a de cidade inteligente. As marcas do urbanismo passam a estar interligadas à ideia de que, mais do que conectada, a cidade deve promover qualidade de vida para seus quase dois milhões de habitantes.</p>\
               <p>Esse percurso passa necessariamente pelo desenvolvimento urbano sustentável. Não à toa, uma das metas da cidade é atingir a neutralidade de carbono até 2050. Para auxiliar no alcance desse objetivo, a cidade foi a única do Brasil a participar de um desafio de inovação promovido pelo ONU-Habitat – o <strong class="rosa">Climate Smart Cities Challenge</strong> –, com o objetivo de avançar em soluções para criar comunidades carbono zero.</p>\
+              <ul class="fa-ul">\
+                  <li class="li-hover pr-4">\
+                    <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                    <i class="fa fa-square"></i></span>\
+                    <span>Praças</span>\
+                  </li>\
+                  <li class="li-hover pr-4">\
+                    <span class="fa-li" style="color:#e3773b; opacity: 0.75">\
+                    <i class="fa fa-square"></i></span>\
+                    <span>Parques e bosques</span>\
+                  </li>\
+                  <li class="li-hover">\
+                    <span class="fa-li" style="color:#f1b944; opacity: 1">\
+                    <i class="fa fa-minus"></i></span>\
+                    <span>Rede Expressa do BRT</span>\
+                  </li>\
+              </ul>\
           </div>\
         </div>\
         ',
@@ -2927,7 +2944,7 @@ var config = {
               <p>No contexto urbano, diferentes territórios do Sul Global podem, por exemplo, trocar conhecimentos para resolver problemas relacionados à falta de moradia ou o acesso à água. Essa forma de colaboração é chamada de Cooperação Sul-Sul (CSS), por meio da qual dois ou mais países promovem intercâmbios de conhecimento, transferências de tecnologias, respostas a emergências e desenvolvimento de meios de subsistência.</p>\
               <p>Sua vantagem é que diferentes regiões do Sul com frequência apresentam problemas ou capacidades similares. Isso significa que, quando um país ou cidade do Sul desenvolve uma solução para um desafio, essa boa prática pode ser adaptada para outro contexto com mais facilidade, chegando a bons resultados de forma mais eficiente.</p>\
               <ul class="fa-ul ul-legend">\
-                <li class="li-hover" value="global-south">\
+                <li class="li-hover">\
                   <span class="fa-li" style="color:#f1b944;">\
                   <i class="fa fa-square"></i></span>\
                   <span>Região considerada como Sul Global</span>\
