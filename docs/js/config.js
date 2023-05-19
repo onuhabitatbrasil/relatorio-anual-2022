@@ -15,8 +15,8 @@ var config = {
   chapterReturn: false,
   title: "Relatório Anual Brasil 2022",
   //logo: '',
-  //subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-  //byline: 'By a Digital Storyteller',
+  //subtitle: '',
+  //byline: '',
   //mobileview: '\
   //<div id="rotate-mobile">\
   //<p>Para melhor visualização, utilize seu dispositivo móvel na posição horizontal.</p>\
@@ -99,7 +99,7 @@ var config = {
               </div>\
             </div>\
             <div class="col-lg-5 align-self-center">\
-                <img src="images/abertura.jpg" alt="" class="img-fluid" />\
+                <img src="images/abertura.jpg" alt="Alain Grimard (Oficial Sênior Internacional do ONU-Habitat para o Brasil e Cone Sul) e Rayne Ferretti Moraes (Oficial Nacional do ONU-Habitat para o Brasil)" class="img-fluid" />\
             </div>\
           </div>\
         </div>\
@@ -245,7 +245,7 @@ var config = {
                         </div>\
                     </div>\
                     <div class="carousel-item">\
-                        <img class="d-block w-100" src="./images/tempo/02_Visita_Fortaleza.jpg" alt="Second slide" alt="">\
+                        <img class="d-block w-100" src="./images/tempo/02_Visita_Fortaleza.jpg" alt="ONU-Habitat assina Memorando de Entendimento com Prefeitura de Fortaleza, marcando o início de uma parceria para promover o desenvolvimento urbano sustentável">\
                         <div class="container_foto">\
                           <div class="ver_mas">\
                             <p>Com o documento, o ONU-Habitat e o Instituto de Planejamento de Fortaleza (Iplanfor) deram início ao plano de trabalho que prevê ações de compartilhamento de informações, dados e metodologias, além de trocas de experiências para aprimorar o desenho de políticas públicas e de ferramentas de gestão de informação na região de Fortaleza. A parceria, com duração de 24 meses, tem como objetivo principal fomentar a implementação da Nova Agenda Urbana e da Agenda 2030, com destaque para o Objetivo de Desenvolvimento Sustentável 11 – tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis – e, assim, contribuir para a melhora na qualidade de vida da população local.</p>\
@@ -1069,7 +1069,7 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container container-exp p-bottom">\
-            <h1 class="align-self-center rosa text-center">2022 em Publicações<br>e Plataformas</h1>\
+            <h1 class="align-self-center rosa text-center">2022 em Publicações</h1>\
             <div class="col-12 text-center pb-3">\
                   <a class="btn btn-primary mr-1" href="#theCarouselPub" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
@@ -1838,7 +1838,7 @@ var config = {
           <p><b>Adaptação, flexibilidade, gestão de risco e integração são algumas das palavras que descrevem a atuação de Teresina frente às mudanças climáticas</b>. Localizada no semiárido nordestino, a cidade aquece até duas vezes mais rápido que a média global de temperatura. Isso torna a capital piauiense mais vulnerável aos impactos ambientais, resultando em enchentes, secas e ondas de calor que a desafiam constantemente.</p>\
           <p>Para solucionar estes e demais problemas, a cidade está implementando soluções de baixo custo baseadas na natureza para lidar com o ciclo da água e o desequilíbrio do ecossistema - reforçando a reputação de “cidade verde” que enfrenta os desafios climáticos.</p>\
           <p>Através de oficinas participativas, o <b>Programa Global de Cidades Resilientes do ONU-Habitat e a Prefeitura de Teresina</b> definiram atores urbanos estratégicos e prioridades da cidade para lidar com choques, riscos e impactos causados pela mudança do clima. As atividades realizadas pelo programa possibilitaram uma avaliação das ações do município, além de definir ações eficazes e estratégicas alinhadas aos problemas enfrentados no presente e que virão no futuro, tornando a cidade mais resiliente e sustentável.</p>\
-          <p style = "margin-top:1.75em; font-size:0.75rem;">Áreas de superfície onde estava mais quente ou mais frio durante o dia no mês de dezembro de 2019 do que as temperaturas médias em relação ao mesmo mês entre 2001 e 2010 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_LSTAD_M&year=2019">MODIS/NASA/2019)</a>.</p>\
+          <p style = "margin-top:1.75em; font-size:0.75rem;">Áreas de superfície onde estava mais quente ou mais frio durante o dia no mês de dezembro de 2019 do que as temperaturas médias em relação ao mesmo mês entre 2001 e 2010 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_LSTAD_M&year=2019" target="_blank">MODIS/NASA/2019)</a>.</p>\
           <img style = "width: 35%;" src="assets/legend_teresina.png" alt="Legenda de tonalidades de temperaturas anormais"/>\
         </div>\
       </div>\
@@ -1852,7 +1852,7 @@ var config = {
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
-      spinGlobe: true,
+      spinGlobe: false,
       mapInteractive: true,
       callback: '',
       onChapterEnter: [
