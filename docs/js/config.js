@@ -1078,7 +1078,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="3000" role="listbox">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="993000" role="listbox">\
               <div class="carousel-inner row w-100 mx-auto  pb-4 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\

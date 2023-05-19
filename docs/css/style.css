@@ -822,7 +822,7 @@ ul.social-icons li{
     perspective: 1000px;
 }
 
-.wrapper .card {
+#theCarousel .wrapper .card {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -858,6 +858,18 @@ ul.social-icons li{
     );
 }
 
+#theCarouselPub .wrapper .card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-radius: 10px;
+    transform: translateY(0deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
 .wrapper:hover>.front-face {
     transform: rotateY(-180deg);
 }
@@ -870,7 +882,7 @@ ul.social-icons li{
 }
 
 #theCarouselPub .wrapper .front-face { 
-    background-color: #cc3480;
+    background-color: transparent;
     color: #fff;
 }
 
@@ -923,6 +935,25 @@ ul.social-icons li{
     justify-content: space-evenly;
     flex-direction: column;
     transform: rotateY(180deg);
+    background-image: linear-gradient(
+        to bottom,
+        hsla(0, 0%, 0%, 0) 0%,
+        hsla(0, 0%, 0%, 0.009) 11.7%,
+        hsla(0, 0%, 0%, 0.034) 22.1%,
+        hsla(0, 0%, 0%, 0.072) 31.2%,
+        hsla(0, 0%, 0%, 0.123) 39.4%,
+        hsla(0, 0%, 0%, 0.182) 46.6%,
+        hsla(0, 0%, 0%, 0.249) 53.1%,
+        hsla(0, 0%, 0%, 0.320) 58.9%,
+        hsla(0, 0%, 0%, 0.394) 64.3%,
+        hsla(0, 0%, 0%, 0.468) 69.3%,
+        hsla(0, 0%, 0%, 0.540) 74.1%,
+        hsla(0, 0%, 0%, 0.607) 78.8%,
+        hsla(0, 0%, 0%, 0.668) 83.6%,
+        hsla(0, 0%, 0%, 0.721) 88.7%,
+        hsla(0, 0%, 0%, 0.762) 94.1%,
+        hsla(0, 0%, 0%, 0.790) 100%
+      );
 }
 
 #theCarousel .wrapper .back-face {
