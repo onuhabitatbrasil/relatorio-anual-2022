@@ -74,21 +74,21 @@ var config = {
             <div class="col-lg-7">\
               <div class="row">\
                 <div class="col-md-12">\
-                  <h1 class="azul-habitat">Palavras de Abertura</h1>\
+                  <h1 class="azul-habitat">Abertura</h1>\
                 </div>\
               </div>\
               <div class="row">\
                 <div class="col-md-6">\
-                    <p><span class="azul">Território</span>. Esta palavra possui diferentes definições e é palco de inúmeros debates. Porém, seu conceito é sempre compreendido pelas relações sociais que perpassam sua existência e dinâmica. Assim, ele deve ser entendido a partir de seus usos, sendo o lugar da residência, das trocas materiais, econômicas e culturais, dos conflitos e do exercício do poder e da política. O lugar onde a vida e a história do ser humano se realizam a partir da manifestação de sua existência.</p>\
-                    <p>Partimos desta reflexão, baseada no pensamento do geógrafo brasileiro Milton Santos, para apresentar o princípio que guia a leitura do Relatório Anual 2022 do ONU-Habitat: o território.</p>\
-                    <p>Em 2022, vivemos a retomada do mundo pós-pandemia de COVID-19, revelando a necessidade das cidades de se adaptarem a novas realidades. Também testemunhamos a população mundial chegar ao marco de oito bilhões de pessoas. As áreas urbanas já abrigam 55% dessa população, e é esperado que esse número cresça para 68% até 2050. Esse número sobe para 81% ao considerar a região da América Latina e do Caribe¹, e chega a 85% quando o foco é o Brasil².</p>\
-                    <p>Os desafios urbanos são grandes quando pensados de forma global, mas seu enfrentamento só pode ser encarado quando pensamos no nível local. <span class="azul">É no nível do território que a transformação para um desenvolvimento urbano sustentável pode ser concretizada.</span></p>\
+                    <p><b>Território</b>. Esta palavra possui diferentes definições e é palco de inúmeros debates. Porém, seu conceito é sempre compreendido pelas relações sociais que perpassam sua existência e dinâmica. Assim, ele deve ser entendido a partir de seus usos, sendo o lugar da residência, das trocas materiais, econômicas e culturais, dos conflitos e do exercício do poder e da política. <b>O lugar onde a vida e a história do ser humano se realizam a partir da manifestação de sua existência.</b></p>\
+                    <p>Partimos desta reflexão, baseada no pensamento do geógrafo brasileiro Milton Santos, para apresentar o princípio que guia a leitura do <b>Relatório Anual 2022 do ONU-Habitat</b>: o território.</p>\
+                    <p>Em 2022, vivemos a retomada do mundo pós-pandemia de COVID-19, revelando a necessidade das cidades de se adaptarem a novas realidades. Também testemunhamos a população mundial chegar ao marco de oito bilhões de pessoas. As áreas urbanas já abrigam 55% dessa população, e é esperado que esse número cresça para 68% até 2050. <b>Esse número sobe para 81% ao considerar a região da América Latina e do Caribe¹, e chega a 85% quando o foco é o Brasil²</b>.</p>\
+                    <p>Os desafios urbanos são grandes quando pensados de forma global, mas <b>seu enfrentamento só pode ser encarado quando pensamos no nível local</b>. É no nível do território que a transformação para um desenvolvimento urbano sustentável pode ser concretizada.</p>\
                 </div>\
                 <div class="col-md-6">\
                     <p>Nesta linha, o Secretário-Geral da ONU, António Guterres, defende que cidades e comunidades liderem inovações para reduzir as desigualdades, promovam ação climática e garantam uma recuperação verde e inclusiva da pandemia.</p>\
-                    <p>Para o ONU-Habitat, as cidades e as comunidades são áreas de oportunidade para superar as desigualdades. Por isso, <span class="azul">o Relatório Anual 2022 traz protagonismo a esses espaços, apresentando iniciativas em cooperação com diferentes níveis de governo para promover o desenvolvimento urbano sustentável.</span></p>\
-                    <p>Essas iniciativas envolvem a coleta e análise de dados para a promoção de políticas públicas assertivas que consideram a especificidade de cada região; a promoção de espaços públicos mais inclusivos, seguros, resilientes, verdes e sustentáveis; a capacitação de pessoas para pensar, comunicar e resolver problemas urbanos; a construção da resiliência urbana; dentre outros temas englobados pela Nova Agenda Urbana e pela Agenda 2030 para o Desenvolvimento Sustentável.</p>\
-                    <p>Através destas diferentes frentes de atuação, trabalhamos junto aos territórios para construir um futuro urbano melhor sem deixar ninguém e nenhum lugar para trás.</p>\
+                    <p>Para o ONU-Habitat, <b>as cidades e as comunidades são áreas de oportunidade para superar as desigualdades</b>. Por isso, o <b>Relatório Anual 2022</b> traz protagonismo a esses espaços, apresentando iniciativas em cooperação com diferentes níveis de governo para promover o desenvolvimento urbano sustentável.</p>\
+                    <p>Essas iniciativas envolvem a coleta e análise de dados para a promoção de políticas públicas assertivas que consideram a especificidade de cada região; a promoção de espaços públicos mais inclusivos, seguros, resilientes, verdes e sustentáveis; a capacitação de pessoas para pensar, comunicar e resolver problemas urbanos; a construção da resiliência urbana; dentre outros temas englobados pela <b>Nova Agenda Urbana e pela Agenda 2030</b> para o Desenvolvimento Sustentável.</p>\
+                    <p>Através destas diferentes frentes de atuação, trabalhamos junto aos territórios para <b>construir um futuro urbano melhor sem deixar ninguém e nenhum lugar para trás</b>.</p>\
                     <p class="rosa-b">Boa leitura!</p>\
                 </div>\
               </div>\
@@ -1078,7 +1078,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="993000" role="listbox">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="3000" role="listbox">\
               <div class="carousel-inner row w-100 mx-auto  pb-4 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
@@ -1206,34 +1206,6 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Conjunto de 141 relatórios descreve os resultados do Mapa Rápido Participativo realizado entre março e julho de 2022 nas áreas de interesse do projeto em Juiz de Fora. Os relatórios foram produzidos a partir de dados primários coletados por meio de pesquisa de campo, e abordam temas como infraestrutura urbana, habitação, transporte e serviços públicos. Esses relatórios permitem orientar políticas públicas assertivas para a cidade.</p>\
-                        </div>\
-                    </div>\
-                  </div>\
-                </div>\
-                <div class="carousel-item col-md-4">\
-                  <div class="wrapper">\
-                    <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/10_20220412_P1.2_G52.jpg">\
-                      <p>Publicação</p>\
-                      <h5>Relatório da Oficina de intercâmbio e cooperação com especialistas nacionais e internacionais sobre governança compartilhada e gestão em rede</h5>\
-                    </div>\
-                    <div class="card back-face">\
-                        <div class="info">\
-                            <p class="card-text">A publicação apresenta os resultados da oficina de Intercâmbio e Cooperação, realizada em fevereiro de 2022 com a presença de especialistas, autoridades, gestores e técnicos dos municípios do G52. O evento foi composto por diversos painéis e oficinas com o objetivo de fomentar a governança compartilhada e a gestão em rede, com foco em temas como agendas globais de desenvolvimento, inovação pública municipal, gestão de projetos e sustentabilidade financeira.</p>\
-                        </div>\
-                    </div>\
-                  </div>\
-                </div>\
-                <div class="carousel-item col-md-4">\
-                  <div class="wrapper">\
-                    <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/11_20220420_P2.1_G52.jpg">\
-                      <p>Publicação</p>\
-                      <h5>Relatório da Avaliação e priorização das necessidades de capacitação do setor público do G52</h5>\
-                    </div>\
-                    <div class="card back-face">\
-                        <div class="info">\
-                            <p class="card-text">Relatório identifica os desafios e demandas de capacitação das prefeituras do G52. Os resultados buscam contribuir para a formação de servidores e servidoras públicas municipais com base em suas principais necessidades, diagnosticadas por meio de questionários e reuniões com pontos focais.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1435,21 +1407,6 @@ var config = {
                     </div>\
                   </div>\
                 </div>\
-                <div class="carousel-item col-md-4">\
-                  <div class="wrapper">\
-                    <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/26_canal_circuito.png">\
-                      <p>Plataforma</p>\
-                      <h5>Canal do YouTube do Circuito Urbano</h5>\
-                    </div>\
-                    <div class="card back-face">\
-                        <div class="info">\
-                            <p class="card-text">Plataforma que apresenta todas as transmissões de eventos realizadas desde 2020 no Circuito Urbano, além de vídeos de melhores momentos de cada edição e dos eventos presenciais.</p>\
-                            <a class="btn btn-primary" target="_blank" href="https://www.youtube.com/channel/UCuntso3y0Vcwvr2kWCeiR1g">Acessar</a>\
-                        </div>\
-                    </div>\
-                  </div>\
-                </div>\
               </div>\
               <ol class="carousel-indicators">\
                 <li data-target="#theCarouselPub" data-slide-to="0" class="active"></li>\
@@ -1475,9 +1432,6 @@ var config = {
                 <li data-target="#theCarouselPub" data-slide-to="20"></li>\
                 <li data-target="#theCarouselPub" data-slide-to="21"></li>\
                 <li data-target="#theCarouselPub" data-slide-to="22"></li>\
-                <li data-target="#theCarouselPub" data-slide-to="23"></li>\
-                <li data-target="#theCarouselPub" data-slide-to="24"></li>\
-                <li data-target="#theCarouselPub" data-slide-to="25"></li>\
               </ol>\
             </div>\
         </div>\

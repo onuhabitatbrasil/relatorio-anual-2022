@@ -875,12 +875,12 @@ ul.social-icons li{
 }
 
 #theCarouselPub .wrapper .card img {
-    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit:contain ;
+    border-radius: 10px;
 }
 
-#theCarouselPub .wrapper {
-    height: 275px;
-}
 
 #theCarousel .wrapper .front-face { 
     background-color: #00568a;
@@ -952,7 +952,7 @@ ul.social-icons li{
 }
 
 #theCarousel .carousel-indicators li {
-    cursor: default;
+    cursor: pointer;
     border: 1px solid #00568a;
 }
 
@@ -961,7 +961,7 @@ ul.social-icons li{
 }
 
 #theCarouselPub .carousel-indicators li {
-    cursor: default;
+    cursor: pointer;
     border: 1px solid #cc3480;
 }
 
@@ -1171,4 +1171,3 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
     width: 33vw;
   }  
 }
-   
