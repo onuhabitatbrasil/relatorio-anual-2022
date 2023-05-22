@@ -469,10 +469,10 @@ ul.social-icons li{
 }
 
 .step {
-    padding-bottom: 70vh;
+    padding-bottom: 65vh;
     /*margin-bottom: 30vh;*/
-    opacity: 0.7;
-    transition-duration: 0.5s;
+    opacity: 0.75;
+    transition-duration: 0.25s;
 }
 
 .step.active {
@@ -510,10 +510,14 @@ ul.social-icons li{
         padding: 0;
     }
 
-    .centered,
     .lefty,
     .righty {
         width: 70vw;
+        margin: 0 auto;
+    }
+
+    .centered {
+        width: 90vw;
         margin: 0 auto;
     }
     
@@ -868,6 +872,11 @@ ul.social-icons li{
     transform-style: preserve-3d;
     backface-visibility: hidden;
     transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
+    0 2px 2px rgba(0,0,0,0.1), 
+    0 4px 4px rgba(0,0,0,0.1), 
+    0 8px 8px rgba(0,0,0,0.1),
+    0 16px 16px rgba(0,0,0,0.1);
 }
 
 .wrapper:hover>.front-face {
@@ -889,7 +898,7 @@ ul.social-icons li{
 #theCarouselPub .wrapper .card img {
     height: 100%;
     width: 100%;
-    object-fit:contain ;
+    object-fit: contain ;
     border-radius: 10px;
 }
 
@@ -1202,3 +1211,13 @@ img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .caro
     width: 33vw;
   }  
 }
+
+#mapToggle {
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 100;
+  }

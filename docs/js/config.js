@@ -42,7 +42,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      spinGlobe: true,
+      spinGlobe: false,
       mapInteractive: false,
       callback: "",
       onChapterEnter: [
@@ -724,6 +724,182 @@ var config = {
 
     {
       id: "numeros",
+      alignment: "center",
+      hidden: false,
+      description: '\
+      <div class="light-branco rounded-lg shadow-lg">\
+          <h1 class="rosa text-center p-bottom p-top">2022 em Números</h1>\
+            <div class="row p-bottom">\
+              <div class="col-md-12">\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/21_194_pessoas.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                    <span class="timeline__head">\
+                    194 pessoas\
+                    </span>\
+                    fizeram parte da equipe de escritório e de campo do ONU-Habitat Brasil, sendo 139 mulheres e 55 homens, baseadas em diferentes localidades.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/22_28_missoes.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                    <span class="timeline__head">\
+                    28 missões\
+                    </span>\
+                    organizadas pelo time do ONU-Habitat Brasil para realizar <span class="font-italic">advocacy</span>, apresentar resultados e conduzir atividades participativas e comitês de planejamento – atividades essenciais para fomentar um crescimento urbano sustentável e produzir efeitos benéficos nas comunidades locais.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/23_20_novas_parcerias.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                    <span class="timeline__head">\
+                    20 novas parcerias\
+                    </span>\
+                    concretizadas em 2022, contemplando os formatos de Apoio Institucional, Carta de Parceria e Memorando de Entendimento, totalizando 24 parcerias institucionais vigentes.  \
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/19_254_eventos.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                    <span class="timeline__head">\
+                    183 eventos\
+                    </span>\
+                    realizados por 122 instituições e 20 pessoas físicas na 5ª edição do Circuito Urbano. Foram 254 eventos inscritos nas modalidades virtual, híbrida e presencial, um recorde da iniciativa. Sob o tema “Localizando os ODS: não deixar ninguém e nenhum lugar para trás”, os eventos chegaram a 21 estados e ao Distrito Federal, com mil painelistas e moderadores, um público virtual de 12,9 mil espectadores e mais de 10 mil pessoas no presencial.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/25_22_mil_seguidores.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                    <span class="timeline__head">\
+                    22 mil seguidores\
+                    </span>\
+                    alcançados no Instagram, e mais de 200 publicações elaboradas com notícias sobre ações locais, advocacy e resultados da atuação no país. Na imprensa, foram mais de 630 menções sobre as iniciativas, com destaque para veiculações na TV aberta, entrevistas em rádio e diversas matérias em mídias internacionais, nacionais e locais. \
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/06_50_brasileiros.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                    <span class="timeline__head">\
+                    Mais de 50 representantes brasileiros\
+                    </span>\
+                    participaram da 11ª Sessão do Fórum Urbano Mundial, principal conferência global sobre urbanização sustentável, em Katowice, na Polônia, organizada pelo ONU-Habitat. A cidade de Fortaleza aproveitou a oportunidade para lançar sua candidatura para sediar a 13ª edição da conferência, a ser realizada em 2026.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/03_clube_astro.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                    <span class="timeline__head">\
+                    210 jovens\
+                    </span>\
+                    de 14 a 29 anos participaram de Oficinas de Desenho de Espaços Públicos em Pernambuco e conceberam propostas concretas de espaços públicos seguros, inclusivos e sustentáveis para suas cidades. Nesse contexto, foi <b class="rosa">criado um Clube de Astronomia</b> na comunidade do Ibura, no Recife, idealizado durante as gravações do documentário “Pés no Chão, Janela do Céu” e inspirado na oficina realizada na região.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/01_12_jovens.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                    Já em Alagoas, <b class="rosa">37 jovens</b> fizeram parte do programa Digaê! - Juventudes, Comunicação e Cidade, sendo capacitados em direito à cidade, linguagens de comunicação e projetos de intervenção em comunicação nas grotas. \
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/02_140_pessoas.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  <span class="timeline__head">\
+                  140 pessoas\
+                  </span>\
+                  — dentre elas mulheres que se identificam como cisgênero, transgênero e pessoas travestis — participaram de oficinas "Cidade Mulher" em Pernambuco. Os grupos mapearam a percepção dos fatores de (in)segurança no território sob a perspectiva das mulheres, contribuindo para um diagnóstico de segurança urbana e sugestões para políticas públicas mais inclusivas e seguras.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/14_1_3_mil_entrevistas.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  <span class="timeline__head">\
+                  13.419 entrevistas domiciliares\
+                  </span>\
+                  realizadas em 12 complexos de favelas pelo Programa Territórios Sociais na cidade do Rio de Janeiro, somando 2.392 novas famílias cadastradas na iniciativa. Além disso, 15,4 mil pessoas foram atendidas pela Secretaria Municipal de Saúde, 6 mil foram impactadas pela Secretaria Municipal de Assistência Social, 2,7 mil crianças e adolescentes foram encaminhados à Coordenadoria Regional de Educação e 1,1 mil domicílios foram beneficiados com melhorias habitacionais pelo programa Casa Carioca.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/07_17_plantoes.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  <span class="timeline__head">\
+                  17 plantões\
+                  </span>\
+                  com mapas no território, <b class="rosa">9 reuniões</b> com lideranças e grupos de trabalho e <b class="rosa">7 assembleias</b> realizadas para a elaboração participativa do Plano de Urbanização Sustentável da Izidora, em parceria com a Prefeitura de Belo Horizonte, a Secretaria Municipal de Política Urbana e a Companhia Urbanizadora de Habitação de Belo Horizonte (Urbel).\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/14_1_3_mil_entrevistas.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  Mais de <b class="rosa">4.500 mapas</b> sobre infraestrutura urbana, habitação, transporte e serviços públicos de 141 territórios vulnerabilizados em Juiz de Fora foram elaborados com o Mapa Rápido Participativo (MRP). Já a pesquisa do Perfil Socioeconômico chegou a <b class="rosa">1,3 mil entrevistas</b> realizadas e <b class="rosa">3,3 mil residências</b> visitadas nestas localidades. A ação visa identificar dados que informem políticas públicas e programas, com foco especial em educação e apoio a famílias vulneráveis, especialmente chefiadas por mulheres.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/08_3_4_mil_pessoas.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  <span class="timeline__head">\
+                  3,4 mil pessoas\
+                  </span>\
+                  de 6 bairros da região lagunar de Maceió entrevistadas para compreender a situação socioeconômica e demográfica da população. Entre os resultados, está o dado de que 69% se identificam como pretas ou pardas, e que 27% dos domicílios possuem acesso ao Auxílio Brasil/Bolsa Família.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/09_10_11_funcionarios.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  <span class="timeline__head">\
+                  22 servidores\
+                  </span>\
+                  do governo estadual de Alagoas capacitados na oficina de imersão do Programa Minha Cidade Linda, organizado pelo Laboratório de Planejamento e Projetos de Alagoas. A oficina apresentou o programa e seus impactos, propostas de soluções inovadoras para melhorá-lo de forma colaborativa, e promoveu a integração entre as secretarias estaduais e demais instituições participantes.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/15_80_representantes.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  <span class="timeline__head">\
+                  138 representantes\
+                  </span>\
+                  do governo, acadêmicos, lideranças comunitárias, representantes da sociedade civil e membros do ONU-Habitat participaram do seminário de discussão e apresentação das Diretrizes para a Política Habitacional de Alagoas. Apresentou-se o diagnóstico do setor habitacional do estado, bem como os objetivos, eixos estratégicos e recomendações para a gestão e financiamento da política habitacional.\
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/17_466_gestores.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  <span class="timeline__head">\
+                  466 gestores e servidores municipais\
+                  </span>\
+                  de 41 municípios se inscreveram para os cinco módulos de capacitação promovidos para a Rede de Cidades-Polo do Nordeste (G52). Foram 90 horas de formação voltadas a fortalecer suas capacidades de gestão e promover o desenvolvimento urbano regional de forma sustentável. Ao final da iniciativa, <b class="rosa">17 municípios</b> assinaram a carta de compromisso do G52 para cooperar no enfrentamento às desigualdades nas cidades e territórios do Nordeste do Brasil. \
+                  </p>\
+                </div>\
+                <div class="col-sm-6 timeline__item">\
+                  <div class="timeline__image-wrapper"><img src="./images/numeros/15_80_representantes.svg" alt="" class="timeline__image"></div>\
+                  <p class="timeline__text">\
+                  <span class="timeline__head">\
+                  80 representantes\
+                  </span>\
+                  da população foram entrevistados para a Avaliação de Espaços Públicos aplicada na fronteira entre Brasil e Argentina. A ação retrata a rede de espaços públicos de Barracão (PR), Dionísio Cerqueira (SC), Bom Jesus do Sul (PR), no Brasil, e Bernardo de Irigoyen, na Argentina, a partir de aspectos como quantidade e distribuição, gestão, acessibilidade, usos, instalações físicas, conforto, segurança e verde. A Prefeitura de Barracão já utiliza as recomendações da avaliação na revisão de seu Plano Diretor Municipal, fortalecendo sua apropriação de espaços públicos. Em Dionísio Cerqueira, a prefeitura, junto à população e a um escritório de arquitetura local, está desenvolvendo uma iniciativa voluntária para promover melhorias na principal praça da cidade.\
+                  </p>\
+                </div>\
+              </div>\
+            </div>\
+        </div>\
+      ',
+      location: {
+        center: [-51.06166, -15.66707],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 2,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+   /* {
+      id: "numeros",
       alignment: "full",
       hidden: false,
       //title: 'Abertura',
@@ -1060,7 +1236,7 @@ var config = {
       callback: "",
       onChapterEnter: [],
       onChapterExit: []
-    },
+    },*/
 
     {
       id: "publicacoes",
@@ -1682,7 +1858,7 @@ var config = {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       spinGlobe: false,
-      mapInteractive: false,
+      mapInteractive: true,
       callback: '',
       onChapterEnter: [
         {

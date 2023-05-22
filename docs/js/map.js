@@ -16,6 +16,8 @@ var alignments = {
     'full': 'fully'
 }
 
+var currentChapter;
+
 function getLayerPaintType(layer) {
     var layerType = map.getLayer(layer).type;
     return layerTypes[layerType];
@@ -228,6 +230,11 @@ if (config.showMarkers) {
 var scroller = scrollama();
 
 map.on("load", function () {
+
+    document.getElementById("2020Btn").addEventListener("click", layerToggle);
+    document.getElementById("2021Btn").addEventListener("click", layerToggle);
+    document.getElementById("2022Btn").addEventListener("click", layerToggle);
+
     if (config.use3dTerrain) {
         map.addSource('mapbox-dem', {
             'type': 'raster-dem',
@@ -277,6 +284,8 @@ map.on("load", function () {
         .onStepEnter(async response => {
             var chapter = config.chapters.find(chap => chap.id === response.element.id);
 
+            currentChapter = chapter.id;
+
             // add legend to each chapter
             if (config.legend && !config.inset) {
                 for (i = 0; i < config.chapters.length; i++) {
@@ -291,6 +300,7 @@ map.on("load", function () {
             }
 
             response.element.classList.add('active');
+
             map[chapter.mapAnimation || 'flyTo'](chapter.location);
             // Incase you do not want to have a dynamic inset map,
             // rather want to keep it a static view but still change the
@@ -308,6 +318,17 @@ map.on("load", function () {
             }
             if (chapter.onChapterEnter.length > 0) {
                 chapter.onChapterEnter.forEach(setLayerOpacity);
+            }
+
+            // radio input 
+            if (chapter.id === 'territorio-g52') {
+                document.getElementById('mapToggle').style.opacity = 1;
+                document.getElementById("2020Btn").checked = false;
+                document.getElementById('2021Btn').checked = false;
+                document.getElementById("2022Btn").checked = true;
+            } 
+            if (chapter.id !== 'territorio-g52') {
+                document.getElementById('mapToggle').style.opacity = 0;
             }
 
             // set interactive properties for chapters set as mapInteractive = true
@@ -357,6 +378,50 @@ map.on("load", function () {
             }
         });
 });
+
+function layerToggle(e) {
+
+    document.getElementById('2020Btn').checked = false;
+    document.getElementById('2021Btn').checked = false;
+    document.getElementById('2022Btn').checked = false;
+    this.checked = true;
+
+    map.setPaintProperty(
+        'pin-teresina',
+        'fill-opacity',
+        0
+    );
+    map.setPaintProperty(
+        'pin-onu',
+        'fill-opacity',
+        0
+    );
+    map.setPaintProperty(
+        'munic-pe-conex',
+        'fill-opacity',
+        0
+    );
+
+    if (this.id === "2020Btn") {
+        map.setPaintProperty(
+            'pin-teresina',
+            'fill-opacity',
+            1
+        );
+    } else if (this.id === "2021Btn") {
+        map.setPaintProperty(
+            'pin-onu',
+            'fill-opacity',
+            1
+        );
+    } else if (this.id === "2022Btn") {
+        map.setPaintProperty(
+            'munic-pe-conex',
+            'fill-opacity',
+            1
+        );
+    }
+}
 
 //Helper functions for insetmap
 function getInsetBounds() {
