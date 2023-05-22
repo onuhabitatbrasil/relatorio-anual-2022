@@ -321,13 +321,13 @@ map.on("load", function () {
             }
 
             // radio input 
-            if (chapter.id === 'territorio-g52') {
+            if (chapter.id === 'evol-territorio') {
                 document.getElementById('mapToggle').style.opacity = 1;
                 document.getElementById("2020Btn").checked = false;
                 document.getElementById('2021Btn').checked = false;
                 document.getElementById("2022Btn").checked = true;
             } 
-            if (chapter.id !== 'territorio-g52') {
+            if (chapter.id !== 'evol-territorio') {
                 document.getElementById('mapToggle').style.opacity = 0;
             }
 

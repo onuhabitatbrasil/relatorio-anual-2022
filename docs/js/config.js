@@ -69,7 +69,7 @@ var config = {
       bookmark: 'Abertura',
       description: '\
       <div class="light-branco">\
-        <div class="container-history p-bottom">\
+        <div class="container-history">\
           <div class="row no-gutters">\
             <div class="col-lg-7">\
               <div class="row">\

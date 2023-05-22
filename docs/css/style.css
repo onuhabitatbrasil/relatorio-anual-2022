@@ -281,15 +281,14 @@ ul.social-icons li{
 .scroll-down {
 	position: absolute;
 	left: 50%;
-	bottom: 7vh;
+	bottom: 12vh;
 	display: block;
 	text-align: center;
-	font-size: 20px;
 	z-index: 100;
 	text-decoration: none;
 	text-shadow: 0;
-	width: 20px;
-	height: 20px;
+	width: 24px;
+	height: 24px;
 	border-bottom: 2px solid #cc3480;
 	border-right: 2px solid #cc3480;
 	-webkit-transform: translate(-50%, 0%) rotate(45deg);
@@ -1013,7 +1012,7 @@ ul.social-icons li{
 #theCarouselPub .front-face p {
     color: #cc3480;
     border-radius: 25px;
-    background-color: #fff;
+    background-color: #fdf0f2;
     position: absolute;
     font-size: 0.65rem;
     margin: 1rem;
@@ -1174,7 +1173,6 @@ ul.social-icons li{
   padding: 0 0;
   margin-right: auto;
   margin-left: auto;
-  max-width: 600px;
 }
 
 .container-num {
@@ -1188,6 +1186,10 @@ ul.social-icons li{
 .card .btn {
     font-size: 0.775rem;
 }
+
+.fa-2x {
+    font-size: 1em;
+  }
 
 @media (min-width: 576px) {
   .container-exp {
@@ -1208,6 +1210,9 @@ ul.social-icons li{
   }
   .card .btn {
     font-size: 0.8rem;
+  }
+  .fa-2x {
+    font-size: 1em;
   }
 }
 
@@ -1239,6 +1244,9 @@ ul.social-icons li{
   .lefty {
     width: 36vw;
   }
+  .fa-2x {
+    font-size: 1.25em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1263,6 +1271,9 @@ ul.social-icons li{
   }
   .lefty {
     width: 35vw;
+  }
+  .fa-2x {
+    font-size: 1.5em;
   }
 }
 
@@ -1289,7 +1300,10 @@ ul.social-icons li{
   }
   .lefty {
     width: 33vw;
-  }  
+  }
+  .fa-2x {
+    font-size: 2em;
+  }
 }
 
 #mapToggle {
