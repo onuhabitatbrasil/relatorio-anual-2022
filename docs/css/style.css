@@ -299,14 +299,6 @@ ul.social-icons li{
 	animation: fade_move_down 1.25s ease-in-out infinite;
 }
   
-.scroll-down-white {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-	border-bottom: 2px solid #fff;
-	border-right: 2px solid #fff;
-}
-
 .scroll-down:hover{
 	border-bottom: 5px solid #cc3480;
 	border-right: 5px solid #cc3480;
@@ -440,7 +432,7 @@ ul.social-icons li{
 }
 
 .centered {
-    width: 70vw;
+    width: 50vw;
     margin: 0 auto;
 }
 
