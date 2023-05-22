@@ -1494,7 +1494,7 @@ var config = {
       description: '\
       <div class="light rounded-lg shadow-lg">\
         <div class="container p-right-left">\
-          <h1 class="laranja">G52</h1>\
+          <h1 class="laranja">Rede de Cidades-Polo do Nordeste (G52)</h1>\
           <p>Uma vocação em comum une <b>52 municípios</b> espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a <b>Rede de Cidades-Polo do Nordeste — o G52</b>.</p>\
           <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a <b>abrangência da rede para o norte de Minas Gerais e Espírito Santo</b>. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
           <p>Para fortalecer as capacidades de planejamento regional e estimular a articulação em rede, as cidades foram alvo de uma iniciativa que estimulou o desenvolvimento de soluções inovadoras, sustentáveis e escalonáveis para os desafios que enfrentam.</p>\
@@ -2420,6 +2420,144 @@ var config = {
       },
 
       {
+        id: 'territorio-curitiba',
+        alignment: 'left',
+        hidden: false,
+        //title: 'Escritório ONU-Habitat Brasil',
+        //bookmark: 'Territorios',
+        image: false,
+        description: '\
+        <div class="light rounded-lg shadow-lg">\
+          <div class="container p-right-left p-bottom">\
+            <h1 class="laranja">Curitiba</h1>\
+              <p>Para além das araucárias e calçadas de petit-pavê, <b>Curitiba é referência internacional em planejamento urbano e soluções de mobilidade</b>. A partir dos anos 1960, a criação de estações-tubo, canaletas exclusivas para ônibus expressos (sistema conhecido por BRT) e parques públicos atrelados a obras arquitetônicas icônicas popularizaram mundo afora a imagem de uma cidade que estava à frente do seu tempo.</p>\
+              <p>Não é exagero dizer, portanto, que a capital paranaense tem em seu cerne a inovação. No século 21, no entanto, essa ideia começa a ganhar novos contornos: a de cidade inteligente. As marcas do urbanismo passam a estar interligadas à ideia de que, mais do que conectada, a cidade deve promover qualidade de vida para seus quase dois milhões de habitantes.</p>\
+              <p>Esse percurso passa necessariamente pelo desenvolvimento urbano sustentável. Não à toa, <b>uma das metas da cidade é atingir a neutralidade de carbono até 2050</b>. Para auxiliar no alcance desse objetivo, a cidade foi a única do Brasil a participar de um desafio de inovação promovido pelo ONU-Habitat – o <b>Climate Smart Cities Challenge</b> –, com o objetivo de avançar em soluções para criar comunidades carbono zero.</p>\
+              <ul class="fa-ul">\
+                  <li class="li-hover pr-4">\
+                    <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
+                    <i class="fa fa-square"></i></span>\
+                    <span>Praças</span>\
+                  </li>\
+                  <li class="li-hover pr-4">\
+                    <span class="fa-li" style="color:#e3773b; opacity: 0.75">\
+                    <i class="fa fa-square"></i></span>\
+                    <span>Parques e bosques</span>\
+                  </li>\
+                  <li class="li-hover">\
+                    <span class="fa-li" style="color:#f1b944; opacity: 1">\
+                    <i class="fa fa-minus"></i></span>\
+                    <span>Rede Expressa do BRT</span>\
+                  </li>\
+              </ul>\
+          </div>\
+        </div>\
+        ',
+        location: {
+          center: [-49.33857, -25.50005],
+          zoom: 11.17,
+          pitch: 52.00,
+          bearing: 0.00,
+          speed: 1
+          // flyTo additional controls-
+          // These options control the flight curve, making it move
+          // slowly and zoom out almost completely before starting
+          // to pan.
+          //speed: 2, // make the flying slow
+          //curve: 1, // change the speed at which it zooms out
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        spinGlobe: false,
+        mapInteractive: false,
+        callback: '',
+        onChapterEnter: [
+          {
+            layer: 'curitiba',
+            opacity: 0.75,
+            duration: 1000
+          }
+        ],
+        onChapterExit: [
+          {
+            layer: 'curitiba',
+            opacity: 0
+          }
+        ]
+    },
+
+    {
+      id: 'historia-curitiba',
+      alignment: 'full',
+      hidden: false,
+      //title: 'Abertura',
+      bookmark: 'Curitiba',
+      description: '\
+      <div class="light">\
+        <div class="container-history no-gutters p-left p-right">\
+          <div class="row no-gutters">\
+            <div class="col-md-12 col-lg-8">\
+              <div class="row">\
+                <div class="col-md-12">\
+                  <h1 class="laranja">Criando comunidades carbono zero</h1>\
+                </div>\
+              </div>\
+              <div class="row p-bottom">\
+                <div class="col-md-6 col-lg-6">\
+                    <p>Apesar de próximas, o Vale do Pinhão e a Vila Torres não compartilham entre si muitas características. Enquanto a primeira é uma região industrial em reurbanização, a segunda é uma comunidade com baixo índice de desenvolvimento humano. Uma nova iniciativa, no entanto, promete unir as duas regiões em torno de um mesmo objetivo: tornarem-se as primeiras comunidades carbono zero de Curitiba.</p>\
+                    <p>Esse foi o objetivo proposto pelo Instituto de Pesquisa e Planejamento Urbano de Curitiba no Climate Smart Cities Challenge – competição proposta pelo ONU-Habitat com o governo da Suécia para acelerar a transição para a neutralidade climática em quatro cidades: Curitiba, Bogotá (Colômbia), Bristol (Reino Unido) e Makindye Ssabagabo (Uganda).</p>\
+                    <p>O time vencedor da iniciativa, Curitiba Smart Neighborhoods, é formado pela união de quatro empresas. A startup curitibana Agentes do Meio Ambiente (AMA), líder do time, se inscreveu na competição decidida a avançar. Com aplicativos de zeladoria urbana e educação ambiental, a empresa promove a sustentabilidade em cidades do Paraná e Santa Catarina.</p>\
+                    <p>O Desafio é uma competição em etapas. Quando os nove finalistas foram divulgados, a iniciativa convidou os inovadores a formar times que incorporassem seus concorrentes, criando soluções mais robustas. Pensando nisso, o AMA convidou os demais finalistas a se unirem a ela. A resposta positiva veio de três empresas: a também curitibana Ambiente Livre e as suecas Nudgd e Smart Green Stations. Com uma proposta inédita integrando as quatro soluções, a nova equipe foi anunciada vencedora.</p>\
+                </div>\
+                <div class="col-md-6 col-lg-6">\
+                    <p>Para colocar as ideias em prática, o caminho ainda está sendo percorrido. Após o resultado, a equipe passou para a fase de planejamento, detalhando como tornar as comunidades curitibanas neutras em carbono com soluções de energia elétrica, gestão de resíduos e mobilidade.</p>\
+                    <p>O resultado é uma complexa proposta de soluções físicas e digitais que, integradas, formam um sistema que atua para reduzir emissões em várias frentes. Cada empresa contribui dentro do time com sua área de expertise. O AMA promove a criação de comunidades digitais com moradores engajados pela sustentabilidade, criando líderes locais e promovendo educação ambiental, gerindo o sistema físico por meio de seus aplicativos. O Ambiente Livre contribui com sistemas de compostagem e hortas urbanas, criando um ciclo orgânico de reciclagem e produção de alimentos. A Smart Green Stations fornece mobiliário urbano inteligente e autossuficiente em energia, potencializando a compostagem. Já a Nudgd acrescenta soluções de ciência comportamental por meio de interações com os cidadãos, promovendo escolhas sustentáveis no dia a dia.</p>\
+                    <p>Com a fase de planejamento finalizada, o momento é de iniciar a demonstração do sistema, que ocorrerá após a captação de recursos. O time destaca que, desde que foram anunciados vencedores, já houve mudanças concretas. Além da divulgação internacional e de novas oportunidades de negócio, a equipe ganhou o sentimento de esperança. “A partir do momento em que as pessoas entendem o que estamos fazendo, tem muita gente disposta a ajudar”, destaca Carolina Neiverth Rosas, gestora ambiental no Ambiente Livre. “Percebemos que existe uma nova complementação em prol de projetos socioambientais”.</p>\
+                </div>\
+              </div>\
+          </div>\
+          <div class="col-md-12 col-lg-4 align-self-lg-end">\
+                <img src="images/historia-curitiba.jpg" alt="" class="img-hist"/>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-49.33857, -25.50005],
+        zoom: 11.17,
+        pitch: 52.00,
+        bearing: 0.00,
+        speed: 1
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'curitiba',
+          opacity: 0.75,
+          duration: 1000
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'curitiba',
+          opacity: 0
+        }
+      ]
+  },
+
+
+      {
           id: 'territorio-conexoes',
           alignment: 'left',
           hidden: false,
@@ -2559,145 +2697,8 @@ var config = {
               opacity: 0
             }
         ]
-    },
-
-    {
-        id: 'territorio-curitiba',
-        alignment: 'left',
-        hidden: false,
-        //title: 'Escritório ONU-Habitat Brasil',
-        //bookmark: 'Territorios',
-        image: false,
-        description: '\
-        <div class="light rounded-lg shadow-lg">\
-          <div class="container p-right-left p-bottom">\
-            <h1 class="laranja">Curitiba</h1>\
-              <p>Para além das araucárias e calçadas de petit-pavê, <b>Curitiba é referência internacional em planejamento urbano e soluções de mobilidade</b>. A partir dos anos 1960, a criação de estações-tubo, canaletas exclusivas para ônibus expressos (sistema conhecido por BRT) e parques públicos atrelados a obras arquitetônicas icônicas popularizaram mundo afora a imagem de uma cidade que estava à frente do seu tempo.</p>\
-              <p>Não é exagero dizer, portanto, que a capital paranaense tem em seu cerne a inovação. No século 21, no entanto, essa ideia começa a ganhar novos contornos: a de cidade inteligente. As marcas do urbanismo passam a estar interligadas à ideia de que, mais do que conectada, a cidade deve promover qualidade de vida para seus quase dois milhões de habitantes.</p>\
-              <p>Esse percurso passa necessariamente pelo desenvolvimento urbano sustentável. Não à toa, <b>uma das metas da cidade é atingir a neutralidade de carbono até 2050</b>. Para auxiliar no alcance desse objetivo, a cidade foi a única do Brasil a participar de um desafio de inovação promovido pelo ONU-Habitat – o <b>Climate Smart Cities Challenge</b> –, com o objetivo de avançar em soluções para criar comunidades carbono zero.</p>\
-              <ul class="fa-ul">\
-                  <li class="li-hover pr-4">\
-                    <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
-                    <i class="fa fa-square"></i></span>\
-                    <span>Praças</span>\
-                  </li>\
-                  <li class="li-hover pr-4">\
-                    <span class="fa-li" style="color:#e3773b; opacity: 0.75">\
-                    <i class="fa fa-square"></i></span>\
-                    <span>Parques e bosques</span>\
-                  </li>\
-                  <li class="li-hover">\
-                    <span class="fa-li" style="color:#f1b944; opacity: 1">\
-                    <i class="fa fa-minus"></i></span>\
-                    <span>Rede Expressa do BRT</span>\
-                  </li>\
-              </ul>\
-          </div>\
-        </div>\
-        ',
-        location: {
-          center: [-49.33857, -25.50005],
-          zoom: 11.17,
-          pitch: 52.00,
-          bearing: 0.00,
-          speed: 1
-          // flyTo additional controls-
-          // These options control the flight curve, making it move
-          // slowly and zoom out almost completely before starting
-          // to pan.
-          //speed: 2, // make the flying slow
-          //curve: 1, // change the speed at which it zooms out
-        },
-        mapAnimation: 'flyTo',
-        rotateAnimation: false,
-        spinGlobe: false,
-        mapInteractive: false,
-        callback: '',
-        onChapterEnter: [
-          {
-            layer: 'curitiba',
-            opacity: 0.75,
-            duration: 1000
-          }
-        ],
-        onChapterExit: [
-          {
-            layer: 'curitiba',
-            opacity: 0
-          }
-        ]
-    },
-
-    {
-      id: 'historia-curitiba',
-      alignment: 'full',
-      hidden: false,
-      //title: 'Abertura',
-      bookmark: 'Curitiba',
-      description: '\
-      <div class="light">\
-        <div class="container-history no-gutters p-left p-right">\
-          <div class="row no-gutters">\
-            <div class="col-md-12 col-lg-8">\
-              <div class="row">\
-                <div class="col-md-12">\
-                  <h1 class="laranja">Criando comunidades carbono zero</h1>\
-                </div>\
-              </div>\
-              <div class="row p-bottom">\
-                <div class="col-md-6 col-lg-6">\
-                    <p>Apesar de próximas, o Vale do Pinhão e a Vila Torres não compartilham entre si muitas características. Enquanto a primeira é uma região industrial em reurbanização, a segunda é uma comunidade com baixo índice de desenvolvimento humano. Uma nova iniciativa, no entanto, promete unir as duas regiões em torno de um mesmo objetivo: tornarem-se as primeiras comunidades carbono zero de Curitiba.</p>\
-                    <p>Esse foi o objetivo proposto pelo Instituto de Pesquisa e Planejamento Urbano de Curitiba no Climate Smart Cities Challenge – competição proposta pelo ONU-Habitat com o governo da Suécia para acelerar a transição para a neutralidade climática em quatro cidades: Curitiba, Bogotá (Colômbia), Bristol (Reino Unido) e Makindye Ssabagabo (Uganda).</p>\
-                    <p>O time vencedor da iniciativa, Curitiba Smart Neighborhoods, é formado pela união de quatro empresas. A startup curitibana Agentes do Meio Ambiente (AMA), líder do time, se inscreveu na competição decidida a avançar. Com aplicativos de zeladoria urbana e educação ambiental, a empresa promove a sustentabilidade em cidades do Paraná e Santa Catarina.</p>\
-                    <p>O Desafio é uma competição em etapas. Quando os nove finalistas foram divulgados, a iniciativa convidou os inovadores a formar times que incorporassem seus concorrentes, criando soluções mais robustas. Pensando nisso, o AMA convidou os demais finalistas a se unirem a ela. A resposta positiva veio de três empresas: a também curitibana Ambiente Livre e as suecas Nudgd e Smart Green Stations. Com uma proposta inédita integrando as quatro soluções, a nova equipe foi anunciada vencedora.</p>\
-                </div>\
-                <div class="col-md-6 col-lg-6">\
-                    <p>Para colocar as ideias em prática, o caminho ainda está sendo percorrido. Após o resultado, a equipe passou para a fase de planejamento, detalhando como tornar as comunidades curitibanas neutras em carbono com soluções de energia elétrica, gestão de resíduos e mobilidade.</p>\
-                    <p>O resultado é uma complexa proposta de soluções físicas e digitais que, integradas, formam um sistema que atua para reduzir emissões em várias frentes. Cada empresa contribui dentro do time com sua área de expertise. O AMA promove a criação de comunidades digitais com moradores engajados pela sustentabilidade, criando líderes locais e promovendo educação ambiental, gerindo o sistema físico por meio de seus aplicativos. O Ambiente Livre contribui com sistemas de compostagem e hortas urbanas, criando um ciclo orgânico de reciclagem e produção de alimentos. A Smart Green Stations fornece mobiliário urbano inteligente e autossuficiente em energia, potencializando a compostagem. Já a Nudgd acrescenta soluções de ciência comportamental por meio de interações com os cidadãos, promovendo escolhas sustentáveis no dia a dia.</p>\
-                    <p>Com a fase de planejamento finalizada, o momento é de iniciar a demonstração do sistema, que ocorrerá após a captação de recursos. O time destaca que, desde que foram anunciados vencedores, já houve mudanças concretas. Além da divulgação internacional e de novas oportunidades de negócio, a equipe ganhou o sentimento de esperança. “A partir do momento em que as pessoas entendem o que estamos fazendo, tem muita gente disposta a ajudar”, destaca Carolina Neiverth Rosas, gestora ambiental no Ambiente Livre. “Percebemos que existe uma nova complementação em prol de projetos socioambientais”.</p>\
-                </div>\
-              </div>\
-          </div>\
-          <div class="col-md-12 col-lg-4 align-self-lg-end">\
-                <img src="images/historia-curitiba.jpg" alt="" class="img-hist"/>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      ',
-      location: {
-        center: [-49.33857, -25.50005],
-        zoom: 11.17,
-        pitch: 52.00,
-        bearing: 0.00,
-        speed: 1
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: '',
-      onChapterEnter: [
-        {
-          layer: 'curitiba',
-          opacity: 0.75,
-          duration: 1000
-        }
-      ],
-      onChapterExit: [
-        {
-          layer: 'curitiba',
-          opacity: 0
-        }
-      ]
   },
-
+  
   {
         id: 'territorio-sul-global',
         alignment: 'left',
