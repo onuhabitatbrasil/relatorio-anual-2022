@@ -1628,17 +1628,17 @@ var config = {
           <p><b>Adaptação, flexibilidade, gestão de risco e integração são algumas das palavras que descrevem a atuação de Teresina frente às mudanças climáticas</b>. Localizada no semiárido nordestino, a cidade aquece até duas vezes mais rápido que a média global de temperatura. Isso torna a capital piauiense mais vulnerável aos impactos ambientais, resultando em enchentes, secas e ondas de calor que a desafiam constantemente.</p>\
           <p>Para solucionar estes e demais problemas, a cidade está implementando soluções de baixo custo baseadas na natureza para lidar com o ciclo da água e o desequilíbrio do ecossistema - reforçando a reputação de “cidade verde” que enfrenta os desafios climáticos.</p>\
           <p>Através de oficinas participativas, o <b>Programa Global de Cidades Resilientes do ONU-Habitat e a Prefeitura de Teresina</b> definiram atores urbanos estratégicos e prioridades da cidade para lidar com choques, riscos e impactos causados pela mudança do clima. As atividades realizadas pelo programa possibilitaram uma avaliação das ações do município, além de definir ações eficazes e estratégicas alinhadas aos problemas enfrentados no presente e que virão no futuro, tornando a cidade mais resiliente e sustentável.</p>\
-          <p style = "margin-top:1.75em; font-size:0.75rem;">Áreas de superfície onde estava mais quente ou mais frio durante o dia no mês de dezembro de 2019 do que as temperaturas médias em relação ao mesmo mês entre 2001 e 2010 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_LSTAD_M&year=2019" target="_blank">MODIS/NASA/2019)</a>.</p>\
+          <p style = "margin-top:1.75em; font-size:0.75rem;">Áreas de superfície no Brasil onde estava mais quente ou mais frio durante o dia no mês de dezembro de 2019 do que as temperaturas médias em relação ao mesmo mês entre 2001 e 2010 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_LSTAD_M&year=2019" target="_blank">MODIS/NASA/2019)</a>.</p>\
           <img style = "width: 35%;" src="assets/legend_teresina.png" alt="Legenda de tonalidades de temperaturas anormais"/>\
         </div>\
       </div>\
       ',
       location: {
-          center: [-71.49061, -3.85115],
-          zoom: 2.5,
+          center: [-45.32373, -5.25880],
+          zoom: 5.25,
           pitch: 0.00,
           bearing: 0.00,
-          speed: 0.5
+          speed: 1
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -1964,10 +1964,10 @@ var config = {
       </div>\
       ',
       location: {
-          center: [-43.93352, -19.86222],
-          zoom: 11.48,
-          pitch: 42.00,
-          bearing: 13.60,
+          center: [-43.92189, -19.81633],
+          zoom: 10.74,
+          pitch: 0.00,
+          bearing: 0.00,
           speed: 1
       },
       mapAnimation: 'flyTo',
@@ -1983,7 +1983,7 @@ var config = {
         },
         {
             layer: 'agsn',
-            opacity: 0.7,
+            opacity: 0.6,
             duration: 1000
         }
     ],
@@ -2035,10 +2035,10 @@ var config = {
       </div>\
       ',
       location: {
-          center: [-43.93352, -19.86222],
-          zoom: 11.48,
-          pitch: 42.00,
-          bearing: 13.60,
+          center: [-43.92189, -19.81633],
+          zoom: 10.74,
+          pitch: 0.00,
+          bearing: 0.00,
           speed: 1
       },
       mapAnimation: 'flyTo',
@@ -2046,8 +2046,27 @@ var config = {
       spinGlobe: false,
       mapInteractive: false,
       callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+            layer: 'satellite',
+            opacity: 0
+        },
+        {
+            layer: 'agsn',
+            opacity: 0.6,
+            duration: 1000
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'satellite',
+              opacity: 0
+          },
+          {
+              layer: 'agsn',
+              opacity: 0
+          }
+      ]
   },
 
   {
@@ -2165,8 +2184,28 @@ var config = {
       spinGlobe: false,
       mapInteractive: false,
       callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+            layer: 'satellite',
+            opacity: 0,
+            duration: 2000
+        },
+        {
+            layer: 'agsn',
+            opacity: 0.6,
+            duration: 1000
+        }
+      ],
+      onChapterExit: [
+          {
+              layer: 'satellite',
+              opacity: 0
+          },
+          {
+              layer: 'agsn',
+              opacity: 0
+          }
+      ]
     },
 
     {
@@ -2304,7 +2343,6 @@ var config = {
         id: 'territorio-sp',
         alignment: 'left',
         hidden: false,
-        bookmark: 'Territorio São Paulo',
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
@@ -2330,9 +2368,9 @@ var config = {
         </div>\
         ',
         location: {
-          center: [-46.87607, -23.69847],
-          zoom: 9.16,
-          pitch: 45.00,
+          center: [-46.66566, -23.66316],
+          zoom: 9.5,
+          pitch: 31.00,
           bearing: 0.00,
           speed: 1
         },
@@ -2359,7 +2397,6 @@ var config = {
         id: 'historia-sp',
         alignment: 'full',
         hidden: false,
-        bookmark: 'História São Paulo',
         description: '\
         <div class="light">\
           <div class="container-history no-gutters p-left p-right">\
@@ -2583,10 +2620,10 @@ var config = {
           </div>\
           ',
           location: {
-                center: [-54.24178, -26.16576],
-                zoom: 7.42,
-                pitch: 54.02,
-                bearing: -30.90,
+                center: [-54.557517, -26.139337],
+                zoom: 6,
+                pitch: 0,
+                bearing: 0,
                 speed: 2
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
@@ -2739,8 +2776,8 @@ var config = {
         onChapterEnter: [
           {
             layer: 'global-south',
-            opacity: 0.85,
-            duration: 1000
+            opacity: 1,
+            duration: 3000
           }
         ],
         onChapterExit: [
