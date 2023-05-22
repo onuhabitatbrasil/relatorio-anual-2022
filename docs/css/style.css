@@ -800,6 +800,109 @@ ul.social-icons li{
   left: 8px;
 }
 
+/* NUMEROS */
+.timeline__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+  }
+  
+  .timeline__item::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 8px);
+    left: -7px;
+    z-index: 1;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #cc3480;
+  }
+  
+  .timeline__item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    background-color: #cc3480;
+  }
+  
+  .timeline__image-wrapper {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    /*border-radius: 50%;
+    border: 3px solid #cc3480;*/
+    display: inline-flex;
+  }
+  
+  .timeline__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .timeline__head {
+    display: block;
+    padding: 0.2em 0;
+    font-size: 16px;
+    color: #cc3480;
+    font-family: 'Bolgart', sans-serif;
+  }
+  
+  @media (min-width: 576px) {
+  
+    .timeline__image-wrapper {
+      width: 74px;
+      height: 74px;
+    }
+  
+    .timeline__item {
+      flex-direction: row-reverse;
+      text-align: right;
+      padding-top: 0;
+    }
+    .timeline__item::before {
+      left: auto;
+      right: -7px;
+    }
+    .timeline__item::after {
+      left: auto;
+      right: 0;
+    }
+    .timeline__item:nth-child(even) {
+      flex-direction: row;
+      margin-left: 50%;
+      text-align: left;
+    }
+    .timeline__item:nth-child(even)::before {
+      left: -9px;
+    }
+    .timeline__item:nth-child(even)::after {
+      left: -1px;
+    }
+  
+    .timeline__image-wrapper {
+      margin-left: 10px;
+      margin-right: 0;
+    }
+    .timeline__item:nth-child(even) .timeline__image-wrapper {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  
+  }
+
+/* PUB E MET */
+
 .wrapper {
     height: 350px;
     width: auto;
