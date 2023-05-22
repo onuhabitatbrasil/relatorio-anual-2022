@@ -899,23 +899,23 @@ var config = {
     },
 
     {
-      id: "publicacoes",
+      id: "publicacoes", 
       alignment: "full",
       hidden: false,
       description: '\
       <div class="light">\
         <div class="container container-exp p-bottom">\
             <h1 class="align-self-center rosa text-center">2022 em Publicações</h1>\
-            <div class="col-12 text-center pb-3">\
-                  <a class="btn btn-primary mr-1" href="#theCarouselPub" role="button" data-slide="prev">\
-                      <i class="fa fa-arrow-left cursor-hover"></i>\
+            <div class="col-12 text-center pb-3 pt-3">\
+                  <a class="btn btn-primary mr-1 cursor-hover" href="#theCarouselPub" role="button" data-slide="prev">\
+                      <i class="fa fa-arrow-left"></i>\
                   </a>\
-                  <a class="btn btn-primary" href="#theCarouselPub" role="button" data-slide="next">\
-                      <i class="fa fa-arrow-right cursor-hover"></i>\
+                  <a class="btn btn-primary cursor-hover" href="#theCarouselPub" role="button" data-slide="next">\
+                      <i class="fa fa-arrow-right"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="993000" role="listbox">\
-              <div class="carousel-inner row w-100 mx-auto  pb-4 pt-4">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="3500" role="listbox">\
+              <div class="carousel-inner row w-100 mx-auto pb-5 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
@@ -1297,7 +1297,7 @@ var config = {
       <div class="light">\
         <div class="container container-exp p-bottom">\
             <h1 class="align-self-center azul text-center">2022 em Metodologias</h1>\
-            <div class="col-12 text-center pb-3">\
+            <div class="col-12 text-center pb-4 pt-3">\
                   <a class="btn btn-primary mr-1 btn-primary-azul " href="#theCarousel" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
                   </a>\
@@ -1306,20 +1306,7 @@ var config = {
                   </a>\
             </div>\
             <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3000" role="listbox">\
-              <ol class="carousel-indicators">\
-                  <li data-target="theCarousel" data-slide-to="0" class="active"></li>\
-                  <li data-target="theCarousel" data-slide-to="1"></li>\
-                  <li data-target="theCarousel" data-slide-to="2"></li>\
-                  <li data-target="theCarousel" data-slide-to="3"></li>\
-                  <li data-target="theCarousel" data-slide-to="4"></li>\
-                  <li data-target="theCarousel" data-slide-to="5"></li>\
-                  <li data-target="theCarousel" data-slide-to="6"></li>\
-                  <li data-target="theCarousel" data-slide-to="7"></li>\
-                  <li data-target="theCarousel" data-slide-to="8"></li>\
-                  <li data-target="theCarousel" data-slide-to="9"></li>\
-                  <li data-target="theCarousel" data-slide-to="10"></li>\
-              </ol>\
-              <div class="carousel-inner row w-100 mx-auto  pb-4 pt-4">\
+              <div class="carousel-inner row w-100 mx-auto pb-5 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
@@ -1464,6 +1451,19 @@ var config = {
                   </div>\
                 </div>\
               </div>\
+              <ol class="carousel-indicators">\
+                  <li data-target="theCarousel" data-slide-to="0" class="active"></li>\
+                  <li data-target="theCarousel" data-slide-to="1"></li>\
+                  <li data-target="theCarousel" data-slide-to="2"></li>\
+                  <li data-target="theCarousel" data-slide-to="3"></li>\
+                  <li data-target="theCarousel" data-slide-to="4"></li>\
+                  <li data-target="theCarousel" data-slide-to="5"></li>\
+                  <li data-target="theCarousel" data-slide-to="6"></li>\
+                  <li data-target="theCarousel" data-slide-to="7"></li>\
+                  <li data-target="theCarousel" data-slide-to="8"></li>\
+                  <li data-target="theCarousel" data-slide-to="9"></li>\
+                  <li data-target="theCarousel" data-slide-to="10"></li>\
+              </ol>\
             </div>\
         </div>\
       </div>\

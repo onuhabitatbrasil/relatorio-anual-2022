@@ -532,7 +532,7 @@ ul.social-icons li{
 /* The progress container */
 .progress-container {
     width: 100%;
-    height: 5px;
+    height: 6px;
     background: #fff;
     position: fixed;
     z-index: 9999;
@@ -540,7 +540,7 @@ ul.social-icons li{
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
-    height: 5px;
+    height: 6px;
     background: #cc3480;
     width: 0%;
     top: 0;
@@ -800,24 +800,6 @@ ul.social-icons li{
   left: 8px;
 }
 
-/* ACCORDEON NUMEROS */
-
-.accordion .highlight .btn {
-    color: #cc3480;
-}
-
-.accordion .highlight i {
-    transform: rotate(180deg);
-}
-
-.card-header .btn {
-    font-weight: bold;
-}
-
-.accordion h1, .h1 {
-    font-family: 'Bolgart', sans-serif;
-}
-
 .wrapper {
     height: 350px;
     width: auto;
@@ -902,7 +884,6 @@ ul.social-icons li{
     border-radius: 10px;
 }
 
-
 #theCarousel .wrapper .front-face { 
     background-color: #00568a;
     color: #fff;
@@ -916,14 +897,14 @@ ul.social-icons li{
 }
 
 #theCarouselPub .front-face h5 {
-    color: #fff;
+    color: #cc3480;
     position: absolute;
-    background-color: #cc3480;
-    border-radius: 75px;
+    background-color: #ffc5da;
+    border-radius: 25px;
     font-size: 0.85rem;
     margin: 0.75rem 0.5rem;
     padding: 0.5rem 0.75rem;
-    max-width: 80%;
+    max-width: 85%;
 }
 
 #theCarouselPub .front-face p {
@@ -941,38 +922,34 @@ ul.social-icons li{
 .wrapper .back-face {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-direction: column;
     transform: rotateY(180deg);
-    background-image: linear-gradient(
-        to bottom,
-        hsla(0, 0%, 0%, 0) 0%,
-        hsla(0, 0%, 0%, 0.009) 11.7%,
-        hsla(0, 0%, 0%, 0.034) 22.1%,
-        hsla(0, 0%, 0%, 0.072) 31.2%,
-        hsla(0, 0%, 0%, 0.123) 39.4%,
-        hsla(0, 0%, 0%, 0.182) 46.6%,
-        hsla(0, 0%, 0%, 0.249) 53.1%,
-        hsla(0, 0%, 0%, 0.320) 58.9%,
-        hsla(0, 0%, 0%, 0.394) 64.3%,
-        hsla(0, 0%, 0%, 0.468) 69.3%,
-        hsla(0, 0%, 0%, 0.540) 74.1%,
-        hsla(0, 0%, 0%, 0.607) 78.8%,
-        hsla(0, 0%, 0%, 0.668) 83.6%,
-        hsla(0, 0%, 0%, 0.721) 88.7%,
-        hsla(0, 0%, 0%, 0.762) 94.1%,
-        hsla(0, 0%, 0%, 0.790) 100%
-      );
 }
 
 #theCarousel .wrapper .back-face {
     background-color: #00568a;
-    color: #fff;
+    color: #fdf0f2;
+    padding: 2em 1em;
 }
 
 #theCarouselPub .wrapper .back-face {
+    background-color: #ffc5da;
+    color: #00568a;
+    padding: 2em 1em;
+}
+
+#theCarouselPub .btn-primary {
+    margin-top: 0.5em;
+    color: #00568a;
+    border: 2px solid #00568a;
+
+}
+  
+#theCarouselPub .btn-primary:hover {
+    color: #fdf0f2;
     background-color: #cc3480;
-    color: #fff;
+    border-color: #cc3480;
 }
 
 .wrapper:hover>.back-face {
@@ -1058,7 +1035,7 @@ ul.social-icons li{
     .multi-item-carousel .active.carousel-item-left + .carousel-item-next.carousel-item-left,
     .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item,
     .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-img-fluid    .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
       position: relative;
       transform: translate3d(-100%, 0, 0);
       visibility: visible;

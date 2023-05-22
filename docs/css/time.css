@@ -47,19 +47,6 @@
      object-fit: cover;
 }
 
-/*.accordion .card-body {
-  font-size: 0.65rem;
-  line-height: 1.15;
-}
-
-.accordion .btn {
-  padding: 0;
-}
-
-.accordion img {
-  width: 100%;
-}*/
-
 .timeline__head {
   display: block;
   padding: 0.2em 0;
@@ -109,30 +96,4 @@
     margin-right: 10px;
   }
 
-  /*.accordion .card-body {
-    font-size: 0.7rem;
-    line-height: 1.15;
-  }*/
-
 }
-
-/*@media (min-width: 768px) {
-  .accordion .card-body {
-    font-size: 0.7rem;
-    line-height: 1.15;
-  }
-}
-
-@media (min-width: 992px) {
-  .accordion .card-body {
-    font-size: 0.825rem;
-    line-height: 1.175;
-  }
-}
-
-@media (min-width: 1200px) {
-  .accordion .card-body {
-    font-size: 0.9rem;
-    line-height: 1.2;
-  }
-}*/
