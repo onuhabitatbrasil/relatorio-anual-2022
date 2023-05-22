@@ -138,7 +138,7 @@ var config = {
       <div class="light-branco rounded-lg shadow-lg">\
         <div class="container p-right-left p-bottom">\
           <h1 class="azul-habitat">Onde estamos e quem somos</h1>\
-          <p>O Programa das Nações Unidas para os Assentamentos Humanos (ONU-Habitat) estabeleceu-se em 1978 como resultado da Conferência das Nações Unidas sobre Assentamentos Humanos (Habitat I). Com sede em Nairóbi, capital do Quênia, o ONU-Habitat é a agência da Organização das Nações Unidas (ONU) especializada em melhorar a qualidade de vida em um mundo majoritariamente urbanizado; construir cidades e comunidades seguras, resilientes e sustentáveis; e promover urbanização como uma força transformadora positiva para pessoas e comunidades, reduzindo a desigualdade, discriminação e pobreza e melhorando a qualidade e o acesso aos serviços básicos.</p>\
+          <p>O Programa das Nações Unidas para os Assentamentos Humanos (ONU-Habitat) estabeleceu-se em 1978 como resultado da Conferência das Nações Unidas sobre Assentamentos Humanos (Habitat I). Com sede em Nairóbi, capital do Quênia, o ONU-Habitat é a agência da Organização das Nações Unidas (ONU) especializada em <b>melhorar a qualidade de vida em um mundo majoritariamente urbanizado</b>; construir cidades e comunidades seguras, resilientes e sustentáveis; e promover urbanização como uma força transformadora positiva para pessoas e comunidades, reduzindo a desigualdade, discriminação e pobreza e melhorando a qualidade e o acesso aos serviços básicos.</p>\
         </div>\
       </div>\
       ',
@@ -147,7 +147,7 @@ var config = {
         zoom: 10,
         pitch: 55.50,
         bearing: -8.80,
-        speed: 0.3,
+        speed: 0.35,
         curve: 1
       },
       mapAnimation: 'flyTo',
@@ -189,7 +189,7 @@ var config = {
           zoom: 11.5,
           pitch: 0.00,
           bearing: 0.00,
-          speed: 0.3,
+          speed: 0.75,
           curve: 1
       },
       mapAnimation: 'flyTo',
@@ -440,7 +440,7 @@ var config = {
                         <img class="d-block w-100" src="./images/tempo/08_Territórios da Cidadania.jpg" alt="">\
                         <div class="container_foto">\
                           <div class="ver_mas">\
-                            <p>Com o objetivo de dar suporte à construção de políticas públicas baseadas em dados para promover o desenvolvimento urbano e a garantia de direitos sociais, o projeto foi lançado pela Secretaria de Planejamento do Território e Participação Popular em um evento que contou com representantes do executivo municipal, líderes comunitários e artistas. O projeto consiste na aplicação de duas metodologias de coleta de dados, o Mapa Rápido Participativo (MRP) e o Perfil Socioeconômico, em 141 microterritórios vulnerabilizados da cidade, a fim de orientar políticas e ações públicas assertivas para as regiões estudadas. Na mesma semana, foi iniciado o trabalho de campo do MRP, avaliando temas como infraestrutura para mobilidade, acesso aos meios de transporte, padrão das moradias, abastecimento de água, esgotamento sanitário, coleta de lixo e limpeza urbana.</p>\
+                            <p>Com o objetivo de dar suporte à construção de políticas públicas baseadas em dados para promover o desenvolvimento urbano e a garantia de direitos sociais, o programa foi lançado pela Secretaria de Planejamento do Território e Participação Popular em um evento que contou com representantes do executivo municipal, líderes comunitários e artistas. A iniciativa consiste na aplicação de duas metodologias de coleta de dados, o Mapa Rápido Participativo (MRP) e o Perfil Socioeconômico, em 141 microterritórios vulnerabilizados da cidade, a fim de orientar políticas e ações públicas assertivas para as regiões estudadas. Na mesma semana, foi iniciado o trabalho de campo do MRP, avaliando temas como infraestrutura para mobilidade, acesso aos meios de transporte, padrão das moradias, abastecimento de água, esgotamento sanitário, coleta de lixo e limpeza urbana.</p>\
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Março</p>\
@@ -600,7 +600,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Setembro</p>\
-                            <h2>ONU-Habitat e Prefeitura de São Paulo assinam projeto para repensar espaços públicos verdes e inclusivos</h2>\
+                            <h2>ONU-Habitat e Prefeitura de São Paulo assinam iniciativa para repensar espaços públicos verdes e inclusivos</h2>\
                           </article>\
                         </div>\
                     </div>\
