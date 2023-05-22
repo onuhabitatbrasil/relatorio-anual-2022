@@ -441,7 +441,7 @@ ul.social-icons li{
 }
 
 .centered {
-    width: 50vw;
+    width: 70vw;
     margin: 0 auto;
 }
 
@@ -469,8 +469,8 @@ ul.social-icons li{
 }
 
 .step {
-    padding-bottom: 65vh;
-    /*margin-bottom: 30vh;*/
+    padding-bottom: 60vh;
+    margin-bottom: 20vh;
     opacity: 0.75;
     transition-duration: 0.25s;
 }
