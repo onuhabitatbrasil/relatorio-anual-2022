@@ -2567,7 +2567,7 @@ var config = {
           description: '\
           <div class="light rounded-lg shadow-lg">\
             <div class="container p-right-left">\
-              <h1 class="laranja">Conexões Urbanas</h1>\
+              <h1 class="laranja">Fronteiras entre Brasil, Argentina e Paraguai</h1>\
                 <p>Mais do que bordas de um território, cidades nas fronteiras podem ser pontos de encontro cultural. <b>Lugares nos quais são fortalecidas as conexões urbanas</b>. Esse é o exemplo percebido em duas regiões na <b>fronteira entre Brasil, Argentina e Paraguai</b>.</p>\
                 <p>A primeira fica entre <b>Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai)</b> e tem 500 mil habitantes - o maior núcleo urbano da fronteira brasileira. A região é conhecida pelas Cataratas do Iguaçu, pela Usina Hidrelétrica de Itaipu e pela expressividade das atividades comerciais. Além de portas de entrada para seus respectivos países, os municípios também são o destino de imigrantes, que somam cerca de 80 nacionalidades.</p>\
                 <p>A segunda região é formada pelos municípios de <b>Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina)</b>. Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
@@ -2576,7 +2576,7 @@ var config = {
                   <li class="li-hover">\
                     <span class="fa-li" style="color:#f1b944; opacity: 1">\
                     <i class="fa fa-minus"></i></span>\
-                    <span>Fronteira compartilhada entre Argentina, Brasil e Paraguai</span>\
+                    <span>Fronteiras entre Brasil, Argentina e Paraguai</span>\
                   </li>\
                 </ul>\
             </div>\
