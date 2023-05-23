@@ -318,11 +318,6 @@ ul.social-icons li{
 	height: 100%;
 }
 
-#agradecimentos p {
-    color: #00568a;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
 #footer {
     background-color: #00afe2;
     width: 100%;
@@ -479,11 +474,6 @@ ul.social-icons li{
     .p-left {
         padding-left: 0em;
     }
-
-    #agradecimentos p {
-        line-height: 1em;
-        font-size: 0.95em;
-    }    
 
     #features {
         width: 100%;
@@ -1158,6 +1148,8 @@ ul.social-icons li{
 
 .img-hist {
     max-width: 50%;
+    margin: auto;    
+    display: block;
 }
 
 .container-history {
@@ -1181,7 +1173,14 @@ ul.social-icons li{
 
 .fa-2x {
     font-size: 1em;
-  }
+}
+
+#agradecimentos p {
+    color: #00568a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1;
+}
 
 @media (min-width: 576px) {
   .container-exp {
@@ -1189,10 +1188,15 @@ ul.social-icons li{
   }
   .img-hist {
     max-width: 50%;
+    margin: auto;    
+    display: block;
   }
   p {
     font-size: 0.8rem;
     line-height: 1;
+  }
+  #agradecimentos p {
+    font-size: 0.8rem;
   }
   .container-history {
     max-width: 800px;
@@ -1274,11 +1278,14 @@ ul.social-icons li{
     max-width: 1250px;
   }
   .img-hist {
-      max-width: 90%;
+      max-width: 100%;
   }
   p {
     font-size: 0.85rem;
     line-height: 1;
+  }
+  #agradecimentos p {
+    font-size: 0.85rem;
   }
   .container-history {
     max-width: 1275px;
