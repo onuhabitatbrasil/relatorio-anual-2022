@@ -61,7 +61,7 @@ var config = {
       //title: 'Abertura',
       bookmark: 'Abertura',
       description: '\
-      <div class="light-branco">\
+      <div class="light">\
         <div class="container-history pb-4">\
           <div class="row">\
             <div class="col-lg-7">\
@@ -132,7 +132,7 @@ var config = {
       bookmark: 'ONU-Habitat',
       image: false,
       description: '\
-      <div class="light-branco rounded-lg shadow-lg">\
+      <div class="light rounded-lg shadow-lg">\
         <div class="container p-right-left p-bottom">\
           <h1 class="azul-habitat">Onde estamos e quem somos</h1>\
           <p>O Programa das Nações Unidas para os Assentamentos Humanos (ONU-Habitat) estabeleceu-se em 1978 como resultado da Conferência das Nações Unidas sobre Assentamentos Humanos (Habitat I). Com sede em Nairóbi, capital do Quênia, o ONU-Habitat é a agência da Organização das Nações Unidas (ONU) especializada em <b>melhorar a qualidade de vida em um mundo majoritariamente urbanizado</b>; construir cidades e comunidades seguras, resilientes e sustentáveis; e promover urbanização como uma força transformadora positiva para pessoas e comunidades, reduzindo a desigualdade, discriminação e pobreza e melhorando a qualidade e o acesso aos serviços básicos.</p>\
@@ -174,7 +174,7 @@ var config = {
       bookmark: 'ONU-Habitat Brasil',
       image: false,
       description: '\
-      <div class="light-branco rounded-lg shadow-lg">\
+      <div class="light rounded-lg shadow-lg">\
         <div class="container p-right-left p-bottom">\
           <h1 class="azul-habitat">ONU-Habitat Brasil</h1>\
           <p>O Escritório Regional do ONU-Habitat para a América Latina e o Caribe está presente na cidade do Rio de Janeiro há mais de 20 anos. A cidade também é sede do escritório responsável pelo Brasil e Cone Sul, que conta com uma equipe dedicada aos projetos e iniciativas implementadas com o Brasil, Argentina, Paraguai, Uruguai e Chile.</p>\
@@ -209,6 +209,48 @@ var config = {
   },
 
   {
+    id: "intro-1",
+    alignment: "right",
+    hidden: false,
+    description: '\
+      <div class="light-rosa rounded-lg shadow-lg">\
+        <div class="container container-intro">\
+          <p>\
+            <i class="fa fa-info-circle" aria-hidden="true"></i>\
+            Na seção a seguir, apresentamos uma compilação das ações e iniciativas realizadas ao longo de 2022. Convidamos você a percorrer a linha do tempo, conhecer nossos principais resultados e explorar as publicações e metodologias de maior destaque no ano.\
+          </p>\
+        </div>\
+      </div>\
+    ',
+    location: {
+      center: [-50.74782, -17.15769],
+      zoom: 1.5,
+      pitch: 0.00,
+      bearing: 0.00,
+      speed: 0.5
+    },
+    mapAnimation: "flyTo",
+    rotateAnimation: false,
+    spinGlobe: false,
+    mapInteractive: false,
+    callback: "",
+    onChapterEnter: [
+      {
+          layer: 'brasil',
+          opacity: 0.85,
+          duration: 3500
+      }
+    ],
+    onChapterExit: [
+      {
+        layer: 'brasil',
+        opacity: 0,
+        duration: 0
+      }
+    ]
+  },
+
+  {
       id: "retrospectiva",
       alignment: "full",
       hidden: false,
@@ -219,6 +261,10 @@ var config = {
       <div class="light">\
         <div class="container pb-4">\
             <h1 class="align-self-center rosa text-center">Retrospectiva 2022</h1>\
+            <p class="rosa text-center font-italic">\
+              <i class="fa fa-info-circle" aria-hidden="true"></i>\
+              Navegue pelas fotos a seguir e confira, de janeiro a dezembro, alguns dos melhores momentos do ano.\
+            </p>\
               <div class="col-12 text-center pt-4">\
                   <a class="btn btn-primary mr-1" href="#carousel-thumbs" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
@@ -734,7 +780,7 @@ var config = {
       alignment: "center",
       hidden: false,
       description: '\
-      <div class="light-branco rounded-lg shadow-lg">\
+      <div class="light rounded-lg shadow-lg">\
           <h1 class="rosa text-center p-bottom p-top">2022 em Números</h1>\
             <div class="row p-bottom">\
               <div class="col-md-12">\
@@ -1650,7 +1696,7 @@ var config = {
           <p>Para solucionar estes e demais problemas, a cidade está implementando soluções de baixo custo baseadas na natureza para lidar com o ciclo da água e o desequilíbrio do ecossistema - reforçando a reputação de “cidade verde” que enfrenta os desafios climáticos.</p>\
           <p>Através de oficinas participativas, o <b>Programa Global de Cidades Resilientes do ONU-Habitat e a Prefeitura de Teresina</b> definiram atores urbanos estratégicos e prioridades da cidade para lidar com choques, riscos e impactos causados pela mudança do clima. As atividades realizadas pelo programa possibilitaram uma avaliação das ações do município, além de definir ações eficazes e estratégicas alinhadas aos problemas enfrentados no presente e que virão no futuro, tornando a cidade mais resiliente e sustentável.</p>\
           <p style = "margin-top:1.75em; font-size:0.75rem;">Áreas de superfície no Brasil onde estava mais quente ou mais frio durante o dia no mês de dezembro de 2019 do que as temperaturas médias em relação ao mesmo mês entre 2001 e 2010 (Fonte: <a href="https://neo.gsfc.nasa.gov/view.php?datasetId=MOD_LSTAD_M&year=2019" target="_blank">MODIS/NASA/2019)</a>.</p>\
-          <img style = "width: 35%;" src="assets/legend_teresina.png" alt="Legenda de tonalidades de temperaturas anormais"/>\
+          <img style = "width: 30%;" src="assets/legend_teresina.png" alt="Legenda de tonalidades de temperaturas anormais"/>\
         </div>\
       </div>\
       ',
@@ -1674,7 +1720,7 @@ var config = {
         {
           layer: 'temperature',
           opacity: 0.85,
-          duration: 5000
+          duration: 3000
         }
       ],
       onChapterExit: [
@@ -1684,7 +1730,8 @@ var config = {
           },
           {
             layer: 'temperature',
-            opacity: 0
+            opacity: 0,
+            duration: 0
           }
       ]
   },
@@ -1728,7 +1775,7 @@ var config = {
         zoom: 5.5,
         pitch: 40.00,
         bearing: 0.00,
-        speed: 1
+        speed: 0.25
     },
     mapAnimation: 'flyTo',
     rotateAnimation: false,

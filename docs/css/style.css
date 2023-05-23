@@ -381,9 +381,9 @@ ul.social-icons li{
     background-color: #fff;
 }
 
-.light-branco {
-    color: #00568a;
-    background-color: #fff;
+.light-rosa {
+    color: #fff;
+    background-color: #cc3480;
 }
 
 .azul-habitat {
@@ -1164,6 +1164,15 @@ ul.social-icons li{
   padding: 0 0;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container-intro {
+    padding: 1.25rem 1.5rem;
+}
+
+.container-intro p {
+    line-height: 1.3;
+    font-weight: bold;
 }
 
 .container-num {
