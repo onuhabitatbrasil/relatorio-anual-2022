@@ -386,7 +386,7 @@ ul.social-icons li{
     background-color: #cc3480;
 }
 
-.light-rosa {
+.light-laranja {
     color: #fdf0f2;
     background-color: #e3773b;
 }
@@ -1324,13 +1324,3 @@ ul.social-icons li{
     font-size: 2em;
   }
 }
-
-#mapToggle {
-    position: fixed;
-    top: 50px;
-    right: 30px;
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    z-index: 100;
-  }

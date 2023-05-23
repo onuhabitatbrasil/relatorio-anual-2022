@@ -1584,7 +1584,7 @@ var config = {
       alignment: "right",
       hidden: false,
       description: '\
-        <div class="light-rosa rounded-lg shadow-lg">\
+        <div class="light-laranja rounded-lg shadow-lg">\
           <div class="container container-intro">\
             <p>\
               <i class="fa fa-info-circle" aria-hidden="true"></i>\
@@ -1612,11 +1612,15 @@ var config = {
       onChapterEnter: [
         {
             layer: 'brasil',
-            opacity: 0.85,
-            duration: 0
+            opacity: 0.85
         }
       ],
-      onChapterExit: []
+      onChapterExit: [
+        {
+          layer: 'brasil',
+          opacity: 0
+        }
+      ]
     },
 
     {
@@ -1801,17 +1805,17 @@ var config = {
           <p>As histórias do presente trazem uma rica vida cultural. Elas dividem espaço com altos índices de violência, deixando marcas no cotidiano de jovens e de mulheres. <b>Para contribuir com as políticas públicas de prevenção social à violência, o ONU-Habitat implementou as metodologias participativas de Desenho de Espaços Públicos e Auditoria de Segurança das Mulheres, ou Cidade Mulher, através da iniciativa Cooperação Pernambuco</b>.</p>\
           <p>A implementação das metodologias passou por comunidades de cada uma das regiões pernambucanas. A grande dispersão territorial permitiu compreender nuances locais importantes, que contemplam a enorme diversidade que define o estado de Pernambuco.</p>\
           <ul class="fa-ul">\
-                <li class="li-hover pr-4" value="subregioes-pe">\
+                <li class="li-hover pr-4">\
                   <span class="fa-li" style="color:#e3773b; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Sertão</span>\
                 </li>\
-                <li class="li-hover pr-4" value="subregioes-pe">\
+                <li class="li-hover pr-4">\
                   <span class="fa-li" style="color:#cc3480; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Agreste</span>\
                 </li>\
-                <li class="li-hover" value="subregioes-pe">\
+                <li class="li-hover">\
                   <span class="fa-li" style="color:#f1b944; opacity: 0.75">\
                   <i class="fa fa-square"></i></span>\
                   <span>Zona da Mata</span>\
@@ -1830,7 +1834,7 @@ var config = {
     mapAnimation: 'flyTo',
     rotateAnimation: false,
     spinGlobe: false,
-    mapInteractive: true,
+    mapInteractive: false,
     callback: '',
     onChapterEnter: [
       {
@@ -1839,7 +1843,7 @@ var config = {
           duration: 4000
       },
       {
-        layer: 'subregioes-pe',
+        layer: 'regioes-pe-sp',
         opacity: 0.7
       }
     ],
@@ -1850,7 +1854,7 @@ var config = {
           duration: 500
         },
         {
-          layer: 'subregioes-pe',
+          layer: 'regioes-pe-sp',
           opacity: 0
         }
     ]
@@ -1918,7 +1922,7 @@ var config = {
               opacity: 1
           },
           {
-            layer: 'subregioes-pe',
+            layer: 'regioes-pe-sp',
             opacity: 0.7
           }
         ],
@@ -1928,7 +1932,7 @@ var config = {
               opacity: 0
             },
             {
-              layer: 'subregioes-pe',
+              layer: 'regioes-pe-sp',
               opacity: 0
             }
         ]
@@ -2479,11 +2483,11 @@ var config = {
         mapAnimation: 'flyTo',
         rotateAnimation: false,
         spinGlobe: false,
-        mapInteractive: true,
+        mapInteractive: false,
         callback: '',
         onChapterEnter: [
           {
-              layer: 'sp-urbano-rural',
+              layer: 'regioes-pe-sp',
               opacity: 0.6,
               duration: 1000
           }//,
@@ -2495,7 +2499,7 @@ var config = {
         ],
         onChapterExit: [
             {
-                layer: 'sp-urbano-rural',
+                layer: 'regioes-pe-sp',
                 opacity: 0
             }//,
             //{
@@ -2556,13 +2560,13 @@ var config = {
         callback: '',
         onChapterEnter: [
           {
-              layer: 'sp-urbano-rural',
+              layer: 'regioes-pe-sp',
               opacity: 0.6
           }
         ],
         onChapterExit: [
             {
-                layer: 'sp-urbano-rural',
+                layer: 'regioes-pe-sp',
                 opacity: 0
             }
         ]
@@ -2747,7 +2751,7 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             spinGlobe: false,
-            mapInteractive: true,
+            mapInteractive: false,
             callback: '',
             onChapterEnter: [
               {
