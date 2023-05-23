@@ -231,10 +231,6 @@ var scroller = scrollama();
 
 map.on("load", function () {
 
-    document.getElementById("2020Btn").addEventListener("click", layerToggle);
-    document.getElementById("2021Btn").addEventListener("click", layerToggle);
-    document.getElementById("2022Btn").addEventListener("click", layerToggle);
-
     if (config.use3dTerrain) {
         map.addSource('mapbox-dem', {
             'type': 'raster-dem',
@@ -320,17 +316,6 @@ map.on("load", function () {
                 chapter.onChapterEnter.forEach(setLayerOpacity);
             }
 
-            // radio input 
-            if (chapter.id === 'evol-territorio') {
-                document.getElementById('mapToggle').style.opacity = 1;
-                document.getElementById("2020Btn").checked = false;
-                document.getElementById('2021Btn').checked = false;
-                document.getElementById("2022Btn").checked = true;
-            } 
-            if (chapter.id !== 'evol-territorio') {
-                document.getElementById('mapToggle').style.opacity = 0;
-            }
-
             // set interactive properties for chapters set as mapInteractive = true
             if (chapter.mapInteractive) {
                 map.addControl(navigation);
@@ -378,50 +363,6 @@ map.on("load", function () {
             }
         });
 });
-
-function layerToggle(e) {
-
-    document.getElementById('2020Btn').checked = false;
-    document.getElementById('2021Btn').checked = false;
-    document.getElementById('2022Btn').checked = false;
-    this.checked = true;
-
-    map.setPaintProperty(
-        'pin-teresina',
-        'fill-opacity',
-        0
-    );
-    map.setPaintProperty(
-        'pin-onu',
-        'fill-opacity',
-        0
-    );
-    map.setPaintProperty(
-        'munic-pe-conex',
-        'fill-opacity',
-        0
-    );
-
-    if (this.id === "2020Btn") {
-        map.setPaintProperty(
-            'pin-teresina',
-            'fill-opacity',
-            1
-        );
-    } else if (this.id === "2021Btn") {
-        map.setPaintProperty(
-            'pin-onu',
-            'fill-opacity',
-            1
-        );
-    } else if (this.id === "2022Btn") {
-        map.setPaintProperty(
-            'munic-pe-conex',
-            'fill-opacity',
-            1
-        );
-    }
-}
 
 //Helper functions for insetmap
 function getInsetBounds() {

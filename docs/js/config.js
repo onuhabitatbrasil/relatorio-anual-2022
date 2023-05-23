@@ -2899,7 +2899,7 @@ var config = {
               duration: 1500
           }
       ]
-    },
+    }
 
   ]
   

@@ -318,6 +318,13 @@ ul.social-icons li{
 	height: 100%;
 }
 
+#agradecimentos p {
+    color: #00568a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.75;
+    line-height: 1;
+}
+
 #footer {
     background-color: #00afe2;
     width: 100%;
@@ -1173,14 +1180,7 @@ ul.social-icons li{
 
 .fa-2x {
     font-size: 1em;
-}
-
-#agradecimentos p {
-    color: #00568a;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 0.75rem;
-    line-height: 1;
-}
+  }
 
 @media (min-width: 576px) {
   .container-exp {
@@ -1188,8 +1188,6 @@ ul.social-icons li{
   }
   .img-hist {
     max-width: 50%;
-    margin: auto;    
-    display: block;
   }
   p {
     font-size: 0.8rem;
