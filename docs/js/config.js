@@ -1378,6 +1378,10 @@ var config = {
       <div class="light">\
         <div class="container container-exp pb-4">\
             <h1 class="align-self-center azul text-center">2022 em Metodologias</h1>\
+            <p class="azul text-center font-italic pb-4 pl-5 pr-5">\
+              <i class="fa fa-info-circle" aria-hidden="true"></i>\
+              Para estar presente nos territórios, aplicamos de forma local uma série de metodologias e ferramentas desenvolvidos pelo ONU-Habitat e por parceiros nacionais. Coleta e análise de dados, promoção de espaços públicos, inovação aplicada à gestão pública, planejamento urbano participativo e ações de advocacy são algumas de nossas principais linhas de atuação no Brasil. Navegue pelas fotos e saiba mais sobre cada uma delas.\
+            </p>\
             <div class="col-12 text-center pb-4 pt-3">\
                   <a class="btn btn-primary mr-1 btn-primary-azul " href="#theCarousel" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
