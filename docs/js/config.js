@@ -2486,22 +2486,22 @@ var config = {
               layer: 'sp-urbano-rural',
               opacity: 0.6,
               duration: 1000
-          },
-          {
-            layer: 'satellite',
-            opacity: 0.5,
-            duration: 2000
-          }
+          }//,
+          //{
+          //  layer: 'satellite',
+          //  opacity: 0.5,
+          //  duration: 2000
+          //}
         ],
         onChapterExit: [
             {
                 layer: 'sp-urbano-rural',
                 opacity: 0
-            },
-            {
-              layer: 'satellite',
-              opacity: 0
-            }
+            }//,
+            //{
+            //  layer: 'satellite',
+            //  opacity: 0
+            //}
         ]
     },
 
@@ -2717,10 +2717,10 @@ var config = {
           <div class="light rounded-lg shadow-lg">\
             <div class="container p-right-left">\
               <h1 class="laranja">Fronteiras entre Brasil, Argentina e Paraguai</h1>\
-                <p>Mais do que bordas de um território, cidades nas fronteiras podem ser pontos de encontro cultural. <b>Lugares nos quais são fortalecidas as conexões urbanas</b>. Esse é o exemplo percebido em duas regiões na <b>fronteira entre Brasil, Argentina e Paraguai</b>.</p>\
-                <p>A primeira fica entre <b>Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai)</b> e tem 500 mil habitantes - o maior núcleo urbano da fronteira brasileira. A região é conhecida pelas Cataratas do Iguaçu, pela Usina Hidrelétrica de Itaipu e pela expressividade das atividades comerciais. Além de portas de entrada para seus respectivos países, os municípios também são o destino de imigrantes, que somam cerca de 80 nacionalidades.</p>\
-                <p>A segunda região é formada pelos municípios de <b>Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina)</b>. Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
-                <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma <b>mancha urbana única</b>. Por apresentarem desafios e potenciais conjuntos, <b>a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado</b>. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma <b>rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos</b>, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
+                <p>Mais do que bordas de um território, cidades nas fronteiras podem ser pontos de encontro cultural. Lugares nos quais são fortalecidas as conexões urbanas. Esse é o exemplo percebido em duas regiões na fronteira entre Brasil, Argentina e Paraguai.</p>\
+                <p>A primeira fica entre Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e tem 500 mil habitantes - o maior núcleo urbano da fronteira brasileira. A região é conhecida pelas Cataratas do Iguaçu, pela Usina Hidrelétrica de Itaipu e pela expressividade das atividades comerciais. Além de portas de entrada para seus respectivos países, os municípios também são o destino de imigrantes, que somam cerca de 80 nacionalidades.</p>\
+                <p>A segunda região é formada pelos municípios de Barracão, Bom Jesus do Sul, Dionísio Cerqueira (Brasil) e Bernardo de Irigoyen (Argentina). Com 50 mil habitantes, apresentam modelos de governança e protagonismo de atores locais para o desenvolvimento integrado. Um exemplo dessa colaboração foi a implementação do Parque Turístico e Ambiental de Integração, um espaço público na fronteira.</p>\
+                <p>Apesar de suas diferenças, ambas as regiões têm em comum a existência de uma mancha urbana única. Por apresentarem desafios e potenciais conjuntos, a colaboração transfronteiriça é vista como fundamental para o desenvolvimento integrado. E, para que o território expresse esse desejo, é imprescindível que o meio urbano seja integrado por uma rede de espaços públicos bem distribuídos, acessíveis, seguros e inclusivos, capazes de servir de ferramenta para a coesão social entre pessoas de nacionalidades distintas.</p>\
                 <ul class="fa-ul">\
                   <li class="li-hover">\
                     <span class="fa-li" style="color:#f1b944; opacity: 1">\
@@ -2789,15 +2789,15 @@ var config = {
                 </div>\
                 <div class="row p-bottom">\
                   <div class="col-md-6 col-lg-6">\
-                    <p><b>Oito lugares, um só espaço</b>. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas <b>três cidades, três estados e dois países: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina</b>.</p>\
-                    <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: <b>harmonia</b>. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um <b>“portunhol”</b> característico, assim como em diversos outros aspectos culturais. E essa composição gera uma identidade única.</p>\
-                    <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. A gente não vê a fronteira como um ponto de separação, mas sim de <b>união</b>”.</p>\
-                    <p>A frase é de <b>Monica Raquel Franchini</b>, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do <b>La Frontera</b> – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
+                    <p><b>Oito lugares, um só espaço</b>. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas <b>três cidades, três estados e dois países</b>: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina.</p>\
+                    <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: <b>harmonia</b>. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um “portunhol” característico, assim como em diversos outros aspectos culturais. E essa composição gera uma <b>identidade única</b>.</p>\
+                    <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. <b>A gente não vê a fronteira como um ponto de separação, mas sim de união</b>”.</p>\
+                    <p>A frase é de Monica Raquel Franchini, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do <b>La Frontera</b> – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
                   </div>\
                   <div class="col-md-6 col-lg-6">\
-                    <p>A missão do grupo está baseada em promover os pontos fortes da região através da cooperação e da socialização, estabelecendo parcerias e divulgando sua cultura. Apesar de estar à frente da área de educação, a paixão de Monica pela região transborda para os outros domínios.</p>\
-                    <p>Um marco para o grupo foi a chegada do <b>Conexões Urbanas</b>, iniciativa do ONU-Habitat cujo objetivo é apoiar os municípios na definição de ações para melhorar sua rede de <b>espaços públicos</b>. O projeto promoveu uma avaliação de 32 espaços públicos da região, analisando sua distribuição, acessibilidade, instalações físicas, conforto, segurança, verde, governança, tipos de usos e usuários. <b>Além do conglomerado na fronteira Brasil e Argentina, fazem parte do projeto os municípios de Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e mais duas cidades no Líbano</b>.</p>\
-                    <p>Para Monica, essa parceria vai potencializar as ações do grupo La Frontera, já que os dados fornecidos poderão servir de base para muitas outras ações. Ela sente que as duas instituições têm uma sinergia única em seus objetivos. <b>“Temos que acreditar na nossa gente. Não somos uma só cidade, não somos um só povo: somos uma região fronteiriça com as mesmas necessidades e o mesmo interesse: o bem comum. E o projeto Conexões Urbanas está nos ajudando a se potencializar e crescer como um todo”</b>.</p>\
+                    <p>A missão do grupo está baseada em <b>promover os pontos fortes da região através da cooperação e da socialização</b>, estabelecendo parcerias e divulgando sua cultura. Apesar de estar à frente da área de educação, a paixão de Monica pela região transborda para os outros domínios.</p>\
+                    <p>Um marco para o grupo foi a chegada do <b>Conexões Urbanas</b>, iniciativa do ONU-Habitat cujo objetivo é apoiar os municípios na definição de ações para melhorar sua rede de espaços públicos. O projeto promoveu uma avaliação de 32 espaços públicos da região</b>, analisando sua distribuição, acessibilidade, instalações físicas, conforto, segurança, verde, governança, tipos de usos e usuários. Além do conglomerado na fronteira Brasil e Argentina, fazem parte do projeto os municípios de Foz do Iguaçu (Brasil) e Ciudad del Este (Paraguai) e mais duas cidades no Líbano.</p>\
+                    <p>Para Monica, essa parceria vai potencializar as ações do grupo La Frontera, já que os dados fornecidos poderão servir de base para muitas outras ações. Ela sente que as duas instituições têm uma sinergia única em seus objetivos. “Temos que acreditar na nossa gente. Não somos uma só cidade, não somos um só povo: <b>somos uma região fronteiriça com as mesmas necessidades e o mesmo interesse: o bem comum</b>. E o projeto Conexões Urbanas está nos ajudando a se potencializar e crescer como um todo”.</p>\
                   </div>\
                 </div>\
             </div>\
