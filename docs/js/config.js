@@ -1616,13 +1616,7 @@ var config = {
             duration: 0
         }
       ],
-      onChapterExit: [
-        {
-          layer: 'brasil',
-          opacity: 0,
-          duration: 0
-        }
-      ]
+      onChapterExit: []
     },
 
     {
@@ -1634,7 +1628,7 @@ var config = {
       image: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-        <div class="container p-right-left">\
+        <div class="container p-right-left p-bottom">\
           <h1 class="laranja">Rede de Cidades-Polo do Nordeste (G52)</h1>\
           <p>Uma vocação em comum une <b>52 municípios</b> espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a <b>Rede de Cidades-Polo do Nordeste — o G52</b>.</p>\
           <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a <b>abrangência da rede para o norte de Minas Gerais e Espírito Santo</b>. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
@@ -1656,10 +1650,14 @@ var config = {
       callback: '',
       onChapterEnter: [
         {
-            layer: 'munic-g52',
-            opacity: 1,
-            duration: 2000
-        }
+          layer: 'munic-g52',
+          opacity: 1,
+          duration: 2000
+        },
+        {
+          layer: 'brasil',
+          opacity: 0
+        }        
       ],
       onChapterExit: [
         {
@@ -1686,14 +1684,15 @@ var config = {
               </div>\
               <div class="row p-bottom">\
                 <div class="col-md-6 col-lg-6">\
-                  <p>Localizada no centro do estado de Pernambuco, <b>Serra Talhada</b> pode ser conhecida como a capital do xaxado ou a terra natal de Lampião. Também pode ser ponto de referência na região por ser um polo de educação, saúde e comércio. Mas, recentemente, ela recebeu um destaque inédito: uma <b>menção honrosa no Desafio de Inovação da Rede de Cidades-Polo do Nordeste</b>, com uma proposta que reestrutura espaços verdes em regiões periféricas do município – e que tem planos para sair do papel.</p>\
-                  <p>O desafio consistiu na fase final de um projeto da <b>Superintendência de Desenvolvimento do Nordeste (Sudene) em parceria com o ONU-Habitat e o Programa das Nações Unidas para o Desenvolvimento (PNUD)</b>. A iniciativa tinha como objetivo aprimorar a construção de políticas de desenvolvimento urbano sustentável na área de atuação da Sudene: 52 cidades-polo do Nordeste que exercem influência em suas regiões.</p>\
-                  <p>Depois de participar da fase de capacitações temáticas oferecidas pela iniciativa para fortalecer os servidores da rede, a prefeitura de Serra Talhada se inscreveu no Desafio de Inovação, que tinha como objetivo engajar esses servidores a aplicar, em seu próprio contexto, o conhecimento adquirido.</p>\
-                  <p>Para isso, cada proposta precisava conter um diagnóstico de problema, uma solução e um plano de ação – tudo voltado ao desenvolvimento urbano sustentável local. Para escolher a melhor ideia, a Prefeitura de Serra Talhada fez uma chamada interna, pedindo às secretarias o envio de sugestões. As melhores ideias foram construídas coletivamente ao longo de reuniões e debates.</p>\
+                  <p>Localizada no centro do estado de Pernambuco, <b>Serra Talhada</b> pode ser conhecida como a capital do xaxado ou a terra natal de Lampião. Também pode ser ponto de referência na região por ser um polo de educação, saúde e comércio. Mas, recentemente, ela recebeu um destaque inédito: uma menção honrosa no <b>Desafio de Inovação da Rede de Cidades-Polo do Nordeste</b>, com uma proposta que reestrutura espaços verdes em regiões periféricas do município – e que tem planos para sair do papel.</p>\
+                  <p>O desafio consistiu na fase final de um projeto da Superintendência de Desenvolvimento do Nordeste (Sudene) em parceria com o ONU-Habitat e o Programa das Nações Unidas para o Desenvolvimento (PNUD). A iniciativa tinha como objetivo <b>aprimorar a construção de políticas de desenvolvimento urbano sustentável</b> na área de atuação da Sudene: <b>52 cidades-polo do Nordeste que exercem influência em suas regiões</b>.</p>\
+                  <p>Depois de participar da fase de capacitações temáticas oferecidas pela iniciativa para fortalecer os servidores da rede, a prefeitura de Serra Talhada se inscreveu no Desafio de Inovação, que tinha como objetivo engajar esses servidores a <b>aplicar, em seu próprio contexto, o conhecimento adquirido</b>.</p>\
+                  <p>Para isso, cada proposta precisava conter um <b>diagnóstico de problema, uma solução e um plano de ação</b> – tudo voltado ao desenvolvimento urbano sustentável local. Para escolher a melhor ideia, a Prefeitura de Serra Talhada fez uma chamada interna, pedindo às secretarias o envio de sugestões. As melhores ideias foram construídas coletivamente ao longo de reuniões e debates.</p>\
                 </div>\
                 <div class="col-md-6 col-lg-6">\
-                  <p>De cinco sugestões iniciais, a escolhida foi <b>“Espaços Verdes”, capitaneada pela Secretaria de Meio Ambiente</b>. Transformando espaços públicos ociosos em áreas verdes e sociáveis, a proposta combate as ilhas do calor e aumenta o bem-estar dos moradores, além de potencializar o Plano de Arborização Urbana do município.<\p>\
-                  <p><b>“Pensamos uma proposta do zero, tendo em vista que tinha de ser algo inovador. Queríamos envolver a população, oferecer lazer e qualidade de vida, e trabalhar com áreas verdes nas zonas periféricas do município”</b>, explica o secretário do Meio Ambiente de Serra Talhada, Sinézio Rodrigues.<\p>\              <p>O projeto ficou em quinto lugar no Desafio de Inovação, garantindo a menção honrosa concedida a cidades com menos de 200 mil habitantes. Em Serra Talhada, a proposta foi tão bem recebida que vai virar realidade. A previsão é que ela comece a ser implementada em novembro de 2023, reestruturando canteiros que não possuem arborização e que estão localizados em bairros periféricos.</p>\
+                  <p>De cinco sugestões iniciais, a escolhida foi <b>“Espaços Verdes”</b>, capitaneada pela Secretaria de Meio Ambiente. Transformando espaços públicos ociosos em áreas verdes e sociáveis, <b>a proposta combate as ilhas do calor e aumenta o bem-estar dos moradores</b>, além de potencializar o Plano de Arborização Urbana do município.<\p>\
+                  <p>“Pensamos uma proposta do zero, tendo em vista que tinha de ser algo inovador. <b>Queríamos envolver a população, oferecer lazer e qualidade de vida, e trabalhar com áreas verdes nas zonas periféricas do município”</b>, explica o secretário do Meio Ambiente de Serra Talhada, Sinézio Rodrigues.<\p>\
+                  <p>O projeto ficou em quinto lugar no Desafio de Inovação, garantindo a menção honrosa concedida a cidades com menos de 200 mil habitantes. Em Serra Talhada, <b>a proposta foi tão bem recebida que vai virar realidade</b>. A previsão é que ela comece a ser implementada em novembro de 2023, reestruturando canteiros que não possuem arborização e que estão localizados em bairros periféricos.</p>\
                   <p>Rodrigues complementa que os efeitos dessa iniciativa vão ser sentidos por muito tempo. <b>“O principal legado que levamos com esta experiência foi o aprendizado em trabalhar em conjunto com os demais órgãos municipais e construir estratégias que vão ser extremamente benéficas para o desenvolvimento sustentável de nosso município”</b>.</p>\
                 </div>\
               </div>\
