@@ -1301,11 +1301,11 @@ ul.social-icons li{
       max-width: 90%;
   }
   p {
-    font-size: 0.875rem;
-    line-height: 1.1;
+    font-size: 0.85rem;
+    line-height: 1;
   }
   #agradecimentos p {
-    font-size: 0.875rem;
+    font-size: 0.85rem;
   }
   .container-history {
     max-width: 1275px;
