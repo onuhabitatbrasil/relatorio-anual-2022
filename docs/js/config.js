@@ -1805,7 +1805,7 @@ var config = {
         <div class="container p-right-left">\
           <h1 class="laranja">Pernambuco</h1>\
           <p><b>Pernambuco se manifesta nos contrastes entre Zona da Mata, Agreste e Sertão</b>. É o estado mais antigo do Brasil, com uma história vista a olho nu em suas conhecidas construções coloniais, e ouvida em ritmo de frevo e maracatu. São 185 municípios contando sobre passado e presente de uma <b>região diversa em povo e território</b>.</p>\
-          <p>As histórias do presente trazem uma rica vida cultural. Elas dividem espaço com altos índices de violência, deixando marcas no cotidiano de jovens e de mulheres. <b>Para contribuir com as políticas públicas de prevenção social à violência, o ONU-Habitat implementou as metodologias participativas de Desenho de Espaços Públicos e Auditoria de Segurança das Mulheres, ou Cidade Mulher, através da iniciativa Cooperação Pernambuco</b></p>\
+          <p>As histórias do presente trazem uma rica vida cultural. Elas dividem espaço com altos índices de violência, deixando marcas no cotidiano de jovens e de mulheres. <b>Para contribuir com as políticas públicas de prevenção social à violência, o ONU-Habitat implementou as metodologias participativas de Desenho de Espaços Públicos e Auditoria de Segurança das Mulheres, ou Cidade Mulher, através da iniciativa Cooperação Pernambuco</b>.</p>\
           <p>A implementação das metodologias passou por comunidades de cada uma das regiões pernambucanas. A grande dispersão territorial permitiu compreender nuances locais importantes, que contemplam a enorme diversidade que define o estado de Pernambuco.</p>\
           <ul class="fa-ul">\
                 <li class="li-hover pr-4" value="subregioes-pe">\
@@ -1882,22 +1882,22 @@ var config = {
                 <div class="row p-bottom">\
                   <div class="col-md-6 col-lg-6">\
                     \
-                    <p>Foi em uma <b>Oficina de Desenho de Espaços Públicos, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou</b>.</p>\
+                    <p>Foi em uma <b>Oficina de Desenho de Espaços Públicos</b>, realizada na Escola de Referência Senador Antônio Farias, localizada no Ibura, comunidade periférica da capital pernambucana, que Yasmin Bernardo, uma jovem de 14 anos, se destacou.</p>\
                     \
-                    <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda defendeu melhorias prioritárias para um espaço público em seu bairro.</p>\
+                    <p>Comunicativa e articulada, não demorou muito para que isso acontecesse. Em dois dias de atividades ela entrevistou pessoas nas ruas, foi entrevistada, construiu uma maquete, recitou uma poesia e ainda <b>defendeu melhorias prioritárias para um espaço público em seu bairro</b>.</p>\
                     \
-                    <p>Dentre elas, a <b>instalação de uma luneta</b> em uma quadra localizada no alto da comunidade, para que seus moradores pudessem observar corpos celestes em noites de céu limpo. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
+                    <p>Dentre elas, a instalação de uma luneta em uma quadra localizada no alto da comunidade, para que seus moradores pudessem <b>observar corpos celestes em noites de céu limpo</b>. Por mais lúdico que pareça, é uma sugestão sofisticada.</p>\
                     \
-                    <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, podem reduzir a sensação de insegurança; fortalecem laços de comunidade, oferecendo às pessoas uma experiência comum, de observação astronômica; inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade — uma lista infinita de benefícios que fortalecem princípios de um desenvolvimento urbano e humano.</p>\
+                    <p>Lunetas em espaços públicos contribuem para aproximar a ciência das pessoas, servindo também como ferramenta educacional; aumentam a circulação de pessoas no período noturno e, assim, <b>podem reduzir a sensação de insegurança; fortalecem laços de comunidade</b>, oferecendo às pessoas uma experiência comum, de observação astronômica; <b>inspiram maior atenção e cuidado com o espaço público; despertam um potencial turístico para a comunidade</b> — uma lista infinita de benefícios que <b>fortalecem princípios de um desenvolvimento urbano e humano</b>.</p>\
                     \
                   </div>\
                   <div class="col-md-6 col-lg-6">\
                     \
-                    <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, <b>com o encontro desses dois universos e com o respeito às soluções inusitadas, muitos caminhos foram abertos e alguns já renderam frutos</b>.</p>\
+                    <p>Ela não tinha consciência da potência de sua ideia e, talvez, um profissional urbanista não elegeria a instalação de uma luneta como prioridade para a qualificação de um espaço público em uma comunidade. Porém, com o encontro desses dois universos e com o respeito às soluções inusitadas, <b>muitos caminhos foram abertos e alguns já renderam frutos</b>.</p>\
                     \
-                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do <b>documentário “Pés no Chão, Janela do Céu”</b>, estrelado pela jovem; a criação de um Clube de Astronomia com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
+                    <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário <b>“Pés no Chão, Janela do Céu”</b>, estrelado pela jovem; a criação de um <b>Clube de Astronomia</b> com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
                     \
-                    <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis.</p>\
+                    <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. <b>Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis</b>.</p>\
                     \
                   </div>\
                 </div>\
