@@ -261,7 +261,7 @@ var config = {
       <div class="light">\
         <div class="container pb-4">\
             <h1 class="align-self-center rosa text-center">Retrospectiva 2022</h1>\
-            <p class="rosa text-center font-italic">\
+            <p class="rosa text-center">\
               <i class="fa fa-info-circle" aria-hidden="true"></i>\
               Navegue pelas fotos a seguir e confira, de janeiro a dezembro, alguns dos melhores momentos do ano.\
             </p>\
@@ -782,7 +782,7 @@ var config = {
       description: '\
       <div class="light rounded-lg shadow-lg">\
           <h1 class="rosa text-center p-top">2022 em Números</h1>\
-          <p class="rosa text-center font-italic pb-4 pl-5 pr-5">\
+          <p class="rosa text-center pb-4 pl-5 pr-5">\
             <i class="fa fa-info-circle" aria-hidden="true"></i>\
             Em 2022, nossas iniciativas se expandiram e alcançaram os mais diversos públicos em diferentes regiões do país. Confira a seguir alguns dos principais marcos e resultados do ano.\
           </p>\
@@ -973,7 +973,7 @@ var config = {
       <div class="light">\
         <div class="container container-exp pb-4">\
             <h1 class="align-self-center rosa text-center">2022 em Publicações</h1>\
-            <p class="rosa text-center font-italic pb-4 pl-5 pr-5">\
+            <p class="rosa text-center pb-4 pl-5 pr-5">\
               <i class="fa fa-info-circle" aria-hidden="true"></i>\
               Nossas metodologias geram dados, mapas e informações valiosas sobre cada território em que atuamos. Essas informações são consolidadas em publicações, que contribuem para que atores urbanos possam atuar com mais precisão e criar políticas públicas baseadas em evidências para enfrentar problemas urbanos e reduzir desigualdades.\
             </p>\
@@ -1378,11 +1378,11 @@ var config = {
       <div class="light">\
         <div class="container container-exp pb-4">\
             <h1 class="align-self-center azul text-center">2022 em Metodologias</h1>\
-            <p class="azul text-center font-italic pb-4 pl-5 pr-5">\
+            <p class="azul text-center pb-1 pl-5 pr-5">\
               <i class="fa fa-info-circle" aria-hidden="true"></i>\
               Para estar presente nos territórios, aplicamos de forma local uma série de metodologias e ferramentas desenvolvidos pelo ONU-Habitat e por parceiros nacionais. Coleta e análise de dados, promoção de espaços públicos, inovação aplicada à gestão pública, planejamento urbano participativo e ações de advocacy são algumas de nossas principais linhas de atuação no Brasil. Navegue pelas fotos e saiba mais sobre cada uma delas.\
             </p>\
-            <div class="col-12 text-center pb-4 pt-3">\
+            <div class="col-12 text-center pb-4">\
                   <a class="btn btn-primary mr-1 btn-primary-azul " href="#theCarousel" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
                   </a>\
@@ -1575,6 +1575,52 @@ var config = {
         {
           layer: 'brasil',
           opacity: 0
+        }
+      ]
+    },
+
+    {
+      id: "intro-2",
+      alignment: "right",
+      hidden: false,
+      description: '\
+        <div class="light-rosa rounded-lg shadow-lg">\
+          <div class="container container-intro">\
+            <p>\
+              <i class="fa fa-info-circle" aria-hidden="true"></i>\
+              A seguir, você será guiado por diferentes territórios onde o ONU-Habitat Brasil marcou presença ao longo do ano. Navegue por cada lugar onde nossas iniciativas tomaram forma, descobrindo suas características e essência. Em cada seção, você também vai conhecer a história de pessoas que fizeram parte e foram impactadas por essas ações.\
+            </p>\
+            <p>\
+              <i class="fa fa-map-pin" aria-hidden="true"></i>\
+              Explore! Mova a visão clicando em qualquer lugar do mapa à direita do texto. Altere o zoom com os botões localizados à direita da tela. Caso esteja utilizando desktop/notebook, utilize o mouse e a tecla CTRL para alterar o ângulo de visão.\
+            </p>\
+          </div>\
+        </div>\
+      ',
+      location: {
+        center: [-50.74782, -17.15769],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 1
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [
+        {
+            layer: 'brasil',
+            opacity: 0.85,
+            duration: 0
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'brasil',
+          opacity: 0,
+          duration: 0
         }
       ]
     },

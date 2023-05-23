@@ -382,8 +382,13 @@ ul.social-icons li{
 }
 
 .light-rosa {
-    color: #fff;
+    color: #fdf0f2;
     background-color: #cc3480;
+}
+
+.light-rosa {
+    color: #fdf0f2;
+    background-color: #e3773b;
 }
 
 .azul-habitat {
@@ -417,11 +422,11 @@ ul.social-icons li{
 
 .azul {
     color: #00568a;
-    font-weight: bold;
 }
 
 .azul-b {
-    color: #00568a
+    color: #00568a;
+    font-weight: bold;
 }
 
 .footnote {
