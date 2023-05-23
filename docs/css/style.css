@@ -398,6 +398,10 @@ ul.social-icons li{
     color: #cc3480
 }
 
+.rosa-claro {
+    color: #ffc5da
+}
+
 .amarelo {
     color: #f1b944
 }
@@ -581,7 +585,7 @@ ul.social-icons li{
 #carousel-thumbs {
     bottom: 0;
     left: 0;
-    padding: 0 10px;
+    padding: 0 0.25em;
     right: 0;
 }
 

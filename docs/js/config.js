@@ -265,7 +265,7 @@ var config = {
               <i class="fa fa-info-circle" aria-hidden="true"></i>\
               Navegue pelas fotos a seguir e confira, de janeiro a dezembro, alguns dos melhores momentos do ano.\
             </p>\
-              <div class="col-12 text-center pt-4">\
+              <div class="col-12 text-center pt-2">\
                   <a class="btn btn-primary mr-1" href="#carousel-thumbs" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left cursor-hover"></i>\
                   </a>\
@@ -781,7 +781,11 @@ var config = {
       hidden: false,
       description: '\
       <div class="light rounded-lg shadow-lg">\
-          <h1 class="rosa text-center p-bottom p-top">2022 em Números</h1>\
+          <h1 class="rosa text-center p-top">2022 em Números</h1>\
+          <p class="rosa text-center font-italic pb-4 pl-5 pr-5">\
+            <i class="fa fa-info-circle" aria-hidden="true"></i>\
+            Em 2022, nossas iniciativas se expandiram e alcançaram os mais diversos públicos em diferentes regiões do país. Confira a seguir alguns dos principais marcos e resultados do ano.\
+          </p>\
             <div class="row p-bottom">\
               <div class="col-md-12">\
                 <div class="col-sm-6 timeline__item">\
