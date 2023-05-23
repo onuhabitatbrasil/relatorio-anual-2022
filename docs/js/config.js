@@ -2271,16 +2271,16 @@ var config = {
               </div>\
               <div class="row p-bottom">\
                 <div class="col-md-6 col-lg-6">\
-                    <p>Em 2022, a geógrafa Elaine Cristóvão Coelho viajou quase 1,5 mil km de Salvador para voltar ao lugar onde sua trajetória começou. Ela cresceu no bairro Marumbi, na zona leste de Juiz de Fora (MG), uma região que historicamente apresenta alta vulnerabilidade social. Atuando como supervisora de campo no ONU-Habitat, ela percorreu uma extensão equivalente a 350 campos de futebol em vias íngremes, sinuosas, com características que mesclam rural e urbano. Tudo para promover o desenvolvimento socioeconômico e garantir o acesso a programas de cidadania em 141 microterritórios da cidade.</p>\
-                    <p>O Territórios da Cidadania, projeto no qual atuou, é uma parceria com a Prefeitura de Juiz de Fora para realizar um diagnóstico dos espaços urbanos, das moradias e da população que reside nesses locais. Atuando como uma ferramenta de planejamento e gestão, os dados coletados auxiliam na superação de desigualdades socioespaciais, embasando a formulação de políticas públicas e priorizações de investimento.</p>\
+                    <p>Em 2022, a geógrafa Elaine Cristóvão Coelho viajou quase 1,5 mil km de Salvador para voltar ao lugar onde sua trajetória começou. Ela cresceu no bairro Marumbi, na zona leste de Juiz de Fora (MG), uma região que historicamente apresenta alta vulnerabilidade social. Atuando como supervisora de campo no ONU-Habitat, ela percorreu uma extensão equivalente a 350 campos de futebol em vias íngremes, sinuosas, com características que mesclam rural e urbano. Tudo para <b>promover o desenvolvimento socioeconômico e garantir o acesso a programas de cidadania em 141 microterritórios da cidade</b>.</p>\
+                    <p>O <b>Territórios da Cidadania</b>, projeto no qual atuou, é uma parceria com a Prefeitura de Juiz de Fora para realizar um <b>diagnóstico dos espaços urbanos, das moradias e da população que reside nesses locais</b>. Atuando como uma ferramenta de planejamento e gestão, os dados coletados auxiliam na <b>superação de desigualdades socioespaciais, embasando a formulação de políticas públicas e priorizações de investimento</b>.</p>\
                     <p>A conexão de Elaine com trabalhos de impacto social parte da sua própria vivência. Enquanto crescia, sua casa era de chão batido, as ruas não tinham asfalto e, para estudar, seu padrinho ajudava na compra dos cadernos. A educação era um instrumento de transformação social. “Venho de uma linhagem de empregadas domésticas: minha mãe, minha avó, minhas tias e eu também fomos empregadas domésticas. Sempre tive fé na educação porque sabia que ela poderia me salvar profissional e economicamente”.</p>\
                     <p>Elaine se formou geógrafa e, vinte anos depois, retornou ao território para atuar como profissional do projeto. A contratação de habitantes dos microterritórios no projeto possibilitou a entrada de pessoas especializadas que entendem melhor a realidade dessas localidades e se identificam com sua população.</p>\
                 </div>\
                 <div class="col-md-6 col-lg-6">\
-                    <p>Essa é também uma forma de dar um retorno para regiões historicamente invisibilizadas no planejamento urbano da cidade.</p>\
-                    <p>Elaine entende que as informações coletadas não são só números. Por trás, há uma pessoa com frustrações, problemas e sonhos. “É preciso analisar o que aquele dado quer dizer. Existe um contexto que ajuda a explicar esse indicador. As pessoas precisam e querem ser ouvidas. Por isso sempre gostei muito de acompanhar o trabalho de campo”.</p>\
-                    <p>As metodologias aplicadas na cidade — Mapa Rápido Participativo e Perfil Socioeconômico — são participativas. Para Elaine, equilibrar a visão técnica com a percepção da população é o primeiro passo para garantir o sucesso do projeto: perceber que a Prefeitura busca conhecer o indivíduo e suas necessidades é uma forma de trazer como retorno políticas públicas mais assertivas. “Nesse diagnóstico, é importante se esvaziar das nossas próprias percepções. Eu vou ouvir do outro o que ele pensa sobre si e sobre onde ele mora”, explica. “Não me lembro disso já ter sido feito aqui; é uma inovação da qual fico muito feliz por ter participado. Sei que vai mudar a vida de muita gente”.</p>\
-                    <p>E mudou a vida dela também. “Parecia uma possibilidade tão remota trabalhar na ONU, era algo que eu nem sonhava. Isso me dá esperança de que pessoas como eu, mulheres negras, de origem pobre, podem alcançar esses espaços”, comemora. “Eu parti de muito longe, é como uma chancela da minha trajetória: tá vendo onde você pode chegar? Isso só me motiva a buscar mais e entender que eu posso, que as minhas também podem. Acho que eu sou parecida com quem sempre sonhei ser”.</p>\
+                    <p>Essa é também uma forma de dar um <b>retorno para regiões historicamente invisibilizadas no planejamento urbano da cidade</b>.</p>\
+                    <p>Elaine entende que as informações coletadas não são só números. Por trás, há uma pessoa com frustrações, problemas e sonhos. “É preciso analisar o que aquele dado quer dizer. <b>Existe um contexto que ajuda a explicar esse indicador. As pessoas precisam e querem ser ouvidas</b>. Por isso sempre gostei muito de acompanhar o trabalho de campo”.</p>\
+                    <p>As metodologias aplicadas na cidade — <b>Mapa Rápido Participativo e Perfil Socioeconômico</b> — são participativas. Para Elaine, <b>equilibrar a visão técnica com a percepção da população é o primeiro passo para garantir o sucesso do projeto</b>: perceber que a Prefeitura busca conhecer o indivíduo e suas necessidades é uma forma de <b>trazer como retorno políticas públicas mais assertivas</b>. “Nesse diagnóstico, é importante se esvaziar das nossas próprias percepções. Eu vou ouvir do outro o que ele pensa sobre si e sobre onde ele mora”, explica. “Não me lembro disso já ter sido feito aqui; é uma inovação da qual fico muito feliz por ter participado. <b>Sei que vai mudar a vida de muita gente</b>”.</p>\
+                    <p>E mudou a vida dela também. “Parecia uma possibilidade tão remota trabalhar na ONU, era algo que eu nem sonhava. Isso me dá esperança de que pessoas como eu, mulheres negras, de origem pobre, podem alcançar esses espaços”, comemora. “Eu parti de muito longe, é como uma chancela da minha trajetória: tá vendo onde você pode chegar? <b>Isso só me motiva a buscar mais e entender que eu posso, que as minhas também podem</b>. Acho que eu sou parecida com quem sempre sonhei ser”.</p>\
                 </div>\
               </div>\
           </div>\
@@ -2620,7 +2620,7 @@ var config = {
           zoom: 11.17,
           pitch: 52.00,
           bearing: 0.00,
-          speed: 1
+          speed: 0.5
           // flyTo additional controls-
           // These options control the flight curve, making it move
           // slowly and zoom out almost completely before starting
@@ -2690,7 +2690,7 @@ var config = {
         zoom: 11.17,
         pitch: 52.00,
         bearing: 0.00,
-        speed: 1
+        speed: 0.5
         // flyTo additional controls-
         // These options control the flight curve, making it move
         // slowly and zoom out almost completely before starting
@@ -2749,7 +2749,7 @@ var config = {
                 zoom: 6,
                 pitch: 0,
                 bearing: 0,
-                speed: 2
+                speed: 1
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -2822,11 +2822,11 @@ var config = {
         </div>\
         ',
         location: {
-            //center: [-22.32528, -2.14945],
-            //zoom: 1.5,
-            //pitch: 0,
-            //bearing: 0,
-            speed: 1
+          center: [-54.557517, -26.139337],
+          zoom: 6,
+          pitch: 0,
+          bearing: 0,
+          speed: 1
             // flyTo additional controls-
             // These options control the flight curve, making it move
             // slowly and zoom out almost completely before starting
@@ -2846,7 +2846,7 @@ var config = {
           },
           {
             layer: 'munic-pe-conex',
-            opacity: 1
+            opacity: 0
           }
         ],
         onChapterExit: [
@@ -2903,12 +2903,22 @@ var config = {
             layer: 'global-south',
             opacity: 1,
             duration: 3000
+          },
+          {
+            layer: 'satellite',
+            opacity: 0,
+            duration: 0
           }
         ],
         onChapterExit: [
           {
             layer: 'global-south',
             opacity: 0
+          },
+          {
+            layer: 'satellite',
+            opacity: 0,
+            duration: 0
           }
         ]
     },
@@ -2972,7 +2982,7 @@ var config = {
         {
           layer: 'satellite',
           opacity: 0,
-          duration: 500
+          duration: 0
         },
         {
           layer: 'country-label',
@@ -2994,35 +3004,6 @@ var config = {
           layer: 'country-label',
           opacity: 1
         }
-      ]
-    },
-
-    {
-      id: "final-empty",
-      alignment: "full",
-      hidden: true,
-      //title: 'Abertura',
-      //bookmark: 'Abertura',
-      description: '',
-      location: {},
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: true,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [
-        {
-            layer: 'satellite',
-            opacity: 1,
-            duration: 2500
-        }
-      ],
-      onChapterExit: [
-          {
-              layer: 'satellite',
-              opacity: 0,
-              duration: 1500
-          }
       ]
     }
 
