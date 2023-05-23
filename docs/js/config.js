@@ -973,6 +973,10 @@ var config = {
       <div class="light">\
         <div class="container container-exp pb-4">\
             <h1 class="align-self-center rosa text-center">2022 em Publicações</h1>\
+            <p class="rosa text-center font-italic pb-4 pl-5 pr-5">\
+              <i class="fa fa-info-circle" aria-hidden="true"></i>\
+              Nossas metodologias geram dados, mapas e informações valiosas sobre cada território em que atuamos. Essas informações são consolidadas em publicações, que contribuem para que atores urbanos possam atuar com mais precisão e criar políticas públicas baseadas em evidências para enfrentar problemas urbanos e reduzir desigualdades.\
+            </p>\
             <div class="col-12 text-center pb-3 pt-3">\
                   <a class="btn btn-primary mr-1 cursor-hover" href="#theCarouselPub" role="button" data-slide="prev">\
                       <i class="fa fa-arrow-left"></i>\
