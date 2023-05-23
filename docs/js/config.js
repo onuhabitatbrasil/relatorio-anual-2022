@@ -33,12 +33,11 @@ var config = {
       //bookmark: 'Abertura',
       description: '',
       location: {
-        center: [-0, 0],
-        zoom: 0.7,
+        center: [-50.74782, -17.15769],
+        zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 5,
-        duration: 500
+        speed: 0.1
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -47,18 +46,12 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-            layer: 'satellite',
-            opacity: 1,
-            duration: 2500
+            layer: 'brasil',
+            opacity: 0.85,
+            duration: 3500
         }
       ],
-      onChapterExit: [
-          {
-              layer: 'satellite',
-              opacity: 0,
-              duration: 1500
-          }
-      ]
+      onChapterExit: []
     },
 
     {
@@ -69,8 +62,8 @@ var config = {
       bookmark: 'Abertura',
       description: '\
       <div class="light-branco">\
-        <div class="container-history">\
-          <div class="row no-gutters">\
+        <div class="container-history pb-4">\
+          <div class="row">\
             <div class="col-lg-7">\
               <div class="row">\
                 <div class="col-md-12">\
@@ -106,26 +99,30 @@ var config = {
       </div>\
       ',
       location: {
-          //center: [-51.06166, -15.66707],
-          zoom: 0.7,
-          pitch: 0,
-          bearing: 0,
-          speed: 0.25,
-          curve: 1
-          // flyTo additional controls-
-          // These options control the flight curve, making it move
-          // slowly and zoom out almost completely before starting
-          // to pan.
-          //speed: 2, // make the flying slow
-          //curve: 1, // change the speed at which it zooms out
+        center: [-50.74782, -17.15769],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 0.1
       },
-      mapAnimation: 'flyTo',
+      mapAnimation: "flyTo",
       rotateAnimation: false,
       spinGlobe: false,
       mapInteractive: false,
-      callback: '',
-      onChapterEnter: [],
-      onChapterExit: []
+      callback: "",
+      onChapterEnter: [
+        {
+            layer: 'brasil',
+            opacity: 0.85,
+            duration: 3000
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'brasil',
+          opacity: 0
+        }
+      ]
     },
 
     {
@@ -220,7 +217,7 @@ var config = {
       //img: 1600x900 / 600x400 
       description: '\
       <div class="light">\
-        <div class="container p-bottom">\
+        <div class="container pb-4">\
             <h1 class="align-self-center rosa text-center">Retrospectiva 2022</h1>\
               <div class="col-12 text-center pt-4">\
                   <a class="btn btn-primary mr-1" href="#carousel-thumbs" role="button" data-slide="prev">\
@@ -706,20 +703,30 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-51.06166, -15.66707],
+        center: [-50.74782, -17.15769],
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 1,
-        curve: 1
+        speed: 0.2
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       spinGlobe: false,
       mapInteractive: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+            layer: 'brasil',
+            opacity: 0.85,
+            duration: 4000
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'brasil',
+          opacity: 0
+        }
+      ]
     },
 
     {
@@ -883,19 +890,29 @@ var config = {
         </div>\
       ',
       location: {
-        center: [-51.06166, -15.66707],
+        center: [-50.74782, -17.15769],
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 2,
+        speed: 0.2
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       spinGlobe: false,
       mapInteractive: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+            layer: 'brasil',
+            opacity: 0.85
+        }
+      ],
+      onChapterExit: [
+        //{
+        //  layer: 'brasil',
+        //  opacity: 0
+        //}
+      ]
     },
 
     {
@@ -904,7 +921,7 @@ var config = {
       hidden: false,
       description: '\
       <div class="light">\
-        <div class="container container-exp p-bottom">\
+        <div class="container container-exp pb-4">\
             <h1 class="align-self-center rosa text-center">2022 em Publicações</h1>\
             <div class="col-12 text-center pb-3 pt-3">\
                   <a class="btn btn-primary mr-1 cursor-hover" href="#theCarouselPub" role="button" data-slide="prev">\
@@ -914,7 +931,7 @@ var config = {
                       <i class="fa fa-arrow-right"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="3500" role="listbox">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarouselPub" data-interval="4000" role="listbox">\
               <div class="carousel-inner row w-100 mx-auto pb-5 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
@@ -1274,19 +1291,29 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-51.06166, -15.66707],
+        center: [-50.74782, -17.15769],
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 2,
+        speed: 0.2
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       spinGlobe: false,
       mapInteractive: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+            layer: 'brasil',
+            opacity: 0.85
+        }
+      ],
+      onChapterExit: [
+        //{
+        //  layer: 'brasil',
+        //  opacity: 0
+        //}
+      ]
     },
 
     {
@@ -1295,7 +1322,7 @@ var config = {
       hidden: false,
       description: '\
       <div class="light">\
-        <div class="container container-exp p-bottom">\
+        <div class="container container-exp pb-4">\
             <h1 class="align-self-center azul text-center">2022 em Metodologias</h1>\
             <div class="col-12 text-center pb-4 pt-3">\
                   <a class="btn btn-primary mr-1 btn-primary-azul " href="#theCarousel" role="button" data-slide="prev">\
@@ -1469,19 +1496,29 @@ var config = {
       </div>\
       ',
       location: {
-        center: [-51.06166, -15.66707],
+        center: [-50.74782, -17.15769],
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 2,
+        speed: 0.2
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       spinGlobe: false,
       mapInteractive: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+            layer: 'brasil',
+            opacity: 0.85
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'brasil',
+          opacity: 0
+        }
+      ]
     },
 
     {
@@ -1498,13 +1535,6 @@ var config = {
           <p>Uma vocação em comum une <b>52 municípios</b> espalhados pelo Nordeste brasileiro. Com um papel de destaque e influência, eles carregam a responsabilidade de serem cidades-polo para suas regiões. Juntos, eles são potentes. Representam 7% do Produto Interno Bruto nacional e quase 10% da população brasileira. São estratégicos na oferta de serviços e referências de gestão para as cidades ao seu redor. Reunidos com base nesses critérios, eles formam a <b>Rede de Cidades-Polo do Nordeste — o G52</b>.</p>\
           <p>Ao contrário do que se possa imaginar, eles não estão restritos à região geográfica do Nordeste. Além de 47 municípios dispersos pelos nove estados nordestinos, outros cinco expandem a <b>abrangência da rede para o norte de Minas Gerais e Espírito Santo</b>. Toda essa região compreende uma extensão de 1,6 milhões de km², ricos em diversidade cultural e geográfica. Em comum, também estão altos índices de desigualdade social e limitado acesso a serviços básicos.</p>\
           <p>Para fortalecer as capacidades de planejamento regional e estimular a articulação em rede, as cidades foram alvo de uma iniciativa que estimulou o desenvolvimento de soluções inovadoras, sustentáveis e escalonáveis para os desafios que enfrentam.</p>\
-          <ul class="fa-ul">\
-                <li class="li-hover">\
-                  <span class="fa-li" style="color:#f1b944; opacity: 0.75">\
-                  <i class="fa fa-square"></i></span>\
-                  <span>Área de atuação da SUDENE</span>\
-                </li>\
-          </ul>\
         </div>\
       </div>\
       ',
@@ -1525,20 +1555,11 @@ var config = {
             layer: 'munic-g52',
             opacity: 1,
             duration: 2000
-        },
-        {
-            layer: 'area-sudene',
-            opacity: 0.5,
-            duration: 1500
         }
       ],
       onChapterExit: [
         {
           layer: 'munic-g52',
-          opacity: 0
-        },
-        {
-          layer: 'area-sudene',
           opacity: 0
         }
       ]
@@ -1638,7 +1659,7 @@ var config = {
           zoom: 5.25,
           pitch: 0.00,
           bearing: 0.00,
-          speed: 1
+          speed: 0.2
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -1652,8 +1673,8 @@ var config = {
         },
         {
           layer: 'temperature',
-          opacity: 0.9,
-          duration: 2000
+          opacity: 0.85,
+          duration: 5000
         }
       ],
       onChapterExit: [

@@ -70,49 +70,14 @@ var story = document.getElementById('story');
 var features = document.createElement('div');
 features.setAttribute('id', 'features');
 
-//var header = document.createElement('div');
-
-/*if (config.title) {
-    var titleText = document.createElement('h1');
-    titleText.innerText = config.title;
-    header.appendChild(titleText);
-}
-
-// add logo if found in config
-if (config.logo) {
-    var image = new Image();
-    image.src = config.logo;
-    header.appendChild(image);
-}
-
-if (config.subtitle) {
-    var subtitleText = document.createElement('h2');
-    subtitleText.innerText = config.subtitle;
-    header.appendChild(subtitleText);
-}
-
-if (config.byline) {
-    var bylineText = document.createElement('p');
-    bylineText.innerText = config.byline;
-    header.appendChild(bylineText);
-}*/
-
 config.chapters.forEach((record, idx) => {
 
     var container = document.createElement('div');
     var chapter = document.createElement('div');
 
     if (record.description) {
-
-        //var story = document.createElement('p');
-        //story.innerHTML = record.description;
-        //chapter.appendChild(story);
-
         chapter.innerHTML = record.description;
-
     }
-
-    //chapter.classList.add(config.theme);
 
     container.setAttribute('id', record.id);
 
@@ -136,25 +101,6 @@ config.chapters.forEach((record, idx) => {
 story.appendChild(features);
 
 var footer = document.createElement('div');
-
-// add bookmarks for chapters with title, append to header and footer
-/*if (config.bookmarks) {
-    var bookmarksText = "<strong>Índice</strong>: ";
-    for (i = 0; i < config.chapters.length; i++) {
-        if (config.chapters[i].bookmark) {
-            bookmarksText += `<a href=#${config.chapters[i].id}>${config.chapters[i].bookmark}</a>`;
-            if (i != config.chapters.length - 1) {
-                bookmarksText += " ";
-            }
-        }
-    }
-    var headerBookmarks = document.createElement('h5');
-    headerBookmarks.innerHTML = bookmarksText;
-    header.appendChild(headerBookmarks);
-    var footerBookmarks = document.createElement('p');
-    footerBookmarks.innerHTML = bookmarksText;
-    footer.appendChild(footerBookmarks);
-}*/
 
 // add prefix content for mobile view
 if (config.mobileview) {
@@ -188,8 +134,8 @@ const transformRequest = (url) => {
 var map = new mapboxgl.Map({
     container: 'map',
     style: config.style,
-    center: config.chapters[0].location.center,
-    zoom: config.chapters[0].location.zoom,
+    center: [-50.74782, -17.15769],
+    zoom: 0.7,
     bearing: config.chapters[0].location.bearing,
     pitch: config.chapters[0].location.pitch,
     transformRequest: transformRequest,
