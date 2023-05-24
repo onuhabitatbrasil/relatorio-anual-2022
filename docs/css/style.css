@@ -806,7 +806,7 @@ ul.social-icons li{
     position: relative;
     display: flex;
     align-items: center;
-    padding-top: 1em;
+    padding-top: 0.5em;
   }
   
   .timeline__item::before {
@@ -833,9 +833,8 @@ ul.social-icons li{
   
   .timeline__image-wrapper {
     flex-shrink: 0;
-    width: 60px;
-    height: 60px;
-    margin-left: 10px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
     overflow: hidden;
     /*border-radius: 50%;
@@ -857,7 +856,8 @@ ul.social-icons li{
     font-size: 16px;
     color: #cc3480;
     font-family: 'Bolgart', sans-serif;
-  }
+    text-align: left;
+  } 
   
   @media (min-width: 576px) {
   
@@ -958,11 +958,11 @@ ul.social-icons li{
     transform-style: preserve-3d;
     backface-visibility: hidden;
     transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
-    0 2px 2px rgba(0,0,0,0.1), 
-    0 4px 4px rgba(0,0,0,0.1), 
-    0 8px 8px rgba(0,0,0,0.1),
-    0 16px 16px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1), 
+    0 2px 4px rgba(0,0,0,0.1), 
+    0 4px 8px rgba(0,0,0,0.1), 
+    0 8px 12px rgba(0,0,0,0.1),
+    0 16px 20px rgba(0,0,0,0.2);
 }
 
 .wrapper:hover>.front-face {
@@ -1184,7 +1184,7 @@ ul.social-icons li{
 }
 
 .container-intro p {
-    line-height: 1.3;
+    line-height: 1.1;
     font-weight: bold;
 }
 
@@ -1327,14 +1327,14 @@ ul.social-icons li{
 
 #mapToggle {
     position: fixed;
-    top: 70px;
-    left: 30px;
+    bottom: 20%;
+    left: 40px;
     background: transparent;
     color: #fff;
+    font-weight: bold;
     padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-    z-index: 100;
-    opacity: 0;
+    z-index: 99;
+    opacity: 0
 }
 
 .float-left {
