@@ -1598,11 +1598,11 @@ var config = {
         </div>\
       ',
       location: {
-        center: [-50.74782, -17.15769],
-        zoom: 1.5,
+        center: [-45.74782, -15.15769],
+        zoom: 2.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 1
+        speed: 0.1
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -1611,13 +1611,13 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
-            layer: 'brasil',
-            opacity: 0.85
+          layer: 'evol-ano',
+          opacity: 1
         }
       ],
       onChapterExit: [
         {
-          layer: 'brasil',
+          layer: 'evol-ano',
           opacity: 0
         }
       ]

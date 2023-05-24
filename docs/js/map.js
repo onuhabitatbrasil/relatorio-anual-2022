@@ -18,6 +18,17 @@ var alignments = {
 
 var currentChapter;
 
+const years = [
+    '2020',
+    '2021',
+    '2022'
+    ];
+     
+function filterBy(year) {
+    const filters = ['==', 'ano', year];
+    map.setFilter('evol-ano', filters);
+}
+
 function getLayerPaintType(layer) {
     var layerType = map.getLayer(layer).type;
     return layerTypes[layerType];
@@ -262,6 +273,26 @@ map.on("load", function () {
                 chapter.onChapterEnter.forEach(setLayerOpacity);
             }
 
+            // radio input 
+            if (chapter.id === 'intro-2') {
+
+                document.getElementById('mapToggle').style.opacity = 1;
+
+                filterBy('2022')
+
+                document.getElementById('slider').addEventListener('input', (e) => {
+                    const ano_selecionado = e.target.value;
+                    filterBy(ano_selecionado);
+                });           
+                 
+            } 
+
+            if (chapter.id !== 'intro-2') {
+                document.getElementById('mapToggle').style.opacity = 0;
+
+                document.getElementById("slider").value = '2022';
+            }
+
             // set interactive properties for chapters set as mapInteractive = true
             if (chapter.mapInteractive) {
                 map.addControl(navigation);
@@ -393,3 +424,29 @@ function updateInsetLayer(bounds) {
 
 // setup resize event
 window.addEventListener('resize', scroller.resize);
+
+
+/*document.querySelectorAll('.ul-legend').forEach(item => {
+    item.addEventListener("mouseover", function (e) {
+        [...item.children].forEach(function (li) {
+            setLayerOpacity({
+                layer: li.getAttribute('value'),
+                opacity: 1
+            })
+        })
+        setLayerOpacity({
+            layer: e.target.getAttribute('value'),
+            opacity: 1
+        })
+    }, false)
+
+    item.addEventListener("mouseout", function (e) {
+        [...item.children].forEach(function (li) {
+            setLayerOpacity({
+                layer: li.getAttribute('value'),
+                opacity: 0.8
+            })
+        })
+    }, false);
+
+})*/

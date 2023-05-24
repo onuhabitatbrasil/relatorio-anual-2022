@@ -16,6 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -223,6 +224,14 @@
     </div>
                       
     <div id="map"></div>
+
+    <div id="mapToggle">
+        <h2>Ano:</h2>
+        <label for="2020" class="float-left">2020</label>
+        <label for="2022" class="float-right">2022</label>
+        <input id="slider" type="range" min="2020" max="2022" step="1" value="2022">
+    </div>
+
     <div id="mapInset"></div>
 
     <div id="mouse-cursor"></div>

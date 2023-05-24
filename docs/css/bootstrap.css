@@ -369,9 +369,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.5rem;
-  font-family: "cooper-black-std", serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Bolgart', sans-serif;
 }
 
 h4, .h4 {

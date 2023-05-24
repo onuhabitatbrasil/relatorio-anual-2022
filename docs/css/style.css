@@ -1324,3 +1324,23 @@ ul.social-icons li{
     font-size: 2em;
   }
 }
+
+#mapToggle {
+    position: fixed;
+    top: 70px;
+    left: 30px;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 100;
+    opacity: 0;
+}
+
+.float-left {
+    margin-right: 0.25em;
+}
+
+.float-right {
+    margin-left: 0.25em;
+}
