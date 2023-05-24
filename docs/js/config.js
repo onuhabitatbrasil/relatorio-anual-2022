@@ -186,7 +186,7 @@ var config = {
           zoom: 11.5,
           pitch: 0.00,
           bearing: 0.00,
-          speed: 0.75,
+          speed: 0.85,
           curve: 1
       },
       mapAnimation: 'flyTo',
@@ -227,7 +227,7 @@ var config = {
       zoom: 1.5,
       pitch: 0.00,
       bearing: 0.00,
-      speed: 0.75
+      speed: 1
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -1589,7 +1589,7 @@ var config = {
             <p>Entre 2020 e 2022, o ONU-Habitat Brasil expandiu sua atuação para diversos territórios no Brasil e Cone Sul.<p>\
             <p>\
               <i class="fa fa-info-circle" aria-hidden="true"></i>\
-              A seguir, você será guiado por alguns destes onde o ONU-Habitat Brasil marcou presença ao longo do ano. Navegue por cada lugar onde nossas iniciativas tomaram forma, descobrindo suas características e essência. Em cada seção, você também vai conhecer a história de pessoas que fizeram parte e foram impactadas por essas ações.\
+              A seguir, você será guiado por alguns daqueles onde sua presença se destacou em 2022. Navegue por cada lugar onde nossas iniciativas tomaram forma, descobrindo suas características e essência. Em cada seção, você também vai conhecer a história de pessoas que fizeram parte e foram impactadas por essas ações.\
             </p>\
             <p>\
               <i class="fa fa-map-pin" aria-hidden="true"></i>\
