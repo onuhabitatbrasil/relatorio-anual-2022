@@ -1228,6 +1228,12 @@ ul.social-icons li{
     display: block;
 }
 
+.img-abertura {
+    max-width: 60%;
+    margin: auto;    
+    display: block;
+}
+
 .container-history {
   width: 100%;
   padding: 0 0;
@@ -1315,7 +1321,7 @@ ul.social-icons li{
     font-size: 0.75rem;
   }
   .lefty {
-    width: 36vw;
+    width: 45vw;
   }
   .centered {
     width: 85vw;
@@ -1331,6 +1337,9 @@ ul.social-icons li{
   }
   .img-hist {
       max-width: 100%;
+  }
+  .img-abertura {
+    max-width: 100%;
   }
   p {
     font-size: 0.8rem;

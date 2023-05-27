@@ -92,7 +92,7 @@ var config = {
               </div>\
             </div>\
             <div class="col-lg-5 align-self-center">\
-                <img src="images/abertura.jpg" alt="Alain Grimard (Oficial Sênior Internacional do ONU-Habitat para o Brasil e Cone Sul) e Rayne Ferretti Moraes (Oficial Nacional do ONU-Habitat para o Brasil)" class="img-fluid" />\
+                <img src="images/abertura.jpg" alt="Alain Grimard (Oficial Sênior Internacional do ONU-Habitat para o Brasil e Cone Sul) e Rayne Ferretti Moraes (Oficial Nacional do ONU-Habitat para o Brasil)" class="img-abertura" />\
             </div>\
           </div>\
         </div>\
