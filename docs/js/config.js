@@ -403,7 +403,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Janeiro</p>\
-                            <h2>ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira</h2>\
+                            <h2>ONU-Habitat inicia projeto Conexões Urbanas em regiões de fronteira<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -415,7 +415,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Janeiro</p>\
-                            <h2>ONU-Habitat assina Memorando de Entendimento com Prefeitura de Fortaleza, marcando o início de uma parceria para promover o desenvolvimento urbano sustentável</h2>\
+                            <h2>ONU-Habitat assina Memorando de Entendimento com Prefeitura de Fortaleza, marcando o início de uma parceria para promover o desenvolvimento urbano sustentável<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -427,7 +427,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Fevereiro</p>\
-                            <h2>Lançamento do projeto G52: Cidades-Polo Ampliando os Marcos do Desenvolvimento Regional</h2>\
+                            <h2>Lançamento do projeto G52: Cidades-Polo Ampliando os Marcos do Desenvolvimento Regional<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -439,7 +439,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Fevereiro</p>\
-                            <h2>Início do ciclo de Oficinas de Desenho de Espaços Públicos em Pernambuco em 2022</h2>\
+                            <h2>Início do ciclo de Oficinas de Desenho de Espaços Públicos em Pernambuco em 2022<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -451,7 +451,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Março</p>\
-                            <h2>Assinada a expansão do programa Territórios Sociais para toda a cidade do Rio de Janeiro</h2>\
+                            <h2>Assinada a expansão do programa Territórios Sociais para toda a cidade do Rio de Janeiro<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -463,7 +463,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Março</p>\
-                            <h2>ONU-Habitat e Governo do Rio de Janeiro assinam acordo para promover desenvolvimento urbano no estado</h2>\
+                            <h2>ONU-Habitat e Governo do Rio de Janeiro assinam acordo para promover desenvolvimento urbano no estado<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -475,7 +475,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Março</p>\
-                            <h2>Realização do seminário "Diretrizes para um Programa Habitacional para Alagoas", em parceria com o Governo de Alagoas</h2>\
+                            <h2>Realização do seminário "Diretrizes para um Programa Habitacional para Alagoas", em parceria com o Governo de Alagoas<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -487,7 +487,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Março</p>\
-                            <h2>Lançamento e início das atividades de campo do programa Territórios da Cidadania, em parceria com a Prefeitura de Juiz de Fora</h2>\
+                            <h2>Lançamento e início das atividades de campo do programa Territórios da Cidadania, em parceria com a Prefeitura de Juiz de Fora<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -499,7 +499,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Março</p>\
-                            <h2>Realizada a primeira assembleia nas ocupações Rosa Leão e Helena Greco, em Izidora</h2>\
+                            <h2>Realizada a primeira assembleia nas ocupações Rosa Leão e Helena Greco, em Izidora<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -511,7 +511,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Abril</p>\
-                            <h2>ONU-Habitat e parceiros capacitam municípios sobre regularização fundiária urbana</h2>\
+                            <h2>ONU-Habitat e parceiros capacitam municípios sobre regularização fundiária urbana<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -523,7 +523,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Abril</p>\
-                            <h2>ONU-Habitat apresenta “Ações Recomendadas para Resiliência e Sustentabilidade” para gestores municipais de Teresina</h2>\
+                            <h2>ONU-Habitat apresenta “Ações Recomendadas para Resiliência e Sustentabilidade” para gestores municipais de Teresina<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -535,7 +535,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Maio</p>\
-                            <h2>ONU-Habitat apoia criação da Rede Brasileira de Institutos de Planejamento</h2>\
+                            <h2>ONU-Habitat apoia criação da Rede Brasileira de Institutos de Planejamento<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -547,7 +547,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Maio</p>\
-                            <h2>ONU-Habitat realiza oficina de Colaborações Urbanas e entrevistas da Avaliação de Espaços Públicos em municípios na fronteira entre Brasil, Paraguai e Argentina</h2>\
+                            <h2>ONU-Habitat realiza oficina de Colaborações Urbanas e entrevistas da Avaliação de Espaços Públicos em municípios na fronteira entre Brasil, Paraguai e Argentina<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -559,7 +559,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Junho</p>\
-                            <h2>Brasil debate futuro das cidades no 11 Fórum Urbano Mundial</h2>\
+                            <h2>Brasil debate futuro das cidades no 11 Fórum Urbano Mundial<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -571,7 +571,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Junho</p>\
-                            <h2>Início da implementação do programa de parceria Simetria Urbana para promover o desenvolvimento urbano sustentável por meio da Cooperação Sul-Sul Trilateral</h2>\
+                            <h2>Início da implementação do programa de parceria Simetria Urbana para promover o desenvolvimento urbano sustentável por meio da Cooperação Sul-Sul Trilateral<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -583,7 +583,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Julho</p>\
-                            <h2>Realizados módulos de capacitação para gestores e servidores municipais do G52</h2>\
+                            <h2>Realizados módulos de capacitação para gestores e servidores municipais do G52<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -595,7 +595,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Julho</p>\
-                            <h2>Intercâmbio entre São Paulo e Praia (Cabo Verde) no âmbito do “Desafio Waste Wise Cities” do ONU-Habitat</h2>\
+                            <h2>Intercâmbio entre São Paulo e Praia (Cabo Verde) no âmbito do “Desafio Waste Wise Cities” do ONU-Habitat<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -607,7 +607,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Agosto</p>\
-                            <h2>Realizado o Piloto do Mapa Rápido Participativo (MRP) em área rural</h2>\
+                            <h2>Realizado o Piloto do Mapa Rápido Participativo (MRP) em área rural<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -619,7 +619,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Agosto</p>\
-                            <h2>Celebrado o Dia Internacional da Juventude com jovens de Alagoas</h2>\
+                            <h2>Celebrado o Dia Internacional da Juventude com jovens de Alagoas<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -631,7 +631,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Setembro</p>\
-                            <h2>Territórios da Cidadania promove workshop sobre a Agenda 2030 e os ODS em Juiz de Fora</h2>\
+                            <h2>Territórios da Cidadania promove workshop sobre a Agenda 2030 e os ODS em Juiz de Fora<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -655,7 +655,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Setembro</p>\
-                            <h2>Apoio e participação no congresso "Rio, Uma Cidade Antirracista"</h2>\
+                            <h2>Apoio e participação no congresso "Rio, Uma Cidade Antirracista"<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -667,7 +667,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Outubro</p>\
-                            <h2>Realizado Circuito Urbano 2022 com recorde de 254 propostas recebidas</h2>\
+                            <h2>Realizado Circuito Urbano 2022 com recorde de 254 propostas recebidas<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -679,7 +679,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Outubro</p>\
-                            <h2>Início das formações do programa Digaê!</h2>\
+                            <h2>Início das formações do programa Digaê!<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -691,7 +691,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Novembro</p>\
-                            <h2>Premiação do Desafio de Inovação do G52 e assinatura da carta compromisso</h2>\
+                            <h2>Premiação do Desafio de Inovação do G52 e assinatura da carta compromisso<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -703,7 +703,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Novembro</p>\
-                            <h2>Lançamento do relatório da Avaliação de Espaços Públicos e missão do ONU-Habitat às regiões transfronteiriças do projeto Conexões Urbanas</h2>\
+                            <h2>Lançamento do relatório da Avaliação de Espaços Públicos e missão do ONU-Habitat às regiões transfronteiriças do projeto Conexões Urbanas<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -715,7 +715,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Novembro</p>\
-                            <h2>Participação do ONU-Habitat na Virada Sustentável 2022, em São Paulo</h2>\
+                            <h2>Participação do ONU-Habitat na Virada Sustentável 2022, em São Paulo<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -727,7 +727,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Dezembro</p>\
-                            <h2>Realizado o seminário “Estratégia de prevenção qualificada das violências. Conquistas e desafios da Cooperação Pernambuco"</h2>\
+                            <h2>Realizado o seminário “Estratégia de prevenção qualificada das violências: Conquistas e desafios da Cooperação Pernambuco"<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -739,7 +739,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Dezembro</p>\
-                            <h2>Assinada carta de intenções para apoiar o desenvolvimento urbano sustentável em Neuquén, na Argentina</h2>\
+                            <h2>Assinada carta de intenções para apoiar o desenvolvimento urbano sustentável em Neuquén, na Argentina<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -753,7 +753,7 @@ var config = {
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 0.2
+        speed: 1
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -763,8 +763,7 @@ var config = {
       onChapterEnter: [
         {
             layer: 'brasil',
-            opacity: 0.85,
-            duration: 4000
+            opacity: 0.85
         }
       ],
       onChapterExit: [
@@ -887,7 +886,10 @@ var config = {
                 <div class="col-sm-6 timeline__item">\
                   <div class="timeline__image-wrapper"><img src="./images/numeros/14_1_3_mil_entrevistas.svg" alt="" class="timeline__image"></div>\
                   <p class="timeline__text">\
-                  Mais de <b class="rosa">4.500 mapas</b> sobre infraestrutura urbana, habitação, transporte e serviços públicos de 141 territórios vulnerabilizados em Juiz de Fora foram elaborados com o Mapa Rápido Participativo (MRP). Já a pesquisa do Perfil Socioeconômico chegou a <b class="rosa">1,3 mil entrevistas</b> realizadas e <b class="rosa">3,3 mil residências</b> visitadas nestas localidades. A ação visa identificar dados que informem políticas públicas e programas, com foco especial em educação e apoio a famílias vulneráveis, especialmente chefiadas por mulheres.\
+                  <span class="timeline__head">\
+                  Mais de 4.500 mapas\
+                  </span>\
+                  sobre infraestrutura urbana, habitação, transporte e serviços públicos de 141 territórios vulnerabilizados em Juiz de Fora foram elaborados com o Mapa Rápido Participativo (MRP). Já a pesquisa do Perfil Socioeconômico chegou a <b class="rosa">1,3 mil entrevistas</b> realizadas e <b class="rosa">3,3 mil residências</b> visitadas nestas localidades. A ação visa identificar dados que informem políticas públicas e programas, com foco especial em educação e apoio a famílias vulneráveis, especialmente chefiadas por mulheres.\
                   </p>\
                 </div>\
                 <div class="col-sm-6 timeline__item">\
@@ -944,7 +946,7 @@ var config = {
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 0.2
+        speed: 1
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -958,14 +960,427 @@ var config = {
         }
       ],
       onChapterExit: [
-        //{
-        //  layer: 'brasil',
-        //  opacity: 0
-        //}
+        {
+          layer: 'brasil',
+          opacity: 0
+        }
       ]
     },
 
     {
+      id: "publicacoes",
+      alignment: "full",
+      hidden: false,
+      description: '\
+        <div class="light">\
+          <div class="container pb-4">\
+              <h1 class="align-self-center rosa text-center">2022 em Publicações</h1>\
+              <p class="rosa text-center pb-1 pl-5 pr-5">\
+                <i class="fa fa-info-circle" aria-hidden="true"></i>\
+                Nossas metodologias geram dados, mapas e informações valiosas sobre cada território em que atuamos. Essas informações são consolidadas em publicações, que contribuem para que atores urbanos possam atuar com mais precisão e criar políticas públicas baseadas em evidências para enfrentar problemas urbanos e reduzir desigualdades.\
+              </p>\
+              <div id="CarouselPub" class="carousel slide" data-ride="carousel" data-interval="8500">\
+                <div class="col-12 text-center pb-1 pt-1">\
+                    <a class="btn btn-primary mr-1 cursor-hover" href="#CarouselPub" role="button" data-slide="prev">\
+                        <i class="fa fa-arrow-left"></i>\
+                    </a>\
+                    <a class="btn btn-primary cursor-hover" href="#CarouselPub" role="button" data-slide="next">\
+                        <i class="fa fa-arrow-right"></i>\
+                    </a>\
+                </div>\
+                <div class="carousel-inner">\
+                  <div class="carousel-item active">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/01_Relatorio_Aval_Esp_Pub_Barracao_comp.jpeg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Avaliação de Espaços Públicos: Cidades na Fronteira</div>\
+                          <div class="pub-info text-justify">Relatório da Avaliação de Espaços Públicos em municípios do projeto Conexões Urbanas, incluindo análise de dimensões relacionadas à quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde. O trabalho foi fruto da análise de leis e planos locais, assim como da coleta de informações em visitas de campo e entrevistas com informantes-chave da população.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://drive.google.com/file/d/1BjJ9sYx0sg0NDvC8iAtrQ5GpSNDKYzzd/view">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/02_Desenho de Espaços Públicos.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório de Desenho de Espaços Públicos</div>\
+                          <div class="pub-info text-justify">O relatório apresenta a sistematização e resultados das oficinas de Desenho de Espaços Públicos em Pernambuco, que tiveram como objetivo criar propostas concretas para espaços públicos de forma participativa com jovens de 14 a 29 anos. As propostas foram baseadas em diagnósticos, avaliações, necessidades e sugestões dos grupos participantes, visando tornar esses espaços seguros, inclusivos, sustentáveis e saudáveis.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/03_Relatório Cidade Mulher_Caderno Oficinas_Versão 12.12 - online.jpeg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório Cidade Mulher</div>\
+                          <div class="pub-info text-justify">O documento apresenta a sistematização e os resultados das oficinas Cidade Mulher, que buscaram mapear a percepção das mulheres em relação aos fatores que geram (in)segurança em seus territórios. O objetivo foi contribuir para o diagnóstico da segurança urbana e fornecer sugestões para políticas públicas que tornem os espaços públicos mais inclusivos e seguros para mulheres jovens, adultas e idosas.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/04_Doc Pés no chao, janela do céu.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Documentário "Pés no Chão, Janela do Céu"</div>\
+                          <div class="pub-info text-justify">Através da história de Yasmin Bernardo, jovem moradora da comunidade do Ibura, no Recife (PE), o documentário destaca a importância do protagonismo da juventude no processo de planejamento urbano. Inspirado na oficina de Desenho de Espaços Públicos realizada na comunidade, o curta-metragem revela uma perspectiva crítica sobre sua realidade e mostra soluções criativas para superar desigualdades sociais e violência urbana, permitindo que jovens como ela possam experimentar plenamente o que a cidade tem a oferecer.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://www.youtube.com/watch?v=vHW20i79QyQ">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/05_Progress Report 4_Social Territories_August 2022.jpeg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório anual 2021/2022 de Territórios Sociais</div>\
+                          <div class="pub-info text-justify">O relatório anual apresenta um diagnóstico com dados da Busca Ativa, apontando as vulnerabilidades territoriais das áreas abarcadas pelo programa desde 2019 com base em 138.279 entrevistas realizadas em 40.669 famílias monitoradas. O relatório também apresenta a atuação do programa e os resultados obtidos através da aplicação do protocolo integrado.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/06_Relatório Circuito Urbano 2022.jpeg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório Final do Circuito Urbano 2022</div>\
+                          <div class="pub-info text-justify">Apresenta os principais dados e destaques do Circuito Urbano, principal iniciativa do ONU-Habitat Brasil para comemorar o Outubro Urbano, mês que concentra debates sobre desafios e oportunidades gerados nas cidades. O relatório inclui informações sobre o perfil do público e dos organizadores, os resultados da comunicação e os principais destaques do Circuito Urbano 2022, que teve como tema "Localizando os ODS: não deixar ninguém e nenhum lugar para trás".</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://infogram.com/relatorio-circuito-urbano-2022-1h0r6rpmwqxvw2e">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/07_Relatório Anual 2021.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório Anual 2021 do ONU-Habitat Brasil</div>\
+                          <div class="pub-info text-justify">A publicação apresenta os destaques do trabalho realizado em 2021em prol do desenvolvimento urbano sustentável. O relatório apresenta metodologias e ferramentas utilizadas em iniciativas espalhadas por todo o país. Dados, parcerias e histórias de interesse humano também integram o documento, apresentando um panorama de como o programa fortalece cidades e comunidades brasileiras buscando não deixar ninguém e nenhum lugar para trás.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://infogram.com/relatorio-anual-onu-habitat-brasil-2021-1hd12yx7nv5ow6k?live">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/08_20230314_relatorio_mrp_integrado_reduzida_correcao_sec.jpeg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório Integrado do Mapa Rápido Participativo de Juiz de Fora</div>\
+                          <div class="pub-info text-justify">Sistematiza os resultados do Mapa Rápido Participativo realizado nos 141 territórios abarcados pela parceria entre a Prefeitura de Juiz de Fora e o ONU-Habitat. O relatório fornece uma análise estratégica dos oito macroterritórios de Juiz de Fora, visando compreender as características próprias de cada região e identificar as dinâmicas urbanas locais em comum. O relatório também apresenta uma análise detalhada de cada macroterritório, destacando as características que impactam na qualidade de vida dos moradores.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/12_20220908_P2.2_G52.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório dos Módulos de treinamento para o desenvolvimento de capacidades do setor público das 52 cidades priorizadas no G52</div>\
+                          <div class="pub-info text-justify">Destinados a gestores e servidores do G52, os módulos de treinamento do projeto buscaram disseminar conhecimentos teóricos e experiências práticas para fortalecer as capacidades dos municípios no desenvolvimento urbano e territorial sustentável. O relatório apresenta os resultados alcançados nesses módulos, abrangendo temas como agendas globais de desenvolvimento, cooperação, gerenciamento de projetos, financiamento público, economia urbana, planejamento urbano e regional, inovação, governos digitais e cidades inteligentes centradas nas pessoas.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/13_20221221_Produto 3.1.jpeg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório sobre o Desafio de Inovação da Rede de Cidades-Polo do Nordeste</div>\
+                          <div class="pub-info text-justify">O relatório apresenta o Desafio de Inovação da Rede de Cidades-Polo do Nordeste, que buscou incentivar as cidades participantes do G52 a desenvolver projetos-piloto incorporando aprendizados anteriores. Houve mentoria para os servidores dos municípios, abordando metodologias participativas e políticas baseadas em evidências. As três melhores propostas foram premiadas em evento público e divulgadas em diferentes meios.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/14_20221223_Produto 3.2.jpeg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Relatório Final do G52</div>\
+                          <div class="pub-info text-justify">O relatório descreve o evento público de apresentação dos projetos de inovação construídos de maneira compartilhada e da assinatura da adesão à rede. O evento incluiu a premiação do Desafio de Inovação e a assinatura da Carta Compromisso, com a presença de servidores da Sudene, equipes do PNUD e ONU-Habitat, representantes institucionais, prefeitos, vice-prefeitos, secretários e servidores dos municípios do G52.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/15_Produto 1.2.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Plano de Controle da Expansão: estratégias para limitar a expansão das ocupações da Izidora e permitir a melhoria da gestão dos vazios urbanos</div>\
+                          <div class="pub-info text-justify">Material de orientação contendo estratégias para limitar a expansão das ocupações da Izidora, em Belo Horizonte (MG), e permitir a melhoria da gestão dos vazios urbanos.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2023/proiizidora_plano_de_controle_da_expansao.pdf">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/16_1.3 - Recuperação Ambiental_Vol_Branco-1_page-0001.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Plano de Recuperação Ambiental: estratégias para a recuperação ambiental e proteção de áreas vazias nas ocupações da Izidora</div>\
+                          <div class="pub-info text-justify">Publicação detalha as condições ambientais nos territórios das ocupações da Izidora, em Belo Horizonte (MG), avaliando danos socioambientais, indicando propostas de recuperação dos atributos naturais e atualizando as informações das ocupações.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2022/PRO-IZIDORA_Plano%20de%20Recupera%C3%A7%C3%A3o%20Ambiental.pdf">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/17_Produto 1.4_vf.jpeg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Plano de Controle de Risco: propostas de intervenções imediatas para eliminar áreas de risco nas ocupações da Izidora</div>\
+                          <div class="pub-info text-justify">Publicação analisa as condições geotécnicas das ocupações da Izidora, em Belo Horizonte (MG), e propõe intervenções de redução e eliminação de áreas de risco, com hierarquização das intervenções.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2022/PRO-IZIDORA_Plano%20de%20Controle%20de%20Risco.pdf">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/18_1.5 - Diagnósticos técnicos_vf-1_page-0001.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Diagnósticos técnicos para as ocupações da Izidora</div>\
+                          <div class="pub-info text-justify">Analisa e caracteriza tecnicamente a região da Izidora, em Belo Horizonte (MG), quanto às seguintes temáticas: ambiental; morfologia; padrão de ocupação; sistema viário; risco; e microbacias e drenagem.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2022/PRO-IZIDORA_Diagn%C3%B3sticos%20t%C3%A9cnicos%20Izidora.pdf">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/19_1.5 - Estudos de Alternativas_HG-1_page-0001.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Estudos de alternativas para a ocupação Helena Greco</div>\
+                          <div class="pub-info text-justify">Publicação apresenta estudo de alternativas elaboradas para as intervenções na ocupação Helena Greco, em Belo Horizonte (MG), composto por mapas e tabelas comparativos das alternativas. Estas são apresentadas a partir de quatro eixos temáticos principais: caminho das águas, estabilização de encostas, caminho das pessoas e formas de morar.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2022/proiizidora_1.5%20-%20Estudos%20de%20Alternativas_HelenaGreco.pdf">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/20_1.5 - Estudos de Alternativas_RL-1_page-0001.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Estudos de alternativas para a ocupação Rosa Leão</div>\
+                          <div class="pub-info text-justify">Publicação apresenta estudo de alternativas elaboradas para as intervenções na ocupação Rosa Leão, em Belo Horizonte (MG), composto por mapas e tabelas comparativos das alternativas. Estas são apresentadas a partir de quatro eixos temáticos principais: caminho das águas, estabilização de encostas, caminho das pessoas e formas de morar.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2022/proiizidora_1.5%20-%20Estudos%20de%20Alternativas_RosaLeao.pdf">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/21_1.5 - Estudos de Alternativas_ES_vf-1_page-0001.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Estudos de alternativas para a ocupação Esperança</div>\
+                          <div class="pub-info text-justify">Publicação apresenta o estudo de alternativas elaboradas para as intervenções na ocupação Esperança, em Belo Horizonte (MG), composto por mapas e tabelas comparativos das alternativas. Estas são apresentadas a partir de quatro eixos temáticos principais: caminho das águas, estabilização de encostas, caminho das pessoas e formas de morar.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2022/proiizidora_1.5%20-%20Estudos%20de%20Alternativas_Esperanca.pdf">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/22_1.5 - Estudos de Alternativas_VITORIA_vf.jpg" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Estudos de alternativas para a ocupação Vitória</div>\
+                          <div class="pub-info text-justify">Publicação apresenta o estudo de alternativas elaboradas para as intervenções na ocupação Vitória, em Belo Horizonte (MG), composto por mapas e tabelas comparativos das alternativas. Estas são apresentadas a partir de quatro eixos temáticos principais: caminho das águas, estabilização de encostas, caminho das pessoas e formas de morar.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/politica-urbana/2022/proizidora_1.5%20-%20Estudos%20de%20Alternativas_vitoria_vf.pdf">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/23_plataforma_perfil.png" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Plataforma de monitoramento do Perfil Socioeconômico de Alagoas</div>\
+                          <div class="pub-info text-justify">Dashboard criado no Google Data Studio. O objetivo desta plataforma é fornecer informações básicas para acompanhar o processo de coleta de dados de campo. A base de dados da pesquisa é dividida em áreas de alta e baixa privação social, sendo aplicada nos bairros Bom Parto, Levada, Prado, Ponta Grossa, Trapiche da Barra e Vergel do Lago, todos localizados na região lagunar de Maceió.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="http://visaoalagoas2030.al.gov.br/projetos/dados-e-informacoes/perfil-socioeconomico-da-regiao-lagunar">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/24_painel_jf.png" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Painel de Dados interativo de Juiz de Fora</div>\
+                          <div class="pub-info text-justify">Plataforma personalizável para armazenar todos os resultados do Mapa Rápido Participativo e do Perfil Socioeconômico aplicados na cidade de Juiz de Fora. Essa ferramenta permite relatórios, gráficos, mapas e simulações, e é útil para as secretarias municipais tomarem decisões mais transparentes, baseadas em evidências, justas e responsáveis.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://onuhabitat.shinyapps.io/territorios-da-cidadania-beta/">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                  <div class="carousel-item">\
+                    <div class="pub-cell row">\
+                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                        <div class="pub-img">\
+                          <img src="./images/publicacoes/25_site_circuito.png" alt="Capa Publicação" class="pub-photo">\
+                        </div>\
+                      </div>\
+                      <div class="col-sm-12 col-md-6">\
+                        <div class="pub-content">\
+                          <div class="pub-title">Site do Circuito Urbano</div>\
+                          <div class="pub-info text-justify">Plataforma que disponibiliza informações sobre todas as edições do Circuito Urbano, além das seções de Mural das Artes, Caminho da Ação e programação de eventos com Mapa Virtual.</div>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://www.circuitourbano.org/">SAIBA MAIS</a>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>\
+                </div>\
+                <ol class="carousel-indicators">\
+                  <li data-target="#CarouselPub" data-slide-to="0" class="active"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="1"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="2"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="3"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="4"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="5"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="6"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="7"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="8"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="9"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="10"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="11"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="12"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="13"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="14"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="15"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="16"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="17"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="18"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="19"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="20"></li>\
+                  <li data-target="#CarouselPub" data-slide-to="21"></li>\
+                </ol>\
+              </div>\
+          </div>\
+        </div>\
+      ',
+      location: {},
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+
+    /*{
       id: "publicacoes", 
       alignment: "full",
       hidden: false,
@@ -1099,20 +1514,6 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Sistematiza os resultados do Mapa Rápido Participativo realizado nos 141 territórios abarcados pela parceria entre a Prefeitura de Juiz de Fora e o ONU-Habitat. O relatório fornece uma análise estratégica dos oito macroterritórios de Juiz de Fora, visando compreender as características próprias de cada região e identificar as dinâmicas urbanas locais em comum. O relatório também apresenta uma análise detalhada de cada macroterritório, destacando as características que impactam na qualidade de vida dos moradores.</p>\
-                        </div>\
-                    </div>\
-                  </div>\
-                </div>\
-                <div class="carousel-item col-md-4">\
-                  <div class="wrapper">\
-                    <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/publicacoes/09_MRPs.jpg">\
-                      <p>Publicação</p>\
-                      <h5>141 Relatórios Descritivos do Mapa Rápido Participativo de Juiz de Fora</h5>\
-                    </div>\
-                    <div class="card back-face">\
-                        <div class="info">\
-                            <p class="card-text">Conjunto de 141 relatórios descreve os resultados do Mapa Rápido Participativo realizado entre março e julho de 2022 nas áreas de interesse do projeto em Juiz de Fora. Os relatórios foram produzidos a partir de dados primários coletados por meio de pesquisa de campo, e abordam temas como infraestrutura urbana, habitação, transporte e serviços públicos. Esses relatórios permitem orientar políticas públicas assertivas para a cidade.</p>\
                         </div>\
                     </div>\
                   </div>\
@@ -1349,7 +1750,7 @@ var config = {
         zoom: 1.5,
         pitch: 0.00,
         bearing: 0.00,
-        speed: 0.2
+        speed: 1
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -1363,12 +1764,12 @@ var config = {
         }
       ],
       onChapterExit: [
-        //{
-        //  layer: 'brasil',
-        //  opacity: 0
-        //}
+        {
+          layer: 'brasil',
+          opacity: 0
+        }
       ]
-    },
+    },*/
 
     {
       id: "metodologias",
@@ -1390,13 +1791,15 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3000" role="listbox">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3500" role="listbox">\
               <div class="carousel-inner row w-100 mx-auto pb-5 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
-                      <h5>Avaliação de Espaços Públicos na Escala da Cidade</h5>\
+                      <h5>\
+                        Avaliação de Espaços Públicos na Escala da Cidade<i class="fa fa-plus-circle" aria-hidden="true"></i>\
+                      </h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1409,7 +1812,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/02_Avaliação de necessidades de capacitação_Minne Santos.jpg">\
-                      <h5>Avaliação de Necessidades de Capacitação</h5>\
+                      <h5>Avaliação de Necessidades de Capacitação<i class="fa fa-plus-circle" aria-hidden="true"></i>\</h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1422,7 +1825,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/03_Cidade Mulher_Renatto Mendonça.jpg">\
-                      <h5>Cidade Mulher</h5>\
+                      <h5>Cidade Mulher<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1435,7 +1838,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/04_Desafio de Inovação_Ascom Sudene.jpg">\
-                      <h5>Desafio de Inovação</h5>\
+                      <h5>Desafio de Inovação<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1448,7 +1851,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/05_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg">\
-                      <h5>Desenho de Espaços Públicos</h5>\
+                      <h5>Desenho de Espaços Públicos<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1461,7 +1864,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/06_Índice de Prosperidade das Cidades_Minne Santos.jpg">\
-                      <h5>Índice de Prosperidade das Cidades</h5>\
+                      <h5>Índice de Prosperidade das Cidades<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1474,7 +1877,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/07_Laboratório de Planejamento_AL.jpg">\
-                      <h5>Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável</h5>\
+                      <h5>Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1487,7 +1890,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/08_MRP_JF.jpg">\
-                      <h5>Mapa Rápido Participativo</h5>\
+                      <h5>Mapa Rápido Participativo<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1500,7 +1903,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/09_Observatório de Políticas Públicas_AL.jpg">\
-                      <h5>Observatório de Políticas Públicas</h5>\
+                      <h5>Observatório de Políticas Públicas<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1513,7 +1916,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/10_Perfil Socioeconômico_JF.jpg">\
-                      <h5>Perfil Socioeconômico</h5>\
+                      <h5>Perfil Socioeconômico<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1526,7 +1929,7 @@ var config = {
                   <div class="wrapper">\
                     <div class="card front-face">\
                       <img class="img-fluid mx-auto d-block" src="./images/metodologias/11_Territórios Sociais_RJ.jpg">\
-                      <h5>Territórios Sociais</h5>\
+                      <h5>Territórios Sociais<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
@@ -1537,17 +1940,17 @@ var config = {
                 </div>\
               </div>\
               <ol class="carousel-indicators">\
-                  <li data-target="theCarousel" data-slide-to="0" class="active"></li>\
-                  <li data-target="theCarousel" data-slide-to="1"></li>\
-                  <li data-target="theCarousel" data-slide-to="2"></li>\
-                  <li data-target="theCarousel" data-slide-to="3"></li>\
-                  <li data-target="theCarousel" data-slide-to="4"></li>\
-                  <li data-target="theCarousel" data-slide-to="5"></li>\
-                  <li data-target="theCarousel" data-slide-to="6"></li>\
-                  <li data-target="theCarousel" data-slide-to="7"></li>\
-                  <li data-target="theCarousel" data-slide-to="8"></li>\
-                  <li data-target="theCarousel" data-slide-to="9"></li>\
-                  <li data-target="theCarousel" data-slide-to="10"></li>\
+                  <li data-target="#theCarousel" data-slide-to="0" class="active"></li>\
+                  <li data-target="#theCarousel" data-slide-to="1"></li>\
+                  <li data-target="#theCarousel" data-slide-to="2"></li>\
+                  <li data-target="#theCarousel" data-slide-to="3"></li>\
+                  <li data-target="#theCarousel" data-slide-to="4"></li>\
+                  <li data-target="#theCarousel" data-slide-to="5"></li>\
+                  <li data-target="#theCarousel" data-slide-to="6"></li>\
+                  <li data-target="#theCarousel" data-slide-to="7"></li>\
+                  <li data-target="#theCarousel" data-slide-to="8"></li>\
+                  <li data-target="#theCarousel" data-slide-to="9"></li>\
+                  <li data-target="#theCarousel" data-slide-to="10"></li>\
               </ol>\
             </div>\
         </div>\
@@ -1835,7 +2238,7 @@ var config = {
     mapAnimation: 'flyTo',
     rotateAnimation: false,
     spinGlobe: false,
-    mapInteractive: false,
+    mapInteractive: true,
     callback: '',
     onChapterEnter: [
       {
@@ -2623,7 +3026,7 @@ var config = {
         mapAnimation: 'flyTo',
         rotateAnimation: false,
         spinGlobe: false,
-        mapInteractive: false,
+        mapInteractive: true,
         callback: '',
         onChapterEnter: [
           {
@@ -2752,7 +3155,7 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             spinGlobe: false,
-            mapInteractive: false,
+            mapInteractive: true,
             callback: '',
             onChapterEnter: [
               {
@@ -2972,11 +3375,6 @@ var config = {
           opacity: 0.85
         },
         {
-          layer: 'satellite',
-          opacity: 0,
-          duration: 0
-        },
-        {
           layer: 'country-label',
           opacity: 0
         }
@@ -2984,13 +3382,7 @@ var config = {
       onChapterExit: [
         {
           layer: 'global-south',
-          opacity: 0,
-          duration: 1000
-        },
-        {
-          layer: 'satellite',
-          opacity: 1,
-          duration: 750
+          opacity: 0
         },
         {
           layer: 'country-label',

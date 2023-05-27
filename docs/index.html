@@ -16,7 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,7 +47,7 @@
             const { pageX: posX, pageY: posY } = e;
           
             const runMouseOver = () => {
-              CURSOR.style.transform = 'scale(3)';
+              CURSOR.style.transform = 'scale(2.5)';
               CURSOR.style.background = 'transparent';
               CURSOR.style.border = '2px solid #e3773b';
             };
@@ -240,25 +239,29 @@
     <div id="story"></div>
 
     <div id="agradecimentos">
-        <div class="container-history pb-4">
+        <div class="container container-exp pb-4">
             <div class="row pt-3 pb-2 text-center">
-                <div class="col-md-12 col-lg-12">
+                <div class="col-12">
                     <h1 class="rosa">Agradecimentos</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <img src="images/agradecimento-esq.png" alt="" class="img-hist"/>
+                <div class="col-md-3 col-lg-3 pb-3">
+                    <img src="images/agradecimento-esq.png" alt="Menina pintando o muro" class="img-hist"/>
                 </div>
-                <div class="col-md-4 col-lg-4 pt-3 pt-md-0">
+                <div class="col-md-6 col-lg-6">
                     <p><b>Os territórios foram os protagonistas da atuação do ONU-Habitat Brasil em 2022</b>. Através dos diversos exemplos apresentados ao longo deste relatório, percebemos que é no nível local que os Objetivos de Desenvolvimento Sustentável e as diretrizes da Nova Agenda Urbana podem, de fato, ser alcançados.</p>
+
                     <p>Para isso, contamos com o apoio de inúmeras pessoas. Nossos projetos e ações só chegaram a cada um dos territórios apresentados graças à colaboração de diversos parceiros que se empenharam em transformar desafios em soluções. Além disso, <b>agradecemos a todas as pessoas – crianças, jovens, mulheres e homens – que se envolveram nessas atividades, tornando cada processo mais inclusivo</b>.</p>
+
                     <p>As ações mencionadas também só foram possíveis graças à <b>dedicação de 194 pessoas</b> que fizeram parte da equipe de escritório e de campo do ONU-Habitat Brasil em diversas partes do país e em diferentes áreas de atuação. É por meio do trabalho incansável desta equipe multidisciplinar que cada território no Brasil pode chegar mais perto de ser um espaço equitativo e sustentável.</p>
+
                     <p>Agradecemos especialmente a dedicação de nosso Representante Internacional para o Brasil e Cone Sul, <b>Sr. Alain Grimard</b>, pelos 13 anos de trabalho no Escritório Regional para América Latina e o Caribe. Por sua contribuição inestimável, bom humor constante, simplicidade e companheirismo, seremos sempre gratas e gratos. Seu compromisso com a promoção de um futuro urbano melhor e mais sustentável foi fundamental para a expansão do ONU-Habitat no Brasil. Seu legado é a consolidação de um escritório que se fortaleceu e cresceu sob seu trabalho, e <b>continuará ecoando em cada território que não é deixado para trás</b>.</p>
+
                     <p><b>Por fim, agradecemos sua leitura e interesse pelo trabalho do ONU-Habitat no Brasil</b>. Que em 2023 possamos continuar multiplicando nossos esforços de forma conjunta em busca de um futuro urbano melhor para todas as pessoas e territórios.</p>
                 </div>
-                <div class="col-md-3 col-lg-3">
-                    <img src="images/agradecimento-dir.png" alt="" class="img-hist"/>
+                <div class="col-md-3 col-lg-3 p-md-0">
+                    <img src="images/agradecimento-dir.png" alt="Alain Grimard com roda dos ODS caminhando" class="img-hist" style="max-width: 65%;"/>
                 </div>
             </div>
           </div>

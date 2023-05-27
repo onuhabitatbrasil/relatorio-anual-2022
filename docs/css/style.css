@@ -276,6 +276,7 @@ ul.social-icons li{
 }
 .fa-ul {
     width: fit-content;
+    margin-left: 1em;
 }
 
 .scroll-down {
@@ -475,8 +476,8 @@ ul.social-icons li{
 }
 
 .step {
-    padding-bottom: 60vh;
-    margin-bottom: 20vh;
+    padding-bottom: 70vh;
+    /*margin-bottom: 20vh;*/
     opacity: 0.75;
     transition-duration: 0.25s;
 }
@@ -498,13 +499,6 @@ ul.social-icons li{
     #features {
         width: 100%;
         margin: 0 auto;
-    }
-
-    .fully img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 75%;
     }
 
     #footer p {
@@ -948,6 +942,20 @@ ul.social-icons li{
     );
 }
 
+#myCarousel i {
+    color: #fff;
+    padding-left: 0.3em;
+}
+
+#theCarousel h5 {
+    line-height: 1.2;
+}
+
+#theCarousel i {
+    color: #fff;
+    padding-left: 0.3em;
+}
+
 #theCarouselPub .wrapper .card {
     position: absolute;
     height: 100%;
@@ -1043,17 +1051,74 @@ ul.social-icons li{
     padding: 2em 1em;
 }
 
-#theCarouselPub .btn-primary {
-    margin-top: 0.5em;
-    color: #00568a;
-    border: 2px solid #00568a;
-
+#CarouselPub .carousel-indicators li {
+    cursor: pointer;
+    border: 1px solid #cc3480;
+    width: 8px;
+    height: 8px;
+    transition: 0.5s ease;
 }
-  
-#theCarouselPub .btn-primary:hover {
-    color: #fdf0f2;
+
+#CarouselPub .carousel-indicators .active {
     background-color: #cc3480;
-    border-color: #cc3480;
+    transform: scale(1.2);
+}
+
+#CarouselPub .carousel-inner {
+    height: 470px;
+}
+
+#CarouselPub .pub-img {
+    padding: 1em 0;
+    height: 12rem;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#CarouselPub .pub-photo {
+    max-height: 100%;
+    border-radius: 5px;
+    box-shadow: -2px 6px 19px 0px #7f818e;
+}
+
+.pub-title {
+    font-size: 0.9em;
+    color: #cc3480;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+.pub-content {
+    margin: 1em 0;
+}
+
+.pub-info {
+    font-size: 0.8em;
+    margin-bottom: 0.75em;
+    line-height: 1;
+}
+
+@media (min-width: 768px) {
+    #CarouselPub .carousel-inner {
+        height: 350px;
+    }
+
+    #CarouselPub .pub-photo {
+        max-width: 100%;
+        max-height: 16rem;
+    }
+    
+    .pub-title {
+        font-size: 1em;
+        line-height: 1.1;
+    }
+
+    .pub-info {
+        font-size: 0.8em;
+        line-height: 1.05;
+    }
 }
 
 .wrapper:hover>.back-face {
@@ -1079,15 +1144,6 @@ ul.social-icons li{
 
 #theCarousel .carousel-indicators .active {
     background-color: #00568a;
-}
-
-#theCarouselPub .carousel-indicators li {
-    cursor: pointer;
-    border: 1px solid #cc3480;
-}
-
-#theCarouselPub .carousel-indicators .active {
-    background-color: #cc3480;
 }
 
 .btn-primary-azul {
@@ -1184,8 +1240,9 @@ ul.social-icons li{
 }
 
 .container-intro p {
-    line-height: 1.1;
+    line-height: 1.25;
     font-weight: bold;
+    margin: 0;
 }
 
 .container-num {
@@ -1260,6 +1317,9 @@ ul.social-icons li{
   .lefty {
     width: 36vw;
   }
+  .centered {
+    width: 85vw;
+  }
   .fa-2x {
     font-size: 1.25em;
   }
@@ -1287,6 +1347,9 @@ ul.social-icons li{
   }
   .lefty {
     width: 35vw;
+  }
+  .centered {
+    width: 65vw;
   }
   .fa-2x {
     font-size: 1.5em;

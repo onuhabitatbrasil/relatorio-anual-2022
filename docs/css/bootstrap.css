@@ -354,11 +354,11 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  line-height: 1;
+  line-height: 1.05;
 }
 
 h1, .h1 {
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   font-family: 'Bolgart', sans-serif;
   text-transform: uppercase;
 }
@@ -2530,7 +2530,7 @@ textarea.form-control {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  padding: 0.25rem 0.475rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
@@ -2573,30 +2573,30 @@ fieldset:disabled a.btn {
   font-style: normal;
   text-transform: uppercase !important;
   border-radius: 1.5em;
-  color: #cc3480;
+  color: #00568a;
   background-color: transparent;
-  border: 2px solid #cc3480;
+  border: 2px solid #00568a;
   transition: 0.5s;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #e3773b;
-  border-color: #e3773b;
+  background-color: #cc3480;
+  border-color: #cc3480;
   text-decoration: none;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #e3773b;
-  border-color: #e3773b;
-  box-shadow: 0 0 0 0.2rem rgba(227, 119, 59, 0.5);
+  background-color: #cc3480;
+  border-color: #cc3480;
+  box-shadow: 0 0 0 0.2rem #cc348050;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #e3773b;
-  border-color: #e3773b;
+  background-color: #cc3480;
+  border-color: #cc3480;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -6514,9 +6514,9 @@ a.close.disabled {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: -webkit-transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 1.25s ease-in-out;
+  transition: transform 1.25s ease-in-out;
+  transition: transform 1.25s ease-in-out, -webkit-transform 1.25s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
