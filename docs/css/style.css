@@ -1042,7 +1042,7 @@ ul.social-icons li{
 #theCarousel .wrapper .back-face {
     background-color: #00568a;
     color: #fdf0f2;
-    padding: 2em 1em;
+    padding: 1em 1em;
 }
 
 #theCarouselPub .wrapper .back-face {
@@ -1070,7 +1070,7 @@ ul.social-icons li{
 
 #CarouselPub .pub-img {
     padding: 1em 0;
-    height: 12rem;
+    height: 12.5rem;
     width: 100%;
     display: block;
     margin: auto;
@@ -1144,6 +1144,11 @@ ul.social-icons li{
 
 #theCarousel .carousel-indicators .active {
     background-color: #00568a;
+}
+
+#theCarousel .card h4 {
+    font-size: 1rem;
+    color: #ffc5da;
 }
 
 .btn-primary-azul {
@@ -1280,7 +1285,7 @@ ul.social-icons li{
 
 @media (min-width: 576px) {
   .container-exp {
-    max-width: 700px;
+    max-width: 650px;
   }
   .img-hist {
     max-width: 50%;
@@ -1311,7 +1316,7 @@ ul.social-icons li{
 
 @media (min-width: 768px) {
   .container-exp {
-    max-width: 900px;
+    max-width: 850px;
   }
   .img-hist {
     max-width: 30%;
@@ -1350,7 +1355,7 @@ ul.social-icons li{
 
 @media (min-width: 992px) {
   .container-exp {
-    max-width: 1000px;
+    max-width: 950px;
   }
   .img-hist {
       max-width: 100%;
@@ -1384,7 +1389,7 @@ ul.social-icons li{
 
 @media (min-width: 1200px) {
   .container-exp {
-    max-width: 1250px;
+    max-width: 1200px;
   }
   .img-hist {
       max-width: 90%;

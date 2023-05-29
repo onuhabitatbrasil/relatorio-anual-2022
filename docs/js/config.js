@@ -1892,7 +1892,6 @@ var config = {
         <div class="container container-exp pb-4">\
             <h1 class="align-self-center azul text-center">2022 em Metodologias</h1>\
             <p class="azul text-center pb-1 pl-5 pr-5">\
-              <i class="fa fa-info-circle" aria-hidden="true"></i>\
               Para estar presente nos territórios, aplicamos de forma local uma série de metodologias e ferramentas desenvolvidos pelo ONU-Habitat e por parceiros nacionais. Coleta e análise de dados, promoção de espaços públicos, inovação aplicada à gestão pública, planejamento urbano participativo e ações de advocacy são algumas de nossas principais linhas de atuação no Brasil. Navegue pelas fotos e saiba mais sobre cada uma delas.\
             </p>\
             <div class="col-12 text-center pb-4">\
@@ -1903,7 +1902,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="3500" role="listbox">\
+            <div class="carousel slide multi-item-carousel" data-ride="carousel" id="theCarousel" data-interval="4000" role="listbox">\
               <div class="carousel-inner row w-100 mx-auto pb-5 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
@@ -1915,6 +1914,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Avaliação de Espaços Públicos na Escala da Cidade</h4>\
                             <p class="card-text">A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
                             <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
                         </div>\
@@ -1929,6 +1929,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Avaliação de Necessidades de Capacitação</h4>\
                             <p class="card-text">A Avaliação de Necessidades de Capacitação é um processo que identifica as necessidades de treinamento e formação de um determinado grupo de profissionais em áreas específicas, como desenvolvimento, cooperação, gerenciamento, financiamento, planejamento e inovação. Essa avaliação pode ser realizada por meio de questionários ou reuniões com grupos focais, e busca aprimorar o conhecimento e habilidades desses profissionais.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/428dX1P">SAIBA MAIS</a>\
                         </div>\
@@ -1943,6 +1944,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Cidade Mulher</h4>\
                             <p class="card-text">Busca compreender a relação das mulheres com a cidade e diagnosticar as sensações de (in)segurança nos espaços públicos por meio das suas percepções, experiências de cidade e levantamento de necessidades. Esta é uma iniciativa do ONU-Habitat Brasil baseada na metodologia global de Auditoria de Segurança das Mulheres.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/3outviV">SAIBA MAIS</a>\
                         </div>\
@@ -1957,6 +1959,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Desafio de Inovação</h4>\
                             <p class="card-text">Iniciativa que estimula a construção coletiva de soluções de inovação para a gestão pública voltadas a enfrentar problemas urbanos que dificultam o desenvolvimento da região. A metodologia envolve a criação de práticas inovadoras, replicáveis e escalonáveis por meio de estratégias criativas e colaborativas e de processos de experimentação capazes de aprimorar a qualidade dos serviços públicos dos municípios. As melhores propostas são apresentadas e premiadas em um evento de reconhecimento.</p>\
                             <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
                         </div>\
@@ -1971,6 +1974,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Desenho de Espaços Públicos</h4>\
                             <p class="card-text">Incentiva jovens a melhorar espaços públicos em seus territórios. Com técnicas simples de urbanismo e cartografia, a metodologia desenvolve maquetes físicas dos espaços desejados. As oficinas envolvem dinâmicas e pesquisa de campo, permitindo que os jovens confrontem suas ideias com as de seus vizinhos e comerciantes locais. Os dados coletados são sistematizados em uma proposta final entregue às autoridades e à população local, permitindo que o poder público atue para melhorar os espaços públicos.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/3INoR6i">SAIBA MAIS</a>\
                         </div>\
@@ -1985,6 +1989,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Índice de Prosperidade das Cidades</h4>\
                             <p class="card-text">Ferramenta que utiliza indicadores para representar seis dimensões da prosperidade nas cidades: produtividade, desenvolvimento de infraestrutura, qualidade de vida, equidade e inclusão social, sustentabilidade ambiental, e governança e legislação urbanas. É utilizado para conceber, monitorar e avaliar ações, programas e políticas públicas implementadas nessas cidades.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/43wvP7H">SAIBA MAIS</a>\
                         </div>\
@@ -1999,6 +2004,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável</h4>\
                             <p class="card-text">Inspirada na metodologia Urban Labs do ONU-Habitat, o Laboratório considera o alinhamento dos programas de um governo aos Objetivos de Desenvolvimento Sustentável e à Nova Agenda Urbana e elabora coletivamente, com gestores municipais e representantes da sociedade civil, propostas para aperfeiçoar as políticas públicas em questão e promover o desenvolvimento urbano sustentável.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/3C2unhO">SAIBA MAIS</a>\
                         </div>\
@@ -2012,6 +2018,7 @@ var config = {
                       <h5>Mapa Rápido Participativo<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
+                        <h4>Mapa Rápido Participativo</h4>\
                         <div class="info">\
                             <p class="card-text">Consiste no levantamento de informações sobre a cobertura e qualidade dos serviços públicos relacionados diretamente ao território. Esse método permite diagnosticar as condições de infraestrutura urbana e qualidade dos serviços em assentamentos precários de forma ágil e participativa.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/3P2GYJJ">SAIBA MAIS</a>\
@@ -2026,6 +2033,7 @@ var config = {
                       <h5>Observatório de Políticas Públicas<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
+                        <h4>Observatório de Políticas Públicas</h4>\
                         <div class="info">\
                             <p class="card-text">Criação de uma plataforma aberta com dados e indicadores alinhados às agendas globais de desenvolvimento sustentável para apoiar políticas públicas setoriais e melhorar o atendimento à população.</p>\
                             <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
@@ -2055,6 +2063,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Territórios Sociais</h4>\
                             <p class="card-text">Programa para reduzir o risco social e as vulnerabilidades das famílias atendidas, dividido em três etapas: busca ativa, plano de ação integrado e monitoramento. Através da aplicação do Índice de Pobreza Multidimensional (IPM), adaptado do PNUD, são identificadas as privações em educação, saúde e padrão de vida. As famílias com maior grau de vulnerabilidade passam a ser monitoradas de forma integrada por diversos órgãos da Prefeitura, na perspectiva de inclusão nos serviços e benefícios e na ampliação de oportunidades.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/45ySsdB">SAIBA MAIS</a>\
                         </div>\
