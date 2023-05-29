@@ -1416,3 +1416,97 @@ ul.social-icons li{
 .float-right {
     margin-left: 0.25em;
 }
+
+
+
+
+/*#wrapper {
+    float: right;
+    position: relative;
+    width: 175px;
+    height: 300px;
+  }
+  
+  #page, #cover, #page_top_edge, #shadow, #backcover {
+    position: absolute;
+    width: 110px;
+    height: 170px;
+    margin-top: 23px;
+    transform: skew(0deg,20deg);  
+  }
+  
+  #page{
+    background-color: #e0e0e0;
+    opacity: 1;
+    margin-top: 20px;
+    z-index: 90;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(30%, transparent), to(rgba(255,255,255,0.2)));
+    
+  }
+  #backcover{
+    margin-left: 10px;
+    margin-top: 17px;
+    width: 112px;
+    z-index: -1;
+    background-color: #9e9e9e; 
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,.3);
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(30%, transparent), to(rgba(255,255,255,0.3)));
+  }
+
+  #cover {
+    position: absolute;
+    height: 172px;
+    width: 100px;
+    background-color: #FFF;
+    margin-top: 24px;
+    opacity: 1;
+    z-index: 200;
+    transform: skew(0deg,25deg);
+    -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, transparent), to(rgba(255,255,255,0.2)));
+    box-shadow: 2px 0px 10px -3px rgba(0,0,0,.3);
+    backface-visibility: hidden; 
+}
+  
+  #cover img {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  
+  #page_top_edge { 
+    height: 4px;
+    margin-left: 5px;
+    margin-top: 18px;
+    z-index: 100;
+    background-color: #FFF;
+    transform: skew(110deg,20deg);
+  }
+  #page_front_edge, #spine {
+    position: absolute;
+    width: 10px;
+    height: 170px;
+    margin-left: 110px;
+    margin-top: 39px;
+    background-color: #cfcfcf;
+    transform: skew(0deg,-20deg);
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(30%, transparent), to(rgba(255,255,255,0.6)));
+  }
+  
+  #spine {
+    margin-left: 0px;
+    margin-top: -2px;
+    background-color: #9e9e9e;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(30%, transparent), to(rgba(255,255,255,0.0)));
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,.6);
+  }
+  
+  #shadow {
+    background-color: #707070;
+    opacity: 0.1;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+    transform: skew(295deg,20deg);
+    height: 50px;
+    margin-top: 145px;
+    margin-left: 52px;
+    z-index: -1; 
+  } */

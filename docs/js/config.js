@@ -216,7 +216,6 @@ var config = {
       <div class="light-rosa rounded-lg shadow-lg">\
         <div class="container container-intro">\
           <p>\
-            <i class="fa fa-info-circle" aria-hidden="true"></i>\
             Na seção a seguir, apresentamos uma compilação das ações e iniciativas realizadas ao longo de 2022. Convidamos você a percorrer a linha do tempo, conhecer nossos principais resultados e explorar as publicações e metodologias de maior destaque no ano.\
           </p>\
         </div>\
@@ -262,7 +261,6 @@ var config = {
         <div class="container pb-4">\
             <h1 class="align-self-center rosa text-center">Retrospectiva 2022</h1>\
             <p class="rosa text-center">\
-              <i class="fa fa-info-circle" aria-hidden="true"></i>\
               Navegue pelas fotos a seguir e confira, de janeiro a dezembro, alguns dos melhores momentos do ano.\
             </p>\
               <div class="col-12 text-center pt-2">\
@@ -782,7 +780,6 @@ var config = {
       <div class="light rounded-lg shadow-lg">\
           <h1 class="rosa text-center p-top">2022 em Números</h1>\
           <p class="rosa text-center pb-4 pl-5 pr-5">\
-            <i class="fa fa-info-circle" aria-hidden="true"></i>\
             Em 2022, nossas iniciativas se expandiram e alcançaram os mais diversos públicos em diferentes regiões do país. Confira a seguir alguns dos principais marcos e resultados do ano.\
           </p>\
             <div class="row p-bottom">\
@@ -967,6 +964,106 @@ var config = {
       ]
     },
 
+ /*   {
+      id: "teste",
+      alignment: "full",
+      hidden: false,
+      description: '\
+      <div class="light">\
+        <div class="container pb-4">\
+          <h1 class="align-self-center rosa text-center">TESTE</h1>\
+          <p class="rosa text-center pb-1 pl-5 pr-5">\
+            Nossas metodologias geram dados, mapas e informações valiosas sobre cada território em que atuamos. Essas informações são consolidadas em publicações, que contribuem para que atores urbanos possam atuar com mais precisão e criar políticas públicas baseadas em evidências para enfrentar problemas urbanos e reduzir desigualdades.\
+          </p>\
+          <div id="CarouselPub" class="carousel slide" data-ride="carousel" data-interval="8500">\
+            <div class="col-12 text-center pb-1 pt-1">\
+                <a class="btn btn-primary mr-1 cursor-hover" href="#CarouselPub" role="button" data-slide="prev">\
+                    <i class="fa fa-arrow-left"></i>\
+                </a>\
+                <a class="btn btn-primary cursor-hover" href="#CarouselPub" role="button" data-slide="next">\
+                    <i class="fa fa-arrow-right"></i>\
+                </a>\
+            </div>\
+            <div class="carousel-inner">\
+                <div class="carousel-item active">\
+                      <div class="pub-cell row">\
+                        <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                          <div class="pub-img">\
+                            <div id="wrapper">\
+                              <div id="cover"><img src="./images/publicacoes/01_Relatorio_Aval_Esp_Pub_Barracao_comp.jpeg" alt="Capa Publicação"></div>\
+                              <div id="page"></div>\
+                              <div id="page_front_edge"></div>\
+                              <div id="page_top_edge"></div>\
+                              <div id="backcover"></div>\
+                              <div id="spine"></div>\
+                              <div id="shadow"></div>\
+                            </div>\
+                          </div>\
+                        </div>\
+                        <div class="col-sm-12 col-md-6">\
+                          <div class="pub-content">\
+                            <div class="pub-title">Avaliação de Espaços Públicos: Cidades na Fronteira</div>\
+                            <div class="pub-info text-justify">Relatório da Avaliação de Espaços Públicos em municípios do projeto Conexões Urbanas, incluindo análise de dimensões relacionadas à quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde. O trabalho foi fruto da análise de leis e planos locais, assim como da coleta de informações em visitas de campo e entrevistas com informantes-chave da população.</div>\
+                            <a class="btn btn-primary cursor-hover" target="_blank" href="https://drive.google.com/file/d/1BjJ9sYx0sg0NDvC8iAtrQ5GpSNDKYzzd/view">SAIBA MAIS</a>\
+                          </div>\
+                        </div>\
+                      </div>\
+                </div>\
+                <div class="carousel-item">\
+                      <div class="pub-cell row">\
+                        <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
+                          <div class="pub-img">\
+                            <div id="wrapper">\
+                              <div id="cover"><img src="./images/publicacoes/05_Progress Report 4_Social Territories_August 2022.jpeg"></div>\
+                              <div id="page"></div>\
+                              <div id="page_front_edge"></div>\
+                              <div id="page_top_edge"></div>\
+                              <div id="backcover"></div>\
+                              <div id="spine"></div>\
+                              <div id="shadow"></div>\
+                            </div>\
+                          </div>\
+                        </div>\
+                        <div class="col-sm-12 col-md-6">\
+                          <div class="pub-content">\
+                            <div class="pub-title">Avaliação de Espaços Públicos: Cidades na Fronteira</div>\
+                            <div class="pub-info text-justify">Relatório da Avaliação de Espaços Públicos em municípios do projeto Conexões Urbanas, incluindo análise de dimensões relacionadas à quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde. O trabalho foi fruto da análise de leis e planos locais, assim como da coleta de informações em visitas de campo e entrevistas com informantes-chave da população.</div>\
+                            <a class="btn btn-primary cursor-hover" target="_blank" href="https://drive.google.com/file/d/1BjJ9sYx0sg0NDvC8iAtrQ5GpSNDKYzzd/view">SAIBA MAIS</a>\
+                          </div>\
+                        </div>\
+                      </div>\
+                </div>\
+            </div>\
+          </div>\
+        </div>\
+      </div>\
+      ',
+      location: {
+        center: [-50.74782, -17.15769],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 1
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      spinGlobe: false,
+      mapInteractive: false,
+      callback: "",
+      onChapterEnter: [
+        {
+            layer: 'brasil',
+            opacity: 0.85
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'brasil',
+          opacity: 0
+        }
+      ]
+    }, */
+
     {
       id: "publicacoes",
       alignment: "full",
@@ -976,7 +1073,6 @@ var config = {
           <div class="container pb-4">\
               <h1 class="align-self-center rosa text-center">2022 em Publicações</h1>\
               <p class="rosa text-center pb-1 pl-5 pr-5">\
-                <i class="fa fa-info-circle" aria-hidden="true"></i>\
                 Nossas metodologias geram dados, mapas e informações valiosas sobre cada território em que atuamos. Essas informações são consolidadas em publicações, que contribuem para que atores urbanos possam atuar com mais precisão e criar políticas públicas baseadas em evidências para enfrentar problemas urbanos e reduzir desigualdades.\
               </p>\
               <div id="CarouselPub" class="carousel slide" data-ride="carousel" data-interval="8500">\
@@ -1064,7 +1160,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Relatório anual 2021/2022 de Territórios Sociais</div>\
                           <div class="pub-info text-justify">O relatório anual apresenta um diagnóstico com dados da Busca Ativa, apontando as vulnerabilidades territoriais das áreas abarcadas pelo programa desde 2019 com base em 138.279 entrevistas realizadas em 40.669 famílias monitoradas. O relatório também apresenta a atuação do programa e os resultados obtidos através da aplicação do protocolo integrado.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://bit.ly/3OJf2du">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
@@ -1112,7 +1208,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Relatório Integrado do Mapa Rápido Participativo de Juiz de Fora</div>\
                           <div class="pub-info text-justify">Sistematiza os resultados do Mapa Rápido Participativo realizado nos 141 territórios abarcados pela parceria entre a Prefeitura de Juiz de Fora e o ONU-Habitat. O relatório fornece uma análise estratégica dos oito macroterritórios de Juiz de Fora, visando compreender as características próprias de cada região e identificar as dinâmicas urbanas locais em comum. O relatório também apresenta uma análise detalhada de cada macroterritório, destacando as características que impactam na qualidade de vida dos moradores.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://bit.ly/428kp93">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
@@ -1128,7 +1224,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Relatório dos Módulos de treinamento para o desenvolvimento de capacidades do setor público das 52 cidades priorizadas no G52</div>\
                           <div class="pub-info text-justify">Destinados a gestores e servidores do G52, os módulos de treinamento do projeto buscaram disseminar conhecimentos teóricos e experiências práticas para fortalecer as capacidades dos municípios no desenvolvimento urbano e territorial sustentável. O relatório apresenta os resultados alcançados nesses módulos, abrangendo temas como agendas globais de desenvolvimento, cooperação, gerenciamento de projetos, financiamento público, economia urbana, planejamento urbano e regional, inovação, governos digitais e cidades inteligentes centradas nas pessoas.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://bit.ly/43xviCx">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
@@ -1144,7 +1240,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Relatório sobre o Desafio de Inovação da Rede de Cidades-Polo do Nordeste</div>\
                           <div class="pub-info text-justify">O relatório apresenta o Desafio de Inovação da Rede de Cidades-Polo do Nordeste, que buscou incentivar as cidades participantes do G52 a desenvolver projetos-piloto incorporando aprendizados anteriores. Houve mentoria para os servidores dos municípios, abordando metodologias participativas e políticas baseadas em evidências. As três melhores propostas foram premiadas em evento público e divulgadas em diferentes meios.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://bit.ly/3N2fZfK">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
@@ -1160,7 +1256,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Relatório Final do G52</div>\
                           <div class="pub-info text-justify">O relatório descreve o evento público de apresentação dos projetos de inovação construídos de maneira compartilhada e da assinatura da adesão à rede. O evento incluiu a premiação do Desafio de Inovação e a assinatura da Carta Compromisso, com a presença de servidores da Sudene, equipes do PNUD e ONU-Habitat, representantes institucionais, prefeitos, vice-prefeitos, secretários e servidores dos municípios do G52.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://bit.ly/42cn0ik">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
@@ -1370,14 +1466,30 @@ var config = {
           </div>\
         </div>\
       ',
-      location: {},
+      location: {
+        center: [-50.74782, -17.15769],
+        zoom: 1.5,
+        pitch: 0.00,
+        bearing: 0.00,
+        speed: 1
+      },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       spinGlobe: false,
       mapInteractive: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
+      onChapterEnter: [
+        {
+            layer: 'brasil',
+            opacity: 0.85
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'brasil',
+          opacity: 0
+        }
+      ]
     },
 
     /*{
@@ -1804,6 +1916,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
+                            <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1817,6 +1930,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">A Avaliação de Necessidades de Capacitação é um processo que identifica as necessidades de treinamento e formação de um determinado grupo de profissionais em áreas específicas, como desenvolvimento, cooperação, gerenciamento, financiamento, planejamento e inovação. Essa avaliação pode ser realizada por meio de questionários ou reuniões com grupos focais, e busca aprimorar o conhecimento e habilidades desses profissionais.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/428dX1P">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1830,6 +1944,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Busca compreender a relação das mulheres com a cidade e diagnosticar as sensações de (in)segurança nos espaços públicos por meio das suas percepções, experiências de cidade e levantamento de necessidades. Esta é uma iniciativa do ONU-Habitat Brasil baseada na metodologia global de Auditoria de Segurança das Mulheres.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/3outviV">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1843,6 +1958,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Iniciativa que estimula a construção coletiva de soluções de inovação para a gestão pública voltadas a enfrentar problemas urbanos que dificultam o desenvolvimento da região. A metodologia envolve a criação de práticas inovadoras, replicáveis e escalonáveis por meio de estratégias criativas e colaborativas e de processos de experimentação capazes de aprimorar a qualidade dos serviços públicos dos municípios. As melhores propostas são apresentadas e premiadas em um evento de reconhecimento.</p>\
+                            <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1856,6 +1972,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Incentiva jovens a melhorar espaços públicos em seus territórios. Com técnicas simples de urbanismo e cartografia, a metodologia desenvolve maquetes físicas dos espaços desejados. As oficinas envolvem dinâmicas e pesquisa de campo, permitindo que os jovens confrontem suas ideias com as de seus vizinhos e comerciantes locais. Os dados coletados são sistematizados em uma proposta final entregue às autoridades e à população local, permitindo que o poder público atue para melhorar os espaços públicos.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/3INoR6i">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1869,6 +1986,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Ferramenta que utiliza indicadores para representar seis dimensões da prosperidade nas cidades: produtividade, desenvolvimento de infraestrutura, qualidade de vida, equidade e inclusão social, sustentabilidade ambiental, e governança e legislação urbanas. É utilizado para conceber, monitorar e avaliar ações, programas e políticas públicas implementadas nessas cidades.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/43wvP7H">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1882,6 +2000,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Inspirada na metodologia Urban Labs do ONU-Habitat, o Laboratório considera o alinhamento dos programas de um governo aos Objetivos de Desenvolvimento Sustentável e à Nova Agenda Urbana e elabora coletivamente, com gestores municipais e representantes da sociedade civil, propostas para aperfeiçoar as políticas públicas em questão e promover o desenvolvimento urbano sustentável.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/3C2unhO">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1895,6 +2014,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Consiste no levantamento de informações sobre a cobertura e qualidade dos serviços públicos relacionados diretamente ao território. Esse método permite diagnosticar as condições de infraestrutura urbana e qualidade dos serviços em assentamentos precários de forma ágil e participativa.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/3P2GYJJ">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1908,6 +2028,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Criação de uma plataforma aberta com dados e indicadores alinhados às agendas globais de desenvolvimento sustentável para apoiar políticas públicas setoriais e melhorar o atendimento à população.</p>\
+                            <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1921,6 +2042,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Pesquisa domiciliar amostral que tem como objetivo analisar todo o território avaliado através do diagnóstico da situação sociodemográfica e econômica das famílias, além de avaliar a mobilidade residencial, o acesso a equipamentos e serviços na comunidade e a percepção da população sobre o território em que vivem.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/3WDqusW">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1934,6 +2056,7 @@ var config = {
                     <div class="card back-face">\
                         <div class="info">\
                             <p class="card-text">Programa para reduzir o risco social e as vulnerabilidades das famílias atendidas, dividido em três etapas: busca ativa, plano de ação integrado e monitoramento. Através da aplicação do Índice de Pobreza Multidimensional (IPM), adaptado do PNUD, são identificadas as privações em educação, saúde e padrão de vida. As famílias com maior grau de vulnerabilidade passam a ser monitoradas de forma integrada por diversos órgãos da Prefeitura, na perspectiva de inclusão nos serviços e benefícios e na ampliação de oportunidades.</p>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/45ySsdB">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1990,12 +2113,12 @@ var config = {
         <div class="light-laranja rounded-lg shadow-lg">\
           <div class="container container-intro">\
             <p>Entre 2020 e 2022, o ONU-Habitat Brasil expandiu sua atuação para diversos territórios no Brasil e Cone Sul.<p>\
+            <br>\
             <p>\
-              <i class="fa fa-info-circle" aria-hidden="true"></i>\
               A seguir, você será guiado por alguns daqueles onde sua presença se destacou em 2022. Navegue por cada lugar onde nossas iniciativas tomaram forma, descobrindo suas características e essência. Em cada seção, você também vai conhecer a história de pessoas que fizeram parte e foram impactadas por essas ações.\
             </p>\
+            <br>\
             <p>\
-              <i class="fa fa-map-pin" aria-hidden="true"></i>\
               Explore! Mova a visão clicando em qualquer lugar do mapa à direita do texto. Altere o zoom com os botões localizados à direita da tela. Caso esteja utilizando desktop/notebook, utilize o mouse e a tecla CTRL para alterar o ângulo de visão.\
             </p>\
           </div>\
