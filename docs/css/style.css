@@ -1267,6 +1267,17 @@ ul.social-icons li{
     font-size: 1em;
   }
 
+#theCarousel .card .btn-primary {
+    font-size: 0.75em;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#theCarousel .card .btn-primary:hover {
+    color: #fff;
+    border: 2px solid #cc3480;
+}
+
 @media (min-width: 576px) {
   .container-exp {
     max-width: 700px;
@@ -1286,6 +1297,9 @@ ul.social-icons li{
   }
   .container-num {
     max-width: 600px;
+  }
+  #theCarousel .card .btn {
+    font-size: 0.75rem;
   }
   .card .btn {
     font-size: 0.8rem;
@@ -1316,6 +1330,9 @@ ul.social-icons li{
   }
   .card .btn {
     font-size: 0.85rem;
+  }
+  #theCarousel .card .btn {
+    font-size: 0.75rem;
   }
   #theCarouselPub .card .btn {
     font-size: 0.75rem;
