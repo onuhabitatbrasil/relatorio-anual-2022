@@ -276,7 +276,7 @@ map.on("load", function () {
             // radio input 
             if (chapter.id === 'intro-2') {
 
-                document.getElementById('mapToggle').style.opacity = 1;
+                //document.getElementById('mapToggle').style.opacity = 1;
 
                 filterBy('2022')
 
@@ -288,7 +288,8 @@ map.on("load", function () {
             } 
 
             if (chapter.id !== 'intro-2') {
-                document.getElementById('mapToggle').style.opacity = 0;
+                
+                //document.getElementById('mapToggle').style.opacity = 0;
 
                 document.getElementById("slider").value = '2022';
             }
