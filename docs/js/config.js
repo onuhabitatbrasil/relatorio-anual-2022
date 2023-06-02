@@ -1124,22 +1124,6 @@ var config = {
                     <div class="pub-cell row">\
                       <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
                         <div class="pub-img">\
-                          <img src="./images/publicacoes/03_Relatório Cidade Mulher_Caderno Oficinas_Versão 12.12 - online.jpeg" alt="Capa Publicação" class="pub-photo">\
-                        </div>\
-                      </div>\
-                      <div class="col-sm-12 col-md-6">\
-                        <div class="pub-content">\
-                          <div class="pub-title">Relatório Cidade Mulher</div>\
-                          <div class="pub-info text-justify">O documento apresenta a sistematização e os resultados das oficinas Cidade Mulher, que buscaram mapear a percepção das mulheres em relação aos fatores que geram (in)segurança em seus territórios. O objetivo foi contribuir para o diagnóstico da segurança urbana e fornecer sugestões para políticas públicas que tornem os espaços públicos mais inclusivos e seguros para mulheres jovens, adultas e idosas.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
-                        </div>\
-                      </div>\
-                    </div>\
-                  </div>\
-                  <div class="carousel-item">\
-                    <div class="pub-cell row">\
-                      <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
-                        <div class="pub-img">\
                           <img src="./images/publicacoes/04_Doc Pés no chao, janela do céu.jpg" alt="Capa Publicação" class="pub-photo">\
                         </div>\
                       </div>\
