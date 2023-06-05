@@ -1546,7 +1546,7 @@ var config = {
                         <div class="info">\
                             <h4>Avaliação de Espaços Públicos na Escala da Cidade</h4>\
                             <p class="card-text">A metodologia visa apoiar governos locais a compreender a situação atual da rede de espaços públicos de suas cidades, com ênfase em parques e praças. Avalia-se distribuição, quantidade e aspectos quantitativos e qualitativos desses espaços, tais como acessibilidade, instalações físicas, conforto ambiental, segurança, verde, tipos de uso e perfil de usuários. Os dados são coletados por questionários aplicados em visita de campo e entrevistas. Os resultados são compilados em mapas e gráficos de indicadores para subsidiar estratégias e políticas urbanas, buscando a oferta de espaços públicos seguros, acessíveis e inclusivos.</p>\
-                            <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/3OTQH4W">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1591,7 +1591,7 @@ var config = {
                         <div class="info">\
                             <h4>Desafio de Inovação</h4>\
                             <p class="card-text">Iniciativa que estimula a construção coletiva de soluções de inovação para a gestão pública voltadas a enfrentar problemas urbanos que dificultam o desenvolvimento da região. A metodologia envolve a criação de práticas inovadoras, replicáveis e escalonáveis por meio de estratégias criativas e colaborativas e de processos de experimentação capazes de aprimorar a qualidade dos serviços públicos dos municípios. As melhores propostas são apresentadas e premiadas em um evento de reconhecimento.</p>\
-                            <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/3OQyrZY">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
@@ -1666,7 +1666,7 @@ var config = {
                         <h4>Observatório de Políticas Públicas</h4>\
                         <div class="info">\
                             <p class="card-text">Criação de uma plataforma aberta com dados e indicadores alinhados às agendas globais de desenvolvimento sustentável para apoiar políticas públicas setoriais e melhorar o atendimento à população.</p>\
-                            <a class="btn btn-primary" target="_blank" href="______LINK">SAIBA MAIS</a>\
+                            <a class="btn btn-primary" target="_blank" href="https://bit.ly/42li0rJ">SAIBA MAIS</a>\
                         </div>\
                     </div>\
                   </div>\
