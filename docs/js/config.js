@@ -1529,7 +1529,7 @@ var config = {
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/01_Avaliação de Espaços Públicos_Sabrina Albuquerque.jpg" alt="Avaliação de Espaços Públicos na Escala da Cidade">\
                       <h5>\
                         Avaliação de Espaços Públicos na Escala da Cidade<i class="fa fa-plus-circle" aria-hidden="true"></i>\
                       </h5>\
@@ -1546,7 +1546,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/02_Avaliação de necessidades de capacitação_Minne Santos.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/02_Avaliação de necessidades de capacitação_Minne Santos.jpg" alt="Avaliação de Necessidades de Capacitação">\
                       <h5>Avaliação de Necessidades de Capacitação<i class="fa fa-plus-circle" aria-hidden="true"></i>\</h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1561,7 +1561,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/03_Cidade Mulher_Renatto Mendonça.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/03_Cidade Mulher_Renatto Mendonça.jpg" alt="Cidade Mulher">\
                       <h5>Cidade Mulher<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1576,7 +1576,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/04_Desafio de Inovação_Ascom Sudene.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/04_Desafio de Inovação_Ascom Sudene.jpg" alt="Desafio de Inovação">\
                       <h5>Desafio de Inovação<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1591,7 +1591,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/05_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/05_Desenho de Espaços Públicos_Petrolina_ Renatto Mendonca.jpg" alt="Desenho de Espaços Públicos">\
                       <h5>Desenho de Espaços Públicos<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1606,7 +1606,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/06_Índice de Prosperidade das Cidades_Minne Santos.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/06_Índice de Prosperidade das Cidades_Minne Santos.jpg" alt="Índice de Prosperidade das Cidades">\
                       <h5>Índice de Prosperidade das Cidades<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1621,7 +1621,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/07_Laboratório de Planejamento_AL.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/07_Laboratório de Planejamento_AL.jpg" alt="Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável">\
                       <h5>Laboratório de Planejamento e Projetos para o Desenvolvimento Urbano Sustentável<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1636,7 +1636,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/08_MRP_JF.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/08_MRP_JF.jpg" alt="Mapa Rápido Participativo">\
                       <h5>Mapa Rápido Participativo<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1651,7 +1651,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/09_Observatório de Políticas Públicas_AL.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/09_Observatório de Políticas Públicas_AL.jpg" alt="Observatório de Políticas Públicas">\
                       <h5>Observatório de Políticas Públicas<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1666,7 +1666,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/10_Perfil Socioeconômico_JF.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/10_Perfil Socioeconômico_JF.jpg" alt="Perfil Socioeconômico">\
                       <h5>Perfil Socioeconômico<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
@@ -1681,7 +1681,7 @@ var config = {
                 <div class="carousel-item col-md-4">\
                   <div class="wrapper">\
                     <div class="card front-face">\
-                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/11_Territórios Sociais_RJ.jpg">\
+                      <img class="img-fluid mx-auto d-block" src="./images/metodologias/11_Territórios Sociais_RJ.jpg" alt="Territórios Sociais">\
                       <h5>Territórios Sociais<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
