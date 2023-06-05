@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 /*font-family: 'Source Sans Pro', sans-serif;*/
 
-@import url('https://fonts.cdnfonts.com/css/bolgart&display=swap');
+/*@import url('https://fonts.cdnfonts.com/css/bolgart');/*
 /* font-family: 'Bolgart', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Paytone+One&display=swap');
+/*font-family: 'Paytone One', sans-serif;*/
 
 body {
     margin: 0;
@@ -158,7 +161,7 @@ p a:hover {
 
 #header h1 {
     text-transform: uppercase;
-    font-family: 'Bolgart', sans-serif;
+    font-family: 'Paytone One', sans-serif;
     color: #00afe2;
     text-align: left;
     font-size: 2.5rem;
@@ -465,8 +468,7 @@ ul.social-icons li{
 }
 
 .step {
-    padding-bottom: 70vh;
-    /*margin-bottom: 20vh;*/
+    padding-bottom: 65vh;
     opacity: 0.75;
     transition-duration: 0.25s;
 }
@@ -838,7 +840,7 @@ ul.social-icons li{
     padding: 0.2em 0;
     font-size: 16px;
     color: #cc3480;
-    font-family: 'Bolgart', sans-serif;
+    font-family: 'Paytone One', sans-serif;
     text-align: left;
   } 
   
