@@ -1486,13 +1486,6 @@ var config = {
       description: '\
       <div class="light">\
         <div class="container">\
-          <div class="main-carousel" data-flickity="{ "wrapAround": true }">\
-            <div class="carousel-cell"></div>\
-            <div class="carousel-cell"></div>\
-            <div class="carousel-cell"></div>\
-            <div class="carousel-cell"></div>\
-            <div class="carousel-cell"></div>\
-          </div>\
         </div>\
       </div>\
       ',
@@ -1511,7 +1504,6 @@ var config = {
       onChapterEnter: [],
       onChapterExit: []
     },*/
-
 
     {
       id: "metodologias",
@@ -1648,8 +1640,8 @@ var config = {
                       <h5>Mapa Rápido Participativo<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
-                        <h4>Mapa Rápido Participativo</h4>\
                         <div class="info">\
+                        <h4>Mapa Rápido Participativo</h4>\
                             <p class="card-text">Consiste no levantamento de informações sobre a cobertura e qualidade dos serviços públicos relacionados diretamente ao território. Esse método permite diagnosticar as condições de infraestrutura urbana e qualidade dos serviços em assentamentos precários de forma ágil e participativa.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/3P2GYJJ">SAIBA MAIS</a>\
                         </div>\
@@ -1663,8 +1655,8 @@ var config = {
                       <h5>Observatório de Políticas Públicas<i class="fa fa-plus-circle" aria-hidden="true"></i></h5>\
                     </div>\
                     <div class="card back-face">\
-                        <h4>Observatório de Políticas Públicas</h4>\
                         <div class="info">\
+                            <h4>Observatório de Políticas Públicas</h4>\
                             <p class="card-text">Criação de uma plataforma aberta com dados e indicadores alinhados às agendas globais de desenvolvimento sustentável para apoiar políticas públicas setoriais e melhorar o atendimento à população.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/42li0rJ">SAIBA MAIS</a>\
                         </div>\
@@ -1679,6 +1671,7 @@ var config = {
                     </div>\
                     <div class="card back-face">\
                         <div class="info">\
+                            <h4>Perfil Socioeconômico</h4>\
                             <p class="card-text">Pesquisa domiciliar amostral que tem como objetivo analisar todo o território avaliado através do diagnóstico da situação sociodemográfica e econômica das famílias, além de avaliar a mobilidade residencial, o acesso a equipamentos e serviços na comunidade e a percepção da população sobre o território em que vivem.</p>\
                             <a class="btn btn-primary" target="_blank" href="https://bit.ly/3WDqusW">SAIBA MAIS</a>\
                         </div>\
