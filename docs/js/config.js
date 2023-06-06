@@ -1747,7 +1747,7 @@ var config = {
             <p>Entre 2020 e 2022, o ONU-Habitat Brasil expandiu sua atuação para diversos territórios no Brasil e Cone Sul.<p>\
             <p>Confira essa evolução ao longo do tempo!<p>\
             <div id="mapToggle">\
-            <h5>Ano:</h5>\
+            <h5>Selecione o ano:</h5>\
               <label for="2020" class="float-left">2020</label>\
               <label for="2022" class="float-right">2022</label>\
               <input id="slider" type="range" min="2020" max="2022" step="1" value="2022">\
