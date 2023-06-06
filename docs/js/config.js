@@ -1115,7 +1115,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Relatório de Desenho de Espaços Públicos</div>\
                           <div class="pub-info text-justify">O relatório apresenta a sistematização e resultados das oficinas de Desenho de Espaços Públicos em Pernambuco, que tiveram como objetivo criar propostas concretas para espaços públicos de forma participativa com jovens de 14 a 29 anos. As propostas foram baseadas em diagnósticos, avaliações, necessidades e sugestões dos grupos participantes, visando tornar esses espaços seguros, inclusivos, sustentáveis e saudáveis.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="________LINK">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://bit.ly/3WRsDkW">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
