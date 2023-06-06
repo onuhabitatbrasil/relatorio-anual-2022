@@ -1326,6 +1326,9 @@ ul.social-icons li{
   .lefty {
     width: 35vw;
   }
+  .righty {
+    width: 35vw;
+  }
   .centered {
     width: 65vw;
   }
@@ -1359,6 +1362,9 @@ ul.social-icons li{
     float: right !important;
   }
   .lefty {
+    width: 33vw;
+  }
+  .righty {
     width: 33vw;
   }
   .fa-2x {
