@@ -1975,7 +1975,7 @@ var config = {
         {
           layer: 'temperature',
           opacity: 0.85,
-          duration: 3000
+          duration: 2000
         }
       ],
       onChapterExit: [
@@ -2176,23 +2176,21 @@ var config = {
         onChapterEnter: [
             {
                 layer: 'satellite',
-                opacity: 0.5,
-                duration: 2000
+                opacity: 0.5
             },
             {
                 layer: 'agsn',
-                opacity: 0.7,
-                duration: 1000
+                opacity: 0.6
             }
         ],
         onChapterExit: [
             {
-                layer: 'satellite',
+                layer: 'agsn',
                 opacity: 0
             },
             {
-                layer: 'agsn',
-                opacity: 0
+              layer: 'satellite',
+              opacity: 0
             }
         ]
       },
@@ -2246,15 +2244,19 @@ var config = {
         callback: '',
         onChapterEnter: [
           {
+              layer: 'satellite',
+              opacity: 0
+          },
+          {
               layer: 'agsn',
-              opacity: 0.75
+              opacity: 0.6
           }
         ],
         onChapterExit: [
-          {
-              layer: 'agsn',
-              opacity: 0
-          }
+            {
+                layer: 'agsn',
+                opacity: 0
+            }
         ]
      },
 
@@ -2294,25 +2296,23 @@ var config = {
       onChapterEnter: [
         {
             layer: 'satellite',
-            opacity: 0.5,
-            duration: 2000
+            opacity: 0.5
         },
         {
             layer: 'agsn',
-            opacity: 0.6,
-            duration: 1000
+            opacity: 0.6
         }
-    ],
-    onChapterExit: [
-        {
+      ],
+      onChapterExit: [
+          {
+              layer: 'agsn',
+              opacity: 0
+          },
+          {
             layer: 'satellite',
             opacity: 0
-        },
-        {
-            layer: 'agsn',
-            opacity: 0
-        }
-    ]
+          }
+      ]
   },
 
    {
@@ -2369,15 +2369,10 @@ var config = {
         },
         {
             layer: 'agsn',
-            opacity: 0.6,
-            duration: 1000
+            opacity: 0.6
         }
       ],
       onChapterExit: [
-          {
-              layer: 'satellite',
-              opacity: 0
-          },
           {
               layer: 'agsn',
               opacity: 0
@@ -2422,23 +2417,21 @@ var config = {
       onChapterEnter: [
         {
             layer: 'satellite',
-            opacity: 0.5,
-            duration: 2000
+            opacity: 0.5
         },
         {
             layer: 'agsn',
-            opacity: 0.7,
-            duration: 1000
+            opacity: 0.6
         }
       ],
       onChapterExit: [
           {
-              layer: 'satellite',
+              layer: 'agsn',
               opacity: 0
           },
           {
-              layer: 'agsn',
-              opacity: 0
+            layer: 'satellite',
+            opacity: 0
           }
       ]
     },
@@ -2495,20 +2488,14 @@ var config = {
       onChapterEnter: [
         {
             layer: 'satellite',
-            opacity: 0,
-            duration: 2000
+            opacity: 0
         },
         {
             layer: 'agsn',
-            opacity: 0.6,
-            duration: 1000
+            opacity: 0.6
         }
       ],
       onChapterExit: [
-          {
-              layer: 'satellite',
-              opacity: 0
-          },
           {
               layer: 'agsn',
               opacity: 0
@@ -2553,23 +2540,21 @@ var config = {
         onChapterEnter: [
           {
               layer: 'satellite',
-              opacity: 0.5,
-              duration: 2000
+              opacity: 0.5
           },
           {
               layer: 'agsn',
-              opacity: 0.7,
-              duration: 1000
+              opacity: 0.6
           }
         ],
         onChapterExit: [
             {
-                layer: 'satellite',
+                layer: 'agsn',
                 opacity: 0
             },
             {
-                layer: 'agsn',
-                opacity: 0
+              layer: 'satellite',
+              opacity: 0
             }
         ]
     },
@@ -2632,8 +2617,12 @@ var config = {
         callback: '',
         onChapterEnter: [
           {
+              layer: 'satellite',
+              opacity: 0
+          },
+          {
               layer: 'agsn',
-              opacity: 0.7
+              opacity: 0.6
           }
         ],
         onChapterExit: [
@@ -2689,22 +2678,13 @@ var config = {
               layer: 'regioes-pe-sp',
               opacity: 0.6,
               duration: 1000
-          }//,
-          //{
-          //  layer: 'satellite',
-          //  opacity: 0.5,
-          //  duration: 2000
-          //}
+          }
         ],
         onChapterExit: [
             {
                 layer: 'regioes-pe-sp',
                 opacity: 0
-            }//,
-            //{
-            //  layer: 'satellite',
-            //  opacity: 0
-            //}
+            }
         ]
     },
 
@@ -2775,8 +2755,6 @@ var config = {
         id: 'territorio-curitiba',
         alignment: 'left',
         hidden: false,
-        //title: 'Escritório ONU-Habitat Brasil',
-        //bookmark: 'Territorios',
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
@@ -2811,12 +2789,6 @@ var config = {
           pitch: 52.00,
           bearing: 0.00,
           speed: 0.5
-          // flyTo additional controls-
-          // These options control the flight curve, making it move
-          // slowly and zoom out almost completely before starting
-          // to pan.
-          //speed: 2, // make the flying slow
-          //curve: 1, // change the speed at which it zooms out
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
@@ -2842,8 +2814,6 @@ var config = {
       id: 'historia-curitiba',
       alignment: 'full',
       hidden: false,
-      //title: 'Abertura',
-      bookmark: 'Curitiba',
       description: '\
       <div class="light">\
         <div class="container-history no-gutters p-left p-right">\
@@ -2881,12 +2851,6 @@ var config = {
         pitch: 52.00,
         bearing: 0.00,
         speed: 0.5
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -2913,8 +2877,6 @@ var config = {
           id: 'territorio-conexoes',
           alignment: 'left',
           hidden: false,
-          //title: 'Escritório ONU-Habitat Brasil',
-          //bookmark: 'Territorios',
           image: false,
           description: '\
           <div class="light rounded-lg shadow-lg">\
@@ -2940,12 +2902,6 @@ var config = {
                 pitch: 0,
                 bearing: 0,
                 speed: 1
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -3017,12 +2973,6 @@ var config = {
           pitch: 0,
           bearing: 0,
           speed: 1
-            // flyTo additional controls-
-            // These options control the flight curve, making it move
-            // slowly and zoom out almost completely before starting
-            // to pan.
-            //speed: 2, // make the flying slow
-            //curve: 1, // change the speed at which it zooms out
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
@@ -3055,8 +3005,6 @@ var config = {
         id: 'territorio-sul-global',
         alignment: 'left',
         hidden: false,
-        //title: 'Escritório ONU-Habitat Brasil',
-        //bookmark: 'Territorios',
         image: false,
         description: '\
         <div class="light rounded-lg shadow-lg">\
