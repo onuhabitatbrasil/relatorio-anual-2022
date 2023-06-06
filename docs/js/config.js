@@ -437,7 +437,7 @@ var config = {
                           </div>\
                           <article class="text-left">\
                             <p class="rosa">Fevereiro</p>\
-                            <h2>Início do ciclo de Oficinas de Desenho de Espaços Públicos em Pernambuco em 2022<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
+                            <h2>Início do ciclo de Oficinas de Desenho de Espaços Públicos em Pernambuco<i class="fa fa-plus-circle" aria-hidden="true"></i></h2>\
                           </article>\
                         </div>\
                     </div>\
@@ -826,7 +826,7 @@ var config = {
                     <span class="timeline__head">\
                     22 mil seguidores\
                     </span>\
-                    alcançados no Instagram, e mais de 200 publicações elaboradas com notícias sobre ações locais, advocacy e resultados da atuação no país. Na imprensa, foram mais de 630 menções sobre as iniciativas, com destaque para veiculações na TV aberta, entrevistas em rádio e diversas matérias em mídias internacionais, nacionais e locais. \
+                    alcançados no Instagram, e mais de 200 publicações elaboradas com notícias sobre ações locais, <span class="font-italic">advocacy</span> e resultados da atuação no país. Na imprensa, foram mais de 630 menções sobre as iniciativas, com destaque para veiculações na TV aberta, entrevistas em rádio e diversas matérias em mídias internacionais, nacionais e locais. \
                   </p>\
                 </div>\
                 <div class="col-sm-6 timeline__item">\
@@ -1514,7 +1514,7 @@ var config = {
         <div class="container container-exp pb-4">\
             <h1 class="align-self-center azul text-center">2022 em Metodologias</h1>\
             <p class="azul text-center pb-1 pl-5 pr-5">\
-              Para estar presente nos territórios, aplicamos de forma local uma série de metodologias e ferramentas desenvolvidos pelo ONU-Habitat e por parceiros nacionais. Coleta e análise de dados, promoção de espaços públicos, inovação aplicada à gestão pública, planejamento urbano participativo e ações de advocacy são algumas de nossas principais linhas de atuação no Brasil. Navegue pelas fotos e saiba mais sobre cada uma delas.\
+              Para estar presente nos territórios, aplicamos de forma local uma série de metodologias e ferramentas desenvolvidos pelo ONU-Habitat e por parceiros nacionais. Coleta e análise de dados, promoção de espaços públicos, inovação aplicada à gestão pública, planejamento urbano participativo e ações de <span class="font-italic">advocacy</span> são algumas de nossas principais linhas de atuação no Brasil. Navegue pelas fotos e saiba mais sobre cada uma delas.\
             </p>\
             <div class="col-12 text-center pb-4">\
                   <a class="btn btn-primary mr-1 btn-primary-azul " href="#theCarousel" role="button" data-slide="prev">\
