@@ -852,7 +852,7 @@ var config = {
                   <span class="timeline__head">\
                   37 jovens\
                   </span>\
-                  Já em Alagoas, 37 jovens fizeram parte do programa Digaê! - Juventudes, Comunicação e Cidade, sendo capacitados em direito à cidade, linguagens de comunicação e projetos de intervenção em comunicação nas grotas. \
+                  fizeram parte do programa Digaê! - Juventudes, Comunicação e Cidade, em Alagoas, sendo capacitados em direito à cidade, linguagens de comunicação e projetos de intervenção em comunicação nas grotas. \
                   </p>\
                 </div>\
                 <div class="col-sm-6 timeline__item">\
@@ -966,106 +966,6 @@ var config = {
       ]
     },
 
- /*   {
-      id: "teste",
-      alignment: "full",
-      hidden: false,
-      description: '\
-      <div class="light">\
-        <div class="container pb-4">\
-          <h1 class="align-self-center rosa text-center">TESTE</h1>\
-          <p class="rosa text-center pb-1 pl-5 pr-5">\
-            Nossas metodologias geram dados, mapas e informações valiosas sobre cada território em que atuamos. Essas informações são consolidadas em publicações, que contribuem para que atores urbanos possam atuar com mais precisão e criar políticas públicas baseadas em evidências para enfrentar problemas urbanos e reduzir desigualdades.\
-          </p>\
-          <div id="CarouselPub" class="carousel slide" data-ride="carousel" data-interval="8500">\
-            <div class="col-12 text-center pb-1 pt-1">\
-                <a class="btn btn-primary mr-1 cursor-hover" href="#CarouselPub" role="button" data-slide="prev">\
-                    <i class="fa fa-arrow-left"></i>\
-                </a>\
-                <a class="btn btn-primary cursor-hover" href="#CarouselPub" role="button" data-slide="next">\
-                    <i class="fa fa-arrow-right"></i>\
-                </a>\
-            </div>\
-            <div class="carousel-inner">\
-                <div class="carousel-item active">\
-                      <div class="pub-cell row">\
-                        <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
-                          <div class="pub-img">\
-                            <div id="wrapper">\
-                              <div id="cover"><img src="./images/publicacoes/01_Relatorio_Aval_Esp_Pub_Barracao_comp.jpeg" alt="Capa Publicação"></div>\
-                              <div id="page"></div>\
-                              <div id="page_front_edge"></div>\
-                              <div id="page_top_edge"></div>\
-                              <div id="backcover"></div>\
-                              <div id="spine"></div>\
-                              <div id="shadow"></div>\
-                            </div>\
-                          </div>\
-                        </div>\
-                        <div class="col-sm-12 col-md-6">\
-                          <div class="pub-content">\
-                            <div class="pub-title">Avaliação de Espaços Públicos: Cidades na Fronteira</div>\
-                            <div class="pub-info text-justify">Relatório da Avaliação de Espaços Públicos em municípios do projeto Conexões Urbanas, incluindo análise de dimensões relacionadas à quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde. O trabalho foi fruto da análise de leis e planos locais, assim como da coleta de informações em visitas de campo e entrevistas com informantes-chave da população.</div>\
-                            <a class="btn btn-primary cursor-hover" target="_blank" href="https://drive.google.com/file/d/1BjJ9sYx0sg0NDvC8iAtrQ5GpSNDKYzzd/view">SAIBA MAIS</a>\
-                          </div>\
-                        </div>\
-                      </div>\
-                </div>\
-                <div class="carousel-item">\
-                      <div class="pub-cell row">\
-                        <div class="col-sm-12 col-md-6 text-center pb-sm-5">\
-                          <div class="pub-img">\
-                            <div id="wrapper">\
-                              <div id="cover"><img src="./images/publicacoes/05_Progress Report 4_Social Territories_August 2022.jpeg"></div>\
-                              <div id="page"></div>\
-                              <div id="page_front_edge"></div>\
-                              <div id="page_top_edge"></div>\
-                              <div id="backcover"></div>\
-                              <div id="spine"></div>\
-                              <div id="shadow"></div>\
-                            </div>\
-                          </div>\
-                        </div>\
-                        <div class="col-sm-12 col-md-6">\
-                          <div class="pub-content">\
-                            <div class="pub-title">Avaliação de Espaços Públicos: Cidades na Fronteira</div>\
-                            <div class="pub-info text-justify">Relatório da Avaliação de Espaços Públicos em municípios do projeto Conexões Urbanas, incluindo análise de dimensões relacionadas à quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde. O trabalho foi fruto da análise de leis e planos locais, assim como da coleta de informações em visitas de campo e entrevistas com informantes-chave da população.</div>\
-                            <a class="btn btn-primary cursor-hover" target="_blank" href="https://drive.google.com/file/d/1BjJ9sYx0sg0NDvC8iAtrQ5GpSNDKYzzd/view">SAIBA MAIS</a>\
-                          </div>\
-                        </div>\
-                      </div>\
-                </div>\
-            </div>\
-          </div>\
-        </div>\
-      </div>\
-      ',
-      location: {
-        center: [-50.74782, -17.15769],
-        zoom: 1.5,
-        pitch: 0.00,
-        bearing: 0.00,
-        speed: 1
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [
-        {
-            layer: 'brasil',
-            opacity: 0.85
-        }
-      ],
-      onChapterExit: [
-        {
-          layer: 'brasil',
-          opacity: 0
-        }
-      ]
-    }, */
-
     {
       id: "publicacoes",
       alignment: "full",
@@ -1177,7 +1077,7 @@ var config = {
                       <div class="col-sm-12 col-md-6">\
                         <div class="pub-content">\
                           <div class="pub-title">Relatório Anual 2021 do ONU-Habitat Brasil</div>\
-                          <div class="pub-info text-justify">A publicação apresenta os destaques do trabalho realizado em 2021em prol do desenvolvimento urbano sustentável. O relatório apresenta metodologias e ferramentas utilizadas em iniciativas espalhadas por todo o país. Dados, parcerias e histórias de interesse humano também integram o documento, apresentando um panorama de como o programa fortalece cidades e comunidades brasileiras buscando não deixar ninguém e nenhum lugar para trás.</div>\
+                          <div class="pub-info text-justify">A publicação apresenta os destaques do trabalho realizado em 2021 em prol do desenvolvimento urbano sustentável. O relatório apresenta metodologias e ferramentas utilizadas em iniciativas espalhadas por todo o país. Dados, parcerias e histórias de interesse humano também integram o documento, apresentando um panorama de como o programa fortalece cidades e comunidades brasileiras buscando não deixar ninguém e nenhum lugar para trás.</div>\
                           <a class="btn btn-primary cursor-hover" target="_blank" href="https://infogram.com/relatorio-anual-onu-habitat-brasil-2021-1hd12yx7nv5ow6k?live">SAIBA MAIS</a>\
                         </div>\
                       </div>\
@@ -2091,7 +1991,7 @@ var config = {
                     \
                     <p>As lunetas ainda não foram instaladas, mas a proposta inspirou a realização do documentário <b>“Pés no Chão, Janela do Céu”</b>, estrelado pela jovem; a criação de um <b>Clube de Astronomia</b> com atividades abertas à comunidade, liderado pela gestora da escola, Anita Cordeiro, com apoio de Levi Costa, presidente da associação de moradores local e em parceria com a Universidade Federal Rural de Pernambuco, através do Departamento de Física, representado pelo professor Antônio Miranda; repercussão na imprensa e recebimento de doações para equipar o Clube, além do telescópio emprestado pela Universidade.</p>\
                     \
-                    <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. <b>Em parceria, transformações e melhorarias para a vida das pessoas nas cidades são possíveis</b>.</p>\
+                    <p>Está aí a importância de se promover oportunidades para que as ideias e críticas de jovens encontrem profissionais e pessoas capazes de tomar decisões, como aconteceu no projeto Cooperação Pernambuco. <b>Em parceria, transformações e melhorias para a vida das pessoas nas cidades são possíveis</b>.</p>\
                     \
                   </div>\
                 </div>\
@@ -2704,7 +2604,7 @@ var config = {
                 </div>\
                 <div class="row p-bottom">\
                   <div class="col-md-6 col-lg-6">\
-                      <p>Espaços públicos verdes ganharam ainda mais protagonismo após a pandemia da COVID-19. Na percepção da coordenadora de Gestão de Parques e Biodiversidade da Secretaria Municipal do Verde e do Meio Ambiente (SVMA) de São Paulo, Tamires Oliveira, <b>“as pessoas passaram a ocupar os parques com muito mais intensidade nos últimos três anos, criaram novos usos e finalidades, estão muito mais presentes ali”</b>. E a cidade está atenta a essa tendência. Nos últimos anos, a SVMA vem trabalhando para aprimorar estratégias de planejamento, implementação e gestão dos espaços verdes.</p>\
+                      <p>Espaços públicos verdes ganharam ainda mais protagonismo após a pandemia da COVID-19. Na percepção da coordenadora de Chefe de Gabinete da Secretaria Municipal do Verde e do Meio Ambiente (SVMA) de São Paulo, Tamires Oliveira, <b>“as pessoas passaram a ocupar os parques com muito mais intensidade nos últimos três anos, criaram novos usos e finalidades, estão muito mais presentes ali”</b>. E a cidade está atenta a essa tendência. Nos últimos anos, a SVMA vem trabalhando para aprimorar estratégias de planejamento, implementação e gestão dos espaços verdes.</p>\
                       <p>Parte desse movimento foi o diálogo iniciado com o ONU-Habitat para trocar experiências, metodologias e ferramentas. O primeiro marco da parceria foi a participação ativa da Prefeitura de São Paulo no <b>Circuito Urbano</b> – a maior iniciativa nacional para celebrar o Outubro Urbano.</p>\
                       <p>A formalização da cooperação se deu com a assinatura de um Memorando de Entendimento (MoU) do ONU-Habitat com a SMVA, a Secretaria Municipal de Relações Internacionais (SMRI) e a Secretaria de Governo em novembro de 2021, permitindo a ampliação das frentes de intercâmbio e atividades conjuntas. Para avançar nos esforços de <b>promover maior acesso, participação popular e resiliência dos espaços verdes de São Paulo</b>, em 2022 foi assinado um projeto conjunto entre a SVMA e o ONU-Habitat que terá a duração de três anos.</p>\
                       <p>Em 2021 e 2022, a cidade marcou presença como organizadora principal e coorganizadora de 13 eventos do Circuito Urbano,</p>\
@@ -3078,7 +2978,7 @@ var config = {
               </div>\
               <div class="row p-bottom">\
                 <div class="col-md-6 col-lg-6">\
-                  <p>Era início de 2020, e o mundo ainda se adaptava à rápida digitalização que se deu junto à pandemia da COVID-19. Igor Rezende Vilela, assessor de Assuntos Internacionais da Prefeitura de São Paulo, buscava <b>oportunidades de cooperação internacional</b> que se adequassem às novas recomendações sanitárias.</p>\
+                  <p>Era início de 2020, e o mundo ainda se adaptava à rápida digitalização que se deu junto à pandemia da COVID-19. Igor Rezende Vilela, então assessor de Assuntos Internacionais da Prefeitura de São Paulo, buscava <b>oportunidades de cooperação internacional</b> que se adequassem às novas recomendações sanitárias.</p>\
                   <p>Foi assim que ele chegou ao <b>Waste Wise Cities</b>. Desde 2018, o projeto coordenado pela sede do ONU-Habitat promove um <b>intercâmbio de conhecimentos entre cidades do Sul Global</b>. As temáticas de trabalho focam principalmente em <b>reduzir o impacto ambiental negativo das cidades</b>, prestando especial atenção à <b>qualidade do ar e à gestão de resíduos municipais</b>.</p>\
                   <p><b>São Paulo foi a primeira cidade brasileira a participar da iniciativa, escolhendo Praia, capital de Cabo Verde, para um intercâmbio em gestão de resíduos</b>. As cidades têm diferenças concretas como número de habitantes e características geográficas, mas foram as semelhanças que chamaram atenção.</p>\
                   <p>"Um grande catalizador do intercâmbio foi a proximidade não só linguística como cultural, mesmo com proporções tão diferentes. Em algum momento, São Paulo já teve cem mil habitantes. <b>O que já aconteceu aqui pode ser compartilhado</b>", afirma Igor.</p>\
