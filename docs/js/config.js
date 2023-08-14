@@ -998,7 +998,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Avaliação de Espaços Públicos: Cidades na Fronteira</div>\
                           <div class="pub-info text-justify">Relatório da Avaliação de Espaços Públicos em municípios do projeto Conexões Urbanas, incluindo análise de dimensões relacionadas à quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde. O trabalho foi fruto da análise de leis e planos locais, assim como da coleta de informações em visitas de campo e entrevistas com informantes-chave da população.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://drive.google.com/file/d/1BjJ9sYx0sg0NDvC8iAtrQ5GpSNDKYzzd/view">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://onuhabitat.org.mx/evaluacion-de-espacios-publicos-ciudades-en-la-frontera-brasil-argentina">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
@@ -1014,7 +1014,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Relatório de Desenho de Espaços Públicos</div>\
                           <div class="pub-info text-justify">O relatório apresenta a sistematização e resultados das oficinas de Desenho de Espaços Públicos em Pernambuco, que tiveram como objetivo criar propostas concretas para espaços públicos de forma participativa com jovens de 14 a 29 anos. As propostas foram baseadas em diagnósticos, avaliações, necessidades e sugestões dos grupos participantes, visando tornar esses espaços seguros, inclusivos, sustentáveis e saudáveis.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://drive.google.com/file/d/1YxRoHTkdTgGlNkUdHGu_69987NkFlMKy/view?usp=sharing">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://onuhabitat.org.mx/cuaderno-de-los-talleres-de-diseno-de-espacios-publicos-en-pernambuco">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
@@ -1378,32 +1378,6 @@ var config = {
       ]
     },
 
-    /*{
-      id: "teste",
-      alignment: "full",
-      hidden: false,
-      description: '\
-      <div class="light">\
-        <div class="container">\
-        </div>\
-      </div>\
-      ',
-      location: {
-        center: [-50.74782, -17.15769],
-        zoom: 2.25,
-        pitch: 0.00,
-        bearing: 0.00,
-        speed: 0.25
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      spinGlobe: false,
-      mapInteractive: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: []
-    },*/
-
     {
       id: "metodologias",
       alignment: "full",
@@ -1423,7 +1397,7 @@ var config = {
                       <i class="fa fa-arrow-right cursor-hover"></i>\
                   </a>\
             </div>\
-            <div class="carousel multi-item-carousel slide" data-ride="carousel" id="theCarousel" data-interval="9994000" role="listbox">\
+            <div class="carousel multi-item-carousel slide" data-ride="carousel" id="theCarousel" data-interval="5000" role="listbox">\
               <div class="carousel-inner row w-100 mx-auto pb-5 pt-4">\
                 <div class="carousel-item active col-md-4">\
                   <div class="wrapper">\
@@ -2848,7 +2822,7 @@ var config = {
                 </div>\
                 <div class="row p-bottom">\
                   <div class="col-md-6 col-lg-6">\
-                    <p><b>Oito lugares, um só espaço</b>. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas <b>três cidades, três estados e dois países</b>: Dionísio Cerqueira, em Santa Catarina, e Barracão, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina.</p>\
+                    <p><b>Nove lugares, um só espaço</b>. A mágica que acontece na fronteira seca entre Brasil e Argentina parece afrontar as leis da física, mas é real. No mesmo ponto geográfico, ficam concentradas <b>quatro cidades, três estados e dois países</b>: Dionísio Cerqueira, em Santa Catarina, e Barracão e Bom Jesus do Sul, no Paraná, ambos no Brasil; e Bernardo de Irigoyen, em Misiones, na Argentina.</p>\
                     <p>Essa mágica se expande, também, para os moradores da região, que vivem uma característica cada vez mais rara: <b>harmonia</b>. Por ser uma fronteira seca, as pessoas circulam livremente entre os dois países sem se darem conta da travessia. Da mesma forma, o idioma se mescla em um “portunhol” característico, assim como em diversos outros aspectos culturais. E essa composição gera uma <b>identidade única</b>.</p>\
                     <p>“O material humano que existe em nossa região é muito particular. Talvez isso tenha se formado justamente por esse contexto. <b>A gente não vê a fronteira como um ponto de separação, mas sim de união</b>”.</p>\
                     <p>A frase é de Monica Raquel Franchini, professora que mora do lado argentino da fronteira há mais de 30 anos. Ela integra a coordenação de educação do <b>La Frontera</b> – grupo binacional que trabalha para promover o desenvolvimento e a integração da região em quatro áreas: inovação, turismo, economia e educação.</p>\
