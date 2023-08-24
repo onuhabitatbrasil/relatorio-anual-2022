@@ -998,7 +998,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Avaliação de Espaços Públicos: Cidades na Fronteira</div>\
                           <div class="pub-info text-justify">Relatório da Avaliação de Espaços Públicos em municípios do projeto Conexões Urbanas, incluindo análise de dimensões relacionadas à quantidade e distribuição de espaços públicos, governança, acessibilidade, usos e usuários, instalações físicas, conforto, segurança e verde. O trabalho foi fruto da análise de leis e planos locais, assim como da coleta de informações em visitas de campo e entrevistas com informantes-chave da população.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://onuhabitat.org.mx/evaluacion-de-espacios-publicos-ciudades-en-la-frontera-brasil-argentina">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://onuhabitat.org.mx/index.php/evaluacion-de-espacios-publicos-ciudades-en-la-frontera-brasil-argentina">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
@@ -1014,7 +1014,7 @@ var config = {
                         <div class="pub-content">\
                           <div class="pub-title">Relatório de Desenho de Espaços Públicos</div>\
                           <div class="pub-info text-justify">O relatório apresenta a sistematização e resultados das oficinas de Desenho de Espaços Públicos em Pernambuco, que tiveram como objetivo criar propostas concretas para espaços públicos de forma participativa com jovens de 14 a 29 anos. As propostas foram baseadas em diagnósticos, avaliações, necessidades e sugestões dos grupos participantes, visando tornar esses espaços seguros, inclusivos, sustentáveis e saudáveis.</div>\
-                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://onuhabitat.org.mx/cuaderno-de-los-talleres-de-diseno-de-espacios-publicos-en-pernambuco">SAIBA MAIS</a>\
+                          <a class="btn btn-primary cursor-hover" target="_blank" href="https://onuhabitat.org.mx/index.php/cuaderno-de-los-talleres-de-diseno-de-espacios-publicos-en-pernambuco">SAIBA MAIS</a>\
                         </div>\
                       </div>\
                     </div>\
